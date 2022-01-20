@@ -2,6 +2,7 @@ import './App.css';
 import * as React from 'react';
 
 import * as canonLocations from './pokemondata/wildlocations/canonlocations.json';
+import * as pokemonDex from './pokemondata/pokedex.json';
 
 import {
     CssBaseline,
@@ -80,22 +81,26 @@ function App() {
     }
     const handleMonCount = (event : any) => {
         console.log(event.target.value);
+        handleGenButtonBool(false);
 
         setMonCount(event.target.value);
     }
     const handleRegionPref = (event : any) => {
         setLocationPref("");
+        handleGenButtonBool(false);
 
         console.log(event.target.value);
         setRegionPref(event.target.value);
     }
     const handleLocationPref = (event: any) => {
         console.log(event.target.value);
+        handleGenButtonBool(false);
 
         setLocationPref(event.target.value);
     }
     const handleLocationList = (event: any, value : any) => {
         console.log(value);
+        handleGenButtonBool(false);
 
         if (value.length > 0) {
             setLocationSelectedBool(true);
@@ -108,6 +113,7 @@ function App() {
     }
     const handleRegionList = (event: any, value : any) => {
         console.log(value);
+        handleGenButtonBool(false);
 
         let strArr = [];
         for (let i = 0; i < value.length; i++) {
@@ -125,7 +131,6 @@ function App() {
         setSelectedRegions(strArr);
     }
     const handleGeneratedMons = (event : any) => {
-        console.log(event);
         handleGenButtonBool(true);
         setGeneratedMons(event);
     }
@@ -283,11 +288,11 @@ function App() {
             </Box>
             {genButtonBool === true ?
                 <Box sx={{ flexGrow: 1, maxWidth: "100%", marginTop: "70px" }}>
-                    <Grid container spacing={2}>
+                    <Grid container spacing={10}>
                         {generatedMons.map((mon, index) => {
                             return(
                                 <Grid item xs={12} md={4}>
-                                    <Typography variant="h6">
+                                    <Typography variant="subtitle2" style={{ textAlign: 'center' }}>
                                         {generatedMons[index]}
                                     </Typography>
                                 </Grid>
