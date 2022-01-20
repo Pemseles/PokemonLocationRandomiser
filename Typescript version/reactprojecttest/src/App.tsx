@@ -21,6 +21,7 @@ import {
     FormLabel,
     FormControlLabel,
     TextField,
+    Grid,
 
 } from '@material-ui/core';
 import {
@@ -30,6 +31,12 @@ import { json } from 'stream/consumers';
 import { stringify } from 'querystring';
 
 function App() {
+
+    console.log(Object.values(canonLocations));
+    console.log(Object.values(canonLocations)[0].Content[0].Label);
+    console.log(Object.values(canonLocations)[0].Content[0].Content);
+    console.log(Object.values(canonLocations)[0].Content[0]);
+    console.log(Object.values(canonLocations)[0].Label);
 
     const [genButtonBool, setGenButtonBool] = React.useState(false);
     const [genSetting, setGenSetting] = React.useState("");
@@ -42,6 +49,7 @@ function App() {
     const [selectedRegions, setSelectedRegions] = React.useState(Array<string>());
     const [locationList, setLocationList] = React.useState(Array<{ location: string, region: string }>());
     const [selectedLocations, setSelectedLocations] = React.useState(Array<{ location: string, region: string }>());
+    const [generatedMons, setGeneratedMons] = React.useState(Array<string>());
 
     const genButtonBoolRef = React.useRef(null);
     const genSettingRef = React.useRef(null);
@@ -57,19 +65,22 @@ function App() {
     //const multiLocationCondition = chosenLocations.filter((v) => v).length < 1;
 
     const handleGenButtonBool = (event : any) => {
-        console.log(event.target.value);
-        setGenButtonBool(event.target.value);
+        console.log(event);
+
+        setGenButtonBool(event);
     }
     const handleGenSetting = (event : any) => {
         setMonCount('');
         setRegionPref("");
         setLocationPref("");
+        handleGenButtonBool(false);
 
         console.log(event.target.value);
         setGenSetting(event.target.value);
     }
     const handleMonCount = (event : any) => {
         console.log(event.target.value);
+
         setMonCount(event.target.value);
     }
     const handleRegionPref = (event : any) => {
@@ -80,6 +91,7 @@ function App() {
     }
     const handleLocationPref = (event: any) => {
         console.log(event.target.value);
+
         setLocationPref(event.target.value);
     }
     const handleLocationList = (event: any, value : any) => {
@@ -111,6 +123,11 @@ function App() {
         }
         
         setSelectedRegions(strArr);
+    }
+    const handleGeneratedMons = (event : any) => {
+        console.log(event);
+        handleGenButtonBool(true);
+        setGeneratedMons(event);
     }
 
     console.log(genButtonBool);
@@ -264,11 +281,25 @@ function App() {
                     </Toolbar>
                 </AppBar>
             </Box>
-
+            {genButtonBool === true ?
+                <Box sx={{ flexGrow: 1, maxWidth: "100%", marginTop: "70px" }}>
+                    <Grid container spacing={2}>
+                        {generatedMons.map((mon, index) => {
+                            return(
+                                <Grid item xs={12} md={4}>
+                                    <Typography variant="h6">
+                                        {generatedMons[index]}
+                                    </Typography>
+                                </Grid>
+                            )
+                        })}
+                    </Grid>
+                </Box>
+            : ''}
             <AppBar position="fixed" style={{ background: 'white', top: 'auto', bottom: 0, alignItems: 'center' }}>
                 <Toolbar>
                     {genSetting === "Location" && locationPref === "Specific" && regionPref === "Specific" && selectedRegions.length > 0 && selectedLocations.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={() => (Generator(parseInt(monCount), regionPref, locationPref, selectedLocations))}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await Generator(parseInt(monCount), regionPref, locationPref, selectedLocations))}}>
                             Generate Team
                         </Button>
                     : 
@@ -297,8 +328,6 @@ async function getCanonRegions() {
 async function getCanonLocations() {
     const regionArr = await getCanonRegions();
     const locationArr = Array<Array<string>>();
-
-    
 
     for (let i = 0; i < regionArr.length; i++) {
         const innerLocationArr = Array<string>();
@@ -349,7 +378,22 @@ async function Generator(amountToGen: number, regionPref : string, locationPref 
     console.log("Amount of mons to gen:", amountToGen);
 
     const listOfMons = await getLocationPokemon(locations);
-    console.log(listOfMons);
+    const randomisedPool = Array<string>();
+
+    console.log("full list", listOfMons);
+
+    for (let i = 0; i < amountToGen; i++) {
+        let index = listOfMons.indexOf(listOfMons[Math.floor(Math.random()*listOfMons.length)]);
+        randomisedPool.push(listOfMons[index]);
+        if (index > -1) {
+            listOfMons.splice(index, 1);
+        }
+    }
+    console.log("remaining mons:", listOfMons);
+    console.log("selection of mons", randomisedPool);
+
+    return randomisedPool;
+
 }
 
 async function getLocationPokemon(locations : Array<{location : string, region : string}>) {
@@ -357,13 +401,6 @@ async function getLocationPokemon(locations : Array<{location : string, region :
     // locations will be {location, region} of only the ones chosen in settings.
     const monArr = Array<string>();
     const regionArr = await getCanonRegions();
-
-    console.log(regionArr);
-    console.log(Object.values(canonLocations));
-    console.log(Object.values(canonLocations)[0].Content[0].Label);
-    console.log(Object.values(canonLocations)[0].Content[0].Content);
-    console.log(Object.values(canonLocations)[0].Content[0]);
-    console.log(Object.values(canonLocations)[0].Label);
 
     for (let i = 0; i < regionArr.length; i++) {
         for (let j = 0; j < Object.values(canonLocations)[i].Content.length; j++) {
@@ -373,6 +410,9 @@ async function getLocationPokemon(locations : Array<{location : string, region :
                 }
             }
         }
+    }
+    if ((await filterDupes(monArr)).length < 6) {
+        return monArr;
     }
     return filterDupes(monArr);
 }
