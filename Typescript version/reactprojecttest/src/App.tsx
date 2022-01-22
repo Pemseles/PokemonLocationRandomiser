@@ -2,7 +2,6 @@ import './App.css';
 import * as React from 'react';
 
 import * as canonLocations from './pokemondata/wildlocations/canonlocations.json';
-import * as pokemonDex from './pokemondata/pokedex.json';
 
 import {
     CssBaseline,
@@ -23,6 +22,12 @@ import {
     FormControlLabel,
     TextField,
     Grid,
+    ImageList,
+    ImageListItem,
+    ImageListItemBar,
+    Card,
+    CardMedia,
+    CardContent,
 
 } from '@material-ui/core';
 import {
@@ -286,21 +291,28 @@ function App() {
                     </Toolbar>
                 </AppBar>
             </Box>
-            {genButtonBool === true ?
-                <Box sx={{ flexGrow: 1, maxWidth: "100%", marginTop: "70px" }}>
-                    <Grid container spacing={10}>
-                        {generatedMons.map((mon, index) => {
-                            return(
-                                <Grid item xs={12} md={4}>
-                                    <Typography variant="subtitle2" style={{ textAlign: 'center' }}>
-                                        {generatedMons[index]}
-                                    </Typography>
-                                </Grid>
-                            )
-                        })}
-                    </Grid>
-                </Box>
-            : ''}
+                {genButtonBool === true ?
+                    <Box sx={{ marginTop: '100px', flexGrow: 1 }}>
+                        <Grid container spacing={4}>
+                            {generatedMons.map((mon, index) => {
+                                return (
+                                    <Grid item md={4} xs={12}>
+                                        <Card style={{ height: '200px', justifyContent: 'center' }}>
+                                            <CardMedia>
+                                                <img src={getPokemonGif(generatedMons[index])} style={{ objectFit: 'cover' }}/>
+                                            </CardMedia>
+                                            <CardContent>
+                                                <Typography gutterBottom variant="h6" align='center'>
+                                                    {generatedMons[index]}
+                                                </Typography>
+                                            </CardContent>
+                                        </Card>
+                                    </Grid>
+                                )
+                            })}
+                        </Grid>
+                    </Box>
+                : ''}
             <AppBar position="fixed" style={{ background: 'white', top: 'auto', bottom: 0, alignItems: 'center' }}>
                 <Toolbar>
                     {genSetting === "Location" && locationPref === "Specific" && regionPref === "Specific" && selectedRegions.length > 0 && selectedLocations.length > 0 && monCount !== '' ?
@@ -389,9 +401,11 @@ async function Generator(amountToGen: number, regionPref : string, locationPref 
 
     for (let i = 0; i < amountToGen; i++) {
         let index = listOfMons.indexOf(listOfMons[Math.floor(Math.random()*listOfMons.length)]);
-        randomisedPool.push(listOfMons[index]);
-        if (index > -1) {
-            listOfMons.splice(index, 1);
+        if (typeof listOfMons[index] !== 'undefined') {
+            randomisedPool.push(listOfMons[index]);
+            if (index > -1) {
+                listOfMons.splice(index, 1);
+            }
         }
     }
     console.log("remaining mons:", listOfMons);
@@ -417,19 +431,44 @@ async function getLocationPokemon(locations : Array<{location : string, region :
         }
     }
     if ((await filterDupes(monArr)).length < 6) {
-        return monArr;
+        return await filterUndefined(monArr);
     }
-    return filterDupes(monArr);
+    return await filterUndefined(await filterDupes(monArr));
 }
 
 async function filterDupes(unfilteredArr : Array<string>) {
-    var result = Array<string>();
+    const result = Array<string>();
     unfilteredArr.forEach((item) => {
         if (result.indexOf(item) < 0) {
             result.push(item);
         }
     });
     return result;
+}
+
+async function filterUndefined(unfilteredArr : Array<string>) {
+    const result = Array<string>();
+    console.log(unfilteredArr);
+    unfilteredArr.forEach((item) => {
+        if (typeof item !== 'undefined') {
+            result.push(item);
+        }
+    });
+    console.log(result);
+    return result;
+}
+
+function getPokemonGif(monName : any | string) {
+    const pokemonDexData = require('./pokemondata/pokedex.json');
+    console.log(monName);
+    
+    for (let i = 0; i < pokemonDexData.Content.length; i++) {
+        if (pokemonDexData.Content[i].Label === monName) {
+            console.log(pokemonDexData.Content[i].Gif);
+            return pokemonDexData.Content[i].Gif;
+        }
+    }
+    return ''
 }
 
 export default App;
