@@ -7,11 +7,11 @@
         },
         {
             "Label": "Route 2",
-            "Content": ["Pidgey", "Rattata", "Oddish", "Bellsprout", "Caterpie", "Weedle", "Hoothoot", "Ledyba", "Spinarak", "Pineco", "Wurmple", "Mime Jr.", "Pichu", "Nidoran M", "Nidoran F"]
+            "Content": ["Pidgey", "Rattata", "Oddish", "Bellsprout", "Caterpie", "Weedle", "Hoothoot", "Ledyba", "Spinarak", "Pineco", "Wurmple", "Mime Jr.", "Pichu", "Nidoran-M", "Nidoran-F"]
         },
         {
             "Label": "Route 3",
-            "Content": ["Rattata", "Spearow", "Ekans", "Sandshrew", "Mankey", "Charmander", "Zubat", "Igglybuff", "Gulpin", "Baltoy", "Hoothoot", "Pineco", "Wurmple", "Pidgey", "Nidoran M", "Nidoran F", "Cleffa"]
+            "Content": ["Rattata", "Spearow", "Ekans", "Sandshrew", "Mankey", "Charmander", "Zubat", "Igglybuff", "Gulpin", "Baltoy", "Hoothoot", "Pineco", "Wurmple", "Pidgey", "Nidoran-M", "Nidoran-F", "Cleffa"]
         },
         {
             "Label": "Route 4",
@@ -19,7 +19,7 @@
         },
         {
             "Label": "Route 5",
-            "Content": ["Rattata", "Pidgey", "Vulpix", "Growlithe", "Igglybuff", "Abra", "Happiny", "Oddish", "Meowth", "Bellsprout", "Hoothoot", "Pineco", "Combee", "Nidoran M", "Snubbull", "Mankey", "Machop", "Nidoran F"]
+            "Content": ["Rattata", "Pidgey", "Vulpix", "Growlithe", "Igglybuff", "Abra", "Happiny", "Oddish", "Meowth", "Bellsprout", "Hoothoot", "Pineco", "Combee", "Nidoran-M", "Snubbull", "Mankey", "Machop", "Nidoran-F"]
         },
         {
             "Label": "Route 6",
@@ -35,15 +35,15 @@
         },
         {
             "Label": "Route 9",
-            "Content": ["Rattata", "Spearow", "Nidoran M", "Happiny", "Mankey", "Sableye", "Mawile", "Goldeen", "Magikarp", "Ekans", "Sandshrew", "Venonat", "Zubat", "Cubone", "Nidoran F"]
+            "Content": ["Rattata", "Spearow", "Nidoran-M", "Happiny", "Mankey", "Sableye", "Mawile", "Goldeen", "Magikarp", "Ekans", "Sandshrew", "Venonat", "Zubat", "Cubone", "Nidoran-F"]
         },
         {
             "Label": "Route 10",
-            "Content": ["Rattata", "Spearow", "Nidoran M", "Krabby", "Happiny", "Tentacool", "Magikarp", "Dratini", "Voltorb", "Wooper", "Elekid", "Goldeen", "Zapdos", "Ekans", "Sandshrew", "Horsea", "Psyduck", "Slowpoke", "Venonat", "Zubat", "Cubone", "Magnemite", "Machop", "Poliwag", "Nidoran F"]
+            "Content": ["Rattata", "Spearow", "Nidoran-M", "Krabby", "Happiny", "Tentacool", "Magikarp", "Dratini", "Voltorb", "Wooper", "Elekid", "Goldeen", "Zapdos", "Ekans", "Sandshrew", "Horsea", "Psyduck", "Slowpoke", "Venonat", "Zubat", "Cubone", "Magnemite", "Machop", "Poliwag", "Nidoran-F"]
         },
         {
             "Label": "Route 11",
-            "Content": ["Pidgey", "Rattata", "Drowzee", "Mime Jr.", "Happiny", "Tentacool", "Horsea", "Magikarp", "Magnemite", "Munchlax", "Spearow", "Heracross", "Combee", "Ekans", "Sandshrew", "Psyduck", "Krabby", "Slowpoke", "Nidoran M", "Meowth", "Hoppip", "Hoothoot", "Shellder", "Poliwag", "Diglett", "Goldeen", "Nidoran F"]
+            "Content": ["Pidgey", "Rattata", "Drowzee", "Mime Jr.", "Happiny", "Tentacool", "Horsea", "Magikarp", "Magnemite", "Munchlax", "Spearow", "Heracross", "Combee", "Ekans", "Sandshrew", "Psyduck", "Krabby", "Slowpoke", "Nidoran-M", "Meowth", "Hoppip", "Hoothoot", "Shellder", "Poliwag", "Diglett", "Goldeen", "Nidoran-F"]
         },
         {
             "Label": "Route 12",
@@ -51,15 +51,15 @@
         },
         {
             "Label": "Route 13",
-            "Content": ["Pidgey", "Oddish", "Bellsprout", "Krabby", "Farfetch'd", "Happiny", "Tentacool", "Horsea", "Magikarp", "Nidoran M", "Hoothoot", "Hoppip", "Wooper", "Qwilfish", "Ledyba", "Spinarak", "Wurmple", "Venonat", "Ditto", "Psyduck", "Slowpoke", "Goldeen", "Poliwag", "Nidoran F"]
+            "Content": ["Pidgey", "Oddish", "Bellsprout", "Krabby", "Farfetch'd", "Happiny", "Tentacool", "Horsea", "Magikarp", "Nidoran-M", "Hoothoot", "Hoppip", "Wooper", "Qwilfish", "Ledyba", "Spinarak", "Wurmple", "Venonat", "Ditto", "Psyduck", "Slowpoke", "Goldeen", "Poliwag", "Nidoran-F"]
         },
         {
             "Label": "Route 14",
-            "Content": ["Pidgey", "Oddish", "Venonat", "Bellsprout", "Tauros", "Scyther", "Pinsir", "Happiny", "Nidoran M", "Hoppip", "Hoothoot", "Wooper", "Ledyba", "Spinarak", "Wurmple", "Ditto", "Aerodactyl", "Nidoran F"]
+            "Content": ["Pidgey", "Oddish", "Venonat", "Bellsprout", "Tauros", "Scyther", "Pinsir", "Happiny", "Nidoran-M", "Hoppip", "Hoothoot", "Wooper", "Ledyba", "Spinarak", "Wurmple", "Ditto", "Aerodactyl", "Nidoran-F"]
         },
         {
             "Label": "Route 15",
-            "Content": ["Pidgey", "Oddish", "Bellsprout", "Venonat", "Tauros", "Scyther", "Pinsir", "Happiny", "Nidoran M", "Hoothoot", "Hoppip", "Wooper", "Ledyba", "Spinarak", "Wurmple", "Ditto", "Nidoran F"]
+            "Content": ["Pidgey", "Oddish", "Bellsprout", "Venonat", "Tauros", "Scyther", "Pinsir", "Happiny", "Nidoran-M", "Hoothoot", "Hoppip", "Wooper", "Ledyba", "Spinarak", "Wurmple", "Ditto", "Nidoran-F"]
         },
         {
             "Label": "Route 16",
@@ -87,11 +87,11 @@
         },
         {
             "Label": "Route 22",
-            "Content": ["Rattata", "Spearow", "Nidoran M", "Nidoran F", "Poliwag", "Magikarp", "Ponyta", "Doduo", "Hoothoot", "Ledyba", "Spinarak", "Pineco", "Wurmple", "Mankey", "Psyduck", "Slowpoke", "Goldeen"]
+            "Content": ["Rattata", "Spearow", "Nidoran-M", "Nidoran-F", "Poliwag", "Magikarp", "Ponyta", "Doduo", "Hoothoot", "Ledyba", "Spinarak", "Pineco", "Wurmple", "Mankey", "Psyduck", "Slowpoke", "Goldeen"]
         },
         {
             "Label": "Route 23",
-            "Content": ["Nidoran M", "Nidoran F", "Spearow", "Exeggcute", "Happiny", "Poliwag", "Magikarp", "Mankey", "Ekans", "Sandshrew", "Psyduck", "Slowpoke", "Goldeen", "Ditto", "Krabby", "Horsea"]
+            "Content": ["Nidoran-M", "Nidoran-F", "Spearow", "Exeggcute", "Happiny", "Poliwag", "Magikarp", "Mankey", "Ekans", "Sandshrew", "Psyduck", "Slowpoke", "Goldeen", "Ditto", "Krabby", "Horsea"]
         },
         {
             "Label": "Route 24",
@@ -131,7 +131,7 @@
         },
         {
             "Label": "Celadon City",
-            "Content": ["Eevee", "Alolan Vulpix", "Alolan Sandshrew", "Grimer", "Heracross", "Combee", "Mime Jr.", "Porygon", "Psyduck", "Slowpoke", "Koffing", "Magikarp", "Cleffa", "Abra", "Scyther", "Pinsir", "Dratini", "Pichu", "Larvitar", "Poliwag", "Goldeen", "Nidoran M", "Nidoran F", "Vulpix", "Igglybuff"]
+            "Content": ["Eevee", "Alolan Vulpix", "Alolan Sandshrew", "Grimer", "Heracross", "Combee", "Mime Jr.", "Porygon", "Psyduck", "Slowpoke", "Koffing", "Magikarp", "Cleffa", "Abra", "Scyther", "Pinsir", "Dratini", "Pichu", "Larvitar", "Poliwag", "Goldeen", "Nidoran-M", "Nidoran-F", "Vulpix", "Igglybuff"]
         },
         {
             "Label": "Cerulean Cave",
@@ -259,7 +259,7 @@
         },
         {
             "Label": "Safari Zone",
-            "Content": ["Nidoran M", "Nidoran F", "Exeggcute", "Rhyhorn", "Venonat", "Paras", "Scyther", "Pinsir", "Happiny", "Psyduck", "Slowpoke", "Goldeen", "Dratini", "Poliwag", "Magikarp", "Doduo", "Kangaskhan", "Tauros", "Tangela", "Krabby", "Cubone"]
+            "Content": ["Nidoran-M", "Nidoran-F", "Exeggcute", "Rhyhorn", "Venonat", "Paras", "Scyther", "Pinsir", "Happiny", "Psyduck", "Slowpoke", "Goldeen", "Dratini", "Poliwag", "Magikarp", "Doduo", "Kangaskhan", "Tauros", "Tangela", "Krabby", "Cubone"]
         },
         {
             "Label": "Saffron City",
@@ -307,7 +307,7 @@
         },
         {
             "Label": "Underground Path 5-6",
-            "Content": ["Nidoran M", "Nidoran F", "Machop"]
+            "Content": ["Nidoran-M", "Nidoran-F", "Machop"]
         },
         {
             "Label": "Vermillion City",
@@ -363,11 +363,11 @@
         },
         {
             "Label": "Route 35",
-            "Content": ["Nidoran M", "Nidoran F", "Pidgey", "Ditto", "Hoothoot", "Yanma", "Abra", "Drowzee", "Psyduck", "Poliwag", "Magikarp", "Exeggcute", "Ledyba", "Spinarak", "Pineco", "Snubbull", "Igglybuff", "Growlithe", "Spearow", "Caterpie", "Weedle"]
+            "Content": ["Nidoran-M", "Nidoran-F", "Pidgey", "Ditto", "Hoothoot", "Yanma", "Abra", "Drowzee", "Psyduck", "Poliwag", "Magikarp", "Exeggcute", "Ledyba", "Spinarak", "Pineco", "Snubbull", "Igglybuff", "Growlithe", "Spearow", "Caterpie", "Weedle"]
         },
         {
             "Label": "Route 36",
-            "Content": ["Pidgey", "Nidoran M", "Nidoran F", "Hoothoot", "Stantler", "Vulpix", "Growlithe", "Bonsly", "Exeggcute", "Ledyba", "Spinarak", "Pineco", "Gastly", "Bellsprout", "Caterpie", "Weedle"]
+            "Content": ["Pidgey", "Nidoran-M", "Nidoran-F", "Hoothoot", "Stantler", "Vulpix", "Growlithe", "Bonsly", "Exeggcute", "Ledyba", "Spinarak", "Pineco", "Gastly", "Bellsprout", "Caterpie", "Weedle"]
         },
         {
             "Label": "Route 37",
@@ -495,7 +495,7 @@
         },
         {
             "Label": "National Park",
-            "Content": ["Caterpie", "Weedle", "Hoothoot", "Sunkern", "Pidgey", "Exeggcute", "Ledyba", "Spinarak", "Pineco", "Cherubi", "Scyther", "Pinsir", "Wurmple", "Combee", "Paras", "Venonat", "Nincada", "Volbeat", "Illumise", "Kricketot", "Nidoran M", "Nidoran F", "Psyduck"]
+            "Content": ["Caterpie", "Weedle", "Hoothoot", "Sunkern", "Pidgey", "Exeggcute", "Ledyba", "Spinarak", "Pineco", "Cherubi", "Scyther", "Pinsir", "Wurmple", "Combee", "Paras", "Venonat", "Nincada", "Volbeat", "Illumise", "Kricketot", "Nidoran-M", "Nidoran-F", "Psyduck"]
         },
         {
             "Label": "New Bark Town",
@@ -515,7 +515,7 @@
         },
         {
             "Label": "Safari Zone",
-            "Content": ["Spearow", "Paras", "Geodude", "Slowpoke", "Magnemite", "Magby", "Wynaut", "Zigzagoon", "Slakoth", "Aron", "Zangoose", "Spheal", "Bronzor", "Sandshrew", "Cubone", "Lotad", "Spinda", "Trapinch", "Cacnea", "Hippopotas", "Carnivine", "Rattata", "Abra", "Ponyta", "Girafarig", "Houndour", "Stantler", "Smeargle", "Surskit", "Electrike", "Shinx", "Cleffa", "Poliwag", "Happiny", "Magikarp", "Azurill", "Hoppip", "Sunkern", "Wooper", "Seedot", "Nosepass", "Riolu", "Pidgey", "Bellsprout", "Gastly", "Lickitung", "Mime Jr.", "Elekid", "Misdreavus", "Shuppet", "Beldum", "Bidoof", "Budew", "Igglybuff", "Drowzee", "Voltorb", "Goldeen", "Dratini", "Sentret", "Murkrow", "Duskull", "Chingling", "Bagon", "Buizel", "Pachirisu", "Ekans", "Oddish", "Diglett", "Grimer", "Koffing", "Shuckle", "Seviper", "Barboach", "Croagunk", "Zubat", "Krabby", "Larvitar", "Meditite", "Volbeat", "Lunatone", "Doduo", "Lapras", "Mareep", "Corphish", "Gible", "Machop", "Onix", "Kangaskhan", "Shroomish", "Illumise", "Solrock", "Skorupi", "Nidoran M", "Nidoran F", "Rhyhorn", "Tauros", "Torkoal", "Psyduck", "Farfetch'd", "Ditto"]
+            "Content": ["Spearow", "Paras", "Geodude", "Slowpoke", "Magnemite", "Magby", "Wynaut", "Zigzagoon", "Slakoth", "Aron", "Zangoose", "Spheal", "Bronzor", "Sandshrew", "Cubone", "Lotad", "Spinda", "Trapinch", "Cacnea", "Hippopotas", "Carnivine", "Rattata", "Abra", "Ponyta", "Girafarig", "Houndour", "Stantler", "Smeargle", "Surskit", "Electrike", "Shinx", "Cleffa", "Poliwag", "Happiny", "Magikarp", "Azurill", "Hoppip", "Sunkern", "Wooper", "Seedot", "Nosepass", "Riolu", "Pidgey", "Bellsprout", "Gastly", "Lickitung", "Mime Jr.", "Elekid", "Misdreavus", "Shuppet", "Beldum", "Bidoof", "Budew", "Igglybuff", "Drowzee", "Voltorb", "Goldeen", "Dratini", "Sentret", "Murkrow", "Duskull", "Chingling", "Bagon", "Buizel", "Pachirisu", "Ekans", "Oddish", "Diglett", "Grimer", "Koffing", "Shuckle", "Seviper", "Barboach", "Croagunk", "Zubat", "Krabby", "Larvitar", "Meditite", "Volbeat", "Lunatone", "Doduo", "Lapras", "Mareep", "Corphish", "Gible", "Machop", "Onix", "Kangaskhan", "Shroomish", "Illumise", "Solrock", "Skorupi", "Nidoran-M", "Nidoran-F", "Rhyhorn", "Tauros", "Torkoal", "Psyduck", "Farfetch'd", "Ditto"]
         },
         {
             "Label": "Safari Zone Gate",
@@ -883,7 +883,7 @@
     "Content": [
         {
             "Label": "Route 201",
-            "Content": ["Starly", "Bidoof", "Kricketot", "Growlithe", "Doduo", "Turtwig", "Chimchar", "Piplup", "Nidoran M", "Nidoran F"]
+            "Content": ["Starly", "Bidoof", "Kricketot", "Growlithe", "Doduo", "Turtwig", "Chimchar", "Piplup", "Nidoran-M", "Nidoran-F"]
         },
         {
             "Label": "Route 202",
@@ -963,7 +963,7 @@
         },
         {
             "Label": "Route 221", 
-            "Content": ["Buizel", "Bonsly", "Girafarig", "Budew", "Wingull", "Shellos", "Stunky", "Farfetch'd", "Tentacool", "Magikarp", "Finneon", "Clamperl", "Nidoran M", "Nidoran F", "Wurmple", "Munchlax", "Heracross", "Aipom", "Burmy", "Combee", "Cherubi"]
+            "Content": ["Buizel", "Bonsly", "Girafarig", "Budew", "Wingull", "Shellos", "Stunky", "Farfetch'd", "Tentacool", "Magikarp", "Finneon", "Clamperl", "Nidoran-M", "Nidoran-F", "Wurmple", "Munchlax", "Heracross", "Aipom", "Burmy", "Combee", "Cherubi"]
         },
         {
             "Label": "Route 222", 
@@ -1011,7 +1011,7 @@
         },
         {
             "Label": "Bogsunk Cavern", 
-            "Content": ["Zubat", "Budew", "Skorupi", "Croagunk", "Barboach", "Wooper", "Tentacool", "Bulbasaur", "Caterpie", "Weedle", "Ekans", "Nidoran F", "Nidoran M", "Oddish", "Paras", "Venonat", "Bellsprout", "Grimer", "Koffing", "Tangela", "Ledyba", "Spinarak", "Pineco", "Qwilfish", "Cacnea", "Zangoose", "Seviper", "Tropius", "Lickitung", "Swinub", "Gligar"]
+            "Content": ["Zubat", "Budew", "Skorupi", "Croagunk", "Barboach", "Wooper", "Tentacool", "Bulbasaur", "Caterpie", "Weedle", "Ekans", "Nidoran-F", "Nidoran-M", "Oddish", "Paras", "Venonat", "Bellsprout", "Grimer", "Koffing", "Tangela", "Ledyba", "Spinarak", "Pineco", "Qwilfish", "Cacnea", "Zangoose", "Seviper", "Tropius", "Lickitung", "Swinub", "Gligar"]
         },
         {
             "Label": "Canalave City", 
@@ -1023,7 +1023,7 @@
         },
         {
             "Label": "Dazzling Cave", 
-            "Content": ["Gastly", "Misdreavus", "Meditite", "Chingling", "Bronzor", "Abra", "Girafarig", "Mime Jr.", "Nidoran F", "Nidoran M", "Slowpoke", "Grimer", "Drowzee", "Krabby", "Voltorb", "Cubone", "Ditto", "Togepi", "Natu", "Wynaut", "Snubbull", "Houndour", "Smoochum", "Elekid", "Poochyena", "Ralts", "Sableye", "Mawile", "Volbeat", "Illumise", "Zangoose", "Seviper", "Lunatone", "Solrock", "Baltoy", "Shuppet", "Duskull", "Absol", "Bagon"]
+            "Content": ["Gastly", "Misdreavus", "Meditite", "Chingling", "Bronzor", "Abra", "Girafarig", "Mime Jr.", "Nidoran-F", "Nidoran-M", "Slowpoke", "Grimer", "Drowzee", "Krabby", "Voltorb", "Cubone", "Ditto", "Togepi", "Natu", "Wynaut", "Snubbull", "Houndour", "Smoochum", "Elekid", "Poochyena", "Ralts", "Sableye", "Mawile", "Volbeat", "Illumise", "Zangoose", "Seviper", "Lunatone", "Solrock", "Baltoy", "Shuppet", "Duskull", "Absol", "Bagon"]
         },
         {
             "Label": "Distortion World", 
@@ -1063,7 +1063,7 @@
         },
         {
             "Label": "Grassland Cave", 
-            "Content": ["Zubat", "Machop", "Murkrow", "Wurmple", "Budew", "Bidoof", "Kricketot", "Shinx", "Combee", "Cherubi", "Buneary", "Hoothoot", "Stunky", "Glameow", "Munchlax", "Bulbasaur", "Caterpie", "Weedle", "Rattata", "Ekans", "Nidoran F", "Nidoran M", "Oddish", "Paras", "Venonat", "Mankey", "Poliwag", "Bellsprout", "Slowpoke", "Farfetch'd", "Doduo", "Scyther", "Pinsir", "Tauros", "Chikorita", "Ledyba", "Spinarak", "Mareep", "Hoppip", "Sunkern", "Pineco", "Shuckle", "Teddiursa", "Tyrogue", "Miltank", "Treecko", "Lotad", "Seedot", "Nincada", "Volbeat", "Illumise", "Trapinch", "Cacnea", "Zangoose", "Seviper", "Kecleon", "Tropius", "Absol", "Turtwig"]
+            "Content": ["Zubat", "Machop", "Murkrow", "Wurmple", "Budew", "Bidoof", "Kricketot", "Shinx", "Combee", "Cherubi", "Buneary", "Hoothoot", "Stunky", "Glameow", "Munchlax", "Bulbasaur", "Caterpie", "Weedle", "Rattata", "Ekans", "Nidoran-F", "Nidoran-M", "Oddish", "Paras", "Venonat", "Mankey", "Poliwag", "Bellsprout", "Slowpoke", "Farfetch'd", "Doduo", "Scyther", "Pinsir", "Tauros", "Chikorita", "Ledyba", "Spinarak", "Mareep", "Hoppip", "Sunkern", "Pineco", "Shuckle", "Teddiursa", "Tyrogue", "Miltank", "Treecko", "Lotad", "Seedot", "Nincada", "Volbeat", "Illumise", "Trapinch", "Cacnea", "Zangoose", "Seviper", "Kecleon", "Tropius", "Absol", "Turtwig"]
         },
         {
             "Label": "Great Marsh", 
@@ -1151,7 +1151,7 @@
         },
         {
             "Label": "Riverbank Cave", 
-            "Content": ["Psyduck", "Murkrow", "Wurmple", "Bidoof", "Kricketot", "Budew", "Buizel", "Buneary", "Croagunk", "Hoothoot", "Barboach", "Stunky", "Wingull", "Glameow", "Munchlax", "Tentacool", "Gible", "Remoraid", "Mantyke", "Bulbasaur", "Squirtle", "Caterpie", "Weedle", "Rattata", "Ekans", "Nidoran F", "Nidoran M", "Oddish", "Venonat", "Poliwag", "Bellsprout", "Slowpoke", "Shellder", "Cubone", "Horsea", "Staryu", "Scyther", "Pinsir", "Tauros", "Chikorita", "Totodile", "Ledyba", "Qwilfish", "Shuckle", "Corsola", "Tyrogue", "Treecko", "Mudkip", "Lotad", "Seedot", "Surskit", "Nincada", "Carvanha", "Lunatone", "Solrock", "Corphish", "Kecleon", "Clamperl", "Turtwig", "Piplup", "Lickitung"]
+            "Content": ["Psyduck", "Murkrow", "Wurmple", "Bidoof", "Kricketot", "Budew", "Buizel", "Buneary", "Croagunk", "Hoothoot", "Barboach", "Stunky", "Wingull", "Glameow", "Munchlax", "Tentacool", "Gible", "Remoraid", "Mantyke", "Bulbasaur", "Squirtle", "Caterpie", "Weedle", "Rattata", "Ekans", "Nidoran-F", "Nidoran-M", "Oddish", "Venonat", "Poliwag", "Bellsprout", "Slowpoke", "Shellder", "Cubone", "Horsea", "Staryu", "Scyther", "Pinsir", "Tauros", "Chikorita", "Totodile", "Ledyba", "Qwilfish", "Shuckle", "Corsola", "Tyrogue", "Treecko", "Mudkip", "Lotad", "Seedot", "Surskit", "Nincada", "Carvanha", "Lunatone", "Solrock", "Corphish", "Kecleon", "Clamperl", "Turtwig", "Piplup", "Lickitung"]
         },
         {
             "Label": "Roaming Sinnoh", 
@@ -1191,7 +1191,7 @@
         },
         {
             "Label": "Stargleam Cavern", 
-            "Content": ["Gastly", "Misdreavus", "Meditite", "Chingling", "Bronzor", "Abra", "Girafarig", "Mime Jr.", "Nidoran F", "Nidoran M", "Slowpoke", "Grimer", "Drowzee", "Krabby", "Voltorb", "Cubone", "Ditto", "Togepi", "Natu", "Wynaut", "Snubbull", "Houndour", "Smoochum", "Elekid", "Poochyena", "Ralts", "Sableye", "Mawile", "Volbeat", "Illumise", "Zangoose", "Seviper", "Lunatone", "Solrock", "Baltoy", "Shuppet", "Duskull", "Absol", "Bagon"]
+            "Content": ["Gastly", "Misdreavus", "Meditite", "Chingling", "Bronzor", "Abra", "Girafarig", "Mime Jr.", "Nidoran-F", "Nidoran-M", "Slowpoke", "Grimer", "Drowzee", "Krabby", "Voltorb", "Cubone", "Ditto", "Togepi", "Natu", "Wynaut", "Snubbull", "Houndour", "Smoochum", "Elekid", "Poochyena", "Ralts", "Sableye", "Mawile", "Volbeat", "Illumise", "Zangoose", "Seviper", "Lunatone", "Solrock", "Baltoy", "Shuppet", "Duskull", "Absol", "Bagon"]
         },
         {
             "Label": "Stark Mountain", 
@@ -1199,11 +1199,11 @@
         },
         {
             "Label": "Still-Water Cavern", 
-            "Content": ["Psyduck", "Murkrow", "Wurmple", "Bidoof", "Kricketot", "Budew", "Buizel", "Buneary", "Croagunk", "Hoothoot", "Barboach", "Stunky", "Wingull", "Glameow", "Munchlax", "Tentacool", "Gible", "Remoraid", "Mantyke", "Bulbasaur", "Squirtle", "Caterpie", "Weedle", "Rattata", "Ekans", "Nidoran F", "Nidoran M", "Oddish", "Venonat", "Poliwag", "Bellsprout", "Slowpoke", "Shellder", "Cubone", "Horsea", "Staryu", "Scyther", "Pinsir", "Tauros", "Chikorita", "Totodile", "Ledyba", "Qwilfish", "Shuckle", "Corsola", "Tyrogue", "Treecko", "Mudkip", "Lotad", "Seedot", "Surskit", "Nincada", "Carvanha", "Lunatone", "Solrock", "Corphish", "Kecleon", "Clamperl", "Turtwig", "Piplup", "Lickitung"]
+            "Content": ["Psyduck", "Murkrow", "Wurmple", "Bidoof", "Kricketot", "Budew", "Buizel", "Buneary", "Croagunk", "Hoothoot", "Barboach", "Stunky", "Wingull", "Glameow", "Munchlax", "Tentacool", "Gible", "Remoraid", "Mantyke", "Bulbasaur", "Squirtle", "Caterpie", "Weedle", "Rattata", "Ekans", "Nidoran-F", "Nidoran-M", "Oddish", "Venonat", "Poliwag", "Bellsprout", "Slowpoke", "Shellder", "Cubone", "Horsea", "Staryu", "Scyther", "Pinsir", "Tauros", "Chikorita", "Totodile", "Ledyba", "Qwilfish", "Shuckle", "Corsola", "Tyrogue", "Treecko", "Mudkip", "Lotad", "Seedot", "Surskit", "Nincada", "Carvanha", "Lunatone", "Solrock", "Corphish", "Kecleon", "Clamperl", "Turtwig", "Piplup", "Lickitung"]
         },
         {
             "Label": "Sunlit Cavern", 
-            "Content": ["Zubat", "Machop", "Murkrow", "Wurmple", "Budew", "Bidoof", "Kricketot", "Shinx", "Combee", "Cherubi", "Buneary", "Hoothoot", "Stunky", "Glameow", "Munchlax", "Bulbasaur", "Caterpie", "Weedle", "Rattata", "Ekans", "Nidoran F", "Nidoran M", "Oddish", "Paras", "Venonat", "Mankey", "Poliwag", "Bellsprout", "Slowpoke", "Farfetch'd", "Doduo", "Scyther", "Pinsir", "Tauros", "Chikorita", "Ledyba", "Spinarak", "Mareep", "Hoppip", "Sunkern", "Pineco", "Shuckle", "Teddiursa", "Tyrogue", "Miltank", "Treecko", "Lotad", "Seedot", "Nincada", "Volbeat", "Illumise", "Trapinch", "Cacnea", "Zangoose", "Seviper", "Kecleon", "Tropius", "Absol", "Turtwig", "Rhyhorn", "Gligar"]
+            "Content": ["Zubat", "Machop", "Murkrow", "Wurmple", "Budew", "Bidoof", "Kricketot", "Shinx", "Combee", "Cherubi", "Buneary", "Hoothoot", "Stunky", "Glameow", "Munchlax", "Bulbasaur", "Caterpie", "Weedle", "Rattata", "Ekans", "Nidoran-F", "Nidoran-M", "Oddish", "Paras", "Venonat", "Mankey", "Poliwag", "Bellsprout", "Slowpoke", "Farfetch'd", "Doduo", "Scyther", "Pinsir", "Tauros", "Chikorita", "Ledyba", "Spinarak", "Mareep", "Hoppip", "Sunkern", "Pineco", "Shuckle", "Teddiursa", "Tyrogue", "Miltank", "Treecko", "Lotad", "Seedot", "Nincada", "Volbeat", "Illumise", "Trapinch", "Cacnea", "Zangoose", "Seviper", "Kecleon", "Tropius", "Absol", "Turtwig", "Rhyhorn", "Gligar"]
         },
         {
             "Label": "Sunyshore City", 
@@ -1211,7 +1211,7 @@
         },
         {
             "Label": "Swampy Cave", 
-            "Content": ["Zubat", "Budew", "Skorupi", "Croagunk", "Barboach", "Wooper", "Tentacool", "Bulbasaur", "Caterpie", "Weedle", "Ekans", "Nidoran F", "Nidoran M", "Oddish", "Paras", "Venonat", "Bellsprout", "Grimer", "Koffing", "Tangela", "Ledyba", "Spinarak", "Pineco", "Qwilfish", "Cacnea", "Zangoose", "Seviper", "Tropius", "Lickitung", "Swinub", "Gligar"]
+            "Content": ["Zubat", "Budew", "Skorupi", "Croagunk", "Barboach", "Wooper", "Tentacool", "Bulbasaur", "Caterpie", "Weedle", "Ekans", "Nidoran-F", "Nidoran-M", "Oddish", "Paras", "Venonat", "Bellsprout", "Grimer", "Koffing", "Tangela", "Ledyba", "Spinarak", "Pineco", "Qwilfish", "Cacnea", "Zangoose", "Seviper", "Tropius", "Lickitung", "Swinub", "Gligar"]
         },
         {
             "Label": "Trophy Garden", 
@@ -1235,7 +1235,7 @@
         },
         {
             "Label": "Valor Lakefront", 
-            "Content": ["Girafarig", "Kricketot", "Starly", "Bidoof", "Geodude", "Houndour", "Nidoran M", "Nidoran F"]
+            "Content": ["Girafarig", "Kricketot", "Starly", "Bidoof", "Geodude", "Houndour", "Nidoran-M", "Nidoran-F"]
         },
         {
             "Label": "Veilstone City", 
@@ -1543,7 +1543,7 @@
         },
         {
             "Label": "White Forest",
-            "Content": ["Pidgey", "Nidoran M", "Nidoran F", "Oddish", "Bellsprout", "Abra", "Machop", "Magnemite", "Gastly", "Rhyhorn", "Porygon", "Togepi", "Mareep", "Hoppip", "Elekid", "Magby", "Wurmple", "Seedot", "Ralts", "Slakoth", "Whismur", "Azurill", "Aron", "Trapinch", "Bagon", "Starly", "Shinx", "Budew", "Happiny", "Wooper", "Lotad", "Surskit", "Corphish"]
+            "Content": ["Pidgey", "Nidoran-M", "Nidoran-F", "Oddish", "Bellsprout", "Abra", "Machop", "Magnemite", "Gastly", "Rhyhorn", "Porygon", "Togepi", "Mareep", "Hoppip", "Elekid", "Magby", "Wurmple", "Seedot", "Ralts", "Slakoth", "Whismur", "Azurill", "Aron", "Trapinch", "Bagon", "Starly", "Shinx", "Budew", "Happiny", "Wooper", "Lotad", "Surskit", "Corphish"]
         }
     ]},
 {
@@ -1587,7 +1587,7 @@
         },
         {
             "Label": "Route 11", 
-            "Content": ["Makuhita", "Starly", "Throh", "Sawk", "Nidoran M", "Nidoran F", "Chingling", "Stunky", "Dedenne"]
+            "Content": ["Makuhita", "Starly", "Throh", "Sawk", "Nidoran-M", "Nidoran-F", "Chingling", "Stunky", "Dedenne"]
         },
         {
             "Label": "Route 12", 
@@ -2187,7 +2187,7 @@
         },
         {
             "Label": "Giant's Bed", 
-            "Content": ["Nidoran M", "Nidoran F", "Mime Jr.", "Vanillite", "Shelmet", "Wooloo", "Swablu", "Hatenna", "Dewpider", "Magby", "Elekid", "Magikarp", "Barboach", "Basculin", "Lileep", "Skwovet", "Bronzor", "Stonjourner", "Snorunt", "Cryogonal", "Absol", "Audino", "Timburr", "Eevee", "Galarian Zigzagoon", "Litwick", "Impidimp", "Cleffa", "Mimikyu", "Heatmor", "Durant", "Joltik"]
+            "Content": ["Nidoran-M", "Nidoran-F", "Mime Jr.", "Vanillite", "Shelmet", "Wooloo", "Swablu", "Hatenna", "Dewpider", "Magby", "Elekid", "Magikarp", "Barboach", "Basculin", "Lileep", "Skwovet", "Bronzor", "Stonjourner", "Snorunt", "Cryogonal", "Absol", "Audino", "Timburr", "Eevee", "Galarian Zigzagoon", "Litwick", "Impidimp", "Cleffa", "Mimikyu", "Heatmor", "Durant", "Joltik"]
         },
         {
             "Label": "Giant's Cap", 
@@ -2259,7 +2259,7 @@
         },
         {
             "Label": "Old Cemetery", 
-            "Content": ["Vanillite", "Sinistea", "Nidoran M", "Nidoran F", "Mime Jr.", "Karrablast", "Phantump", "Hatenna", "Dewpider", "Magby", "Elekid", "Cryogonal", "Dreepy", "Absol", "Audino", "Litwick", "Galarian Ponyta", "Mimikyu", "Heatmor", "Durant", "Joltik"]
+            "Content": ["Vanillite", "Sinistea", "Nidoran-M", "Nidoran-F", "Mime Jr.", "Karrablast", "Phantump", "Hatenna", "Dewpider", "Magby", "Elekid", "Cryogonal", "Dreepy", "Absol", "Audino", "Litwick", "Galarian Ponyta", "Mimikyu", "Heatmor", "Durant", "Joltik"]
         },
         {
             "Label": "Path to the Peak", 
