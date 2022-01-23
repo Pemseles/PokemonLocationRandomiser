@@ -292,14 +292,14 @@ function App() {
                 </AppBar>
             </Box>
                 {genButtonBool === true ?
-                    <Box sx={{ marginTop: '100px', flexGrow: 1 }}>
-                        <Grid container spacing={4}>
+                    <Box sx={{ marginTop: '150px', flexGrow: 1 }}>
+                        <Grid container spacing={4} alignItems='center' justifyContent='center'>
                             {generatedMons.map((mon, index) => {
                                 return (
                                     <Grid item md={4} xs={12}>
-                                        <Card style={{ height: '200px', justifyContent: 'center' }}>
+                                        <Card style={{ height: '300px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                                             <CardMedia>
-                                                <img src={getPokemonGif(generatedMons[index])} style={{ objectFit: 'cover' }}/>
+                                                <img src={getPokemonGif(generatedMons[index])} style={{ textAlign: 'center' }} />
                                             </CardMedia>
                                             <CardContent>
                                                 <Typography gutterBottom variant="h6" align='center'>
@@ -315,11 +315,15 @@ function App() {
                 : ''}
             <AppBar position="fixed" style={{ background: 'white', top: 'auto', bottom: 0, alignItems: 'center' }}>
                 <Toolbar>
-                    {genSetting === "Location" && locationPref === "Specific" && regionPref === "Specific" && selectedRegions.length > 0 && selectedLocations.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await Generator(parseInt(monCount), regionPref, locationPref, selectedLocations))}}>
+                    {genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Specific' && selectedRegions.length > 0 && selectedLocations.length > 0 && monCount !== '' ?
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await Generator(parseInt(monCount), regionPref, locationPref, selectedLocations, null))}}>
                             Generate Team
                         </Button>
-                    : 
+                    : genSetting === "Location" && regionPref === 'Specific' && selectedRegions.length > 0 && monCount !== '' ?
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await Generator(parseInt(monCount), regionPref, locationPref, null, selectedRegions))}}>
+                            Generate Team
+                        </Button>
+                    :
                         <Typography variant="h5" style={{ color: 'black', marginLeft: '6px' }}>
                             Settings incomplete
                         </Typography>
@@ -388,15 +392,47 @@ async function getLocationSelector() {
     return returnArr;
 }
 
-async function Generator(amountToGen: number, regionPref : string, locationPref : string, locations : Array<{ location: string, region: string }>) {
+async function Generator(amountToGen: number, regionPref : string, locationPref : string, locations : Array<{ location: string, region: string }> | any, regions : Array<string> | any) {
     console.log("region preference:", regionPref);
     console.log("location preference:", locationPref)
     console.log(locations);
+    console.log(regions);
     console.log("Amount of mons to gen:", amountToGen);
 
-    const listOfMons = await getLocationPokemon(locations);
     const randomisedPool = Array<string>();
+    let listOfMons = Array<string>();
 
+    // randomiser with specific region & specific location
+    if (regionPref === "Specific" && locationPref === "Specific") {
+        listOfMons = await getLocationPokemon(locations);
+    }
+    // randomiser with specific region
+    else if (regionPref === "Specific" && locationPref === "Random") {
+        const regionArr = await getCanonRegions();
+        console.log(regionArr);
+        const randomLocations = Array<{ location: string, region: string }>();
+        const locationCount = Math.floor(Math.random()*amountToGen) + 1;
+
+        for (let i = 0; i < locationCount; i++) {
+            let randomRegionIndex = regionArr.indexOf(regions[Math.floor(Math.random()*regions.length)]);
+            let randomLocationIndex = Math.floor(Math.random()*(Object.values(canonLocations)[randomRegionIndex].Content.length));
+            let locationName = Object.values(canonLocations)[randomRegionIndex].Content[randomLocationIndex].Label;
+
+            if (i > 0) {
+                for (let j = 0; j < randomLocations.length; j++) {
+                    if (randomLocations[j].region === regionArr[randomRegionIndex] && randomLocations[j].location === locationName) {
+                        // item was a dupe
+                        // (temp solution; might be better to load array of locations and remove items when they're added to randomLocations)
+                        console.log("duplicate:", locationName, "region", regionArr[randomRegionIndex]);
+                        randomLocations.splice(j, 1);
+                    }
+                }
+            }
+            randomLocations.push({ location: locationName, region: regionArr[randomRegionIndex]});
+        }
+        console.log(randomLocations);
+        listOfMons = await getLocationPokemon(randomLocations);
+    }
     console.log("full list", listOfMons);
 
     for (let i = 0; i < amountToGen; i++) {
@@ -412,7 +448,6 @@ async function Generator(amountToGen: number, regionPref : string, locationPref 
     console.log("selection of mons", randomisedPool);
 
     return randomisedPool;
-
 }
 
 async function getLocationPokemon(locations : Array<{location : string, region : string}>) {
@@ -448,13 +483,11 @@ async function filterDupes(unfilteredArr : Array<string>) {
 
 async function filterUndefined(unfilteredArr : Array<string>) {
     const result = Array<string>();
-    console.log(unfilteredArr);
     unfilteredArr.forEach((item) => {
         if (typeof item !== 'undefined') {
             result.push(item);
         }
     });
-    console.log(result);
     return result;
 }
 
