@@ -5618,43 +5618,600 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/melmetal.gif"
         },
         {
-            "Label": "",
-            "DexNo": 0,
-            "Type": [],
-            "Gif": "https://play.pokemonshowdown.com/sprites/ani/REPLACEME.gif"
+            "Label": "Grookey",
+            "DexNo": 810,
+            "Type": ["Grass"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/grookey.gif"
         },
         {
-            "Label": "",
-            "DexNo": 0,
-            "Type": [],
-            "Gif": "https://play.pokemonshowdown.com/sprites/ani/REPLACEME.gif"
+            "Label": "Thwackey",
+            "DexNo": 811,
+            "Type": ["Grass"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/thwackey.gif"
         },
         {
-            "Label": "",
-            "DexNo": 0,
-            "Type": [],
-            "Gif": "https://play.pokemonshowdown.com/sprites/ani/REPLACEME.gif"
+            "Label": "Rillaboom",
+            "DexNo": 812,
+            "Type": ["Grass"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/rillaboom.gif"
         },
         {
-            "Label": "",
-            "DexNo": 0,
-            "Type": [],
-            "Gif": "https://play.pokemonshowdown.com/sprites/ani/REPLACEME.gif"
+            "Label": "Scorbunny",
+            "DexNo": 813,
+            "Type": ["Fire"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/scorbunny.gif"
         },
         {
-            "Label": "",
-            "DexNo": 0,
-            "Type": [],
-            "Gif": "https://play.pokemonshowdown.com/sprites/ani/REPLACEME.gif"
+            "Label": "Raboot",
+            "DexNo": 814,
+            "Type": ["Fire"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/raboot.gif"
         },
         {
-            "Label": "",
-            "DexNo": 0,
-            "Type": [],
-            "Gif": "https://play.pokemonshowdown.com/sprites/ani/REPLACEME.gif"
+            "Label": "Cinderace",
+            "DexNo": 815,
+            "Type": ["Fire"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/cinderace.gif"
         },
-        
-        
+        {
+            "Label": "Sobble",
+            "DexNo": 816,
+            "Type": ["Water"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/sobble.gif"
+        },
+        {
+            "Label": "Drizzile",
+            "DexNo": 817,
+            "Type": ["Water"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/drizzile.gif"
+        },
+        {
+            "Label": "Inteleon",
+            "DexNo": 818,
+            "Type": ["Water"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/inteleon.gif"
+        },
+        {
+            "Label": "Skwovet",
+            "DexNo": 819,
+            "Type": ["Normal"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/skwovet.gif"
+        },
+        {
+            "Label": "Greedent",
+            "DexNo": 820,
+            "Type": ["Normal"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/greedent.gif"
+        },
+        {
+            "Label": "Rookidee",
+            "DexNo": 821,
+            "Type": ["Flying"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/rookidee.gif"
+        },
+        {
+            "Label": "Corvisquire",
+            "DexNo": 822,
+            "Type": ["Flying"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/corvisquire.gif"
+        },
+        {
+            "Label": "Corviknight",
+            "DexNo": 823,
+            "Type": ["Flying", "Steel"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/corviknight.gif"
+        },
+        {
+            "Label": "Blipbug",
+            "DexNo": 824,
+            "Type": ["Bug"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/blipbug.gif"
+        },
+        {
+            "Label": "Dottler",
+            "DexNo": 825,
+            "Type": ["Bug", "Psychic"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/dottler.gif"
+        },
+        {
+            "Label": "Orbeetle",
+            "DexNo": 826,
+            "Type": ["Bug", "Psychic"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/orbeetle.gif"
+        },
+        {
+            "Label": "Nickit",
+            "DexNo": 827,
+            "Type": ["Dark"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/nickit.gif"
+        },
+        {
+            "Label": "Thievul",
+            "DexNo": 828,
+            "Type": ["Dark"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/thievul.gif"
+        },
+        {
+            "Label": "Gossifleur",
+            "DexNo": 829,
+            "Type": ["Grass"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/gossifleur.gif"
+        },
+        {
+            "Label": "Eldegoss",
+            "DexNo": 830,
+            "Type": ["Grass"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/eldegoss.gif"
+        },
+        {
+            "Label": "Wooloo",
+            "DexNo": 831,
+            "Type": ["Normal"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/wooloo.gif"
+        },
+        {
+            "Label": "Dubwool",
+            "DexNo": 832,
+            "Type": ["Normal"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/dubwool.gif"
+        },
+        {
+            "Label": "Chewtle",
+            "DexNo": 833,
+            "Type": ["Water"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/chewtle.gif"
+        },
+        {
+            "Label": "Drednaw",
+            "DexNo": 834,
+            "Type": ["Water", "Rock"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/drednaw.gif"
+        },
+        {
+            "Label": "Yamper",
+            "DexNo": 835,
+            "Type": ["Electric"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/yamper.gif"
+        },
+        {
+            "Label": "Boltund",
+            "DexNo": 836,
+            "Type": ["Electric"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/boltund.gif"
+        },
+        {
+            "Label": "Rolycoly",
+            "DexNo": 837,
+            "Type": ["Rock"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/rolycoly.gif"
+        },
+        {
+            "Label": "Carkol",
+            "DexNo": 838,
+            "Type": ["Rock", "Fire"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/carkol.gif"
+        },
+        {
+            "Label": "Coalossal",
+            "DexNo": 839,
+            "Type": ["Rock", "Fire"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/coalossal.gif"
+        },
+        {
+            "Label": "Applin",
+            "DexNo": 840,
+            "Type": ["Grass", "Dragon"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/applin.gif"
+        },
+        {
+            "Label": "Flapple",
+            "DexNo": 841,
+            "Type": ["Grass", "Dragon"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/flapple.gif"
+        },
+        {
+            "Label": "Appletun",
+            "DexNo": 842,
+            "Type": ["Grass", "Dragon"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/appletun.gif"
+        },
+        {
+            "Label": "Silicobra",
+            "DexNo": 843,
+            "Type": ["Ground"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/silicobra.gif"
+        },
+        {
+            "Label": "Sandaconda",
+            "DexNo": 844,
+            "Type": ["Ground"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/sandaconda.gif"
+        },
+        {
+            "Label": "Cramorant",
+            "DexNo": 845,
+            "Type": ["Flying", "Water"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/cramorant.gif"
+        },
+        {
+            "Label": "Arrokuda",
+            "DexNo": 846,
+            "Type": ["Water"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/arrokuda.gif"
+        },
+        {
+            "Label": "Barraskewda",
+            "DexNo": 847,
+            "Type": ["Water"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/barraskewda.gif"
+        },
+        {
+            "Label": "Toxel",
+            "DexNo": 848,
+            "Type": ["Electric", "Poison"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/toxel.gif"
+        },
+        {
+            "Label": "Toxtricity",
+            "DexNo": 849,
+            "Type": ["Electric", "Poison"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/toxtricity.gif"
+        },
+        {
+            "Label": "Toxtricity-Low-Key",
+            "DexNo": 849,
+            "Type": ["Electric", "Poison"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/toxtricity-lowkey.gif"
+        },
+        {
+            "Label": "Sizzlipede",
+            "DexNo": 850,
+            "Type": ["Fire", "Bug"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/sizzlipede.gif"
+        },
+        {
+            "Label": "Centiskorch",
+            "DexNo": 851,
+            "Type": ["Fire", "Bug"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/centiskorch.gif"
+        },
+        {
+            "Label": "Clobbopus",
+            "DexNo": 852,
+            "Type": ["Fighting"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/clobbopus.gif"
+        },
+        {
+            "Label": "Grapploct",
+            "DexNo": 853,
+            "Type": ["Fighting"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/grapploct.gif"
+        },
+        {
+            "Label": "Sinistea",
+            "DexNo": 854,
+            "Type": ["Ghost"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/sinistea.gif"
+        },
+        {
+            "Label": "Polteageist",
+            "DexNo": 855,
+            "Type": ["Ghost"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/polteageist.gif"
+        },
+        {
+            "Label": "Hatenna",
+            "DexNo": 856,
+            "Type": ["Psychic"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/hatenna.gif"
+        },
+        {
+            "Label": "Hattrem",
+            "DexNo": 857,
+            "Type": ["Psychic"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/hattrem.gif"
+        },
+        {
+            "Label": "Hatterene",
+            "DexNo": 858,
+            "Type": ["Psychic", "Fairy"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/hatterene.gif"
+        },
+        {
+            "Label": "Impidimp",
+            "DexNo": 859,
+            "Type": ["Dark", "Fairy"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/impidimp.gif"
+        },
+        {
+            "Label": "Morgrem",
+            "DexNo": 860,
+            "Type": ["Dark", "Fairy"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/morgrem.gif"
+        },
+        {
+            "Label": "Grimmsnarl",
+            "DexNo": 861,
+            "Type": ["Dark", "Fairy"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/grimmsnarl.gif"
+        },
+        {
+            "Label": "Obstagoon",
+            "DexNo": 862,
+            "Type": ["Dark", "Normal"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/obstagoon.gif"
+        },
+        {
+            "Label": "Perrserker",
+            "DexNo": 863,
+            "Type": ["Steel"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/perrserker.gif"
+        },
+        {
+            "Label": "Cursola",
+            "DexNo": 864,
+            "Type": ["Ghost"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/cursola.gif"
+        },
+        {
+            "Label": "Sirfetch'd",
+            "DexNo": 865,
+            "Type": ["Fighting"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/sirfetchd.gif"
+        },
+        {
+            "Label": "Mr. Rime",
+            "DexNo": 866,
+            "Type": ["Ice", "Psychic"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/mrrime.gif"
+        },
+        {
+            "Label": "Runerigus",
+            "DexNo": 867,
+            "Type": ["Ground", "Ghost"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/runerigus.gif"
+        },
+        {
+            "Label": "Milcery",
+            "DexNo": 868,
+            "Type": ["Fairy"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/milcery.gif"
+        },
+        {
+            "Label": "Alcremie",
+            "DexNo": 869,
+            "Type": ["Fairy"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/alcremie.gif"
+        },
+        {
+            "Label": "Falinks",
+            "DexNo": 870,
+            "Type": ["Fighting"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/falinks.gif"
+        },
+        {
+            "Label": "Pincurchin",
+            "DexNo": 871,
+            "Type": ["Electric"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/pincurchin.gif"
+        },
+        {
+            "Label": "Snom",
+            "DexNo": 872,
+            "Type": ["Ice", "Bug"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/snom.gif"
+        },
+        {
+            "Label": "Frosmoth",
+            "DexNo": 873,
+            "Type": ["Ice", "Bug"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/frosmoth.gif"
+        },
+        {
+            "Label": "Stonjourner",
+            "DexNo": 874,
+            "Type": ["Rock"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/stonjourner.gif"
+        },
+        {
+            "Label": "Eiscue",
+            "DexNo": 875,
+            "Type": ["Ice"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/eiscue.gif"
+        },
+        {
+            "Label": "Eiscue-Noice",
+            "DexNo": 875,
+            "Type": ["Ice"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/eiscue-noice.gif"
+        },
+        {
+            "Label": "Indeedee",
+            "DexNo": 876,
+            "Type": ["Psychic", "Normal"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/indeedee.gif"
+        },
+        {
+            "Label": "Indeedee-F",
+            "DexNo": 876,
+            "Type": ["Psychic", "Normal"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/indeedee-f.gif"
+        },
+        {
+            "Label": "Morpeko",
+            "DexNo": 877,
+            "Type": ["Electric", "Dark"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/morpeko.gif"
+        },
+        {
+            "Label": "Morpeko-Hangry",
+            "DexNo": 877,
+            "Type": ["Electric", "Dark"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/morpeko-hangry.gif"
+        },
+        {
+            "Label": "Cufant",
+            "DexNo": 878,
+            "Type": ["Steel"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/cufant.gif"
+        },
+        {
+            "Label": "Copperajah",
+            "DexNo": 879,
+            "Type": ["Steel"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/copperajah.gif"
+        },
+        {
+            "Label": "Dracozolt",
+            "DexNo": 880,
+            "Type": ["Electric", "Dragon"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/dracozolt.gif"
+        },
+        {
+            "Label": "Arctozolt",
+            "DexNo": 881,
+            "Type": ["Electric", "Ice"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/arctozolt.gif"
+        },
+        {
+            "Label": "Dracovish",
+            "DexNo": 882,
+            "Type": ["Water", "Dragon"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/dracovish.gif"
+        },
+        {
+            "Label": "Arctovish",
+            "DexNo": 883,
+            "Type": ["Water", "Ice"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/arctovish.gif"
+        },
+        {
+            "Label": "Duraludon",
+            "DexNo": 884,
+            "Type": ["Steel", "Dragon"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/duraludon.gif"
+        },
+        {
+            "Label": "Dreepy",
+            "DexNo": 885,
+            "Type": ["Dragon", "Ghost"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/dreepy.gif"
+        },
+        {
+            "Label": "Drakloak",
+            "DexNo": 886,
+            "Type": ["Dragon", "Ghost"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/drakloak.gif"
+        },
+        {
+            "Label": "Dragapult",
+            "DexNo": 887,
+            "Type": ["Dragon", "Ghost"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/dragapult.gif"
+        },
+        {
+            "Label": "Zacian",
+            "DexNo": 888,
+            "Type": ["Fairy"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/zacian.gif"
+        },
+        {
+            "Label": "Zacian-Crowned",
+            "DexNo": 888,
+            "Type": ["Fairy", "Steel"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/zacian-crowned.gif"
+        },
+        {
+            "Label": "Zamazenta",
+            "DexNo": 889,
+            "Type": ["Fighting"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/zamazenta.gif"
+        },
+        {
+            "Label": "Zamazenta-Crowned",
+            "DexNo": 889,
+            "Type": ["Fighting", "Steel"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/zamazenta-crowned.gif"
+        },
+        {
+            "Label": "Eternatus",
+            "DexNo": 890,
+            "Type": ["Poison", "Dragon"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/eternatus.gif"
+        },
+        {
+            "Label": "Eternatus-Eternamax",
+            "DexNo": 890,
+            "Type": ["Poison", "Dragon"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/eternatus-eternamax.gif"
+        },
+        {
+            "Label": "Kubfu",
+            "DexNo": 891,
+            "Type": ["Fighting"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/kubfu.gif"
+        },
+        {
+            "Label": "Urshifu",
+            "DexNo": 892,
+            "Type": ["Fighting", "Dark"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/urshifu.gif"
+        },
+        {
+            "Label": "Urshifu-Rapid-Strike",
+            "DexNo": 892,
+            "Type": ["Fighting", "Water"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/urshifu-rapidstrike.gif"
+        },
+        {
+            "Label": "Zarude",
+            "DexNo": 893,
+            "Type": ["Dark", "Grass"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/zarude.gif"
+        },
+        {
+            "Label": "Regieleki",
+            "DexNo": 894,
+            "Type": ["Electric"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/regieleki.gif"
+        },
+        {
+            "Label": "Regidrago",
+            "DexNo": 895,
+            "Type": ["Dragon"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/regidrago.gif"
+        },
+        {
+            "Label": "Glastrier",
+            "DexNo": 896,
+            "Type": ["Ice"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/glastrier.gif"
+        },
+        {
+            "Label": "Spectrier",
+            "DexNo": 897,
+            "Type": ["Ghost"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/spectrier.gif"
+        },
+        {
+            "Label": "Calyrex",
+            "DexNo": 898,
+            "Type": ["Psychic", "Grass"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/calyrex.gif"
+        },
+        {
+            "Label": "Calyrex-Ice",
+            "DexNo": 898,
+            "Type": ["Psychic", "Ice"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/calyrex-ice.gif"
+        },
+        {
+            "Label": "Calyrex-Shadow",
+            "DexNo": 898,
+            "Type": ["Psychic", "Ghost"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/calyrex-shadow.gif"
+        },
+
         {
             "Label": "",
             "DexNo": 0,
