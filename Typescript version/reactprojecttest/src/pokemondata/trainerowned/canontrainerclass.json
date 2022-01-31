@@ -1,0 +1,790 @@
+[{
+    "Label": "A-list Actor",
+    "Content": ["Smeargle"],
+    "BattleFacility": []
+},{
+    "Label": "Ace Duo",
+    "Content": ["Wailmer", "Oddish", "Anorith", "Lileep", "Carvanha", "Numel", "Alolan Sandshrew", "Alolan Vulpix"],
+    "BattleFacility": []
+},{
+    "Label": "Ace Trainer",
+    "Content": ["Bellsprout", "Oddish", "Bulbasaur", "Nidoran-M", "Sandshrew", "Diglett", "Rhyhorn", "Meowth", "Vulpix", "Squirtle", "Charmander", "Exeggcute", "Shellder", "Growlithe", "Paras", 
+                "Seel", "Happiny", "Krabby", "Tentacool", "Magnemite", "Wooper", "Voltorb", "Staryu", "Horsea", "Caterpie", "Poliwag", "Eevee", "Goldeen", "Psyduck", "Pichu", "Azurill", "Hoppip", 
+                "Dratini", "Nidoran-F", "Pidgey", "Elekid", "Tangela", "Tauros", "Electrike", "Grimer", "Zangoose", "Wingull", "Numel", "Budew", "Mawile", "Sableye", "Taillow", "Trapinch", "Wailmer", 
+                "Seedot", "Cacnea", "Aron", "Zigzagoon", "Feebas", "Skitty", "Nosepass", "Meditite", "Lotad", "Kecleon", "Geodude", "Whismur", "Doduo", "Abra", "Baltoy", "Carvanha", "Slugma", 
+                "Makuhita", "Igglybuff", "Munchlax", "Miltank", "Teddiursa", "Duskull", "Shuppet", "Slakoth", "Skarmory", "Spinda", "Chinchou", "Absol", "Tropius", "Ralts", "Torkoal", "Lunatone", 
+                "Solrock", "Machop", "Larvitar", "Cleffa", "Lapras", "Slowpoke", "Kangaskhan", "Girafarig", "Rattata", "Cubone", "Onix", "Aerodactyl", "Sneasel", "Gastly", "Turtwig", "Snover", 
+                "Aipom", "Shellos", "Pachirisu", "Bonsly", "Drifloon", "Misdreavus", "Skorupi", "Buneary", "Hippopotas", "Poochyena", "Mareep", "Chimchar", "Magikarp", "Shinx", "Burmy", "Bagon", 
+                "Mime Jr.", "Murkrow", "Starly", "Beldum", "Buizel", "Stantler", "Carnivine", "Mankey", "Glameow", "Yanma", "Bidoof", "Wurmple", "Drowzee", "Dunsparce", "Scyther", "Cranidos", 
+                "Pinsir", "Lickitung", "Snubbull", "Cherubi", "Seviper", "Gligar", "Swinub", "Snorunt", "Tyrogue", "Magby", "Gulpin", "Bronzor", "Porygon", "Weedle", "Zubat", "Chikorita", "Cyndaquil", 
+                "Totodile", "Drilbur", "Blitzle", "Woobat", "Lillipup", "Sentret", "Spoink", "Gible", "Vanillite", "Gothita", "Solosis", "Pansage", "Pansear", "Panpour", "Joltik", "Deerling", 
+                "Frillish", "Axew", "Cottonee", "Tirtouga", "Deino", "Druddigon", "Klink", "Tympole", "Darumaka", "Venipede", "Mienfoo", "Elgyem", "Pawniard", "Purrloin", "Patrat", "Alomomola", 
+                "Cubchoo", "Sewaddle", "Archen", "Tynamo", "Shelmet", "Sandile", "Spheal", "Smoochum", "Rotom", "Petilil", "Ducklett", "Litwick", "Pidove", "Golett", "Sigilyph", "Heatmor", "Mantyke", 
+                "Basculin", "Emolga", "Vullaby", "Croagunk", "Rufflet", "Yamask", "Durant", "Ferroseed", "Riolu", "Koffing", "Honedge", "Dwebble", "Helioptile", "Carbink", "Cryogonal", "Delibird", 
+                "Surskit", "Nincada", "Fletchling", "Shroomish", "Goomy", "Fomantis", "Alolan Grimer", "Drampa", "Spearow", "Bruxish", "Alolan Vulpix", "Trubbish", "Mareanie", "Rockruff", 
+                "Alolan Sandshrew", "Jangmo-o", "Clamperl", "Skrelp", "Alolan Geodude", "Noibat", "Morelull", "Inkay", "Tygorue", "Moltres", "Ditto", "Zapdos", "Raikou", "Smeargle", "Omanyte", 
+                "Kabuto", "Mew", "Remoraid", "Venonat", "Celebi", "Sunkern", "Luvdisc", "Hoothoot", "Swablu", "Barboach", "Jirachi", "Natu", "Illumise", "Pineco", "Castform", "Rayquaza", "Volbeat", 
+                "Ledyba", "Spinarak", "Relicanth", "Wynaut", "Plusle", "Minun", "Qwilfish", "Corsola", "Deoxys", "Chingling", "Togepi", "Treecko", "Anorith", "Torchic", "Mudkip", "Latias", "Entei", 
+                "Suicune", "Phanpy", "Heracross", "Regice", "Articuno", "Houndour"],
+    "BattleFacility": [""]
+},{
+    "Label": "Actor",
+    "Content": ["Smeargle", "Oricorio"],
+    "BattleFacility": []
+},{
+    "Label": "Actress",
+    "Content": ["Smeargle", "Emolga"],
+    "BattleFacility": []
+},{
+    "Label": "Aether Foundation",
+    "Content": ["Slowpoke", "Bruxish", "Pichu", "Abra", "Drowzee", "Baltoy"],
+    "BattleFacility": []
+},{
+    "Label": "Aether Foundation Employee",
+    "Content": ["Alolan Diglett", "Goomy", "Lillipup", "Finneon", "Bagon", "Pikipek", "Paras", "Drifloon", "Trapinch", "Mankey", "Alolan Grimer", "Magnemite", "Porygon", "Machop", "Vanillite", 
+                "Mudbray", "Wingull", "Magby", "Elekid", "Ledyba", "Kecleon", "Ekans", "Fomantis", "Bonsly", "Growlithe", "Clamperl", "Anorith", "Lileep", "Houndour", "Electrike", "Larvitar", 
+                "Snubbull", "Scraggy", "Morelull"],
+    "BattleFacility": []
+},{
+    "Label": "Aqua Admin",
+    "Content": ["Carvanha", "Poochyena", "Zubat", "Grimer"],
+    "BattleFacility": []
+},{
+    "Label": "Area Leader",
+    "Content": ["Pineco", "Ledyba", "Surskit", "Nincada", "Anorith", "Mawile", "Machop", "Wooper", "Duskull", "Swablu", "Wynaut", "Wailmer", "Spinarak", "Azurill", "Igglybuff", "Tropius", "Lotad", 
+                "Oddish", "Seedot", "Goldeen", "Corphish", "Horsea", "Staryu", "Makuhita", "Cacnea", "Koffing", "Geodude", "Rhyhorn", "Phanpy", "Barboach", "Nosepass", "Lileep", "Whismur", "Slakoth", 
+                "Skitty", "Zigzagoon", "Wurmple", "Taillow", "Zubat", "Wingull", "Regirock", "Regice", "Registeel", "Relicanth", "Trapinch", "Chikorita", "Cyndaquil", "Totodile", "Murkrow", 
+                "Meditite", "Spheal", "Groudon", "Castform", "Shuckle", "Voltorb", "Gulpin", "Budew", "Sneasel", "Carvanha", "Girafarig", "Tyrogue", "Sandshrew", "Baltoy", "Larvitar", "Abra", 
+                "Treecko", "Mudkip", "Beldum", "Bagon", "Remoraid", "Magikarp", "Aron", "Electrike", "Yanma", "Swinub", "Pinsir", "Tentacool", "Doduo", "Hoothoot", "Feebas", "Torchic", "Teddiursa", 
+                "Sentret", "Shuppet", "Ralts", "Misdreavus", "Vulpix", "Grimer", "Porygon", "Magnemite", "Solrock", "Mareep", "Sableye", "Poochyena", "Lunatone", "Heracross", "Eevee", "Houndour", 
+                "Skarmory", "Gligar", "Spinda"],
+    "BattleFacility": []
+},{
+    "Label": "Aroma Lady",
+    "Content": ["Budew", "Shroomish", "Oddish", "Tropius", "Chikorita", "Bulbasaur", "Paras", "Abra", "Bellsprout", "Slowpoke", "Drowzee", "Exeggcute", "Natu", "Hoppip", "Sunkern", "Smoochum", 
+                "Treecko", "Lotad", "Seedot", "Ralts", "Meditite", "Spoink", "Cacnea", "Baltoy", "Lileep", "Wynaut", "Beldum", "Tangela", "Girafarig", "Chingling", "Staryu", "Mime Jr.", "Eevee", 
+                "Turtwig", "Combee", "Cherubi", "Skiddo", "Goomy", "Ferroseed"],
+    "BattleFacility": [""]
+},{
+    "Label": "Artist",
+    "Content": ["Mime Jr.", "Bonsly", "Kricketot", "Smeargle", "Sigilyph", "Numel", "Timburr", "Axew", "Mienfoo", "Snivy", "Tepig", "Oshawott", "Patrat", "Deino", "Woobat", "Emolga", "Klink", 
+                "Audino", "Purrloin", "Basculin", "Maractus", "Pansage", "Pansear", "Panpour", "Foongus", "Tynamo", "Minccino", "Alomomola", "Stunfisk", "Joltik", "Ducklett", "Trubbish", "Venipede", 
+                "Dwebble", "Deerling", "Cottonee", "Frillish", "Heatmor", "Elgyem", "Cubchoo", "Lillipup", "Sewaddle", "Bouffalant", "Pineco", "Spiritomb", "Drifloon", "Baltoy", "Bronzor", "Porygon", 
+                "Staryu", "Nosepass", "Magnemite", "Beldum", "Sunkern", "Goomy", "Mankey", "Chespin", "Fennekin", "Froakie", "Bidoof", "Gible", "Zubat", "Pachirisu", "Klefki", "Igglybuff", 
+                "Poochyena", "Qwilfish", "Carnivine", "Carvanha", "Slugma", "Finneon", "Flabébé", "Glameow", "Remoraid", "Helioptile", "Mantyke", "Gulpin", "Rhyhorn", "Skrelp", "Spoink", "Swinub", 
+                "Slakoth", "Cacnea", "Girafarig", "Meowth", "Cranidos", "Shieldon", "Buizel", "Misdreavus", "Tirtouga", "Karrablast", "Shelmet", "Blitzle", "Tympole", "Poliwag", "Ponyta", "Grimer", 
+                "Gastly", "Mareep", "Pinsir", "Scyther", "Heracross", "Teddiursa", "Houndour", "Phanpy", "Wailmer", "Skorupi", "Shinx", "Vulpix", "Machop", "Shuckle", "Budew", "Murkrow", "Roggenrola", 
+                "Drilbur", "Sandile", "Onix", "Sneasel", "Gligar", "Zorua", "Vullaby", "Ruflett", "Tentacool", "Aerodactyl", "Lickitung", "Yanma", "Ralts", "Exeggcute", "Trapinch", "Litwick", 
+                "Eevee", "Riolu", "Hippopotas", "Duskull", "Aron", "Spheal", "Lapras", "Tangela", "Vanillite", "Magikarp", "Munchlax", "Horsea", "Happiny", "Feebas", "Elekid", "Magby", "Togepi", 
+                "Larvesta", "Growlithe", "Archen", "Dratini", "Larvitar", "Bagon", "Binacle", "Hawlucha", "Carbink", "Litleo", "Bergmite", "Tyrunt", "Amaura", "Fletchling", "Skiddo", "Noibat", 
+                "Phantump", "Pumpkaboo", "Clauncher", "Swirlix", "Spritzee", "Bulbasaur", "Charmander", "Squirtle", "Chikorita", "Cyndaquil", "Totodile", "Treecko", "Torchic", "Mudkip", "Turtwig", 
+                "Chimchar", "Piplup", "Diglett", "Cubone", "Meditite", "Wooper", "Snubbull", "Smoochum", "Chinchou", "Shroomish", "Skarmory", "Absol", "Barboach", "Makuhita", "Combee", "Pichu", 
+                "Seel", "Electrike", "Starly", "Shellos", "Stunky", "Sawk", "Throh", "Pidove", "Oddish", "Bellsprout", "Voltorb", "Lotad", "Seedot", "Whismur", "Buneary", "Snorunt", "Petilil", 
+                "Darumaka", "Aipom", "Yamask", "Golett", "Durant", "Geodude", "Slowpoke", "Koffing", "Kangaskhan", "Tauros", "Cryogonal", "Druddigon", "Munna", "Scraggy", "Ferroseed", "Abra", 
+                "Miltank", "Swablu", "Croagunk", "Gothita", "Solosis", "Pawniard", "Snover", "Nidoran-F", "Nidoran-M", "Lileep", "Anorith", "Regirock", "Skwovet", "Wishiwashi", "Pyukumuku", 
+                "Rolycoly", "Milcery", "Cutiefly", "Applin", "Galarian Corsola", "Impidimp", "Hatenna", "Cleffa", "Mawile", "Torkoal", "Mimikyu", "Cufant", "Galarian Yamask", "Galarian Ponyta", 
+                "Morelull", "Oranguru", "Lunatone", "Solrock", "Pincurchin"],
+    "BattleFacility": [""]
+},{
+    "Label": "Artist Family",
+    "Content": ["Smeargle"],
+    "BattleFacility": []
+},{
+    "Label": "Athlete",
+    "Content": ["Psyduck", "Pineco", "Pichu", "Vulpix", "Abra", "Geodude", "Sandshrew", "Snorunt", "Taillow", "Beldum", "Barboach", "Mantyke", "Goldeen", "Clamperl", "Snubbull", "Oddish", "Natu", 
+                "Girafarig", "Nincada", "Zangoose", "Doduo", "Wooper", "Misdreavus", "Horsea", "Kecleon", "Mawile", "Corsola", "Zigzagoon", "Voltorb", "Numel", "Trapinch", "Latios", "Treecko", 
+                "Anorith", "Electrike", "Wailmer", "Corphish", "Swinub", "Sentret", "Ledyba", "Cacnea", "Carvanha", "Phanpy", "Gligar", "Mareep", "Heracross", "Tropius", "Chingling", "Sunkern", 
+                "Duskull", "Castform", "Bagon", "Poochyena", "Volbeat", "Mudkip", "Illumise", "Igglybuff", "Spheal", "Magikarp", "Cyndaquil", "Larvitar", "Totodile", "Miltank", "Chikorita", 
+                "Shroomish", "Hoothoot", "Slakoth", "Magnemite", "Registeel", "Raikou", "Koffing", "Shuckle", "Whismur", "Shuppet", "Slugma", "Meditite", "Wurmple", "Feebas", "Lotad", "Porygon", 
+                "Swablu", "Chinchou", "Aron", "Hoppip", "Torchic", "Lileep", "Pinsir", "Baltoy"],
+    "BattleFacility": []
+},{
+    "Label": "Athletic Siblings",
+    "Content": ["Lillipup", "Fletchling", "Cottonee", "Petilil"],
+    "BattleFacility": []
+},{
+    "Label": "Backers",
+    "Content": ["Cottonee", "Petilil", "Pawniard", "Pansage", "Pansear", "Panpour", "Sawk", "Throh", "Woobat", "Darumaka", "Blitzle", "Frillish", "Lillipup", "Bouffalant", "Ducklett", "Purrloin", 
+                "Venipede", "Roggenrola", "Minccino", "Budew", "Emolga", "Pachirisu", "Scraggy"],
+    "BattleFacility": []
+},{
+    "Label": "Backpacker",
+    "Content": ["Zangoose", "Cottonee", "Starly", "Snover", "Maractus", "Porygon", "Happiny", "Pidove", "Petilil", "Darumaka", "Heatmor", "Cubchoo", "Drilbur", "Emolga", "Patrat", "Munna", "Sewaddle", 
+            	"Tympole", "Azurill", "Dwebble", "Eevee", "Scraggy", "Minccino", "Croagunk", "Pansear", "Zubat", "Numel", "Blitzle", "Venipede", "Lillipup", "Litwick", "Roggenrola", "Mienfoo", 
+                "Purrloin", "Gothita", "Solosis", "Sandile", "Foongus", "Klink", "Deino", "Pansage", "Panpour", "Yamask", "Golett", "Timburr", "Ducklett", "Vanillite", "Ferroseed", "Shelmet", "Snivy", 
+                "Tepig", "Oshawott", "Woobat", "Karrablast", "Joltik", "Axew", "Tynamo", "Trubbish", "Zorua", "Deerling", "Frillish", "Elgyem", "Pawniard", "Rufflet", "Tirtouga", "Larvesta", 
+                "Vullaby", "Archen", "Bulbasaur", "Charmander", "Squirtle", "Chikorita", "Cyndaquil", "Totodile", "Treecko", "Torchic", "Mudkip", "Turtwig", "Chimchar", "Piplup", "Diglett", "Cubone", 
+                "Meditite", "Wooper", "Snubbull", "Smoochum", "Mime Jr.", "Chinchou", "Shroomish", "Pineco", "Skarmory", "Absol", "Barboach", "Makuhita", "Combee", "Pichu", "Seel", "Electrike", 
+                "Shellos", "Stunky", "Throh", "Sawk", "Oddish", "Bellsprout", "Voltorb", "Lotad", "Seedot", "Whismur", "Buneary", "Snorunt", "Aipom", "Durant", "Geodude", "Slowpoke", "Koffing", 
+                "Kangaskhan", "Tauros", "Spiritomb", "Cryogonal", "Druddigon", "Abra", "Miltank", "Swablu", "Nidoran-F", "Nidoran-M", "Lileep", "Anorith", "Cranidos", "Shieldon", "Buizel", 
+                "Misdreavus", "Drifloon", "Poliwag", "Ponyta", "Grimer", "Gastly", "Mareep", "Pinsir", "Heracross", "Scyther", "Teddiursa", "Houndour", "Phanpy", "Wailmer", "Baltoy", "Bronzor", 
+                "Skorupi", "Shinx", "Vulpix", "Machop", "Budew", "Shuckle", "Murkrow", "Onix", "Sneasel", "Gligar", "Tentacool", "Aerodactyl", "Lickitung", "Yanma", "Ralts", "Exeggcute", "Staryu", 
+                "Trapinch", "Riolu", "Hippopotas", "Nosepass", "Duskull", "Bouffalant", "Aron", "Spheal", "Swinub", "Lapras", "Magnemite", "Rhyhorn", "Tangela", "Magikarp", "Munchlax", "Horsea", 
+                "Feebas", "Elekid", "Magby", "Togepi", "Growlithe", "Dratini", "Larvitar", "Bagon", "Beldum", "Gible", "Slakoth", "Sigilyph", "Sandshrew", "Poochyena", "Torkoal", "Omanyte", "Mantyke", 
+                "Rattata", "Kabuto", "Cacnea", "Sentret", "Fletchling", "Zigzagoon", "Bunnelby", "Goomy", "Mankey", "Chespin", "Fennekin", "Froakie", "Bidoof", "Pachirisu", "Klefki", "Igglybuff", 
+                "Qwilfish", "Carnivine", "Carvanha", "Slugma", "Finneon", "Flabébé", "Glameow", "Remoraid", "Stunfisk", "Helioptile", "Gulpin", "Skrelp", "Spoink", "Girafarig", "Meowth", "Binacle", 
+                "Hawlucha", "Carbink", "Litleo", "Bergmite", "Tyrunt", "Amaura", "Skiddo", "Noibat", "Phantump", "Pumpkaboo", "Clauncher", "Spritzee", "Swirlix", "Regirock", "Kecleon", "Taillow", 
+                "Mimikyu", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+    "BattleFacility": [""]
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+},{
+    "Label": "",
+    "Content": [""],
+    "BattleFacility": []
+}
+]

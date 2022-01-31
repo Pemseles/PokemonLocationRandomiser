@@ -399,6 +399,8 @@ async function Generator(amountToGen: number, regionPref : string, locationPref 
     console.log(regions);
     console.log("Amount of mons to gen:", amountToGen);
 
+    const fullPool = Object.values(canonLocations);
+    console.log(fullPool);
     const randomisedPool = Array<string>();
     let listOfMons = Array<string>();
 
@@ -415,19 +417,10 @@ async function Generator(amountToGen: number, regionPref : string, locationPref 
 
         for (let i = 0; i < locationCount; i++) {
             let randomRegionIndex = regionArr.indexOf(regions[Math.floor(Math.random()*regions.length)]);
-            let randomLocationIndex = Math.floor(Math.random()*(Object.values(canonLocations)[randomRegionIndex].Content.length));
-            let locationName = Object.values(canonLocations)[randomRegionIndex].Content[randomLocationIndex].Label;
+            let randomLocationIndex = Math.floor(Math.random()*(fullPool[randomRegionIndex].Content.length));
+            let locationName = fullPool[randomRegionIndex].Content[randomLocationIndex].Label;
 
-            if (i > 0) {
-                for (let j = 0; j < randomLocations.length; j++) {
-                    if (randomLocations[j].region === regionArr[randomRegionIndex] && randomLocations[j].location === locationName) {
-                        // item was a dupe
-                        // (temp solution; might be better to load array of locations and remove items when they're added to randomLocations)
-                        console.log("duplicate:", locationName, "region", regionArr[randomRegionIndex]);
-                        randomLocations.splice(j, 1);
-                    }
-                }
-            }
+            console.log(fullPool[randomRegionIndex].Content);
             randomLocations.push({ location: locationName, region: regionArr[randomRegionIndex]});
         }
         console.log(randomLocations);
