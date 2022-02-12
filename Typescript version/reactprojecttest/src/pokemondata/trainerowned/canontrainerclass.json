@@ -120,40 +120,86 @@
     "BattleFacility": []
 },{
     "Label": "Backpacker",
-    "Content": [""],
-    "BattleFacility": [""]
+    "Content": ["Zangoose", "Cottonee", "Starly", "Snover", "Maractus", "Happiny", "Porygon", "Pidove", "Petilil", "Darumaka", "Heatmor", "Cubchoo", "Drilbur", "Emolga", "Patrat", "Munna", 
+                "Sewaddle", "Tympole", "Azurill", "Dwebble", "Eevee", "Scraggy", "Minccino", "Croagunk", "Pansear", "Zubat", "Numel", "Blitzle", "Purrloin", "Sigilyph", "Sandshrew", "Sandile", 
+                "Lillipup", "Poochyena", "Cubone", "Torkoal", "Omanyte", "Anorith", "Shieldon", "Archen", "Ducklett", "Swinub", "Deerling", "Mantyke", "Spheal", "Wailmer", "Vanillite", "Bouffalant", 
+                "Woobat", "Rattata", "Skorupi", "Pinsir", "Riolu", "Timburr", "Kabuto", "Lileep", "Cranidos", "Tirtouga", "Seedot", "Cacnea", "Axew", "Sentret", "Fletchling", "Zigzagoon", "Bunnelby", 
+                "Kecleon", "Taillow", "Slakoth", "Girafarig", "Mimikyu", "Electrike", "Spinda", "Aipom", "Dreepy", "Vullaby", "Sawk", "Throh"],
+    "BattleFacility": ["Venipede", "Litwick", "Roggenrola", "Mienfoo", "Gothita", "Solosis", "Foongus", "Klink", "Deino", "Pansage", "Panpour", "Yamask", "Golett", "Ferroseed", "Shelmet", "Snivy", 
+                    "Tepig", "Oshawott", "Karrablast", "Joltik", "Tynamo", "Trubbish", "Zorua", "Frillish", "Elgyem", "Pawniard", "Rufflet", "Larvesta", "Bulbasaur", "Charmander", "Squirtle", 
+                    "Chikorita", "Cyndaquil", "Totodile", "Treecko", "Torchic", "Mudkip", "Turtwig", "Chimchar", "Piplup", "Diglett", "Meditite", "Wooper", "Snubbull", "Smoochum", "Mime Jr.", 
+                    "Chinchou", "Shroomish", "Pineco", "Skarmory", "Absol", "Barboach", "Makuhita", "Combee", "Pichu", "Seel", "Shellos", "Stunky", "Oddish", "Bellsprout", "Voltorb", "Lotad", 
+                    "Whismur", "Buneary", "Snorunt", "Durant", "Geodude", "Slowpoke", "Koffing", "Kangaskhan", "Tauros", "Spiritomb", "Cryogonal", "Druddigon", "Abra", "Miltank", "Swablu", 
+                    "Nidoran-F", "Nidoran-M", "Buizel", "Misdreavus", "Drifloon", "Poliwag", "Ponyta", "Grimer", "Gastly", "Mareep", "Scyther", "Heracross", "Teddiursa", "Houndour", "Phanpy", 
+                    "Baltoy", "Bronzor", "Shinx", "Vulpix", "Machop", "Shuckle", "Budew", "Murkrow", "Onix", "Sneasel", "Gligar", "Tentacool", "Aerodactyl", "Lickitung", "Ralts", "Yanma", 
+                    "Exeggcute", "Staryu", "Trapinch", "Hippopotas", "Nosepass", "Duskull", "Aron", "Lapras", "Magnemite", "Rhyhorn", "Tangela", "Magikarp", "Munchlax", "Horsea", "Feebas", "Magby", 
+                    "Elekid", "Togepi", "Growlithe", "Dratini", "Larvitar", "Bagon", "Beldum", "Gible", "Goomy", "Mankey", "Chespin", "Froakie", "Fennekin", "Bidoof", "Pachirisu", "Igglybuff", 
+                    "Klefki", "Qwilfish", "Carnivine", "Carvanha", "Slugma", "Finneon", "Flabébé", "Remoraid", "Glameow", "Stunfisk", "Helioptile", "Gulpin", "Skrelp", "Spoink", "Meowth", "Binacle", 
+                    "Hawlucha", "Carbink", "Litleo", "Bergmite", "Amaura", "Tyrunt", "Skiddo", "Noibat", "Phantump", "Pumpkaboo", "Clauncher", "Swirlix", "Spritzee", "Regirock", "Sandygast", 
+                    "Mudbray", "Minior", "Rockruff", "Alolan Diglett", "Alolan Geodude", "Alolan Sandshrew", "Comfey", "Fomantis", "Drampa", "Togedemaru", "Rotom", "Audino", "Bounsweet", 
+                    "Wishiwashi", "Azelf", "Uxie", "Mesprit", "Articuno", "Heatran", "Cresselia", "Landorus", "Regigigas", "Moltres", "Entei", "Registeel", "Terrakion", "Tornadus", "Latias"]
 },{
-    "Label": "",
-    "Content": [""],
+    "Label": "Baker",
+    "Content": ["Combee", "Teddiursa", "Pansear", "Pansage", "Panpour", "Torkoal", "Miltank", "Heatmor", "Sunkern"],
+    "BattleFacility": ["Patrat", "Venipede", "Lillipup", "Pidove", "Litwick", "Roggenrola", "Cottonee", "Petilil", "Mienfoo", "Purrloin", "Gothita", "Solosis", "Munna", "Sandile", "Tympole", 
+                    "Foongus", "Blitzle", "Minccino", "Klink", "Deino", "Yamask", "Golett", "Timburr", "Ducklett", "Vanillite", "Ferroseed", "Cubchoo", "Shelmet", "Snivy", "Tepig", "Oshawott", 
+                    "Sewaddle", "Woobat", "Darumaka", "Karrablast", "Joltik", "Axew", "Dwebble", "Tynamo", "Drilbur", "Trubbish", "Zorua", "Deerling", "Frillish", "Elgyem", "Pawniard", "Scraggy", 
+                    "Rufflet", "Tirtouga", "Larvesta", "Vullaby", "Archen", "Ponyta", "Grimer", "Gastly", "Mareep", "Poliwag", "Scyther", "Heracross", "Houndour", "Phanpy", "Wailmer", "Baltoy", 
+                    "Bronzor", "Skorupi", "Shinx", "Vulpix", "Machop", "Shuckle", "Budew", "Murkrow", "Onix", "Sneasel", "Gligar", "Tentacool", "Aerodactyl", "Lickitung", "Porygon", "Yanma", "Ralts", 
+                    "Exeggcute", "Staryu", "Trapinch", "Eevee", "Riolu", "Hippopotas", "Nosepass", "Duskull", "Bouffalant", "Aron", "Spheal", "Swinub", "Lapras", "Zubat", "Magnemite", "Rhyhorn", 
+                    "Tangela", "Magikarp", "Munchlax", "Horsea", "Happiny", "Feebas", "Elekid", "Magby", "Togepi", "Growlithe", "Dratini", "Larvitar", "Bagon", "Beldum", "Gible", "Slakoth", 
+                    "Chikorita", "Cyndaquil", "Oddish", "Bellsprout", "Seedot"]
+},{
+    "Label": "Bandana Guy",
+    "Content": ["Sableye", "Corsola", "Abra", "Staryu", "Zigzagoon", "Koffing", "Sandshrew", "Gulpin", "Psyduck", "Wooper", "Horsea", "Larvitar", "Carvanha", "Barboach", "Wurmple", "Tentacool", 
+                "Seedot", "Geodude", "Makuhita", "Lotad", "Wingull", "Meditite", "Azurill", "Natu", "Electrike", "Vulpix", "Cacnea", "Grimer", "Spoink", "Snorunt", "Chinchou", "Hoothoot", "Togepi", 
+                "Slugma", "Bonsly", "Surskit", "Clamperl", "Magnemite", "Igglybuff", "Buldum", "Spheal", "Sentret", "Swinub", "Shroomish", "Heracross", "Voltorb", "Trapinch", "Machop", "Spinda", 
+                "Smeargle", "Nincada", "Skitty", "Doduo", "Teddiursa", "Whismur", "Dunsparce", "Snubbull", "Houndour", "Swablu", "Taillow", "Anorith", "Aron", "Rhyhorn", "Tropius", "Seviper", 
+                "Zubat", "Feebas", "Treecko"],
     "BattleFacility": []
 },{
-    "Label": "",
-    "Content": [""],
+    "Label": "Baron",
+    "Content": ["Riolu", "Budew", "Horsea", "Ralts", "Clauncher", "Fletchling", "Psyduck"],
     "BattleFacility": []
 },{
-    "Label": "",
-    "Content": [""],
+    "Label": "Baroness",
+    "Content": ["Scatterbug", "Burmy-Trash", "Bidoof", "Hoppip", "Flabébé", "Spoink", "Ledyba"],
     "BattleFacility": []
 },{
-    "Label": "",
-    "Content": [""],
+    "Label": "Battle Chatelaine",
+    "Content": ["Swinub", "Skrelp", "Cottonee", "Magnemite", "Girafarig", "Slugma", "Articuno", "Zapdos", "Moltres", "Regirock", "Regice", "Registeel", "Mankey", "Meowth", "Pachirisu", "Finneon", 
+                "Entei", "Raikou", "Suicune", "Latios", "Mantyke", "Deerling", "Gulpin", "Klefki", "Cobalion", "Terrakion", "Virizion", "Latias", "Glameow", "Igglybuff", "Spoink", "Tornadus", 
+                "Thundurus", "Landorus"],
     "BattleFacility": []
 },{
-    "Label": "",
-    "Content": [""],
+    "Label": "Battle Girl",
+    "Content": ["Meditite", "Makuhita", "Shroomish", "Machop", "Scraggy", "Vanillite", "Mienfoo", "Timburr", "Tyrogue", "Sawk", "Cubchoo", "Cryogonal", "Throh", "Riolu", "Poliwag", "Heracross", 
+                "Mankey", "Hawlucha"],
+    "BattleFacility": ["Psyduck", "Abra", "Magnemite", "Oddish", "Zigzagoon", "Lotad", "Wingull", "Nosepass", "Budew", "Gulpin", "Spoink", "Spinda", "Cacnea", "Lunatone", "Barboach", "Kecleon", 
+                    "Spheal", "Tentacool", "Doduo", "Voltorb", "Koffing", "Rhyhorn", "Goldeen", "Wynaut", "Ralts", "Wailmer", "Duskull", "Snorunt", "Regirock", "Pichu", "Vulpix", "Staryu", "Zubat", 
+                    "Treecko", "Torchic", "Mudkip", "Nincada", "Electrike", "Feebas", "Regice", "Latias", "Chinchou", "Corsola", "Surskit", "Sableye", "Mawile", "Luvdisc", "Grimer", "Seedot", 
+                    "Numel", "Baltoy", "Beldum", "Registeel", "Swablu", "Horsea", "Skarmory", "Charmander", "Rattata", "Sandshrew", "Igglybuff", "Meowth", "Geodude", "Ponyta", "Lickitung", "Happiny", 
+                    "Cyndaquil", "Sentret", "Bonsly", "Girafarig", "Dunsparce", "Gligar", "Slugma", "Swinub", "Stantler", "Larvitar", "Poochyena", "Slakoth", "Aron", "Torkoal", "Zangoose", 
+                    "Solrock", "Absol", "Bagon", "Nidoran-F", "Nidoran-M", "Cubone", "Onix", "Phanpy", "Growlithe", "Magby", "Eevee", "Houndour", "Pineco", "Scyther", "Chimchar", "Relicanth", 
+                    "Omanyte", "Kabuto", "Croagunk", "Moltres", "Heatran", "Entei", "Squirtle", "Totodile", "Piplup", "Bidoof", "Gible", "Shinx", "Glameow", "Corphish", "Krabby", "Remoraid", 
+                    "Elekid", "Shellder", "Tepig", "Darumaka", "Durant", "Ferroseed", "Pawniard", "Shieldon", "Karrablast", "Bronzor", "Drilbur", "Klink", "Litwick", "Larvesta", "Binacle", "Carbink", 
+                    "Litleo", "Tyrunt", "Amaura", "Fletchling", "Chespin", "Fennekin", "Lileep", "Anorith", "Cranidos", "Tirtouga", "Shuckle", "Roggenrola", "Aerodactyl", "Archen", "Snubbull", 
+                    "Shellos", "Shuppet", "Castform", "Bellsprout", "Tropius", "Cleffa", "Rotom", "Venonat", "Aipom", "Finneon", "Clamperl", "Drowzee", "Buneary", "Slowpoke", "Chingling", "Tauros", 
+                    "Hoppip", "Mantyke", "Hoothoot", "Bulbasaur", "Raikou", "Pinsir", "Diglett", "Hippopotas", "Dratini", "Munchlax", "Articuno", "Mareep", "Trapinch", "Tangela"]
+},{
+    "Label": "Battle Legend",
+    "Content": ["Bulbasaur", "Charmander", "Squirtle", "Lapras", "Munchlax", "Pidgey", "Machop", "Abra", "Aerodactyl", "Exeggcute", "Rhyhorn", "Magikarp", "Growlithe", "Larvitar"],
     "BattleFacility": []
 },{
-    "Label": "",
-    "Content": [""],
-    "BattleFacility": []
-},{
-    "Label": "",
-    "Content": [""],
-    "BattleFacility": []
-},{
-    "Label": "",
-    "Content": [""],
-    "BattleFacility": []
+    "Label": "Beauty",
+    "Content": ["Bellsprout", "Oddish", "Exeggcute", "Rattata", "Pichu", "Vulpix", "Cleffa", "Meowth", "Pidgey", "Igglybuff", "Bulbasaur", "Goldeen", "Poliwag", "Staryu", "Horsea", "Shellder", 
+                "Caterpie", "Paras", "Corsola", "Hoppip", "Sentret", "Azurill", "Wailmer", "Kecleon", "Seviper", "Lotad", "Shroomish", "Numel", "Carvanha", "Spheal", "Spoink", "Poochyena", 
+                "Clamperl", "Corphish", "Luvdisc", "Nidoran-F", "Glameow", "Burmy", "Finneon", "Psyduck", "Budew", "Buneary", "Skitty", "Carnivine", "Blitzle", "Elekid", "Mareep", "Fletchling", 
+                "Espurr", "Sandile", "Bounsweet", "Cubone", "Cutiefly", "Gastly", "Alolan Meowth", "Flabébé", "Eevee", "Seel", "Slowpoke", "Growlithe", "Happiny", "Smoochum", "Squirtle", "Kabuto", 
+                "Rhyhorn", "Krabby", "Omanyte", "Geodude", "Onix", "Diglett", "Magikarp", "Tentacool", "Sandshrew", "Spearow", "Doduo", "Aerodactyl", "Dratini", "Miltank", "Snubbull", "Qwilfish", 
+                "Lickitung", "Mantyke", "Bonsly", "Delibird", "Togepi", "Aipom", "Ponyta", "Remoraid", "Pineco", "Surskit", "Nincada", "Wingull", "Wurmple", "Seedot", "Cacnea", "Chingling", "Ralts", 
+                "Sneasel"],
+    "BattleFacility": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 },{
     "Label": "",
     "Content": [""],

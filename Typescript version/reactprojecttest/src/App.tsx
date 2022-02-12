@@ -67,8 +67,20 @@ function App() {
     const locationListRef = React.useRef(null);
     const locationSelectedBoolRef = React.useRef(null);
 
-    //const multiRegionCondition = chosenRegions.filter((v) => v).length < 1;
-    //const multiLocationCondition = chosenLocations.filter((v) => v).length < 1;
+    const megaMons = ["Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise", "Abra", "Kadabra", "Alakazam", "Gastly", "Haunter", "Gengar", 
+                    "Kangaskhan", "Pinsir", "Magikarp", "Gyarados", "Aerodactyl", "Mewtwo", "Mareep", "Flaaffy", "Ampharos", "Scyther", "Scizor", "Heracross", "Houndour", "Houndoom", "Larvitar", 
+                    "Pupitar", "Tyranitar", "Torchic", "Combusken", "Blaziken", "Ralts", "Kirlia", "Gardevoir", "Gallade", "Mawile", "Aron", "Lairon", "Aggron", "Meditite", "Medicham", "Electrike", 
+                    "Manectric", "Shuppet", "Banette", "Absol", "Latias", "Latios", "Gible", "Gabite", "Garchomp", "Riolu", "Lucario", "Snover", "Abomasnow", "Weedle", "Kakuna", "Beedrill", "Pidgey",
+                    "Pidgeotto", "Pidgeot", "Slowpoke", "Slowbro", "Onix", "Steelix", "Treecko", "Grovyle", "Sceptile", "Mudkip", "Marshtomp", "Swampert", "Sableye", "Carvanha", "Sharpedo", "Numel", 
+                    "Camerupt", "Swablu", "Altaria", "Snorunt", "Glalie", "Bagon", "Shelgon", "Salamence", "Beldum", "Metang", "Metagross", "Rayquaza", "Buneary", "Lopunny", "Audino", "Diancie"];
+    
+    const legendMons = ["Articuno", "Zapdos", "Moltres", "Mewtwo", "Mew", "Entei", "Raikou", "Suicune", "Lugia", "Ho-oh", "Celebi", "Regirock", "Regice", "Registeel", "Latios", "Latias", "Groudon", 
+                    "Kyogre", "Rayquaza", "Jirachi", "Deoxys", "Uxie", "Mesprit", "Azelf", "Dialga", "Palkia", "Giratina", "Heatran", "Cresselia", "Regigigas", "Shaymin", "Manaphy", "Phione", 
+                    "Darkrai", "Arceus", "Cobalion", "Terrakion", "Virizion", "Tornadus", "Thundurus", "Landorus", "Reshiram", "Zekrom", "Kyurem", "Keldeo", "Meloetta", "Genesect", "Victini", 
+                    "Xerneas", "Yveltal", "Zygarde", "Diancie", "Volcanion", "Hoopa", "Type: Null", "Silvally", "Tapu Koko", "Tapu Lele", "Tapu Bulu", "Tapu Fini", "Cosmog", "Cosmoem", "Solgaleo", 
+                    "Lunala", "Necrozma", "Nihilego", "Buzzwole", "Pheromosa", "Xurkitree", "Kartana", "Celesteela", "Guzzlord", "Poipole", "Naganadel", "Stakataka", "Blacephalon", "Magearna", 
+                    "Marshadow", "Zeraora", "Meltan", "Melmetal", "Zacian", "Zamazenta", "Eternatus", "Kubfu", "Urshifu", "Regieleki", "Regidrago", "Calyrex", "Glastrier", "Spectrier", 
+                    "Galarian Articuno", "Galarian Zapdos", "Galarian Moltres", "Zarude"];
 
     const handleGenButtonBool = (event : any) => {
         console.log(event);

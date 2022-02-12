@@ -2966,6 +2966,18 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/burmy.gif"
         },
         {
+            "Label": "Burmy-Sandy",
+            "DexNo": 412,
+            "Type": ["Bug"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/burmy-sandy.gif"
+        },
+        {
+            "Label": "Burmy-Trash",
+            "DexNo": 412,
+            "Type": ["Bug"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/burmy-trash.gif"
+        },
+        {
             "Label": "Wormadam",
             "DexNo": 413,
             "Type": ["Bug", "Grass"],
