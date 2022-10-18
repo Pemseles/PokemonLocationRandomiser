@@ -75,6 +75,7 @@ function App() {
                     "Lunala", "Necrozma", "Nihilego", "Buzzwole", "Pheromosa", "Xurkitree", "Kartana", "Celesteela", "Guzzlord", "Poipole", "Naganadel", "Stakataka", "Blacephalon", "Magearna", 
                     "Marshadow", "Zeraora", "Meltan", "Melmetal", "Zacian", "Zamazenta", "Eternatus", "Kubfu", "Urshifu", "Regieleki", "Regidrago", "Calyrex", "Glastrier", "Spectrier", 
                     "Galarian Articuno", "Galarian Zapdos", "Galarian Moltres", "Zarude"];
+    const shinyRate = 100;
 
     // TODO add mega filter
     // TODO add legendary filter
@@ -309,7 +310,7 @@ function App() {
                                     <Grid item md={4} xs={12}>
                                         <Card style={{ height: '300px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                                             <CardMedia>
-                                                <img src={getPokemonGif(generatedMons[index].Pokemon)} style={{ textAlign: 'center' }} />
+                                                <img src={getPokemonGif(generatedMons[index].Pokemon, shinyRate)} style={{ textAlign: 'center' }} />
                                             </CardMedia>
                                             <CardContent>
                                                 <Typography gutterBottom variant="h6" align='center'>
@@ -509,11 +510,16 @@ async function filterUndefined(unfilteredArr : Array<{ Pokemon: string, Location
     return result;
 }
 
-function getPokemonGif(monName : any | string) {
+function getPokemonGif(monName : any | string, shinyRate: any) {
     const pokemonDexData = require('./pokemondata/pokedex.json');
-    
     for (let i = 0; i < pokemonDexData.Content.length; i++) {
         if (pokemonDexData.Content[i].Label === monName) {
+            // calc shiny & get shiny gif
+            let shinyGen = Math.floor(Math.random() * shinyRate);
+            if (shinyGen === 0) {
+                return (pokemonDexData.Content[i].Gif.slice(0, 44) + "-shiny" + pokemonDexData.Content[i].Gif.slice(44));
+            }
+
             return pokemonDexData.Content[i].Gif;
         }
     }
