@@ -28,6 +28,9 @@ import {
     Card,
     CardMedia,
     CardContent,
+    createTheme,
+    useTheme,
+    IconButton,
 
 } from '@material-ui/core';
 import {
@@ -35,9 +38,16 @@ import {
 } from '@material-ui/lab';
 import { json } from 'stream/consumers';
 import { stringify } from 'querystring';
+import { ThemeProvider } from '@material-ui/core/styles';
+
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeIcon from '@mui/icons-material/LightMode';
 
 import { GeneratorBase } from './functions/Generators';
 import { getRegionSelector, getLocationSelector, getPokemonGif } from './functions/GetFuncs';
+
+const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
+
 
 function App() {
 
@@ -64,6 +74,9 @@ function App() {
     const locationListRef = React.useRef(null);
     const locationSelectedBoolRef = React.useRef(null);
 
+    const theme = useTheme();
+    const colorMode = React.useContext(ColorModeContext);
+
     const megaMons = ["Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise", "Abra", "Kadabra", "Alakazam", "Gastly", "Haunter", "Gengar", 
                     "Kangaskhan", "Pinsir", "Magikarp", "Gyarados", "Aerodactyl", "Mewtwo", "Mareep", "Flaaffy", "Ampharos", "Scyther", "Scizor", "Heracross", "Houndour", "Houndoom", "Larvitar", 
                     "Pupitar", "Tyranitar", "Torchic", "Combusken", "Blaziken", "Ralts", "Kirlia", "Gardevoir", "Gallade", "Mawile", "Aron", "Lairon", "Aggron", "Meditite", "Medicham", "Electrike", 
@@ -86,7 +99,7 @@ function App() {
     // TODO add toggle for dark mode
 
     const handleGenButtonBool = (event : any) => {
-        console.log(event);
+        console.log("handle genbutton", event);
 
         setGenButtonBool(event);
     }
@@ -96,11 +109,11 @@ function App() {
         setLocationPref("");
         handleGenButtonBool(false);
 
-        console.log(event.target.value);
+        console.log("handle gensetting", event.target.value);
         setGenSetting(event.target.value);
     }
     const handleMonCount = (event : any) => {
-        console.log(event.target.value);
+        console.log("handle moncount", event.target.value);
         handleGenButtonBool(false);
 
         setMonCount(event.target.value);
@@ -109,17 +122,17 @@ function App() {
         setLocationPref("");
         handleGenButtonBool(false);
 
-        console.log(event.target.value);
+        console.log("handle regionpref", event.target.value);
         setRegionPref(event.target.value);
     }
     const handleLocationPref = (event: any) => {
-        console.log(event.target.value);
+        console.log("handle locationpref", event.target.value);
         handleGenButtonBool(false);
 
         setLocationPref(event.target.value);
     }
     const handleLocationList = (event: any, value : any) => {
-        console.log(value);
+        console.log("handle locationlist", value);
         handleGenButtonBool(false);
 
         if (value.length > 0) {
@@ -132,7 +145,7 @@ function App() {
         setSelectedLocations(value);
     }
     const handleRegionList = (event: any, value : any) => {
-        console.log(value);
+        console.log("handle regionlist", value);
         handleGenButtonBool(false);
 
         let strArr = [];
@@ -152,11 +165,11 @@ function App() {
     }
     const handleGeneratedMons = (event : any) => {
         handleGenButtonBool(true);
-        console.log(event);
+        console.log("handle generatedmons", event);
         setGeneratedMons(event);
     }
 
-    console.log(genButtonBool);
+    console.log("genbutton boolean", genButtonBool);
     
     React.useEffect(() => {
         (async () => {
@@ -358,11 +371,44 @@ function App() {
                             Settings incomplete
                         </Typography>
                     }
-                    
+                    <IconButton onClick={colorMode.toggleColorMode}>
+                        {theme.palette.type === 'dark' ? <DarkModeIcon /> : <LightModeIcon />}
+                    </IconButton>
                 </Toolbar>
             </AppBar>
         </React.Fragment>
     );
 }
+
+export function ToggleColorMode() {
+    const [mode, setMode] = React.useState<'light' | 'dark'>('light');
+    const colorMode = React.useMemo(
+        () => ({
+            toggleColorMode: () => {
+                setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
+            },
+        }),
+        [],
+    );
+  
+    const theme = React.useMemo(
+        () =>
+            createTheme({
+                palette: {
+                    type: mode ? 'dark' : 'light',
+                },
+            }),
+        [mode],
+    );
+    console.log("in togglecolormode", mode)
+  
+    return (
+      <ColorModeContext.Provider value={colorMode}>
+        <ThemeProvider theme={theme}>
+          <App />
+        </ThemeProvider>
+      </ColorModeContext.Provider>
+    );
+  }
 
 export default App;
