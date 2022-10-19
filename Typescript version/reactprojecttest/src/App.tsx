@@ -36,6 +36,9 @@ import {
 import { json } from 'stream/consumers';
 import { stringify } from 'querystring';
 
+import { GeneratorBase } from './functions/Generators';
+import { getRegionSelector, getLocationSelector, getPokemonGif } from './functions/GetFuncs';
+
 function App() {
 
     const [genButtonBool, setGenButtonBool] = React.useState(false);
@@ -49,7 +52,7 @@ function App() {
     const [selectedRegions, setSelectedRegions] = React.useState(Array<string>());
     const [locationList, setLocationList] = React.useState(Array<{ location: string, region: string }>());
     const [selectedLocations, setSelectedLocations] = React.useState(Array<{ location: string, region: string }>());
-    const [generatedMons, setGeneratedMons] = React.useState(Array<{ Pokemon: string, Location: string }>());
+    const [generatedMons, setGeneratedMons] = React.useState(Array<{ Pokemon: string, Region: string, Location: string }>());
 
     const genButtonBoolRef = React.useRef(null);
     const genSettingRef = React.useRef(null);
@@ -79,6 +82,8 @@ function App() {
 
     // TODO add mega filter
     // TODO add legendary filter
+    // TODO add type filter
+    // TODO add toggle for dark mode
 
     const handleGenButtonBool = (event : any) => {
         console.log(event);
@@ -316,14 +321,14 @@ function App() {
                                                 <Typography gutterBottom variant="h6" align='center'>
                                                     {generatedMons[index].Pokemon}
                                                 </Typography>
-                                                {locationPref === "Random" || locationPref === "Specific" && selectedLocations.length > 1 ?
+                                                {regionPref === "Random" || regionPref === "Specific" && locationPref === "Random" || regionPref === "Specific" && locationPref === "Specific" && selectedLocations.length > 1 ?
                                                     <Typography gutterBottom variant="body2" align='center'>
                                                         {generatedMons[index].Location}
                                                     </Typography>
                                                 : ''}
                                                 {regionPref === "Random" || regionPref === "Specific" && selectedRegions.length > 1 ?
                                                     <Typography gutterBottom variant="body2" align='center'>
-                                                        {"region here :( have to rework data again !"}
+                                                        {generatedMons[index].Region}
                                                     </Typography>
                                                 : ''}
                                             </CardContent>
@@ -337,15 +342,15 @@ function App() {
             <AppBar position="fixed" style={{ background: 'white', top: 'auto', bottom: 0, alignItems: 'center' }}>
                 <Toolbar>
                     {genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Specific' && selectedRegions.length > 0 && selectedLocations.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await Generator(parseInt(monCount), regionPref, locationPref, selectedLocations, null))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, selectedLocations, null))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Random' && selectedRegions.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await Generator(parseInt(monCount), regionPref, locationPref, null, selectedRegions))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Location" && regionPref === 'Random' && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await Generator(parseInt(monCount), regionPref, locationPref, null, selectedRegions))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions))}}>
                             Generate Team
                         </Button>
                     :
@@ -358,172 +363,6 @@ function App() {
             </AppBar>
         </React.Fragment>
     );
-}
-
-async function getCanonRegions() {
-    const arr = Array<string>();
-    for (let i = 0; i < Object.values(canonLocations).length; i++) {
-        arr.push(Object.values(canonLocations)[i].Label);
-    }
-    arr.pop();
-    arr.pop();
-
-    return arr;
-}
-
-async function getCanonLocations() {
-    const regionArr = await getCanonRegions();
-    const locationArr = Array<Array<string>>();
-
-    for (let i = 0; i < regionArr.length; i++) {
-        const innerLocationArr = Array<string>();
-        for (let j = 0; j < Object.values(canonLocations)[i].Content.length; j++) {
-            innerLocationArr.push(Object.values(canonLocations)[i].Content[j].Label);
-        }
-        locationArr.push(innerLocationArr);
-    }
-
-    return locationArr;
-}
-
-async function getRegionSelector() {
-    const regionArr = await getCanonRegions();
-    
-    // get bools for regionList
-    let returnArr = new Array<{ region: string, type: string }>();
-    
-    for (let i = 0; i < regionArr.length; i++) {
-        returnArr.push({ region: regionArr[i], type: "canon" });
-    }
-    return returnArr;
-}
-
-async function getLocationSelector() {
-    // get bools for locationList
-    let returnArr = new Array<{ location: string, region: string }>();
-
-    const regionArr = await getCanonRegions();
-    const locationArr = await getCanonLocations();
-
-    for (let i = 0; i < regionArr.length; i++) {
-        for (let j = 0; j < locationArr[i].length; j++) {
-            returnArr.push({ location: locationArr[i][j], region: regionArr[i] });
-        }
-    }
-
-    return returnArr;
-}
-
-async function Generator(amountToGen: number, regionPref : string, locationPref : string, locations : Array<{ location: string, region: string }> | any, regions : Array<string> | any) {
-    console.log("region preference:", regionPref);
-    console.log("location preference:", locationPref)
-    console.log(locations);
-    console.log(regions);
-    console.log("Amount of mons to gen:", amountToGen);
-
-    const fullPool = Object.values(canonLocations);
-    console.log(fullPool);
-    const randomisedPool = Array<{ Pokemon: string, Location: string }>();
-    let listOfMons = Array<{ Pokemon: string, Location: string }>();
-
-    // randomiser with specific region & specific location
-    if (regionPref === "Specific" && locationPref === "Specific") {
-        listOfMons = await getLocationPokemon(locations);
-    }
-    // randomiser with specific region
-    else if (regionPref === "Specific" && locationPref === "Random") {
-        const regionArr = await getCanonRegions();
-        const randomLocations = Array<{ location: string, region: string }>();
-        const locationCount = Math.floor(Math.random()*amountToGen) + 1;
-
-        for (let i = 0; i < locationCount; i++) {
-            let randomRegionIndex = regionArr.indexOf(regions[Math.floor(Math.random()*regions.length)]);
-            let randomLocationIndex = Math.floor(Math.random()*(fullPool[randomRegionIndex].Content.length));
-            let locationName = fullPool[randomRegionIndex].Content[randomLocationIndex].Label;
-
-            randomLocations.push({ location: locationName, region: regionArr[randomRegionIndex]});
-        }
-        listOfMons = await getLocationPokemon(randomLocations);
-    }
-    // randomiser with random region
-    else {
-        // TODO randomise w random region
-        console.log("work on me :)")
-    }
-    console.log("full list", listOfMons);
-
-    for (let i = 0; i < amountToGen; i++) {
-        let index = listOfMons.indexOf(listOfMons[Math.floor(Math.random()*listOfMons.length)]);
-        if (typeof listOfMons[index] !== 'undefined') {
-            randomisedPool.push(listOfMons[index]);
-            if (index > -1) {
-                listOfMons.splice(index, 1);
-            }
-        }
-    }
-    console.log("selection of mons", randomisedPool);
-
-    return randomisedPool;
-}
-
-async function getLocationPokemon(locations : Array<{location : string, region : string}>) {
-    // initialised in Generator()
-    // locations will be {location, region} of only the ones chosen in settings.
-    const monArr = Array<{ Pokemon: string, Location: string }>();
-    const regionArr = await getCanonRegions();
-
-    for (let i = 0; i < regionArr.length; i++) {
-        for (let j = 0; j < Object.values(canonLocations)[i].Content.length; j++) {
-            if (locations.some(loca => loca.location === Object.values(canonLocations)[i].Content[j].Label) && locations.some(regio => regio.region === regionArr[i])) {
-                for (let k = 0; k < Object.values(canonLocations)[i].Content[j].Content.length; k++) {
-                    monArr.push({ Pokemon: Object.values(canonLocations)[i].Content[j].Content[k], Location: Object.values(canonLocations)[i].Content[j].Label });
-                }
-            }
-        }
-    }
-    if ((await filterDupes(monArr)).length < 6) {
-        return await filterUndefined(monArr);
-    }
-    return await filterUndefined(await filterDupes(monArr));
-}
-
-async function filterDupes(unfilteredArr : Array<{ Pokemon: string, Location: string }>) {
-    // 1 by 1 fills result while checking if result contains dupe mon or not
-    const result = Array<{ Pokemon: string, Location: string }>();
-
-    for (const item of Object.values(unfilteredArr)) {
-        let duplicateBool = result.some(mon => mon.Pokemon === item.Pokemon);
-        if (!duplicateBool) {
-            result.push(item);
-        }
-    }
-    return result;
-}
-
-async function filterUndefined(unfilteredArr : Array<{ Pokemon: string, Location: string }>) {
-    const result = Array<{ Pokemon: string, Location: string }>();
-    unfilteredArr.forEach((item) => {
-        if (typeof item !== 'undefined') {
-            result.push(item);
-        }
-    });
-    return result;
-}
-
-function getPokemonGif(monName : any | string, shinyRate: any) {
-    const pokemonDexData = require('./pokemondata/pokedex.json');
-    for (let i = 0; i < pokemonDexData.Content.length; i++) {
-        if (pokemonDexData.Content[i].Label === monName) {
-            // calc shiny & get shiny gif
-            let shinyGen = Math.floor(Math.random() * shinyRate);
-            if (shinyGen === 0) {
-                return (pokemonDexData.Content[i].Gif.slice(0, 44) + "-shiny" + pokemonDexData.Content[i].Gif.slice(44));
-            }
-
-            return pokemonDexData.Content[i].Gif;
-        }
-    }
-    return ''
 }
 
 export default App;

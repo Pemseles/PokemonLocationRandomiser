@@ -115,7 +115,7 @@
         },
         {
             "Label": "Berry Forest",
-            "Content": ["Venonat", "Psyduck", "Slowpoke", "Drowzee", "Exeggucte", "Pidgey", "Oddish", "Bellsprout", "Goldeen", "Magikarp", "Poliwag"]
+            "Content": ["Venonat", "Psyduck", "Slowpoke", "Drowzee", "Exeggcute", "Pidgey", "Oddish", "Bellsprout", "Goldeen", "Magikarp", "Poliwag"]
         },
         {
             "Label": "Bond Bridge",
@@ -2103,7 +2103,7 @@
         },
         {
             "Label": "Route 7", 
-            "Content": ["Toxel", "Karrablast", "Shelmet", "Rookidee", "Purrrloin", "Tympole", "Espurr", "Skwovet", "Galarian Meowth", "Joltik", "Nickit", "Inkay", "Morpeko"]
+            "Content": ["Toxel", "Karrablast", "Shelmet", "Rookidee", "Purrloin", "Tympole", "Espurr", "Skwovet", "Galarian Meowth", "Joltik", "Nickit", "Inkay", "Morpeko"]
         },
         {
             "Label": "Route 8", 

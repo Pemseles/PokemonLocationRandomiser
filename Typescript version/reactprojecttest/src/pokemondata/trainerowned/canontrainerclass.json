@@ -4,8 +4,7 @@
         {
             "Name": "Alonso",
             "Pokemon": ["Smeargle"]
-        },
-        {
+        },{
             "Name": "Ricardo",
             "Pokemon": ["Smeargle"]
         }
@@ -23,240 +22,590 @@
         }
     ]
 },{
-    "Label": "Ace Duo",
-    "Content": ["Wailmer", "Oddish", "Anorith", "Lileep", "Carvanha", "Numel", "Alolan Sandshrew", "Alolan Vulpix"],
-    "BattleFacility": []
-},{
-    "Label": "Ace Trainer",
-    "Content": ["Bellsprout", "Oddish", "Bulbasaur", "Nidoran-M", "Sandshrew", "Diglett", "Rhyhorn", "Meowth", "Vulpix", "Squirtle", "Charmander", "Exeggcute", "Shellder", "Growlithe", "Paras", 
-                "Seel", "Happiny", "Krabby", "Tentacool", "Magnemite", "Wooper", "Voltorb", "Staryu", "Horsea", "Caterpie", "Poliwag", "Eevee", "Goldeen", "Psyduck", "Pichu", "Azurill", "Hoppip", 
-                "Dratini", "Nidoran-F", "Pidgey", "Elekid", "Tangela", "Tauros", "Electrike", "Grimer", "Zangoose", "Wingull", "Numel", "Budew", "Mawile", "Sableye", "Taillow", "Trapinch", "Wailmer", 
-                "Seedot", "Cacnea", "Aron", "Zigzagoon", "Feebas", "Skitty", "Nosepass", "Meditite", "Lotad", "Kecleon", "Geodude", "Whismur", "Doduo", "Abra", "Baltoy", "Carvanha", "Slugma", 
-                "Makuhita", "Igglybuff", "Munchlax", "Miltank", "Teddiursa", "Duskull", "Shuppet", "Slakoth", "Skarmory", "Spinda", "Chinchou", "Absol", "Tropius", "Ralts", "Torkoal", "Lunatone", 
-                "Solrock", "Machop", "Larvitar", "Cleffa", "Lapras", "Slowpoke", "Kangaskhan", "Girafarig", "Rattata", "Cubone", "Onix", "Aerodactyl", "Sneasel", "Gastly", "Turtwig", "Snover", 
-                "Aipom", "Shellos", "Pachirisu", "Bonsly", "Drifloon", "Misdreavus", "Skorupi", "Buneary", "Hippopotas", "Poochyena", "Mareep", "Chimchar", "Magikarp", "Shinx", "Burmy", "Bagon", 
-                "Mime Jr.", "Murkrow", "Starly", "Beldum", "Buizel", "Stantler", "Carnivine", "Mankey", "Glameow", "Yanma", "Bidoof", "Wurmple", "Drowzee", "Dunsparce", "Scyther", "Cranidos", 
-                "Pinsir", "Lickitung", "Snubbull", "Cherubi", "Seviper", "Gligar", "Swinub", "Snorunt", "Tyrogue", "Magby", "Gulpin", "Bronzor", "Porygon", "Weedle", "Zubat", "Chikorita", "Cyndaquil", 
-                "Totodile", "Drilbur", "Blitzle", "Woobat", "Lillipup", "Sentret", "Spoink", "Gible", "Vanillite", "Gothita", "Solosis", "Pansage", "Pansear", "Panpour", "Joltik", "Deerling", 
-                "Frillish", "Axew", "Cottonee", "Tirtouga", "Deino", "Druddigon", "Klink", "Tympole", "Darumaka", "Venipede", "Mienfoo", "Elgyem", "Pawniard", "Purrloin", "Patrat", "Alomomola", 
-                "Cubchoo", "Sewaddle", "Archen", "Tynamo", "Shelmet", "Sandile", "Spheal", "Smoochum", "Rotom", "Petilil", "Ducklett", "Litwick", "Pidove", "Golett", "Sigilyph", "Heatmor", "Mantyke", 
-                "Basculin", "Emolga", "Vullaby", "Croagunk", "Rufflet", "Yamask", "Durant", "Ferroseed", "Riolu", "Koffing", "Honedge", "Dwebble", "Helioptile", "Carbink", "Cryogonal", "Delibird", 
-                "Surskit", "Nincada", "Fletchling", "Shroomish", "Goomy", "Fomantis", "Alolan Grimer", "Drampa", "Spearow", "Bruxish", "Alolan Vulpix", "Trubbish", "Mareanie", "Rockruff", 
-                "Alolan Sandshrew", "Jangmo-o", "Clamperl", "Skrelp", "Alolan Geodude", "Noibat", "Morelull", "Inkay", "Tygorue", "Moltres", "Ditto", "Zapdos", "Raikou", "Smeargle", "Omanyte", 
-                "Kabuto", "Mew", "Remoraid", "Venonat", "Celebi", "Sunkern", "Luvdisc", "Hoothoot", "Swablu", "Barboach", "Jirachi", "Natu", "Illumise", "Pineco", "Castform", "Rayquaza", "Volbeat", 
-                "Ledyba", "Spinarak", "Relicanth", "Wynaut", "Plusle", "Minun", "Qwilfish", "Corsola", "Deoxys", "Chingling", "Togepi", "Treecko", "Anorith", "Torchic", "Mudkip", "Latias", "Entei", 
-                "Suicune", "Phanpy", "Heracross", "Regice", "Articuno", "Houndour"],
-    "BattleFacility": ["Ponyta", "Shuckle", "Lileep", "Latios", "Regirock", "Registeel", "Heatran", "Cresselia", "Regigigas", "Piplup", "Roggenrola", "Timburr", "Zorua", "Bouffalant", "Larvesta", 
-                    "Snivy", "Sawk", "Spiritomb", "Munna", "Scraggy", "Karrablast", "Bergmite", "Phantump", "Spritzee", "Audino", "Foongus", "Shieldon", "Pikipek", "Komala", "Crabrawler", "Wimpod", 
-                    "Grubbin", "Mudbray", "Popplio", "Stufful", "Turtonator", "Dhelmise", "Cobalion", "Terrakion", "Virizion", "Tornadus", "Thundurus", "Azelf", "Uxie", "Mesprit", "Landorus", 
-                    "Froakie", "Cutiefly", "Alolan Diglett", "Fennekin", "Litten", "Tepig", "Oshawott", "Wishiwashi", "Tyrunt", "Chespin", "Skiddo", "Rowlet", "Flabébé"]
-},{
-    "Label": "Actor",
-    "Content": ["Smeargle", "Oricorio"],
-    "BattleFacility": []
-},{
-    "Label": "Actress",
-    "Content": ["Smeargle", "Emolga"],
-    "BattleFacility": []
-},{
-    "Label": "Aether Foundation",
-    "Content": ["Slowpoke", "Bruxish", "Pichu", "Abra", "Drowzee", "Baltoy"],
-    "BattleFacility": ["Exeggcute", "Binacle", "Chespin", "Froakie", "Skiddo", "Phantump", "Pumpkaboo", "Clauncher", "Bulbasaur", "Squirtle", "Chikorita", "Totodile", "Treecko", "Mudkip", "Turtwig", 
-                    "Piplup", "Snivy", "Oshawott", "Chinchou", "Shroomish", "Carvanha", "Shellos", "Wingull", "Foongus", "Lotad", "Seedot", "Petilil", "Cottonee", "Ferroseed", "Frillish", "Snover", 
-                    "Lileep", "Morelull", "Tirtouga", "Poliwag", "Bounsweet", "Wailmer", "Wishiwashi", "Tentacool", "Staryu", "Eevee", "Spheal", "Lapras", "Tangela", "Magikarp", "Horsea", "Feebas", 
-                    "Mareanie", "Wimpod", "Fomantis", "Rowlet", "Popplio", "Dewpider", "Dhelmise", "Rotom", "Litleo", "Bergmite", "Amaura", "Goomy", "Elekid", "Lickitung", "Minior", "Stufful", 
-                    "Turtonator", "Togedemaru", "Geodude", "Vulpix", "Sableye", "Skarmory", "Snorunt", "Whismur", "Alolan Geodude", "Kangaskhan", "Tauros", "Shieldon", "Misdreavus", "Drifloon", 
-                    "Pikipek", "Grimer", "Gastly", "Pinsir", "Teddiursa", "Alolan Vulpix", "Murkrow", "Vullaby", "Rufflet", "Porygon", "Yanma", "Klink", "Magnemite", "Rhyhorn", "Munchlax", "Happiny", 
-                    "Inkay", "Archen", "Dratini", "Bagon", "Beldum", "Slakoth", "Magby", "Nosepass", "Sandshrew", "Drilbur", "Gligar", "Sandygast", "Ralts", "Trapinch", "Riolu", "Hippopotas", 
-                    "Purrloin", "Mienfoo", "Cubchoo", "Zubat", "Swinub", "Vanillite", "Alolan Sandshrew", "Axew", "Growlithe", "Larvitar", "Gible", "Deino", "Hawlucha", "Fletchling", "Fennekin", 
-                    "Noibat", "Flabébé", "Weedle", "Oricorio", "Rockruff", "Comfey", "Cutiefly", "Grubbin", "Mudbray", "Litten", "Drampa", "Charmander", "Cyndaquil", "Torchic", "Chimchar"]
-},{
-    "Label": "Aether Foundation Employee",
-    "Content": ["Alolan Diglett", "Goomy", "Lillipup", "Finneon", "Bagon", "Pikipek", "Paras", "Drifloon", "Trapinch", "Mankey", "Alolan Grimer", "Magnemite", "Porygon", "Machop", "Vanillite", 
-                "Mudbray", "Wingull", "Magby", "Elekid", "Ledyba", "Kecleon", "Ekans", "Fomantis", "Bonsly", "Growlithe", "Clamperl", "Anorith", "Lileep", "Houndour", "Electrike", "Larvitar", 
-                "Snubbull", "Scraggy", "Morelull"],
-    "BattleFacility": []
-},{
-    "Label": "Aqua Admin",
-    "Content": ["Carvanha", "Poochyena", "Zubat", "Grimer"],
-    "BattleFacility": []
-},{
-    "Label": "Area Leader",
-    "Content": ["Pineco", "Ledyba", "Surskit", "Nincada", "Anorith", "Mawile", "Machop", "Wooper", "Duskull", "Swablu", "Wynaut", "Wailmer", "Spinarak", "Azurill", "Igglybuff", "Tropius", "Lotad", 
-                "Oddish", "Seedot", "Goldeen", "Corphish", "Horsea", "Staryu", "Makuhita", "Cacnea", "Koffing", "Geodude", "Rhyhorn", "Phanpy", "Barboach", "Nosepass", "Lileep", "Whismur", "Slakoth", 
-                "Skitty", "Zigzagoon", "Wurmple", "Taillow", "Zubat", "Wingull", "Regirock", "Regice", "Registeel", "Relicanth", "Trapinch", "Chikorita", "Cyndaquil", "Totodile", "Murkrow", 
-                "Meditite", "Spheal", "Groudon", "Castform", "Shuckle", "Voltorb", "Gulpin", "Budew", "Sneasel", "Carvanha", "Girafarig", "Tyrogue", "Sandshrew", "Baltoy", "Larvitar", "Abra", 
-                "Treecko", "Mudkip", "Beldum", "Bagon", "Remoraid", "Magikarp", "Aron", "Electrike", "Yanma", "Swinub", "Pinsir", "Tentacool", "Doduo", "Hoothoot", "Feebas", "Torchic", "Teddiursa", 
-                "Sentret", "Shuppet", "Ralts", "Misdreavus", "Vulpix", "Grimer", "Porygon", "Magnemite", "Solrock", "Mareep", "Sableye", "Poochyena", "Lunatone", "Heracross", "Eevee", "Houndour", 
-                "Skarmory", "Gligar", "Spinda"],
-    "BattleFacility": []
-},{
-    "Label": "Aroma Lady",
-    "Content": ["Budew", "Shroomish", "Oddish", "Tropius", "Chikorita", "Bellsprout", "Sunkern", "Bulbasaur", "Turtwig", "Combee", "Cherubi", "Skiddo", "Goomy", "Tangela", "Hoppip", "Lotad", 
-                "Ferroseed", "Exeggcute"],
-    "BattleFacility": ["Paras", "Abra", "Slowpoke", "Drowzee", "Natu", "Smoochum", "Treecko", "Seedot", "Ralts", "Meditite", "Spoink", "Cacnea", "Baltoy", "Lileep", "Wynaut", "Beldum", "Girafarig", 
-                    "Chingling", "Staryu", "Mime Jr.", "Eevee"]
-},{
-    "Label": "Artist",
-    "Content": ["Mime Jr.", "Bonsly", "Kricketot", "Smeargle", "Sigilyph", "Numel", "Sunkern", "Koffing"],
-    "BattleFacility": ["Timburr", "Axew", "Mienfoo", "Snivy", "Tepig", "Oshawott", "Patrat", "Deino", "Woobat", "Emolga", "Klink", 
-                    "Audino", "Purrloin", "Basculin", "Maractus", "Pansage", "Pansear", "Panpour", "Foongus", "Tynamo", "Minccino", "Alomomola", "Stunfisk", "Joltik", "Ducklett", "Trubbish", 
-                    "Venipede", "Dwebble", "Deerling", "Cottonee", "Frillish", "Heatmor", "Elgyem", "Cubchoo", "Lillipup", "Sewaddle", "Bouffalant", "Pineco", "Spiritomb", "Drifloon", "Baltoy", 
-                    "Bronzor", "Porygon", "Staryu", "Nosepass", "Magnemite", "Beldum", "Goomy", "Mankey", "Chespin", "Fennekin", "Froakie", "Bidoof", "Gible", "Zubat", "Pachirisu", 
-                    "Klefki", "Igglybuff", "Poochyena", "Qwilfish", "Carnivine", "Carvanha", "Slugma", "Finneon", "Flabébé", "Glameow", "Remoraid", "Helioptile", "Mantyke", "Gulpin", "Rhyhorn", 
-                    "Skrelp", "Spoink", "Swinub", "Slakoth", "Cacnea", "Girafarig", "Meowth", "Cranidos", "Shieldon", "Buizel", "Misdreavus", "Tirtouga", "Karrablast", "Shelmet", "Blitzle", 
-                    "Tympole", "Poliwag", "Ponyta", "Grimer", "Gastly", "Mareep", "Pinsir", "Scyther", "Heracross", "Teddiursa", "Houndour", "Phanpy", "Wailmer", "Skorupi", "Shinx", "Vulpix", 
-                    "Machop", "Shuckle", "Budew", "Murkrow", "Roggenrola", "Drilbur", "Sandile", "Onix", "Sneasel", "Gligar", "Zorua", "Vullaby", "Ruflett", "Tentacool", "Aerodactyl", "Lickitung", 
-                    "Yanma", "Ralts", "Exeggcute", "Trapinch", "Litwick", "Eevee", "Riolu", "Hippopotas", "Duskull", "Aron", "Spheal", "Lapras", "Tangela", "Vanillite", "Magikarp", "Munchlax", 
-                    "Horsea", "Happiny", "Feebas", "Elekid", "Magby", "Togepi", "Larvesta", "Growlithe", "Archen", "Dratini", "Larvitar", "Bagon", "Binacle", "Hawlucha", "Carbink", "Litleo", 
-                    "Bergmite", "Tyrunt", "Amaura", "Fletchling", "Skiddo", "Noibat", "Phantump", "Pumpkaboo", "Clauncher", "Swirlix", "Spritzee", "Bulbasaur", "Charmander", "Squirtle", "Chikorita", 
-                    "Cyndaquil", "Totodile", "Treecko", "Torchic", "Mudkip", "Turtwig", "Chimchar", "Piplup", "Diglett", "Cubone", "Meditite", "Wooper", "Snubbull", "Smoochum", "Chinchou", 
-                    "Shroomish", "Skarmory", "Absol", "Barboach", "Makuhita", "Combee", "Pichu", "Seel", "Electrike", "Starly", "Shellos", "Stunky", "Sawk", "Throh", "Pidove", "Oddish", "Bellsprout", 
-                    "Voltorb", "Lotad", "Seedot", "Whismur", "Buneary", "Snorunt", "Petilil", "Darumaka", "Aipom", "Yamask", "Golett", "Durant", "Geodude", "Slowpoke", "Kangaskhan", 
-                    "Tauros", "Cryogonal", "Druddigon", "Munna", "Scraggy", "Ferroseed", "Abra", "Miltank", "Swablu", "Croagunk", "Gothita", "Solosis", "Pawniard", "Snover", "Nidoran-F", "Nidoran-M", 
-                    "Lileep", "Anorith", "Regirock", "Skwovet", "Wishiwashi", "Pyukumuku", "Rolycoly", "Milcery", "Cutiefly", "Applin", "Galarian Corsola", "Impidimp", "Hatenna", "Cleffa", "Mawile", 
-                    "Torkoal", "Mimikyu", "Cufant", "Galarian Yamask", "Galarian Ponyta", "Morelull", "Oranguru", "Lunatone", "Solrock", "Pincurchin"]
-},{
-    "Label": "Artist Family",
-    "Content": ["Smeargle"],
-    "BattleFacility": []
-},{
-    "Label": "Athlete",
-    "Content": ["Psyduck", "Pineco", "Pichu", "Vulpix", "Abra", "Geodude", "Sandshrew", "Snorunt", "Taillow", "Beldum", "Barboach", "Mantyke", "Goldeen", "Clamperl", "Snubbull", "Oddish", "Natu", 
-                "Girafarig", "Nincada", "Zangoose", "Doduo", "Wooper", "Misdreavus", "Horsea", "Kecleon", "Mawile", "Corsola", "Zigzagoon", "Voltorb", "Numel", "Trapinch", "Latios", "Treecko", 
-                "Anorith", "Electrike", "Wailmer", "Corphish", "Swinub", "Sentret", "Ledyba", "Cacnea", "Carvanha", "Phanpy", "Gligar", "Mareep", "Heracross", "Tropius", "Chingling", "Sunkern", 
-                "Duskull", "Castform", "Bagon", "Poochyena", "Volbeat", "Mudkip", "Illumise", "Igglybuff", "Spheal", "Magikarp", "Cyndaquil", "Larvitar", "Totodile", "Miltank", "Chikorita", 
-                "Shroomish", "Hoothoot", "Slakoth", "Magnemite", "Registeel", "Raikou", "Koffing", "Shuckle", "Whismur", "Shuppet", "Slugma", "Meditite", "Wurmple", "Feebas", "Lotad", "Porygon", 
-                "Swablu", "Chinchou", "Aron", "Hoppip", "Torchic", "Lileep", "Pinsir", "Baltoy"],
-    "BattleFacility": []
-},{
-    "Label": "Athletic Siblings",
-    "Content": ["Lillipup", "Fletchling", "Cottonee", "Petilil"],
-    "BattleFacility": []
-},{
-    "Label": "Backers",
-    "Content": ["Cottonee", "Petilil", "Pawniard", "Pansage", "Pansear", "Panpour", "Sawk", "Throh", "Woobat", "Darumaka", "Blitzle", "Frillish", "Lillipup", "Bouffalant", "Ducklett", "Purrloin", 
-                "Venipede", "Roggenrola", "Minccino", "Budew", "Emolga", "Pachirisu", "Scraggy"],
-    "BattleFacility": []
-},{
-    "Label": "Backpacker",
-    "Content": ["Zangoose", "Cottonee", "Starly", "Snover", "Maractus", "Happiny", "Porygon", "Pidove", "Petilil", "Darumaka", "Heatmor", "Cubchoo", "Drilbur", "Emolga", "Patrat", "Munna", 
-                "Sewaddle", "Tympole", "Azurill", "Dwebble", "Eevee", "Scraggy", "Minccino", "Croagunk", "Pansear", "Zubat", "Numel", "Blitzle", "Purrloin", "Sigilyph", "Sandshrew", "Sandile", 
-                "Lillipup", "Poochyena", "Cubone", "Torkoal", "Omanyte", "Anorith", "Shieldon", "Archen", "Ducklett", "Swinub", "Deerling", "Mantyke", "Spheal", "Wailmer", "Vanillite", "Bouffalant", 
-                "Woobat", "Rattata", "Skorupi", "Pinsir", "Riolu", "Timburr", "Kabuto", "Lileep", "Cranidos", "Tirtouga", "Seedot", "Cacnea", "Axew", "Sentret", "Fletchling", "Zigzagoon", "Bunnelby", 
-                "Kecleon", "Taillow", "Slakoth", "Girafarig", "Mimikyu", "Electrike", "Spinda", "Aipom", "Dreepy", "Vullaby", "Sawk", "Throh"],
-    "BattleFacility": ["Venipede", "Litwick", "Roggenrola", "Mienfoo", "Gothita", "Solosis", "Foongus", "Klink", "Deino", "Pansage", "Panpour", "Yamask", "Golett", "Ferroseed", "Shelmet", "Snivy", 
-                    "Tepig", "Oshawott", "Karrablast", "Joltik", "Tynamo", "Trubbish", "Zorua", "Frillish", "Elgyem", "Pawniard", "Rufflet", "Larvesta", "Bulbasaur", "Charmander", "Squirtle", 
-                    "Chikorita", "Cyndaquil", "Totodile", "Treecko", "Torchic", "Mudkip", "Turtwig", "Chimchar", "Piplup", "Diglett", "Meditite", "Wooper", "Snubbull", "Smoochum", "Mime Jr.", 
-                    "Chinchou", "Shroomish", "Pineco", "Skarmory", "Absol", "Barboach", "Makuhita", "Combee", "Pichu", "Seel", "Shellos", "Stunky", "Oddish", "Bellsprout", "Voltorb", "Lotad", 
-                    "Whismur", "Buneary", "Snorunt", "Durant", "Geodude", "Slowpoke", "Koffing", "Kangaskhan", "Tauros", "Spiritomb", "Cryogonal", "Druddigon", "Abra", "Miltank", "Swablu", 
-                    "Nidoran-F", "Nidoran-M", "Buizel", "Misdreavus", "Drifloon", "Poliwag", "Ponyta", "Grimer", "Gastly", "Mareep", "Scyther", "Heracross", "Teddiursa", "Houndour", "Phanpy", 
-                    "Baltoy", "Bronzor", "Shinx", "Vulpix", "Machop", "Shuckle", "Budew", "Murkrow", "Onix", "Sneasel", "Gligar", "Tentacool", "Aerodactyl", "Lickitung", "Ralts", "Yanma", 
-                    "Exeggcute", "Staryu", "Trapinch", "Hippopotas", "Nosepass", "Duskull", "Aron", "Lapras", "Magnemite", "Rhyhorn", "Tangela", "Magikarp", "Munchlax", "Horsea", "Feebas", "Magby", 
-                    "Elekid", "Togepi", "Growlithe", "Dratini", "Larvitar", "Bagon", "Beldum", "Gible", "Goomy", "Mankey", "Chespin", "Froakie", "Fennekin", "Bidoof", "Pachirisu", "Igglybuff", 
-                    "Klefki", "Qwilfish", "Carnivine", "Carvanha", "Slugma", "Finneon", "Flabébé", "Remoraid", "Glameow", "Stunfisk", "Helioptile", "Gulpin", "Skrelp", "Spoink", "Meowth", "Binacle", 
-                    "Hawlucha", "Carbink", "Litleo", "Bergmite", "Amaura", "Tyrunt", "Skiddo", "Noibat", "Phantump", "Pumpkaboo", "Clauncher", "Swirlix", "Spritzee", "Regirock", "Sandygast", 
-                    "Mudbray", "Minior", "Rockruff", "Alolan Diglett", "Alolan Geodude", "Alolan Sandshrew", "Comfey", "Fomantis", "Drampa", "Togedemaru", "Rotom", "Audino", "Bounsweet", 
-                    "Wishiwashi", "Azelf", "Uxie", "Mesprit", "Articuno", "Heatran", "Cresselia", "Landorus", "Regigigas", "Moltres", "Entei", "Registeel", "Terrakion", "Tornadus", "Latias"]
-},{
-    "Label": "Baker",
-    "Content": ["Combee", "Teddiursa", "Pansear", "Pansage", "Panpour", "Torkoal", "Miltank", "Heatmor", "Sunkern"],
-    "BattleFacility": ["Patrat", "Venipede", "Lillipup", "Pidove", "Litwick", "Roggenrola", "Cottonee", "Petilil", "Mienfoo", "Purrloin", "Gothita", "Solosis", "Munna", "Sandile", "Tympole", 
-                    "Foongus", "Blitzle", "Minccino", "Klink", "Deino", "Yamask", "Golett", "Timburr", "Ducklett", "Vanillite", "Ferroseed", "Cubchoo", "Shelmet", "Snivy", "Tepig", "Oshawott", 
-                    "Sewaddle", "Woobat", "Darumaka", "Karrablast", "Joltik", "Axew", "Dwebble", "Tynamo", "Drilbur", "Trubbish", "Zorua", "Deerling", "Frillish", "Elgyem", "Pawniard", "Scraggy", 
-                    "Rufflet", "Tirtouga", "Larvesta", "Vullaby", "Archen", "Ponyta", "Grimer", "Gastly", "Mareep", "Poliwag", "Scyther", "Heracross", "Houndour", "Phanpy", "Wailmer", "Baltoy", 
-                    "Bronzor", "Skorupi", "Shinx", "Vulpix", "Machop", "Shuckle", "Budew", "Murkrow", "Onix", "Sneasel", "Gligar", "Tentacool", "Aerodactyl", "Lickitung", "Porygon", "Yanma", "Ralts", 
-                    "Exeggcute", "Staryu", "Trapinch", "Eevee", "Riolu", "Hippopotas", "Nosepass", "Duskull", "Bouffalant", "Aron", "Spheal", "Swinub", "Lapras", "Zubat", "Magnemite", "Rhyhorn", 
-                    "Tangela", "Magikarp", "Munchlax", "Horsea", "Happiny", "Feebas", "Elekid", "Magby", "Togepi", "Growlithe", "Dratini", "Larvitar", "Bagon", "Beldum", "Gible", "Slakoth", 
-                    "Chikorita", "Cyndaquil", "Oddish", "Bellsprout", "Seedot"]
-},{
-    "Label": "Bandana Guy",
-    "Content": ["Sableye", "Corsola", "Abra", "Staryu", "Zigzagoon", "Koffing", "Sandshrew", "Gulpin", "Psyduck", "Wooper", "Horsea", "Larvitar", "Carvanha", "Barboach", "Wurmple", "Tentacool", 
-                "Seedot", "Geodude", "Makuhita", "Lotad", "Wingull", "Meditite", "Azurill", "Natu", "Electrike", "Vulpix", "Cacnea", "Grimer", "Spoink", "Snorunt", "Chinchou", "Hoothoot", "Togepi", 
-                "Slugma", "Bonsly", "Surskit", "Clamperl", "Magnemite", "Igglybuff", "Buldum", "Spheal", "Sentret", "Swinub", "Shroomish", "Heracross", "Voltorb", "Trapinch", "Machop", "Spinda", 
-                "Smeargle", "Nincada", "Skitty", "Doduo", "Teddiursa", "Whismur", "Dunsparce", "Snubbull", "Houndour", "Swablu", "Taillow", "Anorith", "Aron", "Rhyhorn", "Tropius", "Seviper", 
-                "Zubat", "Feebas", "Treecko"],
-    "BattleFacility": []
-},{
-    "Label": "Baron",
-    "Content": ["Riolu", "Budew", "Horsea", "Ralts", "Clauncher", "Fletchling", "Psyduck"],
-    "BattleFacility": []
-},{
-    "Label": "Baroness",
-    "Content": ["Scatterbug", "Burmy-Trash", "Bidoof", "Hoppip", "Flabébé", "Spoink", "Ledyba"],
-    "BattleFacility": []
-},{
-    "Label": "Battle Chatelaine",
-    "Content": ["Swinub", "Skrelp", "Cottonee", "Magnemite", "Girafarig", "Slugma", "Articuno", "Zapdos", "Moltres", "Regirock", "Regice", "Registeel", "Mankey", "Meowth", "Pachirisu", "Finneon", 
-                "Entei", "Raikou", "Suicune", "Latios", "Mantyke", "Deerling", "Gulpin", "Klefki", "Cobalion", "Terrakion", "Virizion", "Latias", "Glameow", "Igglybuff", "Spoink", "Tornadus", 
-                "Thundurus", "Landorus"],
-    "BattleFacility": []
-},{
-    "Label": "Battle Girl",
-    "Content": ["Meditite", "Makuhita", "Shroomish", "Machop", "Scraggy", "Vanillite", "Mienfoo", "Timburr", "Tyrogue", "Sawk", "Cubchoo", "Cryogonal", "Throh", "Riolu", "Poliwag", "Heracross", 
-                "Mankey", "Hawlucha"],
-    "BattleFacility": ["Psyduck", "Abra", "Magnemite", "Oddish", "Zigzagoon", "Lotad", "Wingull", "Nosepass", "Budew", "Gulpin", "Spoink", "Spinda", "Cacnea", "Lunatone", "Barboach", "Kecleon", 
-                    "Spheal", "Tentacool", "Doduo", "Voltorb", "Koffing", "Rhyhorn", "Goldeen", "Wynaut", "Ralts", "Wailmer", "Duskull", "Snorunt", "Regirock", "Pichu", "Vulpix", "Staryu", "Zubat", 
-                    "Treecko", "Torchic", "Mudkip", "Nincada", "Electrike", "Feebas", "Regice", "Latias", "Chinchou", "Corsola", "Surskit", "Sableye", "Mawile", "Luvdisc", "Grimer", "Seedot", 
-                    "Numel", "Baltoy", "Beldum", "Registeel", "Swablu", "Horsea", "Skarmory", "Charmander", "Rattata", "Sandshrew", "Igglybuff", "Meowth", "Geodude", "Ponyta", "Lickitung", "Happiny", 
-                    "Cyndaquil", "Sentret", "Bonsly", "Girafarig", "Dunsparce", "Gligar", "Slugma", "Swinub", "Stantler", "Larvitar", "Poochyena", "Slakoth", "Aron", "Torkoal", "Zangoose", 
-                    "Solrock", "Absol", "Bagon", "Nidoran-F", "Nidoran-M", "Cubone", "Onix", "Phanpy", "Growlithe", "Magby", "Eevee", "Houndour", "Pineco", "Scyther", "Chimchar", "Relicanth", 
-                    "Omanyte", "Kabuto", "Croagunk", "Moltres", "Heatran", "Entei", "Squirtle", "Totodile", "Piplup", "Bidoof", "Gible", "Shinx", "Glameow", "Corphish", "Krabby", "Remoraid", 
-                    "Elekid", "Shellder", "Tepig", "Darumaka", "Durant", "Ferroseed", "Pawniard", "Shieldon", "Karrablast", "Bronzor", "Drilbur", "Klink", "Litwick", "Larvesta", "Binacle", "Carbink", 
-                    "Litleo", "Tyrunt", "Amaura", "Fletchling", "Chespin", "Fennekin", "Lileep", "Anorith", "Cranidos", "Tirtouga", "Shuckle", "Roggenrola", "Aerodactyl", "Archen", "Snubbull", 
-                    "Shellos", "Shuppet", "Castform", "Bellsprout", "Tropius", "Cleffa", "Rotom", "Venonat", "Aipom", "Finneon", "Clamperl", "Drowzee", "Buneary", "Slowpoke", "Chingling", "Tauros", 
-                    "Hoppip", "Mantyke", "Hoothoot", "Bulbasaur", "Raikou", "Pinsir", "Diglett", "Hippopotas", "Dratini", "Munchlax", "Articuno", "Mareep", "Trapinch", "Tangela"]
-},{
-    "Label": "Battle Legend",
-    "Content": ["Bulbasaur", "Charmander", "Squirtle", "Lapras", "Munchlax", "Pidgey", "Machop", "Abra", "Aerodactyl", "Exeggcute", "Rhyhorn", "Magikarp", "Growlithe", "Larvitar"],
-    "BattleFacility": []
-},{
-    "Label": "Beauty",
-    "Content": ["Bellsprout", "Oddish", "Exeggcute", "Rattata", "Pichu", "Vulpix", "Cleffa", "Meowth", "Pidgey", "Igglybuff", "Bulbasaur", "Goldeen", "Poliwag", "Staryu", "Horsea", "Shellder", 
-                "Caterpie", "Paras", "Corsola", "Hoppip", "Sentret", "Azurill", "Wailmer", "Kecleon", "Seviper", "Lotad", "Shroomish", "Numel", "Carvanha", "Spheal", "Spoink", "Poochyena", 
-                "Clamperl", "Corphish", "Luvdisc", "Nidoran-F", "Glameow", "Burmy", "Finneon", "Psyduck", "Budew", "Buneary", "Skitty", "Carnivine", "Blitzle", "Elekid", "Mareep", "Fletchling", 
-                "Espurr", "Sandile", "Bounsweet", "Cubone", "Cutiefly", "Gastly", "Alolan Meowth", "Flabébé", "Eevee", "Seel", "Slowpoke", "Growlithe", "Happiny", "Smoochum", "Squirtle", "Kabuto", 
-                "Rhyhorn", "Krabby", "Omanyte", "Geodude", "Onix", "Diglett", "Magikarp", "Tentacool", "Sandshrew", "Spearow", "Doduo", "Aerodactyl", "Dratini", "Miltank", "Snubbull", "Qwilfish", 
-                "Lickitung", "Mantyke", "Bonsly", "Delibird", "Togepi", "Aipom", "Ponyta", "Remoraid", "Pineco", "Surskit", "Nincada", "Wingull", "Wurmple", "Seedot", "Cacnea", "Chingling", "Ralts", 
-                "Sneasel"],
-    "BattleFacility": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-},{
-    "Label": "Bellhop",
-    "Content": [
+    "Class": "Ace Duo",
+    "InGame": [
         {
-            "Label": "Jody",
-            "Content": ["Drifloon", "Fomantis"]
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
-            "Label": "Dyson",
-            "Content": ["Hawlucha", "Skiddo", "Wimpod", "Grubbin", "Mudbray", "Stufful", "Rotom", "Binacle", "Elekid", "Dewpider", "Treecko", "Turtwig", "Meditite", "Shroomish", "Sawk", "Throh", 
-                        "Lotad", "Seedot", "Tauros", "Abra", "Shieldon", "Pinsir", "Scyther", "Heracross", "Teddiursa", "Wailmer", "Machop", "Timburr", "Riolu", "Duskull", "Cubchoo", "Bouffalant", 
-                        "Archen", "Dratini", "Makuhita", "Wingull", "Buneary", "Munna", "Scraggy", "Ferroseed", "Slowpoke", "Swablu", "Croagunk", "Gothita", "Pawniard", "Snover", "Anorith", 
-                        "Cranidos", "Mareep", "Poliwag", "Passimian", "Bronzor", "Skorupi", "Crabrawler", "Shuckle", "Mimikyu", "Murkrow", "Roggenrola", "Drilbur", "Zorua", "Ralts", "Swinub", "Lapras"]
-        },
-        {
-            "Label": "Chip",
-            "Content": []
-        },
-        {
-            "Label": "Zero",
-            "Content": []
-        },
-        {
-            "Label": "Donna",
-            "Content": []
-        },
-        {
-            "Label": "Gilroy",
-            "Content": []
+            "Name": "",
+            "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
-            "Label": "",
-            "Content": []
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Ace Trainer",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Actor",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Actress",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Aether Foundation",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Aether Foundation Employee",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Aqua Admin",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Area Leader",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Aroma Lady",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Artist",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Artist Family",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Athlete",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Athletic Siblings",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Backers",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Backpacker",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Baker",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Bandana Guy",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Bandit",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Baron",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Baroness",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Battle Chatelaine",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Battle Girl",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Battle Legend",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Beauty",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "Bellhop",
+    "InGame": [
+        {
+            "Name": "Jody",
+            "Pokemon": ["Drifloon", "Fomantis"]
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "Dyson",
+            "Pokemon": ["Hawlucha", "Skiddo", "Wimpod", "Grubbin", "Mudbray", "Stufful", "Rotom", "Binacle", "Elekid", "Dewpider", "Treecko", "Turtwig", "Meditite", "Shroomish", "Sawk", "Throh", 
+                        "Lotad", "Seedot", "Tauros", "Abra", "Shieldon", "Pinsir", "Scyther", "Heracross", "Teddiursa", "Wailmer", "Machop", "Timburr", "Riolu", "Duskull", "Cubchoo", "Bouffalant", 
+                        "Archen", "Dratini", "Makuhita", "Wingull", "Buneary", "Munna", "Scraggy", "Ferroseed", "Slowpoke", "Swablu", "Croagunk", "Gothita", "Pawniard", "Snover", "Anorith", 
+                        "Cranidos", "Mareep", "Poliwag", "Passimian", "Bronzor", "Skorupi", "Crabrawler", "Shuckle", "Mimikyu", "Murkrow", "Roggenrola", "Drilbur", "Zorua", "Ralts", "Swinub", "Lapras"]
+        },{
+            "Name": "Chip",
+            "Pokemon": []
+        },{
+            "Name": "Zero",
+            "Pokemon": []
+        },{
+            "Name": "Donna",
+            "Pokemon": []
+        },{
+            "Name": "Gilroy",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
         }
     ]
 },{
@@ -265,8 +614,7 @@
         {
             "Name": "",
             "Pokemon": []
-        },
-        {
+        },{
             "Name": "",
             "Pokemon": []
         }
