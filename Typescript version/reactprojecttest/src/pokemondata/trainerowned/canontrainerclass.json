@@ -1,7 +1,27 @@
 [{
-    "Label": "A-list Actor",
-    "Content": ["Smeargle"],
-    "BattleFacility": []
+    "Class": "A-list Actor",
+    "InGame": [
+        {
+            "Name": "Alonso",
+            "Pokemon": ["Smeargle"]
+        },
+        {
+            "Name": "Ricardo",
+            "Pokemon": ["Smeargle"]
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
 },{
     "Label": "Ace Duo",
     "Content": ["Wailmer", "Oddish", "Anorith", "Lileep", "Carvanha", "Numel", "Alolan Sandshrew", "Alolan Vulpix"],
@@ -201,13 +221,68 @@
                 "Sneasel"],
     "BattleFacility": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 },{
-    "Label": "",
-    "Content": [""],
-    "BattleFacility": []
+    "Label": "Bellhop",
+    "Content": [
+        {
+            "Label": "Jody",
+            "Content": ["Drifloon", "Fomantis"]
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Label": "Dyson",
+            "Content": ["Hawlucha", "Skiddo", "Wimpod", "Grubbin", "Mudbray", "Stufful", "Rotom", "Binacle", "Elekid", "Dewpider", "Treecko", "Turtwig", "Meditite", "Shroomish", "Sawk", "Throh", 
+                        "Lotad", "Seedot", "Tauros", "Abra", "Shieldon", "Pinsir", "Scyther", "Heracross", "Teddiursa", "Wailmer", "Machop", "Timburr", "Riolu", "Duskull", "Cubchoo", "Bouffalant", 
+                        "Archen", "Dratini", "Makuhita", "Wingull", "Buneary", "Munna", "Scraggy", "Ferroseed", "Slowpoke", "Swablu", "Croagunk", "Gothita", "Pawniard", "Snover", "Anorith", 
+                        "Cranidos", "Mareep", "Poliwag", "Passimian", "Bronzor", "Skorupi", "Crabrawler", "Shuckle", "Mimikyu", "Murkrow", "Roggenrola", "Drilbur", "Zorua", "Ralts", "Swinub", "Lapras"]
+        },
+        {
+            "Label": "Chip",
+            "Content": []
+        },
+        {
+            "Label": "Zero",
+            "Content": []
+        },
+        {
+            "Label": "Donna",
+            "Content": []
+        },
+        {
+            "Label": "Gilroy",
+            "Content": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Label": "",
+            "Content": []
+        }
+    ]
 },{
-    "Label": "",
-    "Content": [""],
-    "BattleFacility": []
+    "Class": "",
+    "InGame": [
+        {
+            "Name": "",
+            "Pokemon": []
+        },
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Pokemon": []
+        }
+    ]
 },{
     "Label": "",
     "Content": [""],
