@@ -458,10 +458,22 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/growlithe.gif"
         },
         {
+            "Label": "Hisuian Growlithe",
+            "DexNo": 58,
+            "Type": ["Fire", "Rock"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
             "Label": "Arcanine",
             "DexNo": 59,
             "Type": ["Fire"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/arcanine.gif"
+        },
+        {
+            "Label": "Hisuian Arcanine",
+            "DexNo": 59,
+            "Type": ["Fire", "Rock"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
         },
         {
             "Label": "Poliwag",
@@ -788,10 +800,22 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/voltorb.gif"
         },
         {
+            "Label": "Hisuian Voltorb",
+            "DexNo": 100,
+            "Type": ["Electric", "Grass"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
             "Label": "Electrode",
             "DexNo": 101,
             "Type": ["Electric"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/electrode.gif"
+        },
+        {
+            "Label": "Hisuian Electrode",
+            "DexNo": 101,
+            "Type": ["Electric", "Grass"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
         },
         {
             "Label": "Exeggcute",
@@ -1208,6 +1232,12 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/typhlosion.gif"
         },
         {
+            "Label": "Hisuian Typhlosion",
+            "DexNo": 157,
+            "Type": ["Fire", "Ghost"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
             "Label": "Totodile",
             "DexNo": 158,
             "Type": ["Water"],
@@ -1550,6 +1580,12 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif"
         },
         {
+            "Label": "Hisuian Qwilfish",
+            "DexNo": 211,
+            "Type": ["Dark", "Poison"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
             "Label": "Scizor",
             "DexNo": 212,
             "Type": ["Bug", "Steel"],
@@ -1584,6 +1620,12 @@
             "DexNo": 215,
             "Type": ["Dark", "Ice"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/sneasel.gif"
+        },
+        {
+            "Label": "Hisuian Sneasel",
+            "DexNo": 215,
+            "Type": ["Fighting", "Poison"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
         },
         {
             "Label": "Teddiursa",
@@ -3608,6 +3650,12 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/samurott.gif"
         },
         {
+            "Label": "Hisuian Samurott",
+            "DexNo": 503,
+            "Type": ["Water", "Dark"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
             "Label": "Patrat",
             "DexNo": 504,
             "Type": ["Normal"],
@@ -3890,6 +3938,12 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/lilligant.gif"
         },
         {
+            "Label": "Hisuian Lilligant",
+            "DexNo": 549,
+            "Type": ["Grass", "Fighting"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
             "Label": "Basculin",
             "DexNo": 550,
             "Type": ["Water"],
@@ -4046,10 +4100,22 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/zorua.gif"
         },
         {
+            "Label": "Hisuian Zorua",
+            "DexNo": 570,
+            "Type": ["Normal", "Ghost"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
             "Label": "Zoroark",
             "DexNo": 571,
             "Type": ["Dark"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/zoroark.gif"
+        },
+        {
+            "Label": "Hisuian Zoroark",
+            "DexNo": 571,
+            "Type": ["Normal", "Ghost"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
         },
         {
             "Label": "Minccino",
@@ -4398,6 +4464,12 @@
             "DexNo": 628,
             "Type": ["Normal", "Flying"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/braviary.gif"
+        },
+        {
+            "Label": "Hisuian Braviary",
+            "DexNo": 628,
+            "Type": ["Psychic", "Flying"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
         },
         {
             "Label": "Vullaby",
@@ -4922,10 +4994,22 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/sliggoo.gif"
         },
         {
+            "Label": "Hisuian Sliggoo",
+            "DexNo": 705,
+            "Type": ["Steel", "Dragon"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
             "Label": "Goodra",
             "DexNo": 706,
             "Type": ["Dragon"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/goodra.gif"
+        },
+        {
+            "Label": "Hisuian Goodra",
+            "DexNo": 706,
+            "Type": ["Steel", "Dragon"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
         },
         {
             "Label": "Klefki",
@@ -4968,6 +5052,12 @@
             "DexNo": 713,
             "Type": ["Ice"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/avalugg.gif"
+        },
+        {
+            "Label": "Hisuian Avalugg",
+            "DexNo": 713,
+            "Type": ["Ice", "Rock"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
         },
         {
             "Label": "Noibat",
@@ -5058,6 +5148,12 @@
             "DexNo": 724,
             "Type": ["Grass", "Ghost"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/decidueye.gif"
+        },
+        {
+            "Label": "Hisuian Decidueye",
+            "DexNo": 724,
+            "Type": ["Grass", "Fighting"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
         },
         {
             "Label": "Litten",
@@ -6223,6 +6319,55 @@
             "Type": ["Psychic", "Ghost"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/calyrex-shadow.gif"
         },
+        {
+            "Label": "Wyrdeer",
+            "DexNo": 899,
+            "Type": ["Normal", "Psychic"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/ani/wyrdeer.gif"
+        },
+        {
+            "Label": "Kleavor",
+            "DexNo": 900,
+            "Type": ["Bug", "Rock"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
+            "Label": "Ursaluna",
+            "DexNo": 901,
+            "Type": ["Ground", "Normal"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
+            "Label": "Basculegion",
+            "DexNo": 902,
+            "Type": ["Water", "Ghost"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
+            "Label": "Sneasler",
+            "DexNo": 903,
+            "Type": ["Fighting", "Poison"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
+            "Label": "Overqwil",
+            "DexNo": 904,
+            "Type": ["Dark", "Poison"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
+            "Label": "Enamorus",
+            "DexNo": 905,
+            "Type": ["Fairy", "Flying"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
+            "Label": "Enamorus-Therian",
+            "DexNo": 905,
+            "Type": ["Fairy", "Flying"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+
 
         {
             "Label": "",
