@@ -2395,192 +2395,283 @@
         },
         {
             "Label": "Clamberclaw Cliffs", 
-            "Content": ["Gligar", "Geodude", "Gastly", "Gible", "Burmy", "Bronzor", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Gligar", "Geodude", "Gastly", "Gible", "Burmy", "Bronzor"]
         },
         {
             "Label": "Cloudcap Pass", 
             "Content": ["Elekid", "Shinx", "Burmy", "Nosepass"]
         },
         {
-            "Label": "", 
+            "Label": "Cloudpool Ridge", 
+            "Content": ["Combee", "Zubat", "Budew", "Kricketot", "Paras", "Murkrow", "Carnivine", "Bonsly", "Burmy", "Geodude"]
+        },
+        {
+            "Label": "Cottonsedge Prairie", 
+            "Content": ["Pachirisu", "Togepi", "Gastly", "Petilil", "Happiny", "Combee", "Geodude"]
+        },
+        {
+            "Label": "Crossing Slope", 
+            "Content": ["Glameow", "Murkrow", "Starly", "Drifloon", "Burmy", "Geodude"]
+        },
+        {
+            "Label": "Deadwood Haunt", 
+            "Content": ["Duskull", "Chatot", "Starly", "Drifloon", "Geodude", "Unown"]
+        },
+        {
+            "Label": "Deertrack Heights", 
+            "Content": ["Geodude", "Zubat", "Shinx", "Stantler", "Starly", "Chimchar", "Burmy"]
+        },
+        {
+            "Label": "Deertrack Path", 
+            "Content": ["Kricketot", "Zubat", "Munchlax", "Starly", "Drifloon", "Burmy"]
+        },
+        {
+            "Label": "Diamond Heath", 
+            "Content": ["Paras", "Zubat", "Rhyhorn", "Geodude", "Bonsly"]
+        },
+        {
+            "Label": "Diamond Settlement", 
+            "Content": ["Unown"]
+        },
+        {
+            "Label": "Droning Meadow", 
+            "Content": ["Paras", "Gastly", "Bidoof", "Yanma", "Combee", "Pachirisu", "Geodude", "Buizel", "Drifloon", "Shinx", "Eevee", "Heracross", "Buneary", "Munchlax", "Porygon", "Cyndaquil"]
+        },
+        {
+            "Label": "Fabled Spring", 
+            "Content": ["Cleffa", "Budew", "Basculin-White", "Burmy", "Geodude", "Unown"]
+        },
+        {
+            "Label": "Firespit Island", 
+            "Content": ["Magby", "Geodude", "Vulpix", "Unown"]
+        },
+        {
+            "Label": "Floaro Gardens", 
+            "Content": ["Wurmple", "Drifloon", "Pichu", "Shinx", "Shaymin"]
+        },
+        {
+            "Label": "Gapejaw Bog", 
+            "Content": ["Bidoof", "Gastly", "Croagunk", "Tangela", "Budew", "Geodude", "Ralts", "Psyduck", "Hippopotas", "Carnivine", "Yanma", "Barboach", "Burmy", "Pachirisu", "Buizel", "Drifloon", "Shinx", "Eevee", "Heracross", "Buneary", "Munchlax", "Porygon", "Cyndaquil"]
+        },
+        {
+            "Label": "Ginkgo Landing", 
+            "Content": ["Skorupi", "Murkrow", "Spheal", "Drifloon", "Buizel", "Machop", "Burmy", "Geodude", "Magnemite"]
+        },
+        {
+            "Label": "Glacier Terrace", 
+            "Content": ["Gligar", "Drifloon", "Aipom", "Snover", "Hisuian Sneasel", "Burmy", "Snorunt"]
+        },
+        {
+            "Label": "Golden Lowlands", 
+            "Content": ["Psyduck", "Gastly", "Budew", "Kricketot", "Paras", "Carnivine", "Burmy", "Geodude", "Unown"]
+        },
+        {
+            "Label": "Grandtree Arena", 
+            "Content": ["Unown"]
+        },
+        {
+            "Label": "Grueling Grove", 
+            "Content": ["Combee", "Heracross", "Wurmple", "Burmy", "Unown"]
+        },
+        {
+            "Label": "Heart's Crag", 
+            "Content": ["Ralts", "Drifloon", "Aipom", "Rufflet", "Basculin-White", "Burmy", "Snorunt", "Elekid", "Spheal", "Scyther", "Ponyta", "Pichu", "Eevee", "Tangela", "Oshawott", "Unown"]
+        },
+        {
+            "Label": "Heavenward Lookout", 
+            "Content": ["Shinx", "Paras", "Zubat", "Yanma", "Burmy", "Geodude"]
+        },
+        {
+            "Label": "Hideaway Bay", 
+            "Content": ["Spheal", "Murkrow", "Happiny", "Aipom", "Remoraid", "Burmy", "Geodude"]
+        },
+        {
+            "Label": "Holm of Trials", 
+            "Content": ["Psyduck", "Gastly", "Croagunk", "Petilil", "Goomy", "Turtwig", "Carnivine", "Burmy", "Pachirisu", "Geodude", "Buizel", "Drifloon", "Shinx", "Eevee", "Heracross", "Buneary", "Munchlax", "Porygon", "Cyndaquil"]
+        },
+        {
+            "Label": "Horseshoe Plains", 
+            "Content": ["Bidoof", "Drifloon", "Eevee", "Buizel", "Wurmple", "Ponyta", "Mime Jr.", "Starly", "Gastly", "Lickitung", "Teddiursa", "Onix", "Eevee", "Croagunk", "Sneasel"]
+        },
+        {
+            "Label": "Ice Column Chamber", 
+            "Content": ["Bergmite", "Misdreavus", "Snorunt", "Unown"]
+        },
+        {
+            "Label": "Icebound Falls", 
+            "Content": ["Machop", "Riolu", "Elekid", "Burmy", "Snorunt", "Zubat", "Unown"]
+        },
+        {
+            "Label": "Icepeak Cavern", 
+            "Content": ["Bergmite", "Misdreavus", "Hisuian Zorua"]
+        },
+        {
+            "Label": "Islespy Shore", 
+            "Content": ["Spheal", "Murkrow", "Piplup"]
+        },
+        {
+            "Label": "Jubilife Village", 
+            "Content": ["Unown", "Rowlet", "Cyndaquil", "Oshawott"]
+        },
+        {
+            "Label": "Lake Acuity", 
+            "Content": ["Abra", "Chingling", "Bronzor", "Rufflet", "Basculin-White", "Ralts", "Burmy", "Uxie", "Hisuian Zorua"]
+        },
+        {
+            "Label": "Lake Valor", 
+            "Content": ["Barboach", "Geodude", "Azelf", "Hisuian Qwilfish"]
+        },
+        {
+            "Label": "Lake Verity", 
+            "Content": ["Shinx", "Drifloon", "Magikarp", "Starly", "Burmy", "Togepi", "Mesprit", "Unown", "Goomy"]
+        },
+        {
+            "Label": "Lonely Spring", 
+            "Content": ["Carnivine", "Psyduck", "Cherubi", "Bronzor"]
+        },
+        {
+            "Label": "Lunker's Lair", 
+            "Content": ["Tentacool", "Drifloon", "Hisuian Qwilfish", "Burmy"]
+        },
+        {
+            "Label": "Moonview Arena", 
+            "Content": ["Cresselia"]
+        },
+        {
+            "Label": "Nature's Pantry", 
+            "Content": ["Kricketot", "Pichu", "Zubat", "Paras", "Starly", "Burmy", "Geodude"]
+        },
+        {
+            "Label": "Obsidian Falls", 
+            "Content": ["Magikarp", "Burmy", "Unown"]
+        },
+        {
+            "Label": "Oreburrow Tunnel", 
+            "Content": ["Machop", "Happiny", "Zubat", "Geodude"]
+        },
+        {
+            "Label": "Pearl Settlement", 
+            "Content": ["Snorunt"]
+        },
+        {
+            "Label": "Primeval Grotto", 
+            "Content": ["Nosepass", "Bronzor"]
+        },
+        {
+            "Label": "Ramanas Island", 
+            "Content": ["Shellos", "Aipom", "Drifloon", "Chimchar", "Starly", "Combee", "Geodude", "Landorus"]
+        },
+        {
+            "Label": "Sacred Plaza", 
+            "Content": ["Chingling", "Hisuian Voltorb", "Shinx", "Rotom", "Gastly", "Misdreavus", "Geodude", "Rhyhorn", "Burmy", "Nosepass", "Magby", "Duskull", "Remoraid", "Skorupi", "Eevee", "Aipom", "Cranidos", "Shieldon", "Rowlet"]
+        },
+        {
+            "Label": "Sand's Reach", 
+            "Content": ["Starly", "Drifloon", "Remoraid", "Burmy", "Geodude", "Unown"]
+        },
+        {
+            "Label": "Sandgem Flats", 
+            "Content": ["Mime Jr.", "Drifloon", "Abra", "Shinx", "Shellos", "Starly", "Burmy", "Geodude", "Gastly", "Lickitung", "Teddiursa", "Onix", "Eevee", "Croagunk", "Sneasel"]
+        },
+        {
+            "Label": "Scarlet Bog", 
+            "Content": ["Hippopotas", "Gastly", "Stunky", "Croagunk", "Geodude", "Unown", "Enamorus"]
+        },
+        {
+            "Label": "Seagrass Haven", 
+            "Content": ["Shellos", "Finneon", "Drifloon", "Tentacool", "Burmy"]
+        },
+        {
+            "Label": "Seaside Hollow", 
+            "Content": ["Remoraid", "Phione", "Manaphy"]
+        },
+        {
+            "Label": "Shrouded Ruins", 
+            "Content": ["Rhyhorn", "Gastly", "Lickitung", "Ralts", "Spiritomb", "Carnivine", "Burmy", "Geodude", "Unown"]
+        },
+        {
+            "Label": "Sludge Mound", 
+            "Content": ["Geodude", "Unown"]
+        },
+        {
+            "Label": "Snowfall Hot Spring", 
+            "Content": ["Machop", "Lickitung", "Munchlax", "Riolu", "Buneary", "Aipom", "Unown"]
+        },
+        {
+            "Label": "Snowpoint Temple", 
+            "Content": ["Geodude", "Bronzor", "Snorunt", "Ralts", "Zubat", "Regigigas"]
+        },
+        {
+            "Label": "Solaceon Ruins", 
+            "Content": ["Unown"]
+        },
+        {
+            "Label": "Sonorous Path", 
+            "Content": ["Shinx", "Teddiursa", "Heracross", "Bronzor"]
+        },
+        {
+            "Label": "Spring Path", 
+            "Content": ["Bidoof", "Croagunk", "Burmy", "Geodude", "Magnemite", "Unown"]
+        },
+        {
+            "Label": "Stonetooth Rows", 
+            "Content": ["Bronzor", "Rotom", "Misdreavus", "Burmy", "Geodude", "Cranidos", "Shieldon", "Rowlet"]
+        },
+        {
+            "Label": "Temple of Sinnoh", 
+            "Content": ["Dialga", "Palkia", "Arceus"]
+        },
+        {
+            "Label": "The Heartwood", 
+            "Content": ["Psyduck", "Buneary", "Wurmple", "Zubat", "Scyther", "Cherubi", "Combee", "Geodude"]
+        },
+        {
+            "Label": "Tidewater Dam", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "Label": "", 
+            "Label": "Tombolo Walk", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "Label": "", 
+            "Label": "Tranquility Cove", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "Label": "", 
+            "Label": "Turnback Cave", 
+            "Content": ["Giratina"]
+        },
+        {
+            "Label": "Ursa's Ring", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "Label": "", 
+            "Label": "Veilstone Cape", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "Label": "", 
+            "Label": "Wayward Cave", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "Label": "", 
+            "Label": "Wayward Wood", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "Label": "", 
+            "Label": "Whiteout Valley", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "Label": "", 
+            "Label": "Windbreak Stand", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "Label": "", 
+            "Label": "Windswept Run", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
-        },
-        {
-            "Label": "", 
+            "Label": "Worn Bridge", 
             "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
         }
-        
     ]}
 ]

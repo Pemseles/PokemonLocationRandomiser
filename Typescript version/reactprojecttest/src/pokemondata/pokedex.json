@@ -3950,6 +3950,12 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/basculin.gif"
         },
         {
+            "Label": "Basculin-White",
+            "DexNo": 550,
+            "Type": ["Water"],
+            "Gif": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png"
+        },
+        {
             "Label": "Sandile",
             "DexNo": 551,
             "Type": ["Ground", "Dark"],
