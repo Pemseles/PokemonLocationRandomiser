@@ -1,8 +1,6 @@
 import './App.css';
 import * as React from 'react';
 
-import * as canonLocations from './pokemondata/wildlocations/canonlocations.json';
-
 import {
     CssBaseline,
     Box,
@@ -40,16 +38,15 @@ import { json } from 'stream/consumers';
 import { stringify } from 'querystring';
 import { ThemeProvider } from '@material-ui/core/styles';
 
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import LightModeIcon from '@mui/icons-material/LightMode';
-
 import { GeneratorBase } from './functions/Generators';
 import { getRegionSelector, getLocationSelector, getPokemonGif } from './functions/GetFuncs';
 
-const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
-
-
 function App() {
+    const darkTheme = createTheme({
+        palette: {
+            type: 'dark',
+        },
+    });
 
     const [genButtonBool, setGenButtonBool] = React.useState(false);
     const [genSetting, setGenSetting] = React.useState("");
@@ -73,9 +70,6 @@ function App() {
     const regionSelectedBoolRef = React.useRef(null);
     const locationListRef = React.useRef(null);
     const locationSelectedBoolRef = React.useRef(null);
-
-    const theme = useTheme();
-    const colorMode = React.useContext(ColorModeContext);
 
     const megaMons = ["Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise", "Abra", "Kadabra", "Alakazam", "Gastly", "Haunter", "Gengar", 
                     "Kangaskhan", "Pinsir", "Magikarp", "Gyarados", "Aerodactyl", "Mewtwo", "Mareep", "Flaaffy", "Ampharos", "Scyther", "Scizor", "Heracross", "Houndour", "Houndoom", "Larvitar", 
@@ -180,11 +174,12 @@ function App() {
 
     return (
         <React.Fragment>
+            <ThemeProvider theme={darkTheme}>
             <CssBaseline />
             <Box sx={{ display: 'flex' }}>
-                <AppBar position="fixed" style={{ background: 'white' }} id="AppBar">
+                <AppBar position="fixed" style={{ background: 'black' }} id="AppBar" color="default">
                     <Toolbar>
-                        <Typography variant="h5" style={{ color: 'black', marginLeft: '6px' }}>
+                        <Typography variant="h5" style={{ color: 'default', marginLeft: '6px' }}>
                             Settings
                         </Typography>
                         <FormControl style={{ width: '7%', marginLeft: '50px' }}>
@@ -352,7 +347,7 @@ function App() {
                         </Grid>
                     </Box>
                 : ''}
-            <AppBar position="fixed" style={{ background: 'white', top: 'auto', bottom: 0, alignItems: 'center' }}>
+            <AppBar position="fixed" style={{ background: 'black', top: 'auto', bottom: 0, alignItems: 'center' }}>
                 <Toolbar>
                     {genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Specific' && selectedRegions.length > 0 && selectedLocations.length > 0 && monCount !== '' ?
                         <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, selectedLocations, null))}}>
@@ -371,44 +366,11 @@ function App() {
                             Settings incomplete
                         </Typography>
                     }
-                    <IconButton onClick={colorMode.toggleColorMode}>
-                        {theme.palette.type === 'dark' ? <DarkModeIcon /> : <LightModeIcon />}
-                    </IconButton>
                 </Toolbar>
             </AppBar>
+            </ThemeProvider>
         </React.Fragment>
     );
 }
-
-export function ToggleColorMode() {
-    const [mode, setMode] = React.useState<'light' | 'dark'>('light');
-    const colorMode = React.useMemo(
-        () => ({
-            toggleColorMode: () => {
-                setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
-            },
-        }),
-        [],
-    );
-  
-    const theme = React.useMemo(
-        () =>
-            createTheme({
-                palette: {
-                    type: mode ? 'dark' : 'light',
-                },
-            }),
-        [mode],
-    );
-    console.log("in togglecolormode", mode)
-  
-    return (
-      <ColorModeContext.Provider value={colorMode}>
-        <ThemeProvider theme={theme}>
-          <App />
-        </ThemeProvider>
-      </ColorModeContext.Provider>
-    );
-  }
 
 export default App;
