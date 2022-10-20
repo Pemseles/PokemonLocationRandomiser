@@ -54,13 +54,12 @@ export async function getLocationSelector() {
     return returnArr;
 }
 
-export function getPokemonGif(monName : any | string, shinyRate: any) {
+export function getPokemonGif(mon : { Pokemon: string, Region: string, Location: string, shinyId: number }) {
     const pokemonDexData = require('../pokemondata/pokedex.json');
     for (let i = 0; i < pokemonDexData.Content.length; i++) {
-        if (pokemonDexData.Content[i].Label === monName) {
+        if (pokemonDexData.Content[i].Label === mon.Pokemon) {
             // calc shiny & get shiny gif
-            let shinyGen = Math.floor(Math.random() * shinyRate);
-            if (shinyGen === 0) {
+            if (mon.shinyId === 0) {
                 return (pokemonDexData.Content[i].Gif.slice(0, 44) + "-shiny" + pokemonDexData.Content[i].Gif.slice(44));
             }
 

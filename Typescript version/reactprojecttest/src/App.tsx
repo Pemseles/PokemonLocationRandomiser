@@ -59,7 +59,7 @@ function App() {
     const [selectedRegions, setSelectedRegions] = React.useState(Array<string>());
     const [locationList, setLocationList] = React.useState(Array<{ location: string, region: string }>());
     const [selectedLocations, setSelectedLocations] = React.useState(Array<{ location: string, region: string }>());
-    const [generatedMons, setGeneratedMons] = React.useState(Array<{ Pokemon: string, Region: string, Location: string }>());
+    const [generatedMons, setGeneratedMons] = React.useState(Array<{ Pokemon: string, Region: string, Location: string, shinyId: number }>());
 
     const genButtonBoolRef = React.useRef(null);
     const genSettingRef = React.useRef(null);
@@ -85,7 +85,7 @@ function App() {
                     "Lunala", "Necrozma", "Nihilego", "Buzzwole", "Pheromosa", "Xurkitree", "Kartana", "Celesteela", "Guzzlord", "Poipole", "Naganadel", "Stakataka", "Blacephalon", "Magearna", 
                     "Marshadow", "Zeraora", "Meltan", "Melmetal", "Zacian", "Zamazenta", "Eternatus", "Kubfu", "Urshifu", "Regieleki", "Regidrago", "Calyrex", "Glastrier", "Spectrier", 
                     "Galarian Articuno", "Galarian Zapdos", "Galarian Moltres", "Zarude"];
-    const shinyRate = 100;
+    const shinyRate = 50;
 
     // TODO add mega filter
     // TODO add legendary filter
@@ -316,19 +316,25 @@ function App() {
                 </AppBar>
             </Box>
                 {genButtonBool === true ?
-                    <Box sx={{ marginTop: '150px', flexGrow: 1 }}>
+                    <Box sx={{ marginTop: '150px', flexGrow: 1, overflow: 'hidden' }}>
                         <Grid container spacing={4} alignItems='center' justifyContent='center'>
                             {generatedMons.map((mon, index) => {
                                 return (
                                     <Grid item md={4} xs={12}>
                                         <Card style={{ height: '300px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                                             <CardMedia>
-                                                <img src={getPokemonGif(generatedMons[index].Pokemon, shinyRate)} style={{ textAlign: 'center' }} />
+                                                <img src={getPokemonGif(generatedMons[index])} style={{ textAlign: 'center' }} />
                                             </CardMedia>
                                             <CardContent>
+                                                {generatedMons[index].shinyId !== 0 ?
                                                 <Typography gutterBottom variant="h6" align='center'>
                                                     {generatedMons[index].Pokemon}
                                                 </Typography>
+                                                :   
+                                                <Typography gutterBottom variant="h6" align='center' style={{ color: 'gold' }}>
+                                                    {generatedMons[index].Pokemon}
+                                                </Typography>
+                                                }
                                                 {regionPref === "Random" || regionPref === "Specific" && locationPref === "Random" || regionPref === "Specific" && locationPref === "Specific" && selectedLocations.length > 1 ?
                                                     <Typography gutterBottom variant="body2" align='center'>
                                                         {generatedMons[index].Location}
@@ -350,15 +356,15 @@ function App() {
             <AppBar position="fixed" style={{ background: 'black', top: 'auto', bottom: 0, alignItems: 'center' }}>
                 <Toolbar>
                     {genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Specific' && selectedRegions.length > 0 && selectedLocations.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, selectedLocations, null))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, selectedLocations, null, shinyRate))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Random' && selectedRegions.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Location" && regionPref === 'Random' && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate))}}>
                             Generate Team
                         </Button>
                     :
