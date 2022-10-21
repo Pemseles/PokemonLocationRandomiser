@@ -3,67 +3,398 @@
     "InGame": [
         {
             "Name": "Alonso",
+            "Region": "Unova",
+            "Location": "Pokéstar Studios",
             "Pokemon": ["Smeargle"]
         },{
             "Name": "Ricardo",
+            "Region": "Unova",
+            "Location": "Pokéstar Studios",
             "Pokemon": ["Smeargle"]
         }
     ],
-    "BattleFacility": [
-        {
-            "Name": "",
-            "Pokemon": []
-        }
-    ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Pokemon": []
-        }
-    ]
+    "BattleFacility": [],
+    "StadiumGames": []
 },{
     "Class": "Ace Duo",
     "InGame": [
         {
-            "Name": "",
-            "Pokemon": []
+            "Name": "Elina & Sean",
+            "Region": "Kalos",
+            "Location": "Route 21",
+            "Pokemon": ["Wailmer", "Oddish"]
         },{
-            "Name": "",
-            "Pokemon": []
+            "Name": "Jude & Rory",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Anorith", "Lileep"]
+        },{
+            "Name": "Pike & Shiel",
+            "Region": "Hoenn",
+            "Location": "Trick House",
+            "Pokemon": ["Carvanha", "Numel"]
+        },{
+            "Name": "Kent & Aimee",
+            "Region": "Alola",
+            "Location": "Vast Poni Canyon",
+            "Pokemon": ["Alolan Sandshrew", "Alolan Vulpix"]
         }
     ],
-    "BattleFacility": [
-        {
-            "Name": "",
-            "Pokemon": []
-        }
-    ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Pokemon": []
-        }
-    ]
+    "BattleFacility": [],
+    "StadiumGames": []
 },{
     "Class": "Ace Trainer",
     "InGame": [
         {
+            "Name": "Aaron",
+            "Region": "Johto",
+            "Location": "Lake of Rage",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle"]
+        },{
+            "Name": "Alexa",
+            "Region": "Kanto",
+            "Location": "Victory Road",
+            "Pokemon": ["Cleffa", "Igglybuff", "Meowth", "Seel", "Happiny", "Dratini", "Tyrogue"]
+        },{
+            "Name": "Allen",
+            "Region": "Johto",
+            "Location": "Route 44",
+            "Pokemon": ["Charmander", "Magnemite"]
+        },{
+            "Name": "Alton",
+            "Region": "Johto",
+            "Location": "Lake of Rage",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle"]
+        },{
+            "Name": "Arabella",
+            "Region": "Kanto",
+            "Location": "Viridian Gym",
+            "Pokemon": ["Stantler", "Tauros"]
+        },{
+            "Name": "Beth",
+            "Region": "Kanto",
+            "Location": "Route 26",
+            "Pokemon": ["Ponyta"]
+        },{
+            "Name": "Blake",
+            "Region": "Kanto",
+            "Location": "Route 27",
+            "Pokemon": ["Magnemite", "Wooper", "Exeggcute"]
+        },{
+            "Name": "Bonita",
+            "Region": "Kanto",
+            "Location": "Viridian Gym",
+            "Pokemon": ["Spinda", "Sudowoodo"]
+        },{
+            "Name": "Brian",
+            "Region": "Kanto",
+            "Location": "Route 27",
+            "Pokemon": ["Sandshrew", "Mareep"]
+        },{
+            "Name": "Cara",
+            "Region": "Johto",
+            "Location": "Dragon's Den",
+            "Pokemon": ["Horsea"]
+        },{
+            "Name": "Carol",
+            "Region": "Johto",
+            "Location": "S.S. Aqua",
+            "Pokemon": ["Voltorb", "Staryu", "Vulpix"]
+        },{
+            "Name": "Caroline",
+            "Region": "Kanto",
+            "Location": "Victory Road",
+            "Pokemon": ["Bellsprout", "Paras"]
+        },{
+            "Name": "Cody",
+            "Region": "Johto",
+            "Location": "Blackthorn Gym",
+            "Pokemon": ["Horsea"]
+        },{
+            "Name": "Colby",
+            "Region": "Kanto",
+            "Location": "Victory Road",
+            "Pokemon": ["Krabby", "Poliwag", "Tentacool", "Horsea", "Squirtle"]
+        },{
+            "Name": "Cybil",
+            "Region": "Johto",
+            "Location": "Route 44",
+            "Pokemon": ["Caterpie", "Oddish", "Mareep"]
+        },{
+            "Name": "Darin",
+            "Region": "Johto",
+            "Location": "Dragon's Den",
+            "Pokemon": ["Dratini"]
+        },{
+            "Name": "Emma",
+            "Region": "Johto",
+            "Location": "Union Cave",
+            "Pokemon": ["Poliwag"]
+        },{
+            "Name": "Fran",
+            "Region": "Johto",
+            "Location": "Blackthorn Gym",
+            "Pokemon": ["Horsea"]
+        },{
+            "Name": "French",
+            "Region": "Kanto",
+            "Location": "Route 1",
+            "Pokemon": ["Absol", "Abra"]
+        },{
+            "Name": "Gaven",
+            "Region": "Kanto",
+            "Location": "Route 26",
+            "Pokemon": ["Bellsprout", "Krabby", "Eevee"]
+        },{
+            "Name": "George",
+            "Region": "Kanto",
+            "Location": "Victory Road",
+            "Pokemon": ["Exeggcute", "Sandshrew", "Shellder", "Voltorb", "Growlithe"]
+        },{
+            "Name": "Gwen",
+            "Region": "Johto",
+            "Location": "Union Cave",
+            "Pokemon": ["Eevee"]
+        },{
+            "Name": "Irene",
+            "Region": "Johto",
+            "Location": "Route 34",
+            "Pokemon": ["Goldeen"]
+        },{
+            "Name": "Jake",
+            "Region": "Kanto",
+            "Location": "Route 26",
+            "Pokemon": ["Paras", "Psyduck", "Eevee"]
+        },{
+            "Name": "Jamie",
+            "Region": "Kanto",
+            "Location": "Route 26",
+            "Pokemon": ["Ponyta", "Mareep"]
+        },{
+            "Name": "Jenn",
+            "Region": "Johto",
+            "Location": "Route 34",
+            "Pokemon": ["Staryu"]
+        },{
+            "Name": "Joyce",
+            "Region": "Kanto",
+            "Location": "Route 26",
+            "Pokemon": ["Pichu", "Squirtle"]
+        },{
+            "Name": "Kate",
+            "Region": "Johto",
+            "Location": "Route 34",
+            "Pokemon": ["Shellder"]
+        },{
+            "Name": "Kelly",
+            "Region": "Johto",
+            "Location": "Route 45",
+            "Pokemon": ["Azurill", "Squirtle"]
+        },{
+            "Name": "Kevin",
+            "Region": "Kanto",
+            "Location": "Route 25",
+            "Pokemon": ["Rhyhorn", "Charmander", "Squirtle"]
+        },{
+            "Name": "Kobe",
+            "Region": "Johto",
+            "Location": "Dragon's Den",
+            "Pokemon": ["Dratini"]
+        },{
+            "Name": "Leroy",
+            "Region": "Kanto",
+            "Location": "Sevault Canyon",
+            "Pokemon": ["Rhyhorn", "Slowpoke", "Teddiursa", "Machop", "Kangaskhan"]
+        },{
+            "Name": "Lois",
+            "Region": "Johto",
+            "Location": "Lake of Rage",
+            "Pokemon": ["Hoppip", "Vulpix", "Mareep"]
+        },{
+            "Name": "Lola",
+            "Region": "Johto",
+            "Location": "Blackthorn Gym",
+            "Pokemon": ["Dratini"]
+        },{
+            "Name": "Mary",
+            "Region": "Kanto",
+            "Location": "Celadon Gym",
+            "Pokemon": ["Bellsprout", "Oddish", "Bulbasaur"]
+        },{
+            "Name": "Megan",
+            "Region": "Kanto",
+            "Location": "Route 27",
+            "Pokemon": ["Bulbasaur"]
+        },{
+            "Name": "Michelle",
+            "Region": "Kanto",
+            "Location": "Sevault Canyon",
+            "Pokemon": ["Meowth", "Seel", "Vulpix", "Ponyta", "Girafarig"]
+        },{
+            "Name": "Mike",
+            "Region": "Johto",
+            "Location": "Blackthorn Gym",
+            "Pokemon": ["Dratini"]
+        },{
+            "Name": "Naomi",
+            "Region": "Kanto",
+            "Location": "Victory Road",
+            "Pokemon": ["Meowth", "Ponyta", "Vulpix"]
+        },{
+            "Name": "Nick",
+            "Region": "Johto",
+            "Location": "Union Cave",
+            "Pokemon": ["Charmander", "Bulbasaur", "Squirtle"]
+        },{
+            "Name": "Paul",
+            "Region": "Johto",
+            "Location": "Blackthorn Gym",
+            "Pokemon": ["Dratini"]
+        },{
+            "Name": "Paulo",
+            "Region": "Johto",
+            "Location": "Blackthorn Gym",
+            "Pokemon": ["Dratini", "Horsea"]
+        },{
+            "Name": "Piper",
+            "Region": "Johto",
+            "Location": "Dragon's Den",
+            "Pokemon": ["Horsea"]
+        },{
+            "Name": "Quinn",
+            "Region": "Kanto",
+            "Location": "Route 1",
+            "Pokemon": ["Bulbasaur", "Staryu"]
+        },{
+            "Name": "Reena",
+            "Region": "Kanto",
+            "Location": "Route 27",
+            "Pokemon": ["Staryu", "Nidoran-F", "Growlithe"]
+        },{
+            "Name": "Rolando",
+            "Region": "Kanto",
+            "Location": "Victory Road",
+            "Pokemon": ["Rattata", "Bulbasaur", "Squirtle", "Charmander"]
+        },{
+            "Name": "Ryan",
+            "Region": "Johto",
+            "Location": "Route 45",
+            "Pokemon": ["Pidgey", "Elekid"]
+        },,{
+            "Name": "Salma",
+            "Region": "Kanto",
+            "Location": "Viridian Gym",
+            "Pokemon": ["Slowpoke", "Lickitung"]
+        }{
+            "Name": "Samuel",
+            "Region": "Kanto",
+            "Location": "Viridian Gym",
+            "Pokemon": ["Sandshrew", "Rhyhorn", "Nidoran-M"]
+        },{
+            "Name": "Sean",
+            "Region": "Johto",
+            "Location": "S.S. Aqua",
+            "Pokemon": ["Eevee", "Tangela", "Tauros"]
+        },{
+            "Name": "Shaye",
+            "Region": "Johto",
+            "Location": "S.S. Aqua",
+            "Pokemon": ["Eevee", "Tangela", "Tauros"]
+        },{
+            "Name": "Warren",
+            "Region": "Kanto",
+            "Location": "Viridian Gym",
+            "Pokemon": ["Cubone", "Rhyhorn", "Nidoran-F"]
+        },{
+            "Name": "Yuji",
+            "Region": "Kanto",
+            "Location": "Viridian Gym",
+            "Pokemon": ["Sandshrew", "Geodude", "Onix", "Cubone"]
+        },{
+            "Name": "Albert",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Electrike", "Grimer"]
+        },{
+            "Name": "Alexa",
+            "Region": "Hoenn",
+            "Location": "Route 128",
+            "Pokemon": ["Oddish", "Azurill"]
+        },{
+            "Name": "Berke",
+            "Region": "Hoenn",
+            "Location": "Petalburg Gym",
+            "Pokemon": ["Zangoose"]
+        },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -72,21 +403,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -95,21 +434,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -118,21 +465,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -141,21 +496,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -164,21 +527,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -187,21 +558,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -210,21 +589,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -233,21 +620,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -256,21 +651,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -279,21 +682,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -302,21 +713,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -325,21 +744,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -348,21 +775,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -371,21 +806,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -394,21 +837,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -417,21 +868,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -440,21 +899,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -463,21 +930,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -486,21 +961,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -509,21 +992,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -532,21 +1023,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -555,21 +1054,29 @@
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
@@ -578,56 +1085,71 @@
     "InGame": [
         {
             "Name": "Jody",
+            "Region": "Alola",
+            "Location": "Route 4",
             "Pokemon": ["Drifloon", "Fomantis"]
         }
     ],
     "BattleFacility": [
         {
             "Name": "Dyson",
+            "Region": "Alola",
+            "Location": "Battle Tree",
             "Pokemon": ["Hawlucha", "Skiddo", "Wimpod", "Grubbin", "Mudbray", "Stufful", "Rotom", "Binacle", "Elekid", "Dewpider", "Treecko", "Turtwig", "Meditite", "Shroomish", "Sawk", "Throh", 
                         "Lotad", "Seedot", "Tauros", "Abra", "Shieldon", "Pinsir", "Scyther", "Heracross", "Teddiursa", "Wailmer", "Machop", "Timburr", "Riolu", "Duskull", "Cubchoo", "Bouffalant", 
                         "Archen", "Dratini", "Makuhita", "Wingull", "Buneary", "Munna", "Scraggy", "Ferroseed", "Slowpoke", "Swablu", "Croagunk", "Gothita", "Pawniard", "Snover", "Anorith", 
                         "Cranidos", "Mareep", "Poliwag", "Passimian", "Bronzor", "Skorupi", "Crabrawler", "Shuckle", "Mimikyu", "Murkrow", "Roggenrola", "Drilbur", "Zorua", "Ralts", "Swinub", "Lapras"]
         },{
             "Name": "Chip",
+            "Region": "Alola",
+            "Location": "Battle Tree",
             "Pokemon": []
         },{
             "Name": "Zero",
+            "Region": "Alola",
+            "Location": "Battle Tree",
             "Pokemon": []
         },{
             "Name": "Donna",
+            "Region": "Alola",
+            "Location": "Battle Tree",
             "Pokemon": []
         },{
             "Name": "Gilroy",
+            "Region": "Alola",
+            "Location": "Battle Tree",
             "Pokemon": []
         }
     ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Pokemon": []
-        }
-    ]
+    "StadiumGames": []
 },{
     "Class": "",
     "InGame": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         },{
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "BattleFacility": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ],
     "StadiumGames": [
         {
             "Name": "",
+            "Region": "",
+            "Location": "",
             "Pokemon": []
         }
     ]
