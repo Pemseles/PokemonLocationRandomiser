@@ -280,12 +280,12 @@
             "Region": "Johto",
             "Location": "Route 45",
             "Pokemon": ["Pidgey", "Elekid"]
-        },,{
+        },{
             "Name": "Salma",
             "Region": "Kanto",
             "Location": "Viridian Gym",
             "Pokemon": ["Slowpoke", "Lickitung"]
-        }{
+        },{
             "Name": "Samuel",
             "Region": "Kanto",
             "Location": "Viridian Gym",

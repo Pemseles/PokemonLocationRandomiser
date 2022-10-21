@@ -51,25 +51,41 @@ function App() {
     const [genButtonBool, setGenButtonBool] = React.useState(false);
     const [genSetting, setGenSetting] = React.useState("");
     const [monCount, setMonCount] = React.useState('');
+
     const [regionPref, setRegionPref] = React.useState("");
-    const [locationPref, setLocationPref] = React.useState("");
     const [regionSelectedBool, setRegionSelectedBool] = React.useState(false);
-    const [locationSelectedBool, setLocationSelectedBool] = React.useState(false);
     const [regionList, setRegionList] = React.useState(Array<{ region: string, type: string }>());
     const [selectedRegions, setSelectedRegions] = React.useState(Array<string>());
+
+    const [locationPref, setLocationPref] = React.useState("");
+    const [locationSelectedBool, setLocationSelectedBool] = React.useState(false);
     const [locationList, setLocationList] = React.useState(Array<{ location: string, region: string }>());
     const [selectedLocations, setSelectedLocations] = React.useState(Array<{ location: string, region: string }>());
+
+    const [trainerPref, setTrainerPref] = React.useState("");
+    const [trainerSelectedBool, setTrainerSelectedBool] = React.useState(false);
+    const [trainerClassList, setTrainerClassList] = React.useState(Array<{ class: string }>());
+    const [selectedTrainerClasses, setSelectedTrainerClasses] = React.useState(Array<{ class: string }>());
+    const [trainerLocationList, setTrainerLocationList] = React.useState(Array<{ location: string, region: string }>());
+    const [selectedTrainerLocations, setSelectedTrainerLocations] = React.useState(Array<{ location: string, region: string }>());
+
     const [generatedMons, setGeneratedMons] = React.useState(Array<{ Pokemon: string, Region: string, Location: string, shinyId: number }>());
 
     const genButtonBoolRef = React.useRef(null);
     const genSettingRef = React.useRef(null);
     const monCountRef = React.useRef(null);
+
     const regionPrefRef = React.useRef(null);
-    const locationPrefRef = React.useRef(null);
     const regionListRef = React.useRef(null);
     const regionSelectedBoolRef = React.useRef(null);
+
+    const locationPrefRef = React.useRef(null);
     const locationListRef = React.useRef(null);
     const locationSelectedBoolRef = React.useRef(null);
+
+    const trainerPrefRef = React.useRef(null);
+    const trainerListRef = React.useRef(null);
+    const trainerSelectedBoolRef = React.useRef(null);
 
     const megaMons = ["Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise", "Abra", "Kadabra", "Alakazam", "Gastly", "Haunter", "Gengar", 
                     "Kangaskhan", "Pinsir", "Magikarp", "Gyarados", "Aerodactyl", "Mewtwo", "Mareep", "Flaaffy", "Ampharos", "Scyther", "Scizor", "Heracross", "Houndour", "Houndoom", "Larvitar", 
@@ -101,6 +117,7 @@ function App() {
         setMonCount('');
         setRegionPref("");
         setLocationPref("");
+        setTrainerPref("");
         handleGenButtonBool(false);
 
         console.log("handle gensetting", event.target.value);
@@ -162,6 +179,14 @@ function App() {
         console.log("handle generatedmons", event);
         setGeneratedMons(event);
     }
+    const handleTrainerPref = (event: any) => {
+        console.log("handle trainerpref", event.target.value);
+        setRegionPref("");
+        setLocationPref("");
+        handleGenButtonBool(false);
+
+        setTrainerPref(event.target.value);
+    }
 
     console.log("genbutton boolean", genButtonBool);
     
@@ -197,8 +222,8 @@ function App() {
                                 <MenuItem value={"Monotype"}>Monotype</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl style={{ width: '9%', marginLeft: '50px' }}>
-                            <InputLabel>Amount to generate</InputLabel>
+                        <FormControl style={{ width: '4%', marginLeft: '50px' }}>
+                            <InputLabel>Amount</InputLabel>
                             <Select
                                 id="selectMonCount"
                                 labelId='selectMonCountLabel'
@@ -312,6 +337,121 @@ function App() {
                                 />
                             </div>
                         : ''}
+
+                        {/*
+                        
+                            Settings when "Trainer Owned" is selected 
+                    
+                        */}
+
+                        {genSetting === "Trainer" ?
+                            <FormControl style={{ width: '9%', marginLeft: '50px' }}>
+                                <InputLabel>Trainer Preference</InputLabel>
+                                <Select
+                                    id="trainerPref"
+                                    labelId='trainerPref'
+                                    label="Trainer preference"
+                                    value={trainerPref}
+                                    onChange={handleTrainerPref}
+                                    ref={trainerPrefRef}
+                                >
+                                    <MenuItem value={"Class"}>Trainer Class</MenuItem>
+                                    <MenuItem value={"Location"}>Trainer Locations</MenuItem>
+                                </Select>
+                            </FormControl>
+                        : ''}
+
+                        {/*
+                        
+                            Settings for 'Trainer Locations'
+                        
+                        */}
+
+                        {genSetting === "Trainer" && trainerPref === "Location" ?
+                            <FormControl style={{ width: '8%', marginLeft: '50px' }}>
+                                <InputLabel>Region preference</InputLabel>
+                                <Select
+                                    id="regionPref"
+                                    labelId='regionPref'
+                                    label="Region preference"
+                                    value={regionPref}
+                                    onChange={handleRegionPref}
+                                    ref={regionPrefRef}
+                                >
+                                    <MenuItem value={"Random"}>Random</MenuItem>
+                                    <MenuItem value={"Specific"}>Specific</MenuItem>
+                                </Select>
+                            </FormControl>
+                        : ''}
+                        {genSetting === "Trainer" && trainerPref === "Location" && regionPref === "Specific" ?
+                            <FormControl style={{ width: '8%', marginLeft: '50px' }}>
+                                <InputLabel>Location preference</InputLabel>
+                                <Select
+                                    id="locationPref"
+                                    labelId='locationPref'
+                                    label="Location preference"
+                                    value={locationPref}
+                                    onChange={handleLocationPref}
+                                    ref={locationPrefRef}
+                                >
+                                    <MenuItem value={"Random"}>Random</MenuItem>
+                                    <MenuItem value={"Specific"}>Specific</MenuItem>
+                                </Select>
+                            </FormControl>
+                        : ''}
+
+                        {genSetting === "Trainer" && trainerPref === "Location" && regionPref === "Specific" ? 
+                            <div style={{ width: 200, marginLeft: '50px' }}>
+                                <Autocomplete
+                                    multiple
+                                    size="small"
+                                    limitTags={1}
+                                    id="TrainerRegionChoiceBox"
+                                    options={regionList}
+                                    groupBy={(option) => option.type}
+                                    getOptionLabel={(option) => option.region}
+                                    filterSelectedOptions
+                                    onChange={handleRegionList}
+                                    renderInput={(params) => (
+                                        <TextField
+                                            {...params}
+                                            label="Region"
+                                            placeholder="Specific"
+                                        />
+                                    )}
+                                />
+                            </div>
+                        : ''}
+
+                        {genSetting === "Trainer" && trainerPref === "Location" && regionPref === "Specific" && regionSelectedBool === true ? 
+                            <div style={{ width: 200, marginLeft: '50px' }}>
+                                <Autocomplete
+                                    multiple
+                                    ListboxProps={{ style: { maxHeight: "30rem" }, position: "bottom-start" }}
+                                    size="small"
+                                    limitTags={1}
+                                    id="LocationChoiceBox"
+                                    options={locationList.filter(item => {
+                                        if (selectedRegions.includes(item.region)) {
+                                            return true
+                                        }
+                                    })}
+                                    groupBy={(option) => option.region}
+                                    getOptionLabel={(option) => option.location}
+                                    filterSelectedOptions
+                                    onChange={handleLocationList}
+                                    renderInput={(params) => (
+                                        <TextField
+                                            {...params}
+                                            label="Location"
+                                            placeholder="Specific"
+                                            size="small"
+                                        />
+                                    )}
+                                />
+                            </div>
+                        : ''}
+                        
                     </Toolbar>
                 </AppBar>
             </Box>
@@ -368,7 +508,7 @@ function App() {
                             Generate Team
                         </Button>
                     :
-                        <Typography variant="h5" style={{ color: 'black', marginLeft: '6px' }}>
+                        <Typography variant="h5" style={{ color: 'white', marginLeft: '6px' }}>
                             Settings incomplete
                         </Typography>
                     }
