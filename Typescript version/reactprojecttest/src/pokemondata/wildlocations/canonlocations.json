@@ -2627,15 +2627,15 @@
         },
         {
             "Label": "Tidewater Dam", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Bidoof", "Zubat", "Kricketot", "Starly", "Burmy", "Geodude", "Sneasel", "Unown"]
         },
         {
             "Label": "Tombolo Walk", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Happiny", "Burmy", "Geodude"]
         },
         {
             "Label": "Tranquility Cove", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Shellos", "Starly", "Togepi", "Drifloon", "Mantyke", "Basculin-White", "Remoraid", "Hisuian Qwilfish", "Burmy", "Geodude"]
         },
         {
             "Label": "Turnback Cave", 
@@ -2643,35 +2643,35 @@
         },
         {
             "Label": "Ursa's Ring", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Geodude", "Gastly", "Teddiursa", "Yanma", "Goomy", "Burmy", "Pachirisu"]
         },
         {
             "Label": "Veilstone Cape", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Glameow", "Hisuian Growlithe", "Murkrow", "Vulpix", "Burmy", "Wurmple", "Geodude", "Unown"]
         },
         {
             "Label": "Wayward Cave", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Barboach", "Gible", "Zubat", "Unown"]
         },
         {
             "Label": "Wayward Wood", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Stantler", "Zubat", "Psyduck", "Heracross", "Paras", "Burmy", "Bronzor"]
         },
         {
             "Label": "Whiteout Valley", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Aipom", "Snorunt", "Burmy", "Bergmite", "Alolan Vulpix"]
         },
         {
             "Label": "Windbreak Stand", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Paras", "Stantler", "Hisuian Growlithe", "Burmy", "Geodude"]
         },
         {
             "Label": "Windswept Run", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Abra", "Drifloon", "Kricketot", "Zubat", "Buizel", "Starly", "Burmy", "Geodude", "Gastly", "Lickitung", "Teddiursa", "Onix", "Eevee", "Croagunk", "Sneasel"]
         },
         {
             "Label": "Worn Bridge", 
-            "Content": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+            "Content": ["Geodude", "Zubat", "Magikarp", "Burmy"]
         }
     ]}
 ]
