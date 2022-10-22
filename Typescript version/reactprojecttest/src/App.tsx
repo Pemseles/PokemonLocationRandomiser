@@ -29,6 +29,8 @@ import {
     createTheme,
     useTheme,
     IconButton,
+    Icon,
+    Switch,
 
 } from '@material-ui/core';
 import {
@@ -37,6 +39,7 @@ import {
 import { json } from 'stream/consumers';
 import { stringify } from 'querystring';
 import { ThemeProvider } from '@material-ui/core/styles';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 import { GeneratorBase } from './functions/Generators';
 import { getRegionSelector, getLocationSelector, getPokemonGif, getTrainerClassSelector, getTrainerLocationSelector } from './functions/GetFuncs';
@@ -63,11 +66,17 @@ function App() {
     const [selectedLocations, setSelectedLocations] = React.useState(Array<{ location: string, region: string }>());
 
     const [trainerPref, setTrainerPref] = React.useState("");
+    const [trainerClassPref, setTrainerClassPref] = React.useState("");
     const [trainerSelectedBool, setTrainerSelectedBool] = React.useState(false);
     const [trainerClassList, setTrainerClassList] = React.useState(Array<{ class: string }>());
     const [selectedTrainerClasses, setSelectedTrainerClasses] = React.useState(Array<{ class: string }>());
     const [trainerLocationList, setTrainerLocationList] = React.useState(Array<{ location: string, region: string }>());
     const [selectedTrainerLocations, setSelectedTrainerLocations] = React.useState(Array<{ location: string, region: string }>());
+
+    const [showExtraAppbar, setExtraAppBar] = React.useState(false);
+    const [dupeSwitchBool, setDupeSwitchBool] = React.useState(false);
+    const [battleFacilitySwitchBool, setBattleFacilitySwitchBool] = React.useState(false);
+    const [stadiumSwitchBool, setStadiumSwitchBool] = React.useState(false);
 
     const [generatedMons, setGeneratedMons] = React.useState(Array<{ Pokemon: string, Region: string, Location: string, shinyId: number }>());
 
@@ -84,6 +93,7 @@ function App() {
     const locationSelectedBoolRef = React.useRef(null);
 
     const trainerPrefRef = React.useRef(null);
+    const trainerClassPrefRef = React.useRef(null);
     const trainerListRef = React.useRef(null);
     const trainerSelectedBoolRef = React.useRef(null);
 
@@ -122,6 +132,14 @@ function App() {
 
         console.log("handle gensetting", event.target.value);
         setGenSetting(event.target.value);
+        (async () => {
+            if (event.target.value === "Location") {
+                setRegionList(await getRegionSelector());
+            }
+            else if (event.target.value === "Trainer") {
+                setRegionList(await getRegionSelector(true));
+            }
+        })();
     }
     const handleMonCount = (event: any) => {
         console.log("handle moncount", event.target.value);
@@ -183,9 +201,16 @@ function App() {
         console.log("handle trainerpref", event.target.value);
         setRegionPref("");
         setLocationPref("");
+        setTrainerClassPref("");
         handleGenButtonBool(false);
 
         setTrainerPref(event.target.value);
+    }
+    const handleTrainerClassPref = (event: any) => {
+        console.log("handle trainerclasspref", event.target.value);
+        handleGenButtonBool(false);
+
+        setTrainerClassPref(event.target.value);
     }
     const handleTrainerClasses = (event: any, value: any) => {
         console.log("handle trainerclasslist", value);
@@ -209,6 +234,26 @@ function App() {
         }
         setSelectedTrainerLocations(value);
     }
+    const handleExtraAppbar = (event: any) => {
+        console.log("handle showextraappbar", !event);
+
+        setExtraAppBar(!event);
+    }
+    const handleDuplicateSwitch = (event: any) => {
+        console.log("handle dupeswitch", event.target.checked);
+
+        setDupeSwitchBool(event.target.checked);
+    }
+    const handleBattleFacilitySwitch = (event: any) => {
+        console.log("handle battlefacilityswitch", event.target.checked);
+
+        setBattleFacilitySwitchBool(event.target.checked);
+    }
+    const handleStadiumSwitch = (event: any) => {
+        console.log("handle stadiumswitch", event.target.checked);
+
+        setStadiumSwitchBool(event.target.checked);
+    }
 
     console.log("genbutton boolean", genButtonBool);
     
@@ -226,6 +271,34 @@ function App() {
             <ThemeProvider theme={darkTheme}>
             <CssBaseline />
             <Box sx={{ display: 'flex' }}>
+                {showExtraAppbar === true ?
+                    <AppBar style={{ background: 'black', paddingTop: '75px' }} id="AppbarOptional" color="default">
+                        <Toolbar>
+                            <FormControlLabel style={{ marginLeft: '30px' }}
+                                onChange={handleDuplicateSwitch}
+                                control={<Switch color="primary" />}
+                                label="Duplicates"
+                                labelPlacement="top"
+                            />
+                            {genSetting === "Trainer" && regionPref === "Random" || genSetting === "Trainer" && locationPref === "Random" || genSetting === "Trainer" && trainerPref === "Class" ?
+                                <FormControlLabel style={{ marginLeft: '30px' }}
+                                    onChange={handleBattleFacilitySwitch}
+                                    control={<Switch color="primary" />}
+                                    label="Battle Facility"
+                                    labelPlacement="top"
+                                />
+                            : ''}
+                            {genSetting === "Trainer" && regionPref === "Random" || genSetting === "Trainer" && locationPref === "Random" || genSetting === "Trainer" && trainerPref === "Class" ?
+                                <FormControlLabel style={{ marginLeft: '30px' }}
+                                    onChange={handleStadiumSwitch}
+                                    control={<Switch color="primary" />}
+                                    label="Stadium/Collosseum"
+                                    labelPlacement="top"
+                                />
+                            : ''}
+                        </Toolbar>
+                    </AppBar>
+                : ''}
                 <AppBar position="fixed" style={{ background: 'black' }} id="AppBar" color="default">
                     <Toolbar>
                         <Typography variant="h5" style={{ color: 'default', marginLeft: '6px' }}>
@@ -475,7 +548,67 @@ function App() {
                                 />
                             </div>
                         : ''}
+
+                        {/*
                         
+                            Settings for 'Trainer Class'
+                        
+                        */}
+
+                        {genSetting === "Trainer" && trainerPref === "Class" ?
+                            <FormControl style={{ width: '8%', marginLeft: '50px' }}>
+                                <InputLabel>Class preference</InputLabel>
+                                <Select
+                                    id="classPref"
+                                    labelId='classPref'
+                                    label="Class preference"
+                                    value={trainerClassPref}
+                                    onChange={handleTrainerClassPref}
+                                    ref={trainerClassPrefRef}
+                                >
+                                    <MenuItem value={"Random"}>Random</MenuItem>
+                                    <MenuItem value={"Specific"}>Specific</MenuItem>
+                                </Select>
+                            </FormControl>
+                        : ''}
+
+                        {genSetting === "Trainer" && trainerPref === "Class" && trainerClassPref === "Specific" ? 
+                            <div style={{ width: 200, marginLeft: '50px' }}>
+                                <Autocomplete
+                                    multiple
+                                    ListboxProps={{ style: { maxHeight: "30rem" }, position: "bottom-start" }}
+                                    size="small"
+                                    limitTags={1}
+                                    id="ClassChoiceBox"
+                                    options={trainerClassList}
+                                    getOptionLabel={(option) => option.class}
+                                    filterSelectedOptions
+                                    onChange={handleTrainerClasses}
+                                    renderInput={(params) => (
+                                        <TextField
+                                            {...params}
+                                            label="Class"
+                                            placeholder="Specific"
+                                            size="small"
+                                        />
+                                    )}
+                                />
+                            </div>
+                        : ''}
+                        
+                        {/*
+
+                            Optional settings dropdown appbar
+                                    
+                        */}
+
+                        <Box sx={{ flexGrow: 1 }} />
+                        <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+                            <IconButton onClick={() => handleExtraAppbar(showExtraAppbar)}>
+                                <KeyboardArrowDownIcon />
+                            </IconButton>
+                        </Box>
+
                     </Toolbar>
                 </AppBar>
             </Box>
@@ -520,15 +653,15 @@ function App() {
             <AppBar position="fixed" style={{ background: 'black', top: 'auto', bottom: 0, alignItems: 'center' }}>
                 <Toolbar>
                     {genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Specific' && selectedRegions.length > 0 && selectedLocations.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, selectedLocations, null, shinyRate))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, selectedLocations, null, shinyRate, dupeSwitchBool))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Random' && selectedRegions.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate, dupeSwitchBool))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Location" && regionPref === 'Random' && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate, dupeSwitchBool))}}>
                             Generate Team
                         </Button>
                     :

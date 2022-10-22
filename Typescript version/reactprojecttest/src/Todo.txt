@@ -6,7 +6,6 @@ TODO List
 -  Add type filter
 -  Put filters in new optional appbar, which only appears when selecting an optional options icon
 -  Fill out all trainer data (takes a shit ton of time lol)
--  Add trainer's location as field to trainer data
 -  Add 'evolves into' array (for branch evos) to pokedex entries (allows for evolved pokemon filter)
 -  Force re-generation until results >= desired results
 -  Wait for PLA gifs to come out on showdown
@@ -14,10 +13,13 @@ TODO List
 -  Update locations with scarlet violet locations
 -  Remove monotype from first dropdown
 -  Add rom hack locations for Renegade Platinum
+-  Add rom hack trainers for Renegade Platinum
 -  Add rom hack locations for BB2VW2 Redux
+-  Add rom hack trainers for BB2VW2 Redux
 -  Add fan game locations for Reborn
+-  Add fan game trainers for Reborn
 -  Add fan game locations for Insurgence
-
+-  Add fan game trainers for Insurgence
 
 
 

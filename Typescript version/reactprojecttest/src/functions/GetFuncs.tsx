@@ -71,8 +71,12 @@ export async function getCanonTrainerLocations() {
     return locationArr;
 }
 
-export async function getRegionSelector() {
-    const regionArr = await getCanonRegions();
+export async function getRegionSelector(trainers?: Boolean) {
+    // regionArr is not altered, just not const because i can then add trainer regions to it
+    let regionArr = await getCanonRegions();
+    if (typeof trainers !== 'undefined') {
+        regionArr = await getCanonRegions(true);
+    }
     
     // get bools for regionList
     let returnArr = new Array<{ region: string, type: string }>();

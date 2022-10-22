@@ -1,7 +1,7 @@
 import * as canonLocations from '../pokemondata/wildlocations/canonlocations.json';
 import { getCanonRegions, getCanonLocations } from './GetFuncs';
 
-export async function GeneratorBase(amountToGen: number, regionPref : string, locationPref : string, locations : Array<{ location: string, region: string }> | any, regions : Array<string> | any, shinyRate: number) {
+export async function GeneratorBase(amountToGen: number, regionPref : string, locationPref : string, locations : Array<{ location: string, region: string }> | any, regions : Array<string> | any, shinyRate: number, dupePref: Boolean) {
     // some info in the console
     console.log("region preference:", regionPref);
     console.log("location preference:", locationPref)
@@ -16,15 +16,15 @@ export async function GeneratorBase(amountToGen: number, regionPref : string, lo
 
     // randomiser with specific region & specific location
     if (regionPref === "Specific" && locationPref === "Specific") {
-        listOfMons = await GeneratorSpecLocation(locations, shinyRate);
+        listOfMons = await GeneratorSpecLocation(locations, shinyRate, dupePref);
     }
     // randomiser with specific region
     else if (regionPref === "Specific" && locationPref === "Random") {
-        listOfMons = await GeneratorSpecRegion(amountToGen, regions, fullPool, shinyRate);
+        listOfMons = await GeneratorSpecRegion(amountToGen, regions, fullPool, shinyRate, dupePref);
     }
     // randomiser with random region
     else {
-        listOfMons = await GeneratorRandRegion(amountToGen, fullPool, shinyRate);
+        listOfMons = await GeneratorRandRegion(amountToGen, fullPool, shinyRate, dupePref);
     }
     console.log("randomiser leftover", listOfMons);
 
@@ -42,11 +42,11 @@ export async function GeneratorBase(amountToGen: number, regionPref : string, lo
     return randomisedPool;
 }
 
-export async function GeneratorSpecLocation(locations : Array<{ location: string, region: string }> | any, shinyRate: number) {
-    return await getLocationPokemon(locations, shinyRate);
+export async function GeneratorSpecLocation(locations : Array<{ location: string, region: string }> | any, shinyRate: number, dupePref: Boolean) {
+    return await getLocationPokemon(locations, shinyRate, dupePref);
 }
 
-export async function GeneratorSpecRegion(amountToGen: number, regions: Array<string>, fullPool: any, shinyRate: number) {
+export async function GeneratorSpecRegion(amountToGen: number, regions: Array<string>, fullPool: any, shinyRate: number, dupePref: Boolean) {
     const regionArr = await getCanonRegions();
     const randomLocations = Array<{ location: string, region: string }>();
     const locationCount = Math.floor(Math.random()*amountToGen + 1) + 1;
@@ -58,10 +58,10 @@ export async function GeneratorSpecRegion(amountToGen: number, regions: Array<st
 
         randomLocations.push({ location: locationName, region: regionArr[randomRegionIndex]});
     }
-    return await getLocationPokemon(randomLocations, shinyRate);
+    return await getLocationPokemon(randomLocations, shinyRate, dupePref);
 }
 
-export async function GeneratorRandRegion(amountToGen: number, fullPool: any, shinyRate: number) {
+export async function GeneratorRandRegion(amountToGen: number, fullPool: any, shinyRate: number, dupePref: Boolean) {
     const regionArr = await getCanonRegions();
     const randomLocations = Array<{ location: string, region: string }>();
     const regionCount = Math.floor(Math.random()*amountToGen) + 1
@@ -74,10 +74,10 @@ export async function GeneratorRandRegion(amountToGen: number, fullPool: any, sh
         randomLocations.push({ location: locationName, region: regionArr[randomRegionIndex]});
     }
 
-    return await getLocationPokemon(randomLocations, shinyRate);
+    return await getLocationPokemon(randomLocations, shinyRate, dupePref);
 }
 
-export async function getLocationPokemon(locations : Array<{location : string, region : string}>, shinyRate: number) {
+export async function getLocationPokemon(locations : Array<{location : string, region : string}>, shinyRate: number, dupePref: Boolean) {
     // initialised in Generator()
     // locations will be {location, region} of only the ones chosen in settings.
     const monArr = Array<{ Pokemon: string, Region: string, Location: string, shinyId: number }>();
@@ -92,7 +92,7 @@ export async function getLocationPokemon(locations : Array<{location : string, r
             }
         }
     }
-    if ((await filterDupes(monArr)).length < 6) {
+    if (dupePref) {
         return await filterUndefined(monArr);
     }
     return await filterUndefined(await filterDupes(monArr));
