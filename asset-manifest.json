@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PokemonLocationRandomiser/static/css/main.073c9b0a.css",
+    "main.js": "/PokemonLocationRandomiser/static/js/main.787b4ac8.js",
+    "static/js/787.7f85cdaa.chunk.js": "/PokemonLocationRandomiser/static/js/787.7f85cdaa.chunk.js",
+    "index.html": "/PokemonLocationRandomiser/index.html",
+    "main.073c9b0a.css.map": "/PokemonLocationRandomiser/static/css/main.073c9b0a.css.map",
+    "main.787b4ac8.js.map": "/PokemonLocationRandomiser/static/js/main.787b4ac8.js.map",
+    "787.7f85cdaa.chunk.js.map": "/PokemonLocationRandomiser/static/js/787.7f85cdaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.787b4ac8.js"
+  ]
+}
