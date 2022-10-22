@@ -41,7 +41,7 @@ import { stringify } from 'querystring';
 import { ThemeProvider } from '@material-ui/core/styles';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
-import { GeneratorBase } from './functions/Generators';
+import { GeneratorBaseLocation, GeneratorBaseTrainer } from './functions/Generators';
 import { getRegionSelector, getLocationSelector, getPokemonGif, getTrainerClassSelector, getTrainerLocationSelector } from './functions/GetFuncs';
 
 function App() {
@@ -78,7 +78,7 @@ function App() {
     const [battleFacilitySwitchBool, setBattleFacilitySwitchBool] = React.useState(false);
     const [stadiumSwitchBool, setStadiumSwitchBool] = React.useState(false);
 
-    const [generatedMons, setGeneratedMons] = React.useState(Array<{ Pokemon: string, Region: string, Location: string, shinyId: number }>());
+    const [generatedMons, setGeneratedMons] = React.useState(Array<{ Pokemon: string, Region: string, Location: string, TrainerClass: string, TrainerName: string, shinyId: number }>());
 
     const genButtonBoolRef = React.useRef(null);
     const genSettingRef = React.useRef(null);
@@ -124,10 +124,13 @@ function App() {
         setGenButtonBool(event);
     }
     const handleGenSetting = (event: any) => {
-        setMonCount('');
         setRegionPref("");
         setLocationPref("");
         setTrainerPref("");
+        setSelectedLocations([]);
+        setSelectedRegions([]);
+        setSelectedTrainerClasses([]);
+        setSelectedTrainerLocations([]);
         handleGenButtonBool(false);
 
         console.log("handle gensetting", event.target.value);
@@ -149,6 +152,9 @@ function App() {
     }
     const handleRegionPref = (event: any) => {
         setLocationPref("");
+        setSelectedRegions([]);
+        setSelectedLocations([]);
+        setSelectedTrainerLocations([]);
         handleGenButtonBool(false);
 
         console.log("handle regionpref", event.target.value);
@@ -156,6 +162,8 @@ function App() {
     }
     const handleLocationPref = (event: any) => {
         console.log("handle locationpref", event.target.value);
+        setSelectedLocations([]);
+        setSelectedTrainerLocations([]);
         handleGenButtonBool(false);
 
         setLocationPref(event.target.value);
@@ -208,6 +216,7 @@ function App() {
     }
     const handleTrainerClassPref = (event: any) => {
         console.log("handle trainerclasspref", event.target.value);
+        setSelectedTrainerClasses([]);
         handleGenButtonBool(false);
 
         setTrainerClassPref(event.target.value);
@@ -632,12 +641,17 @@ function App() {
                                                     {generatedMons[index].Pokemon}
                                                 </Typography>
                                                 }
-                                                {regionPref === "Random" || regionPref === "Specific" && locationPref === "Random" || regionPref === "Specific" && locationPref === "Specific" && selectedLocations.length > 1 ?
+                                                {genSetting === "Trainer" && trainerPref === "Location" || trainerPref === "Class" && trainerClassPref === "Random" ?
+                                                    <Typography gutterBottom variant="body2" align='center'>
+                                                        {`${generatedMons[index].TrainerClass} ${generatedMons[index].TrainerName}`}
+                                                    </Typography>
+                                                : ''}
+                                                {genSetting === "Location" && regionPref === "Random" || regionPref === "Specific" && locationPref === "Random" || regionPref === "Specific" && locationPref === "Specific" && selectedLocations.length > 1 ?
                                                     <Typography gutterBottom variant="body2" align='center'>
                                                         {generatedMons[index].Location}
                                                     </Typography>
                                                 : ''}
-                                                {regionPref === "Random" || regionPref === "Specific" && selectedRegions.length > 1 ?
+                                                {genSetting === "Location" && regionPref === "Random" || regionPref === "Specific" && selectedRegions.length > 1 ?
                                                     <Typography gutterBottom variant="body2" align='center'>
                                                         {generatedMons[index].Region}
                                                     </Typography>
@@ -652,18 +666,48 @@ function App() {
                 : ''}
             <AppBar position="fixed" style={{ background: 'black', top: 'auto', bottom: 0, alignItems: 'center' }}>
                 <Toolbar>
+                    {/*
+
+                        Randomiser Requirements
+
+                    */}
+
                     {genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Specific' && selectedRegions.length > 0 && selectedLocations.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, selectedLocations, null, shinyRate, dupeSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseLocation(parseInt(monCount), regionPref, locationPref, selectedLocations, null, shinyRate, dupeSwitchBool))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Random' && selectedRegions.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate, dupeSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseLocation(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate, dupeSwitchBool))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Location" && regionPref === 'Random' && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBase(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate, dupeSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseLocation(parseInt(monCount), regionPref, locationPref, null, null, shinyRate, dupeSwitchBool))}}>
                             Generate Team
                         </Button>
+
+
+                    : genSetting === "Trainer" && trainerPref === "Location" && regionPref === 'Specific' && locationPref === 'Specific' && selectedRegions.length > 0 && selectedTrainerLocations.length > 0 && monCount !== '' ?
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), regionPref, locationPref, selectedTrainerLocations, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool))}}>
+                            Generate Team
+                        </Button>
+                    : genSetting === "Trainer" && trainerPref === "Location" && regionPref === 'Specific' && locationPref === 'Random' && selectedRegions.length > 0 && monCount !== '' ?
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool))}}>
+                            Generate Team
+                        </Button>
+                    : genSetting === "Trainer" && trainerPref === "Location" && regionPref === 'Random' && monCount !== '' ?
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), regionPref, locationPref, null, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool))}}>
+                            Generate Team
+                        </Button>
+                    : genSetting === "Trainer" && trainerPref === "Class" && trainerClassPref === 'Specific' && selectedTrainerClasses.length > 0 && monCount !== '' ?
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), regionPref, locationPref, null, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool))}}>
+                            Generate Team
+                        </Button>
+                    : genSetting === "Trainer" && trainerPref === "Class" && trainerClassPref === 'Random' && monCount !== '' ?
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), regionPref, locationPref, null, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool))}}>
+                            Generate Team
+                        </Button>
+
+                    
                     :
                         <Typography variant="h5" style={{ color: 'white', marginLeft: '6px' }}>
                             Settings incomplete
