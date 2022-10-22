@@ -39,7 +39,7 @@ import { stringify } from 'querystring';
 import { ThemeProvider } from '@material-ui/core/styles';
 
 import { GeneratorBase } from './functions/Generators';
-import { getRegionSelector, getLocationSelector, getPokemonGif } from './functions/GetFuncs';
+import { getRegionSelector, getLocationSelector, getPokemonGif, getTrainerClassSelector, getTrainerLocationSelector } from './functions/GetFuncs';
 
 function App() {
     const darkTheme = createTheme({
@@ -108,12 +108,12 @@ function App() {
     // TODO add type filter
     // TODO add toggle for dark mode
 
-    const handleGenButtonBool = (event : any) => {
+    const handleGenButtonBool = (event: any) => {
         console.log("handle genbutton", event);
 
         setGenButtonBool(event);
     }
-    const handleGenSetting = (event : any) => {
+    const handleGenSetting = (event: any) => {
         setMonCount('');
         setRegionPref("");
         setLocationPref("");
@@ -123,13 +123,13 @@ function App() {
         console.log("handle gensetting", event.target.value);
         setGenSetting(event.target.value);
     }
-    const handleMonCount = (event : any) => {
+    const handleMonCount = (event: any) => {
         console.log("handle moncount", event.target.value);
         handleGenButtonBool(false);
 
         setMonCount(event.target.value);
     }
-    const handleRegionPref = (event : any) => {
+    const handleRegionPref = (event: any) => {
         setLocationPref("");
         handleGenButtonBool(false);
 
@@ -142,7 +142,7 @@ function App() {
 
         setLocationPref(event.target.value);
     }
-    const handleLocationList = (event: any, value : any) => {
+    const handleLocationList = (event: any, value: any) => {
         console.log("handle locationlist", value);
         handleGenButtonBool(false);
 
@@ -155,7 +155,7 @@ function App() {
 
         setSelectedLocations(value);
     }
-    const handleRegionList = (event: any, value : any) => {
+    const handleRegionList = (event: any, value: any) => {
         console.log("handle regionlist", value);
         handleGenButtonBool(false);
 
@@ -163,7 +163,7 @@ function App() {
         for (let i = 0; i < value.length; i++) {
             strArr.push(value[i].region)
         }
-        console.log(strArr);
+        console.log("handle regionlist 2nd log", strArr);
         
         if (value.length > 0) {
             setRegionSelectedBool(true);
@@ -174,7 +174,7 @@ function App() {
         
         setSelectedRegions(strArr);
     }
-    const handleGeneratedMons = (event : any) => {
+    const handleGeneratedMons = (event: any) => {
         handleGenButtonBool(true);
         console.log("handle generatedmons", event);
         setGeneratedMons(event);
@@ -187,6 +187,28 @@ function App() {
 
         setTrainerPref(event.target.value);
     }
+    const handleTrainerClasses = (event: any, value: any) => {
+        console.log("handle trainerclasslist", value);
+        handleGenButtonBool(false);
+        if (value.length > 0) {
+            setTrainerSelectedBool(true);
+        }
+        else {
+            setTrainerSelectedBool(false);
+        }
+        setSelectedTrainerClasses(value);
+    }
+    const handleTrainerLocations = (event: any, value: any) => {
+        console.log("handle trainerlocationlist", value);
+        handleGenButtonBool(false);
+        if (value.length > 0) {
+            setTrainerSelectedBool(true);
+        }
+        else {
+            setTrainerSelectedBool(false);
+        }
+        setSelectedTrainerLocations(value);
+    }
 
     console.log("genbutton boolean", genButtonBool);
     
@@ -194,6 +216,8 @@ function App() {
         (async () => {
             setRegionList(await getRegionSelector());
             setLocationList(await getLocationSelector());
+            setTrainerClassList(await getTrainerClassSelector());
+            setTrainerLocationList(await getTrainerLocationSelector());
         })();
     }, []);
 
@@ -423,7 +447,7 @@ function App() {
                             </div>
                         : ''}
 
-                        {genSetting === "Trainer" && trainerPref === "Location" && regionPref === "Specific" && regionSelectedBool === true ? 
+                        {genSetting === "Trainer" && trainerPref === "Location" && regionPref === "Specific" && locationPref === "Specific" && regionSelectedBool === true ? 
                             <div style={{ width: 200, marginLeft: '50px' }}>
                                 <Autocomplete
                                     multiple
@@ -431,7 +455,7 @@ function App() {
                                     size="small"
                                     limitTags={1}
                                     id="LocationChoiceBox"
-                                    options={locationList.filter(item => {
+                                    options={trainerLocationList.filter(item => {
                                         if (selectedRegions.includes(item.region)) {
                                             return true
                                         }
@@ -439,7 +463,7 @@ function App() {
                                     groupBy={(option) => option.region}
                                     getOptionLabel={(option) => option.location}
                                     filterSelectedOptions
-                                    onChange={handleLocationList}
+                                    onChange={handleTrainerLocations}
                                     renderInput={(params) => (
                                         <TextField
                                             {...params}

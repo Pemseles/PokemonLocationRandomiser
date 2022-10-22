@@ -1,6 +1,7 @@
 import * as canonLocations from '../pokemondata/wildlocations/canonlocations.json';
+import * as canonTrainers from '../pokemondata/trainerowned/canontrainerclass.json';
 
-export async function getCanonRegions() {
+export async function getCanonRegions(trainers?: Boolean) {
     const arr = Array<string>();
     for (let i = 0; i < Object.values(canonLocations).length; i++) {
         arr.push(Object.values(canonLocations)[i].Label);
@@ -8,6 +9,10 @@ export async function getCanonRegions() {
     arr.pop();
     arr.pop();
 
+    if (typeof trainers !== 'undefined') {
+        arr.push('Stadium');
+        arr.push('Orre');
+    }
     return arr;
 }
 
@@ -22,7 +27,47 @@ export async function getCanonLocations() {
         }
         locationArr.push(innerLocationArr);
     }
+    return locationArr;
+}
 
+export async function getCanonTrainerClasses() {
+    const classArr = Array<string>();
+    console.log("canon trainers", Object.values(canonTrainers));
+
+    for (let i = 0; i < Object.values(canonTrainers).length; i++) {
+        classArr.push(Object.values(canonTrainers)[i].Class);
+    }
+    classArr.pop();
+    classArr.pop();
+    return classArr;
+}
+
+export async function getCanonTrainerLocations() {
+    const regionArr = await getCanonRegions(true);
+    const locationArr = Array<Array<string>>();
+
+    for (let i = 0; i < regionArr.length; i++) {
+        const innerLocationArr = Array<string>();
+        for (let j = 0; j < Object.values(canonTrainers).length - 2; j++) {
+            for (let k = 0; k < Object.values(canonTrainers)[j].InGame.length; k++) {
+                if (Object.values(canonTrainers)[j].InGame[k].Region === regionArr[i] && !innerLocationArr.includes(Object.values(canonTrainers)[j].InGame[k].Location)) {
+                    innerLocationArr.push(Object.values(canonTrainers)[j].InGame[k].Location);
+                }
+            }
+            for (let k = 0; k < Object.values(canonTrainers)[j].BattleFacility.length; k++) {
+                if (Object.values(canonTrainers)[j].BattleFacility[k].Region === regionArr[i] && !innerLocationArr.includes(Object.values(canonTrainers)[j].BattleFacility[k].Location)) {
+                    innerLocationArr.push(Object.values(canonTrainers)[j].BattleFacility[k].Location);
+                }
+            }
+            for (let k = 0; k < Object.values(canonTrainers)[j].StadiumGames.length; k++) {
+                if (Object.values(canonTrainers)[j].StadiumGames[k].Region === regionArr[i] && !innerLocationArr.includes(Object.values(canonTrainers)[j].StadiumGames[k].Location)) {
+                    innerLocationArr.push(Object.values(canonTrainers)[j].StadiumGames[k].Location);
+                }
+            }
+        }
+        innerLocationArr.sort((a, b) => a.localeCompare(b));
+        locationArr.push(innerLocationArr);
+    }
     return locationArr;
 }
 
@@ -50,7 +95,6 @@ export async function getLocationSelector() {
             returnArr.push({ location: locationArr[i][j], region: regionArr[i] });
         }
     }
-
     return returnArr;
 }
 
@@ -67,4 +111,32 @@ export function getPokemonGif(mon : { Pokemon: string, Region: string, Location:
         }
     }
     return ''
+}
+
+export async function getTrainerClassSelector() {
+    // get bools for trainerclass list
+    let returnArr = new Array<{ class: string }>();
+
+    const classArr = await getCanonTrainerClasses();
+
+    for (let i = 0; i < classArr.length; i++) {
+        returnArr.push({ class: classArr[i] });
+    }
+    return returnArr;
+}
+
+export async function getTrainerLocationSelector() {
+    // get bools for trainerlocation list
+    let returnArr = new Array<{ location: string, region: string }>();
+
+    const regionArr = await getCanonRegions(true);
+    const locationArr = await getCanonTrainerLocations();
+
+    for (let i = 0; i < regionArr.length; i++) {
+        for (let j = 0; j < locationArr[i].length; j++) {
+            returnArr.push({ location: locationArr[i][j], region: regionArr[i] });
+        }
+    }
+    console.log("in gettrainerlocationselector", returnArr);
+    return returnArr;
 }
