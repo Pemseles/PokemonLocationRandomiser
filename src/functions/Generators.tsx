@@ -60,7 +60,7 @@ async function GeneratorSpecRegion(amountToGen: number, regions: Array<string>, 
 async function GeneratorRandRegion(amountToGen: number, fullPool: any, shinyRate: number, dupePref: Boolean) {
     const regionArr = await getCanonRegions();
     const randomLocations = Array<{ location: string, region: string }>();
-    const regionCount = Math.floor(Math.random()*amountToGen) + 1
+    const regionCount = Math.floor(Math.random()*amountToGen) + 1;
 
     for (let i = 0; i < regionCount; i++) {
         let randomRegionIndex = Math.floor(Math.random()*regionArr.length);
@@ -99,10 +99,10 @@ async function getLocationPokemon(locations: Array<{location: string, region: st
     return await filterLocationUndefined(await filterLocationDupes(monArr));
 }
 
-export async function GeneratorBaseTrainer(amountToGen: number, trainerPref: string, trainerClassPref: string, regionPref: string, locations: Array<{ location: string, region: string }> | any, regions: Array<string> | any, classes: Array<string> | any, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
+export async function GeneratorBaseTrainer(amountToGen: number, trainerPref: string, trainerClassPref: string, regionPref: string, locationPref: string, locations: Array<{ location: string, region: string }> | any, regions: Array<string> | any, classes: Array<string> | any, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
     // some info in the console
     console.log("region preference:", regionPref);
-    console.log("location is always specific")
+    console.log("location preference:", locationPref);
     console.log("locations", locations);
     console.log("regions", regions);
     console.log("Amount of mons to gen:", amountToGen);
@@ -114,20 +114,24 @@ export async function GeneratorBaseTrainer(amountToGen: number, trainerPref: str
     console.log("trainer fullPool", fullPool);
 
     // randomiser location with specific region & specific location
-    if (trainerPref === "Location" && regionPref === "Specific") {
+    if (trainerPref === "Location" && regionPref === "Specific" && locationPref === "Specific") {
         listOfMons = await getTrainerPokemon(shinyRate, dupePref, facilityPref, stadiumPref, locations);
+    }
+    // randomiser location with specific region & random location
+    else if (trainerPref === "Location" && regionPref === "Specific" && locationPref === "Random") {
+        listOfMons = await RandTrainerLocation(amountToGen, regions, shinyRate, dupePref, facilityPref, stadiumPref);
     }
     // randomiser location with random region
     else if (trainerPref === "Location" && regionPref === "Random") {
-        listOfMons = await RandTrainerRegion(amountToGen, fullPool, shinyRate, dupePref, facilityPref, stadiumPref);
+        listOfMons = await RandTrainerRegion(amountToGen, shinyRate, dupePref, facilityPref, stadiumPref);
     }
     // randomiser class with specific class
     else if (trainerPref === "Class" && trainerClassPref === "Specific") {
-        listOfMons = await SpecTrainerClass(amountToGen, classes, fullPool, shinyRate, dupePref, facilityPref, stadiumPref);
+        listOfMons = await SpecTrainerClass(amountToGen, classes, shinyRate, dupePref, facilityPref, stadiumPref);
     }
     // randomiser class with random class
     else if (trainerPref === "Class" && trainerClassPref === "Random") {
-        listOfMons = await RandTrainerClass(amountToGen, fullPool, shinyRate, dupePref, facilityPref, stadiumPref);
+        listOfMons = await RandTrainerClass(amountToGen, shinyRate, dupePref, facilityPref, stadiumPref);
     }
     console.log("randomiser leftover", listOfMons);
 
@@ -144,19 +148,68 @@ export async function GeneratorBaseTrainer(amountToGen: number, trainerPref: str
     return randomisedPool;
 }
 
-async function RandTrainerRegion(amountToGen: number, fullPool: any, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
+async function RandTrainerLocation(amountToGen: number, regions: Array<string>, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
     const randomLocations = Array<{ location: string, region: string }>();
+    const battleFacilities = ["Trainer Tower", "Battle Tower", "Battle Factory", "Battle Arcade", "Battle Castle", "Battle Hall", "Battle Tent", "Trainer Hill", "Battle Arena", "Battle Dome", 
+                                "Battle Pike", "Battle Palace", "Battle Pyramid", "Battle Institute", "Battle Maison", "Battle Subway", "Pokémon World Tournament", "Battle Royal Dome",
+                                "Battle Tree", "Battle Agency", "Master Dojo"];
+    const locationCount = Math.floor(Math.random()*amountToGen) + 1;
+    let trainerLocations = await getCanonTrainerLocations();
+    const regionArr = await getCanonRegions(true);
 
+    for (let i = 0; i < locationCount; i++) {
+        let regionIndex = regionArr.indexOf(regions[Math.floor(Math.random()*regions.length)]);
+        if (trainerLocations[regionIndex].length < 1) {
+            i--;
+            continue;
+        }
+        let locationIndex = Math.floor(Math.random()*trainerLocations[regionIndex].length);
+        if (!facilityPref && battleFacilities.some(e => e === trainerLocations[regionIndex][locationIndex])) {
+            i--;
+            continue;
+        }
+        randomLocations.push({ location: trainerLocations[regionIndex][locationIndex], region: regionArr[regionIndex] });
+    }
+    console.log("location gen results", randomLocations);
     return await getTrainerPokemon(shinyRate, dupePref, facilityPref, stadiumPref, randomLocations);
 }
 
-async function SpecTrainerClass(amountToGen: number, classes: Array<string>, fullPool: any, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
+async function RandTrainerRegion(amountToGen: number, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
+    const randomLocations = Array<{ location: string, region: string }>();
+    const battleFacilities = ["Trainer Tower", "Battle Tower", "Battle Factory", "Battle Arcade", "Battle Castle", "Battle Hall", "Battle Tent", "Trainer Hill", "Battle Arena", "Battle Dome", 
+                                "Battle Pike", "Battle Palace", "Battle Pyramid", "Battle Institute", "Battle Maison", "Battle Subway", "Pokémon World Tournament", "Battle Royal Dome",
+                                "Battle Tree", "Battle Agency", "Master Dojo"];
+    const regionCount = Math.floor(Math.random()*amountToGen) + 1;
+    let trainerLocations = await getCanonTrainerLocations();
+    const regionArr = await getCanonRegions(true);
+    if (!stadiumPref) {
+        trainerLocations.splice(trainerLocations.length - 2, 2);
+    }
 
+    for (let i = 0; i < regionCount; i++) {
+        let regionIndex = Math.floor(Math.random()*trainerLocations.length);
+        if (trainerLocations[regionIndex].length < 1) {
+            i--;
+            continue;
+        }
+        let locationIndex = Math.floor(Math.random()*trainerLocations[regionIndex].length);
+        if (!facilityPref && battleFacilities.some(e => e === trainerLocations[regionIndex][locationIndex])) {
+            i--;
+            continue;
+        }
+        randomLocations.push({ location: trainerLocations[regionIndex][locationIndex], region: regionArr[regionIndex] });
+    }
+    console.log("location gen results", randomLocations);
+    return await getTrainerPokemon(shinyRate, dupePref, facilityPref, stadiumPref, randomLocations);
+}
+
+async function SpecTrainerClass(amountToGen: number, classes: Array<string>, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
+    
 
     return await getTrainerPokemon(shinyRate, dupePref, facilityPref, stadiumPref);
 }
 
-async function RandTrainerClass(amountToGen: number, fullPool: any, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
+async function RandTrainerClass(amountToGen: number, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
 
 
     return await getTrainerPokemon(shinyRate, dupePref, facilityPref, stadiumPref);
