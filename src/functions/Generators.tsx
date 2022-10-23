@@ -127,7 +127,7 @@ export async function GeneratorBaseTrainer(amountToGen: number, trainerPref: str
     }
     // randomiser class with specific class
     else if (trainerPref === "Class" && trainerClassPref === "Specific") {
-        listOfMons = await SpecTrainerClass(amountToGen, classes, shinyRate, dupePref, facilityPref, stadiumPref);
+        listOfMons = await getTrainerPokemon(shinyRate, dupePref, facilityPref, stadiumPref, undefined, classes);
     }
     // randomiser class with random class
     else if (trainerPref === "Class" && trainerClassPref === "Random") {
@@ -135,6 +135,7 @@ export async function GeneratorBaseTrainer(amountToGen: number, trainerPref: str
     }
     console.log("randomiser leftover", listOfMons);
 
+    // randomly selects amountToGen mons from results
     for (let i = 0; i < amountToGen; i++) {
         let index = listOfMons.indexOf(listOfMons[Math.floor(Math.random()*listOfMons.length)]);
         if (typeof listOfMons[index] !== 'undefined') {
@@ -203,24 +204,28 @@ async function RandTrainerRegion(amountToGen: number, shinyRate: number, dupePre
     return await getTrainerPokemon(shinyRate, dupePref, facilityPref, stadiumPref, randomLocations);
 }
 
-async function SpecTrainerClass(amountToGen: number, classes: Array<string>, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
-    
-
-    return await getTrainerPokemon(shinyRate, dupePref, facilityPref, stadiumPref);
-}
-
 async function RandTrainerClass(amountToGen: number, shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean) {
+    const classes = Array<{ class: string }>();
+    const classCount = Math.floor(Math.random()*amountToGen) + 1;
+    const classArr = await getCanonTrainerClasses();
 
-
-    return await getTrainerPokemon(shinyRate, dupePref, facilityPref, stadiumPref);
+    for (let i = 0; i < classCount; i++) {
+        let classIndex = Math.floor(Math.random()*classArr.length);
+        if (Object.values(canonTrainers)[classIndex].Class === "") {
+            i--;
+            continue;
+        }
+        classes.push({ class: Object.values(canonTrainers)[classIndex].Class });
+    }
+    console.log("class gen results", classes);
+    return await getTrainerPokemon(shinyRate, dupePref, facilityPref, stadiumPref, undefined, classes);
 }
 
-async function getTrainerPokemon(shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean, locations?: Array<{location: string, region: string}>, classes?: Array<string>) {
+async function getTrainerPokemon(shinyRate: number, dupePref: Boolean, facilityPref: Boolean, stadiumPref: Boolean, locations?: Array<{location: string, region: string}>, classes?: Array<{ class: string }>) {
     // initialised in GeneratorBaseTrainer()
     // classArr is used in outer for loop to prevent 2 extra array items from being accessed (these are the length & a copy of full object for some reason lol)
     const monArr = Array<{ Pokemon: string, Region: string, Location: string, TrainerClass: string, TrainerName: string, shinyId: number }>();
     const classArr = await getCanonTrainerClasses();
-    
     for (let i = 0; i < classArr.length; i++) {
         // check if based on location or classes
         if (locations !== undefined && classes === undefined) {
@@ -274,7 +279,7 @@ async function getTrainerPokemon(shinyRate: number, dupePref: Boolean, facilityP
         }
         else if (classes !== undefined && locations === undefined) {
             // class
-            if (classes.some(e => e === Object.values(canonTrainers)[i].Class)) {
+            if (classes.some(e => e.class === Object.values(canonTrainers)[i].Class)) {
                 for (let j = 0; j < Object.values(canonTrainers)[i].InGame.length; j++) {
                     for (let k = 0; k < Object.values(canonTrainers)[i].InGame[j].Pokemon.length; k++) {
                         monArr.push({ 

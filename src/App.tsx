@@ -646,12 +646,12 @@ function App() {
                                                         {`${generatedMons[index].TrainerClass} ${generatedMons[index].TrainerName}`}
                                                     </Typography>
                                                 : ''}
-                                                {regionPref === "Random" || regionPref === "Specific" && locationPref === "Random" || regionPref === "Specific" && locationPref === "Specific" && selectedLocations.length > 1 ?
+                                                {trainerPref === "Class" || regionPref === "Random" || regionPref === "Specific" && locationPref === "Random" || regionPref === "Specific" && locationPref === "Specific" && selectedLocations.length > 1 ?
                                                     <Typography gutterBottom variant="body2" align='center'>
                                                         {generatedMons[index].Location}
                                                     </Typography>
                                                 : ''}
-                                                {regionPref === "Random" || regionPref === "Specific" && selectedRegions.length > 1 ?
+                                                {trainerPref === "Class" || regionPref === "Random" || regionPref === "Specific" && selectedRegions.length > 1 ?
                                                     <Typography gutterBottom variant="body2" align='center'>
                                                         {generatedMons[index].Region}
                                                     </Typography>
