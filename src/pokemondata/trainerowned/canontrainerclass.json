@@ -1,5 +1,6 @@
 [{
     "Class": "A-list Actor",
+    "PossibleRegions": ["Unova"],
     "InGame": [
         {
             "Name": "Alonso",
@@ -17,6 +18,7 @@
     "StadiumGames": []
 },{
     "Class": "Ace Duo",
+    "PossibleRegions": ["Kalos", "Hoenn", "Alola"],
     "InGame": [
         {
             "Name": "Elina & Sean",
@@ -44,6 +46,7 @@
     "StadiumGames": []
 },{
     "Class": "Ace Trainer",
+    "PossibleRegions": ["Kanto", "Johto", "Hoenn", "Sinnoh", "Unova", "Kalos", "Alola", "Galar", "Stadium", "Orre"],
     "InGame": [
         {
             "Name": "Aaron",
@@ -400,6 +403,7 @@
     ]
 },{
     "Class": "Actor",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -431,6 +435,7 @@
     ]
 },{
     "Class": "Actress",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -462,6 +467,7 @@
     ]
 },{
     "Class": "Aether Foundation",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -493,6 +499,7 @@
     ]
 },{
     "Class": "Aether Foundation Employee",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -524,6 +531,7 @@
     ]
 },{
     "Class": "Aqua Admin",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -555,6 +563,7 @@
     ]
 },{
     "Class": "Area Leader",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -586,6 +595,7 @@
     ]
 },{
     "Class": "Aroma Lady",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -617,6 +627,7 @@
     ]
 },{
     "Class": "Artist",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -648,6 +659,7 @@
     ]
 },{
     "Class": "Artist Family",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -679,6 +691,7 @@
     ]
 },{
     "Class": "Athlete",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -710,6 +723,7 @@
     ]
 },{
     "Class": "Athletic Siblings",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -741,6 +755,7 @@
     ]
 },{
     "Class": "Backers",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -772,6 +787,7 @@
     ]
 },{
     "Class": "Backpacker",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -803,6 +819,7 @@
     ]
 },{
     "Class": "Baker",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -834,6 +851,7 @@
     ]
 },{
     "Class": "Bandana Guy",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -865,6 +883,7 @@
     ]
 },{
     "Class": "Bandit",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -896,6 +915,7 @@
     ]
 },{
     "Class": "Baron",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -927,6 +947,7 @@
     ]
 },{
     "Class": "Baroness",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -958,6 +979,7 @@
     ]
 },{
     "Class": "Battle Chatelaine",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -989,6 +1011,7 @@
     ]
 },{
     "Class": "Battle Girl",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -1020,6 +1043,7 @@
     ]
 },{
     "Class": "Battle Legend",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -1051,6 +1075,7 @@
     ]
 },{
     "Class": "Beauty",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -1082,6 +1107,7 @@
     ]
 },{
     "Class": "Bellhop",
+    "PossibleRegions": ["Alola"],
     "InGame": [
         {
             "Name": "Jody",
@@ -1124,6 +1150,7 @@
     "StadiumGames": []
 },{
     "Class": "",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -1155,6 +1182,7 @@
     ]
 },{
     "Class": "",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -1186,6 +1214,7 @@
     ]
 },{
     "Class": "",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",
@@ -1217,6 +1246,7 @@
     ]
 },{
     "Class": "",
+    "PossibleRegions": [],
     "InGame": [
         {
             "Name": "",

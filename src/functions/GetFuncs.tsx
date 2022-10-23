@@ -32,7 +32,6 @@ export async function getCanonLocations() {
 
 export async function getCanonTrainerClasses() {
     const classArr = Array<string>();
-    console.log("canon trainers", Object.values(canonTrainers));
 
     for (let i = 0; i < Object.values(canonTrainers).length; i++) {
         classArr.push(Object.values(canonTrainers)[i].Class);
@@ -141,6 +140,5 @@ export async function getTrainerLocationSelector() {
             returnArr.push({ location: locationArr[i][j], region: regionArr[i] });
         }
     }
-    console.log("in gettrainerlocationselector", returnArr);
     return returnArr;
 }
