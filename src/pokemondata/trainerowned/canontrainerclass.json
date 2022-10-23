@@ -66,10 +66,40 @@
             "Location": "Lake of Rage",
             "Pokemon": ["Bulbasaur", "Charmander", "Squirtle"]
         },{
+            "Name": "Alvin",
+            "Region": "Kanto",
+            "Location": "Route 4",
+            "Pokemon": ["Nidoran-M"]
+        },{
+            "Name": "Amanda",
+            "Region": "Kanto",
+            "Location": "Saffron Gym",
+            "Pokemon": ["Smoochum"]
+        },{
+            "Name": "Annie",
+            "Region": "Kanto",
+            "Location": "Fuchsia Gym",
+            "Pokemon": ["Bulbasaur", "Koffing"]
+        },{
             "Name": "Arabella",
             "Region": "Kanto",
             "Location": "Viridian Gym",
             "Pokemon": ["Stantler", "Tauros"]
+        },{
+            "Name": "Arjun",
+            "Region": "Kanto",
+            "Location": "Seafoam Islands",
+            "Pokemon": ["Dratini"]
+        },{
+            "Name": "Arnold",
+            "Region": "Kanto",
+            "Location": "Route 9",
+            "Pokemon": ["Vulpix"]
+        },{
+            "Name": "Austin",
+            "Region": "Kanto",
+            "Location": "Route 7",
+            "Pokemon": ["Growlithe"]
         },{
             "Name": "Beth",
             "Region": "Kanto",
@@ -84,17 +114,32 @@
             "Name": "Bonita",
             "Region": "Kanto",
             "Location": "Viridian Gym",
-            "Pokemon": ["Spinda", "Sudowoodo"]
+            "Pokemon": ["Spinda", "Bonsly"]
         },{
             "Name": "Brian",
             "Region": "Kanto",
             "Location": "Route 27",
             "Pokemon": ["Sandshrew", "Mareep"]
         },{
+            "Name": "Cameron",
+            "Region": "Kanto",
+            "Location": "Saffron Gym",
+            "Pokemon": ["Abra"]
+        },{
             "Name": "Cara",
             "Region": "Johto",
             "Location": "Dragon's Den",
             "Pokemon": ["Horsea"]
+        },{
+            "Name": "Carl",
+            "Region": "Kanto",
+            "Location": "Vermillion City",
+            "Pokemon": ["Krabby"]
+        },{
+            "Name": "Carlton",
+            "Region": "Kanto",
+            "Location": "Route 23",
+            "Pokemon": ["Nidoran-M"]
         },{
             "Name": "Carol",
             "Region": "Johto",
@@ -104,7 +149,17 @@
             "Name": "Caroline",
             "Region": "Kanto",
             "Location": "Victory Road",
-            "Pokemon": ["Bellsprout", "Paras"]
+            "Pokemon": ["Bellsprout", "Paras", "Smoochum", "Zubat", "Growlithe"]
+        },{
+            "Name": "Charlie",
+            "Region": "Kanto",
+            "Location": "Rock Tunnel",
+            "Pokemon": ["Diglett", "Eevee"]
+        },{
+            "Name": "Christopher",
+            "Region": "Kanto",
+            "Location": "Route 10",
+            "Pokemon": ["Charmander"]
         },{
             "Name": "Cody",
             "Region": "Johto",
@@ -114,7 +169,7 @@
             "Name": "Colby",
             "Region": "Kanto",
             "Location": "Victory Road",
-            "Pokemon": ["Krabby", "Poliwag", "Tentacool", "Horsea", "Squirtle"]
+            "Pokemon": ["Krabby", "Poliwag", "Tentacool", "Horsea", "Squirtle", "Voltorb", "Pidgey", "Rhyhorn"]
         },{
             "Name": "Cybil",
             "Region": "Johto",
@@ -126,10 +181,40 @@
             "Location": "Dragon's Den",
             "Pokemon": ["Dratini"]
         },{
+            "Name": "Dave",
+            "Region": "Kanto",
+            "Location": "Underground Path 7-8",
+            "Pokemon": ["Nidoran-M"]
+        },{
+            "Name": "Dax",
+            "Region": "Kanto",
+            "Location": "Celadon City",
+            "Pokemon": ["Eevee"]
+        },{
+            "Name": "Dominic",
+            "Region": "Kanto",
+            "Location": "Celadon City",
+            "Pokemon": ["Magikarp"]
+        },{
+            "Name": "Edmund",
+            "Region": "Kanto",
+            "Location": "Route 23",
+            "Pokemon": ["Charmander"]
+        },{
             "Name": "Emma",
             "Region": "Johto",
             "Location": "Union Cave",
             "Pokemon": ["Poliwag"]
+        },{
+            "Name": "Finn",
+            "Region": "Kanto",
+            "Location": "Route 6",
+            "Pokemon": ["Vulpix"]
+        },{
+            "Name": "Fred",
+            "Region": "Kanto",
+            "Location": "Underground Path 7-8",
+            "Pokemon": ["Nidoran-F"]
         },{
             "Name": "Fran",
             "Region": "Johto",
@@ -141,6 +226,11 @@
             "Location": "Route 1",
             "Pokemon": ["Absol", "Abra"]
         },{
+            "Name": "Garret",
+            "Region": "Kanto",
+            "Location": "Saffron City",
+            "Pokemon": ["Ponyta"]
+        },{
             "Name": "Gaven",
             "Region": "Kanto",
             "Location": "Route 26",
@@ -149,7 +239,12 @@
             "Name": "George",
             "Region": "Kanto",
             "Location": "Victory Road",
-            "Pokemon": ["Exeggcute", "Sandshrew", "Shellder", "Voltorb", "Growlithe"]
+            "Pokemon": ["Exeggcute", "Sandshrew", "Shellder", "Voltorb", "Growlithe", "Scyther", "Cubone"]
+        },{
+            "Name": "Grayson",
+            "Region": "Kanto",
+            "Location": "Cerulean City",
+            "Pokemon": ["Dratini"]
         },{
             "Name": "Gwen",
             "Region": "Johto",
@@ -161,6 +256,11 @@
             "Location": "Route 34",
             "Pokemon": ["Goldeen"]
         },{
+            "Name": "Jace",
+            "Region": "Kanto",
+            "Location": "Pokémon Mansion",
+            "Pokemon": ["Magby"]
+        },{
             "Name": "Jake",
             "Region": "Kanto",
             "Location": "Route 26",
@@ -171,10 +271,30 @@
             "Location": "Route 26",
             "Pokemon": ["Ponyta", "Mareep"]
         },{
+            "Name": "Jaxson",
+            "Region": "Kanto",
+            "Location": "Fuchsia City",
+            "Pokemon": ["Tauros"]
+        },{
+            "Name": "Jay",
+            "Region": "Kanto",
+            "Location": "Route 16",
+            "Pokemon": ["Munchlax"]
+        },{
             "Name": "Jenn",
             "Region": "Johto",
             "Location": "Route 34",
             "Pokemon": ["Staryu"]
+        },{
+            "Name": "Jirard",
+            "Region": "Kanto",
+            "Location": "Route 23",
+            "Pokemon": ["Dratini"]
+        },{
+            "Name": "Johnson",
+            "Region": "Kanto",
+            "Location": "Route 17",
+            "Pokemon": ["Squirtle", "Magnemite", "Cubone"]
         },{
             "Name": "Joyce",
             "Region": "Kanto",
@@ -186,20 +306,45 @@
             "Location": "Route 34",
             "Pokemon": ["Shellder"]
         },{
+            "Name": "Kayden",
+            "Region": "Kanto",
+            "Location": "Fuchsia Gym",
+            "Pokemon": ["Grimer", "Weedle"]
+        },{
             "Name": "Kelly",
             "Region": "Johto",
             "Location": "Route 45",
-            "Pokemon": ["Azurill", "Squirtle"]
+            "Pokemon": ["Azurill", "Squirtle", "Nidoran-F"]
         },{
             "Name": "Kevin",
             "Region": "Kanto",
             "Location": "Route 25",
             "Pokemon": ["Rhyhorn", "Charmander", "Squirtle"]
         },{
+            "Name": "Kindra",
+            "Region": "Kanto",
+            "Location": "Route 14",
+            "Pokemon": ["Eevee", "Sandshrew", "Doduo"]
+        },{
+            "Name": "Kite",
+            "Region": "Kanto",
+            "Location": "Route 13",
+            "Pokemon": ["Geodude", "Magnemite", "Gastly"]
+        },{
             "Name": "Kobe",
             "Region": "Johto",
             "Location": "Dragon's Den",
             "Pokemon": ["Dratini"]
+        },{
+            "Name": "Kyla",
+            "Region": "Kanto",
+            "Location": "Route 8",
+            "Pokemon": ["Abra", "Machop"]
+        },{
+            "Name": "Leopold",
+            "Region": "Kanto",
+            "Location": "Silph Co.",
+            "Pokemon": ["Krabby"]
         },{
             "Name": "Leroy",
             "Region": "Kanto",
@@ -211,15 +356,35 @@
             "Location": "Lake of Rage",
             "Pokemon": ["Hoppip", "Vulpix", "Mareep"]
         },{
+            "Name": "Louis",
+            "Region": "Kanto",
+            "Location": "Pokémon Mansion",
+            "Pokemon": ["Krabby", "Mankey"]
+        },{
             "Name": "Lola",
             "Region": "Johto",
             "Location": "Blackthorn Gym",
             "Pokemon": ["Dratini"]
         },{
+            "Name": "Mac",
+            "Region": "Kanto",
+            "Location": "Fuchsia City",
+            "Pokemon": ["Kangaskhan"]
+        },{
+            "Name": "Maria",
+            "Region": "Kanto",
+            "Location": "Route 17",
+            "Pokemon": ["Exeggcute", "Vulpix", "Staryu"]
+        },{
+            "Name": "Marty",
+            "Region": "Kanto",
+            "Location": "Route 20",
+            "Pokemon": ["Geodude", "Pinsir"]
+        },{
             "Name": "Mary",
             "Region": "Kanto",
             "Location": "Celadon Gym",
-            "Pokemon": ["Bellsprout", "Oddish", "Bulbasaur"]
+            "Pokemon": ["Bellsprout", "Oddish", "Bulbasaur", "Tangela"]
         },{
             "Name": "Megan",
             "Region": "Kanto",
@@ -239,7 +404,7 @@
             "Name": "Naomi",
             "Region": "Kanto",
             "Location": "Victory Road",
-            "Pokemon": ["Meowth", "Ponyta", "Vulpix"]
+            "Pokemon": ["Meowth", "Ponyta", "Vulpix", "Kangaskhan", "Bulbasaur"]
         },{
             "Name": "Nick",
             "Region": "Johto",
@@ -256,6 +421,11 @@
             "Location": "Blackthorn Gym",
             "Pokemon": ["Dratini", "Horsea"]
         },{
+            "Name": "Percy",
+            "Region": "Kanto",
+            "Location": "Route 23",
+            "Pokemon": ["Nidoran-F"]
+        },{
             "Name": "Piper",
             "Region": "Johto",
             "Location": "Dragon's Den",
@@ -266,6 +436,11 @@
             "Location": "Route 1",
             "Pokemon": ["Bulbasaur", "Staryu"]
         },{
+            "Name": "Raymond",
+            "Region": "Kanto",
+            "Location": "Saffron City",
+            "Pokemon": ["Ponyta"]
+        },{
             "Name": "Reena",
             "Region": "Kanto",
             "Location": "Route 27",
@@ -274,7 +449,12 @@
             "Name": "Rolando",
             "Region": "Kanto",
             "Location": "Victory Road",
-            "Pokemon": ["Rattata", "Bulbasaur", "Squirtle", "Charmander"]
+            "Pokemon": ["Rattata", "Bulbasaur", "Squirtle", "Charmander", "Ponyta", "Staryu", "Bellsprout"]
+        },{
+            "Name": "Ronnie",
+            "Region": "Kanto",
+            "Location": "Route 3",
+            "Pokemon": ["Nidoran-F"]
         },{
             "Name": "Ryan",
             "Region": "Johto",
@@ -291,6 +471,11 @@
             "Location": "Viridian Gym",
             "Pokemon": ["Sandshrew", "Rhyhorn", "Nidoran-M"]
         },{
+            "Name": "Satch",
+            "Region": "Kanto",
+            "Location": "Celadon City",
+            "Pokemon": ["Growlithe"]
+        },{
             "Name": "Sean",
             "Region": "Johto",
             "Location": "S.S. Aqua",
@@ -301,6 +486,16 @@
             "Location": "S.S. Aqua",
             "Pokemon": ["Eevee", "Tangela", "Tauros"]
         },{
+            "Name": "Sofia",
+            "Region": "Kanto",
+            "Location": "Rock Tunnel",
+            "Pokemon": ["Vulpix", "Abra"]
+        },{
+            "Name": "Tim",
+            "Region": "Kanto",
+            "Location": "Celadon City",
+            "Pokemon": ["Charmander"]
+        },{
             "Name": "Warren",
             "Region": "Kanto",
             "Location": "Viridian Gym",
@@ -309,22 +504,792 @@
             "Name": "Yuji",
             "Region": "Kanto",
             "Location": "Viridian Gym",
-            "Pokemon": ["Sandshrew", "Geodude", "Onix", "Cubone"]
+            "Pokemon": ["Sandshrew", "Geodude", "Onix", "Cubone", "Diglett", "Rhyhorn"]
+        },{
+            "Name": "Yvette",
+            "Region": "Kanto",
+            "Location": "Route 7",
+            "Pokemon": ["Pichu", "Diglett", "Seel"]
+        },{
+            "Name": "Zach",
+            "Region": "Kanto",
+            "Location": "Route 12",
+            "Pokemon": ["Tangela", "Onix"]
         },{
             "Name": "Albert",
             "Region": "Hoenn",
             "Location": "Victory Road",
-            "Pokemon": ["Electrike", "Grimer"]
+            "Pokemon": ["Electrike", "Grimer", "Magnemite", "Sigilyph", "Rhyhorn"]
         },{
             "Name": "Alexa",
             "Region": "Hoenn",
             "Location": "Route 128",
             "Pokemon": ["Oddish", "Azurill"]
         },{
+            "Name": "Alexia",
+            "Region": "Hoenn",
+            "Location": "Petalburg Gym",
+            "Pokemon": ["Igglybuff"]
+        },{
+            "Name": "Athena",
+            "Region": "Hoenn",
+            "Location": "Route 127",
+            "Pokemon": ["Electrike", "Zigzagoon"]
+        },{
+            "Name": "Benedict",
+            "Region": "Hoenn",
+            "Location": "Mauville City",
+            "Pokemon": ["Eevee", "Heatmor"]
+        },{
             "Name": "Berke",
             "Region": "Hoenn",
             "Location": "Petalburg Gym",
-            "Pokemon": ["Zangoose"]
+            "Pokemon": ["Zangoose", "Slakoth"]
+        },{
+            "Name": "Braxton",
+            "Region": "Hoenn",
+            "Location": "Route 123",
+            "Pokemon": ["Taillow", "Trapinch", "Wailmer", "Magnemite", "Seedot"]
+        },{
+            "Name": "Brooke",
+            "Region": "Hoenn",
+            "Location": "Route 111",
+            "Pokemon": ["Wingull", "Numel", "Budew", "Glameow", "Lapras"]
+        },{
+            "Name": "Carolina",
+            "Region": "Hoenn",
+            "Location": "Route 108",
+            "Pokemon": ["Electrike", "Taillow"]
+        },{
+            "Name": "Caroline",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Mawile", "Sableye", "Skarmory"]
+        },{
+            "Name": "Claudia",
+            "Region": "Hoenn",
+            "Location": "Route 127",
+            "Pokemon": ["Snorunt", "Surskit", "Duskull"]
+        },{
+            "Name": "Clyde",
+            "Region": "Hoenn",
+            "Location": "Route 123",
+            "Pokemon": ["Taillow", "Trapinch", "Wailmer", "Magnemite", "Seedot", "Skarmory"]
+        },{
+            "Name": "Constance",
+            "Region": "Hoenn",
+            "Location": "Route 108",
+            "Pokemon": ["Seviper", "Taillow"]
+        },{
+            "Name": "Cornelius",
+            "Region": "Hoenn",
+            "Location": "Route 128",
+            "Pokemon": ["Geodude", "Pichu"]
+        },{
+            "Name": "Cristin",
+            "Region": "Hoenn",
+            "Location": "Route 121",
+            "Pokemon": ["Whismur", "Slakoth", "Spinda"]
+        },{
+            "Name": "Darcy",
+            "Region": "Hoenn",
+            "Location": "Route 132",
+            "Pokemon": ["Wingull", "Numel"]
+        },{
+            "Name": "Dianne",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Baltoy", "Chinchou"]
+        },{
+            "Name": "Edgar",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Cacnea", "Wingull", "Mawile"]
+        },{
+            "Name": "Elaine",
+            "Region": "Hoenn",
+            "Location": "Trick House",
+            "Pokemon": ["Aron", "Electrike", "Tropius"]
+        },{
+            "Name": "Felix",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Meditite", "Baltoy"]
+        },{
+            "Name": "George",
+            "Region": "Hoenn",
+            "Location": "Petalburg Gym",
+            "Pokemon": ["Zigzagoon", "Slakoth"]
+        },{
+            "Name": "Gerald",
+            "Region": "Hoenn",
+            "Location": "Lavaridge Gym",
+            "Pokemon": ["Kecleon"]
+        },{
+            "Name": "Halle",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Sableye", "Absol"]
+        },{
+            "Name": "Harriet",
+            "Region": "Hoenn",
+            "Location": "Route 126",
+            "Pokemon": ["Zubat"]
+        },{
+            "Name": "Hisato",
+            "Region": "Hoenn",
+            "Location": "Route 127",
+            "Pokemon": ["Pinsir"]
+        },{
+            "Name": "Honor",
+            "Region": "Hoenn",
+            "Location": "Route 129",
+            "Pokemon": ["Torkoal", "Meditite"]
+        },{
+            "Name": "Hope",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Budew", "Snorunt"]
+        },{
+            "Name": "Jazmyn",
+            "Region": "Hoenn",
+            "Location": "Route 123",
+            "Pokemon": ["Absol"]
+        },{
+            "Name": "Jennifer",
+            "Region": "Hoenn",
+            "Location": "Route 120",
+            "Pokemon": ["Feebas", "Sableye"]
+        },{
+            "Name": "Jody",
+            "Region": "Hoenn",
+            "Location": "Petalburg Gym",
+            "Pokemon": ["Zangoose", "Whismur"]
+        },{
+            "Name": "Jonathan",
+            "Region": "Hoenn",
+            "Location": "Route 132",
+            "Pokemon": ["Kecleon", "Whismur"]
+        },{
+            "Name": "Julie",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Sandshrew", "Vulpix", "Tropius", "Oddish"]
+        },{
+            "Name": "Katelynn",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Ralts", "Slakoth"]
+        },{
+            "Name": "Keira",
+            "Region": "Hoenn",
+            "Location": "Trick House",
+            "Pokemon": ["Aron", "Electrike"]
+        },{
+            "Name": "Leonel",
+            "Region": "Hoenn",
+            "Location": "Route 120",
+            "Pokemon": ["Electrike"]
+        },{
+            "Name": "Leopold",
+            "Region": "Hoenn",
+            "Location": "Route 126",
+            "Pokemon": ["Trapinch", "Rhyhorn"]
+        },{
+            "Name": "Leroy",
+            "Region": "Hoenn",
+            "Location": "Trick House",
+            "Pokemon": ["Mawile", "Staryu"]
+        },{
+            "Name": "Lori",
+            "Region": "Hoenn",
+            "Location": "Petalburg Gym",
+            "Pokemon": ["Zigzagoon", "Absol"]
+        },{
+            "Name": "Marcel",
+            "Region": "Hoenn",
+            "Location": "Route 121",
+            "Pokemon": ["Electrike", "Seedot"]
+        },{
+            "Name": "Marley",
+            "Region": "Hoenn",
+            "Location": "Route 134",
+            "Pokemon": ["Electrike"]
+        },{
+            "Name": "Mary",
+            "Region": "Hoenn",
+            "Location": "Petalburg Gym",
+            "Pokemon": ["Skitty", "Absol"]
+        },{
+            "Name": "Melba",
+            "Region": "Hoenn",
+            "Location": "Mauville City",
+            "Pokemon": ["Nincada"]
+        },{
+            "Name": "Michelle",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Nosepass", "Meditite", "Lotad", "Torkoal"]
+        },{
+            "Name": "Mitchell",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Lunatone", "Solrock"]
+        },{
+            "Name": "Neville",
+            "Region": "Hoenn",
+            "Location": "Route 108",
+            "Pokemon": ["Zangoose", "Shroomish", "Litwick"]
+        },{
+            "Name": "Owen",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Kecleon", "Rhyhorn", "Tentacool", "Geodude", "Wailmer"]
+        },{
+            "Name": "Parker",
+            "Region": "Hoenn",
+            "Location": "Petalburg Gym",
+            "Pokemon": ["Zigzagoon", "Spinda"]
+        },{
+            "Name": "Portia",
+            "Region": "Hoenn",
+            "Location": "Route 109",
+            "Pokemon": ["Kecleon", "Slugma", "Vanillite"]
+        },{
+            "Name": "Quincy",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Slakoth", "Duskull"]
+        },{
+            "Name": "Randall",
+            "Region": "Hoenn",
+            "Location": "Petalburg Gym",
+            "Pokemon": ["Skitty", "Taillow"]
+        },{
+            "Name": "Ruben",
+            "Region": "Hoenn",
+            "Location": "Route 128",
+            "Pokemon": ["Seedot", "Geodude", "Whismur", "Nosepass"]
+        },{
+            "Name": "Samuel",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Doduo", "Aron", "Abra", "Taillow", "Mawile"]
+        },{
+            "Name": "Shannon",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Baltoy"]
+        },{
+            "Name": "Vincent",
+            "Region": "Hoenn",
+            "Location": "Trick House",
+            "Pokemon": ["Sableye", "Meditite", "Carvanha"]
+        },{
+            "Name": "Vito",
+            "Region": "Hoenn",
+            "Location": "Victory Road",
+            "Pokemon": ["Taillow", "Abra", "Electrike", "Seedot", "Doduo", "Voltorb", "Darumaka", "Gulpin"]
+        },{
+            "Name": "Warren",
+            "Region": "Hoenn",
+            "Location": "Route 133",
+            "Pokemon": ["Geodude", "Slugma", "Lotad", "Aron", "Abra", "Electrike"]
+        },{
+            "Name": "Wendy",
+            "Region": "Hoenn",
+            "Location": "Route 123",
+            "Pokemon": ["Mawile", "Budew", "Wingull", "Rhyhorn", "Tropius"]
+        },{
+            "Name": "Wilton",
+            "Region": "Hoenn",
+            "Location": "Route 111",
+            "Pokemon": ["Electrike", "Wailmer", "Makuhita", "Fletchling", "Axew"]
+        },{
+            "Name": "Zane",
+            "Region": "Hoenn",
+            "Location": "Lavaridge Gym",
+            "Pokemon": ["Kecleon", "Slugma"]
+        },{
+            "Name": "Abel",
+            "Region": "Sinnoh",
+            "Location": "Stark Mountain",
+            "Pokemon": ["Aerodactyl"]
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
         },{
             "Name": "",
             "Region": "",
