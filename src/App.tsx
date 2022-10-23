@@ -656,6 +656,11 @@ function App() {
                                                         {generatedMons[index].Region}
                                                     </Typography>
                                                 : ''}
+                                                {genSetting === "Trainer" && regionPref === "Random" || trainerPref === "Class" || regionPref === "Specific" && locationPref === "Random" || regionPref === "Specific" && locationPref === "Specific" && selectedTrainerLocations.length > 1 ?
+                                                    <Typography gutterBottom variant="body2" align='center'>
+                                                        {generatedMons[index].Location}
+                                                    </Typography>
+                                                : ''}
                                             </CardContent>
                                         </Card>
                                     </Grid>
