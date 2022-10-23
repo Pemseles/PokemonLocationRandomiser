@@ -40,6 +40,8 @@ import { json } from 'stream/consumers';
 import { stringify } from 'querystring';
 import { ThemeProvider } from '@material-ui/core/styles';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { Zoom, Collapse } from '@mui/material';
+import TransitionGroup from 'react-transition-group';
 
 import { GeneratorBaseLocation, GeneratorBaseTrainer } from './functions/Generators';
 import { getRegionSelector, getLocationSelector, getPokemonGif, getTrainerClassSelector, getTrainerLocationSelector } from './functions/GetFuncs';
@@ -77,6 +79,7 @@ function App() {
     const [dupeSwitchBool, setDupeSwitchBool] = React.useState(false);
     const [battleFacilitySwitchBool, setBattleFacilitySwitchBool] = React.useState(false);
     const [stadiumSwitchBool, setStadiumSwitchBool] = React.useState(false);
+    const [forceEvolutionSwitchBool, setForceEvolutionSwitchBool] = React.useState(false);
 
     const [generatedMons, setGeneratedMons] = React.useState(Array<{ Pokemon: string, Region: string, Location: string, TrainerClass: string, TrainerName: string, shinyId: number }>());
 
@@ -263,6 +266,11 @@ function App() {
 
         setStadiumSwitchBool(event.target.checked);
     }
+    const handleForceEvolutionSwitch = (event: any) => {
+        console.log("handle forceevoswitch", event.target.checked);
+
+        setForceEvolutionSwitchBool(event.target.checked);
+    }
 
     console.log("genbutton boolean", genButtonBool);
     
@@ -287,6 +295,12 @@ function App() {
                                 onChange={handleDuplicateSwitch}
                                 control={<Switch color="primary" />}
                                 label="Duplicates"
+                                labelPlacement="top"
+                            />
+                            <FormControlLabel style={{ marginLeft: '30px' }}
+                                onChange={handleForceEvolutionSwitch}
+                                control={<Switch color="primary" />}
+                                label="Force Evolution"
                                 labelPlacement="top"
                             />
                             {genSetting === "Trainer" && regionPref === "Random" || genSetting === "Trainer" && locationPref === "Random" || genSetting === "Trainer" && trainerPref === "Class" ?
@@ -673,37 +687,37 @@ function App() {
                     */}
 
                     {genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Specific' && selectedRegions.length > 0 && selectedLocations.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseLocation(parseInt(monCount), regionPref, locationPref, selectedLocations, null, shinyRate, dupeSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseLocation(parseInt(monCount), regionPref, locationPref, selectedLocations, null, shinyRate, dupeSwitchBool, forceEvolutionSwitchBool))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Location" && regionPref === 'Specific' && locationPref === 'Random' && selectedRegions.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseLocation(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate, dupeSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseLocation(parseInt(monCount), regionPref, locationPref, null, selectedRegions, shinyRate, dupeSwitchBool, forceEvolutionSwitchBool))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Location" && regionPref === 'Random' && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseLocation(parseInt(monCount), regionPref, locationPref, null, null, shinyRate, dupeSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseLocation(parseInt(monCount), regionPref, locationPref, null, null, shinyRate, dupeSwitchBool, forceEvolutionSwitchBool))}}>
                             Generate Team
                         </Button>
 
 
                     : genSetting === "Trainer" && trainerPref === "Location" && regionPref === 'Specific' && locationPref === 'Specific' && selectedRegions.length > 0 && selectedTrainerLocations.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), trainerPref, trainerClassPref, regionPref, locationPref, selectedTrainerLocations, null, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), trainerPref, trainerClassPref, regionPref, locationPref, selectedTrainerLocations, null, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool, forceEvolutionSwitchBool))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Trainer" && trainerPref === "Location" && regionPref === 'Specific' && locationPref === 'Random' && selectedRegions.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), trainerPref, trainerClassPref, regionPref, locationPref, null, selectedRegions, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), trainerPref, trainerClassPref, regionPref, locationPref, null, selectedRegions, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool, forceEvolutionSwitchBool))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Trainer" && trainerPref === "Location" && regionPref === 'Random' && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), trainerPref, trainerClassPref, regionPref, locationPref, null, null, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), trainerPref, trainerClassPref, regionPref, locationPref, null, null, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool, forceEvolutionSwitchBool))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Trainer" && trainerPref === "Class" && trainerClassPref === 'Specific' && selectedTrainerClasses.length > 0 && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), trainerPref, trainerClassPref, regionPref, locationPref, null, null, selectedTrainerClasses, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), trainerPref, trainerClassPref, regionPref, locationPref, null, null, selectedTrainerClasses, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool, forceEvolutionSwitchBool))}}>
                             Generate Team
                         </Button>
                     : genSetting === "Trainer" && trainerPref === "Class" && trainerClassPref === 'Random' && monCount !== '' ?
-                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), trainerPref, trainerClassPref, regionPref, locationPref, null, null, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool))}}>
+                        <Button variant="contained" color="primary" onClick={async () => {handleGeneratedMons(await GeneratorBaseTrainer(parseInt(monCount), trainerPref, trainerClassPref, regionPref, locationPref, null, null, null, shinyRate, dupeSwitchBool, battleFacilitySwitchBool, stadiumSwitchBool, forceEvolutionSwitchBool))}}>
                             Generate Team
                         </Button>
 

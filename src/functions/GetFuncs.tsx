@@ -109,7 +109,6 @@ export function getPokemonGif(mon : { Pokemon: string, Region: string, Location:
             if (mon.shinyId === 0) {
                 return (pokemonDexData.Content[i].Gif.slice(0, 44) + "-shiny" + pokemonDexData.Content[i].Gif.slice(44));
             }
-
             return pokemonDexData.Content[i].Gif;
         }
     }
