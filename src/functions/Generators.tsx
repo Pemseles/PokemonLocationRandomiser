@@ -164,7 +164,7 @@ async function RandTrainerLocation(amountToGen: number, regions: Array<string>, 
     const randomLocations = Array<{ location: string, region: string }>();
     const battleFacilities = ["Trainer Tower", "Battle Tower", "Battle Factory", "Battle Arcade", "Battle Castle", "Battle Hall", "Battle Tent", "Trainer Hill", "Battle Arena", "Battle Dome", 
                                 "Battle Pike", "Battle Palace", "Battle Pyramid", "Battle Institute", "Battle Maison", "Battle Subway", "Pokémon World Tournament", "Battle Royal Dome",
-                                "Battle Tree", "Battle Agency", "Master Dojo"];
+                                "Battle Tree", "Battle Agency", "Master Dojo", "Battle Frontier"];
     const locationCount = Math.floor(Math.random()*amountToGen) + 1;
     let trainerLocations = await getCanonTrainerLocations();
     const regionArr = await getCanonRegions(true);
@@ -190,7 +190,7 @@ async function RandTrainerRegion(amountToGen: number, shinyRate: number, dupePre
     const randomLocations = Array<{ location: string, region: string }>();
     const battleFacilities = ["Trainer Tower", "Battle Tower", "Battle Factory", "Battle Arcade", "Battle Castle", "Battle Hall", "Battle Tent", "Trainer Hill", "Battle Arena", "Battle Dome", 
                                 "Battle Pike", "Battle Palace", "Battle Pyramid", "Battle Institute", "Battle Maison", "Battle Subway", "Pokémon World Tournament", "Battle Royal Dome",
-                                "Battle Tree", "Battle Agency", "Master Dojo"];
+                                "Battle Tree", "Battle Agency", "Master Dojo", "Battle Frontier"];
     const regionCount = Math.floor(Math.random()*amountToGen) + 1;
     let trainerLocations = await getCanonTrainerLocations();
     const regionArr = await getCanonRegions(true);

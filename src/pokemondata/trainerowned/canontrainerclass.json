@@ -814,541 +814,1378 @@
             "Name": "Abel",
             "Region": "Sinnoh",
             "Location": "Stark Mountain",
-            "Pokemon": ["Aerodactyl"]
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Pokemon": ["Aerodactyl", "Snorunt", "Zubat"]
+        },{
+            "Name": "Alicia",
+            "Region": "Sinnoh",
+            "Location": "Snowpoint Gym",
+            "Pokemon": ["Sneasel", "Tentacool"]
+        },{
+            "Name": "Allen",
+            "Region": "Sinnoh",
+            "Location": "Hearthome Gym",
+            "Pokemon": ["Gastly"]
+        },{
+            "Name": "Alyssa",
+            "Region": "Sinnoh",
+            "Location": "Route 210",
+            "Pokemon": ["Ponyta", "Turtwig", "Aipom", "Girafarig"]
+        },{
+            "Name": "Anton",
+            "Region": "Sinnoh",
+            "Location": "Snowpoint Gym",
+            "Pokemon": ["Snover", "Snorunt"]
+        },{
+            "Name": "Ariana",
+            "Region": "Sinnoh",
+            "Location": "Route 228",
+            "Pokemon": ["Aipom", "Ponyta", "Happiny"]
+        },{
+            "Name": "Arthur",
+            "Region": "Sinnoh",
+            "Location": "Victory Road",
+            "Pokemon": ["Pichu", "Shellos", "Weedle", "Voltorb"]
+        },{
+            "Name": "Blake",
+            "Region": "Sinnoh",
+            "Location": "Route 216",
+            "Pokemon": ["Aipom", "Abra", "Porygon"]
+        },{
+            "Name": "Brandi",
+            "Region": "Sinnoh",
+            "Location": "Victory Road",
+            "Pokemon": ["Pachirisu", "Azurill", "Happiny", "Cubone", "Kangaskhan"]
+        },{
+            "Name": "Breanna",
+            "Region": "Sinnoh",
+            "Location": "Canalave Gym",
+            "Pokemon": ["Azurill", "Bronzor"]
+        },{
+            "Name": "Brenda",
+            "Region": "Sinnoh",
+            "Location": "Iron Island",
+            "Pokemon": ["Wingull", "Bonsly", "Buneary", "Meditite", "Ralts"]
+        },{
+            "Name": "Brenna",
+            "Region": "Sinnoh",
+            "Location": "Snowpoint Gym",
+            "Pokemon": ["Snover", "Sneasel", "Snorunt"]
+        },{
+            "Name": "Catherine",
+            "Region": "Sinnoh",
+            "Location": "Hearthome Gym",
+            "Pokemon": ["Misdreavus", "Drifloon", "Gastly"]
+        },{
+            "Name": "Cesar",
+            "Region": "Sinnoh",
+            "Location": "Canalave Gym",
+            "Pokemon": ["Skorupi", "Onix", "Scyther"]
+        },{
+            "Name": "Clarice",
+            "Region": "Sinnoh",
+            "Location": "Victory Road",
+            "Pokemon": ["Buneary", "Wooper", "Wingull", "Gulpin", "Vulpix", "Magnemite"]
+        },{
+            "Name": "Dalton",
+            "Region": "Sinnoh",
+            "Location": "Route 217",
+            "Pokemon": ["Pichu", "Hippopotas", "Wingull", "Elekid", "Magby"]
+        },{
+            "Name": "Dana",
+            "Region": "Sinnoh",
+            "Location": "Route 229",
+            "Pokemon": ["Poochyena", "Ralts"]
+        },{
+            "Name": "Deanna",
+            "Region": "Sinnoh",
+            "Location": "Route 225",
+            "Pokemon": ["Mareep", "Tropius"]
+        },{
+            "Name": "Dennis",
+            "Region": "Sinnoh",
+            "Location": "Route 215",
+            "Pokemon": ["Chimchar", "Shinx", "Magikarp", "Gligar", "Drifloon", "Buizel"]
+        },{
+            "Name": "Destiny",
+            "Region": "Sinnoh",
+            "Location": "Sunyshore Gym",
+            "Pokemon": ["Abra", "Pichu", "Elekid"]
+        },{
+            "Name": "Ernest",
+            "Region": "Sinnoh",
+            "Location": "Route 210",
+            "Pokemon": ["Burmy", "Onix", "Shinx", "Scyther", "Nosepass"]
+        },{
+            "Name": "Felix",
+            "Region": "Sinnoh",
+            "Location": "Route 229",
+            "Pokemon": ["Duskull", "Bagon"]
+        },{
+            "Name": "Garrett",
+            "Region": "Sinnoh",
+            "Location": "Route 216",
+            "Pokemon": ["Mime Jr.", "Sneasel", "Machop", "Duskull", "Scyther"]
+        },{
+            "Name": "Graham",
+            "Region": "Sinnoh",
+            "Location": "Route 226",
+            "Pokemon": ["Skarmory", "Tyrogue"]
+        },{
+            "Name": "Henry",
+            "Region": "Sinnoh",
+            "Location": "Victory Road",
+            "Pokemon": ["Murkrow", "Rhyhorn", "Carnivine"]
+        },{
+            "Name": "Isaiah",
+            "Region": "Sinnoh",
+            "Location": "Snowpoint Gym",
+            "Pokemon": ["Wooper", "Swinub"]
+        },{
+            "Name": "Jake",
+            "Region": "Sinnoh",
+            "Location": "Route 221",
+            "Pokemon": ["Starly", "Girafarig"]
+        },{
+            "Name": "Jamie",
+            "Region": "Sinnoh",
+            "Location": "Route 224",
+            "Pokemon": ["Beldum"]
+        },{
+            "Name": "Jasmin",
+            "Region": "Sinnoh",
+            "Location": "Stark Mountain",
+            "Pokemon": ["Skorupi"]
+        },{
+            "Name": "Jonah",
+            "Region": "Sinnoh",
+            "Location": "Iron Island",
+            "Pokemon": ["Ponyta", "Gastly", "Buizel", "Wooper", "Starly", "Hippopotas"]
+        },{
+            "Name": "Jose",
+            "Region": "Sinnoh",
+            "Location": "Route 228",
+            "Pokemon": ["Psyduck", "Sandshrew", "Electrike"]
+        },{
+            "Name": "Kassandra",
+            "Region": "Sinnoh",
+            "Location": "Stark Mountain",
+            "Pokemon": ["Stantler", "Carnivine", "Hoppip", "Mareep", "Onix"]
+        },{
+            "Name": "Keenan",
+            "Region": "Sinnoh",
+            "Location": "Stark Mountain",
+            "Pokemon": ["Mankey", "Torkoal", "Shuppet", "Elekid"]
+        },{
+            "Name": "Laura",
+            "Region": "Sinnoh",
+            "Location": "Route 216",
+            "Pokemon": ["Buneary", "Tropius"]
+        },{
+            "Name": "Maria",
+            "Region": "Sinnoh",
+            "Location": "Rotue 216",
+            "Pokemon": ["Psyduck", "Bonsly", "Ponyta"]
+        },{
+            "Name": "Mariah",
+            "Region": "Sinnoh",
+            "Location": "Victory Road",
+            "Pokemon": ["Psyduck", "Happiny", "Snorunt", "Magnemite"]
+        },{
+            "Name": "Maya",
+            "Region": "Sinnoh",
+            "Location": "Route 215",
+            "Pokemon": ["Glameow", "Abra", "Budew", "Ralts", "Lickitung"]
+        },{
+            "Name": "Meagan",
+            "Region": "Sinnoh",
+            "Location": "Route 228",
+            "Pokemon": ["Skitty", "Yanma", "Snover"]
+        },{
+            "Name": "Micah",
+            "Region": "Sinnoh",
+            "Location": "Victory Road",
+            "Pokemon": ["Bidoof", "Ponyta", "Wurmple", "Beldum", "Lotad"]
+        },{
+            "Name": "Mikayla",
+            "Region": "Sinnoh",
+            "Location": "Route 227",
+            "Pokemon": ["Meowth", "Drowzee", "Seviper", "Absol"]
+        },{
+            "Name": "Monique",
+            "Region": "Sinnoh",
+            "Location": "Stark Mountain",
+            "Pokemon": ["Kangaskhan", "Teddiursa", "Shinx", "Gligar"]
+        },{
+            "Name": "Moira",
+            "Region": "Sinnoh",
+            "Location": "Route 228",
+            "Pokemon": ["Sandshrew", "Shellos", "Baltoy"]
+        },{
+            "Name": "Natasha",
+            "Region": "Sinnoh",
+            "Location": "Stark Mountain",
+            "Pokemon": ["Dunsparce", "Cubone", "Scyther", "Igglybuff", "Ralts", "Meditite"]
+        },{
+            "Name": "Olivia",
+            "Region": "Sinnoh",
+            "Location": "Route 217",
+            "Pokemon": ["Budew", "Goldeen", "Ralts", "Buneary"]
+        },{
+            "Name": "Omar",
+            "Region": "Sinnoh",
+            "Location": "Victory Road",
+            "Pokemon": ["Ponyta", "Carnivine", "Cranidos", "Burmy", "Swinub"]
+        },{
+            "Name": "Quinn",
+            "Region": "Sinnoh",
+            "Location": "Route 225",
+            "Pokemon": ["Pinsir", "Poochyena", "Chinchou"]
+        },{
+            "Name": "Rodolfo",
+            "Region": "Sinnoh",
+            "Location": "Route 225",
+            "Pokemon": ["Lickitung", "Miltank", "Staryu", "Trapinch"]
+        },{
+            "Name": "Ruben",
+            "Region": "Sinnoh",
+            "Location": "Route 224",
+            "Pokemon": ["Poliwag", "Magikarp", "Seedot"]
+        },{
+            "Name": "Sandra",
+            "Region": "Sinnoh",
+            "Location": "Route 229",
+            "Pokemon": ["Snubbull", "Diglett", "Pichu", "Vulpix"]
+        },{
+            "Name": "Saul",
+            "Region": "Sinnoh",
+            "Location": "Route 227",
+            "Pokemon": ["Tauros"]
+        },{
+            "Name": "Savannah",
+            "Region": "Sinnoh",
+            "Location": "Snowpoint Gym",
+            "Pokemon": ["Wingull", "Psyduck", "Onix", "Snorunt"]
+        },{
+            "Name": "Sergio",
+            "Region": "Sinnoh",
+            "Location": "Snowpoint Gym",
+            "Pokemon": ["Buizel", "Sneasel", "Snover"]
+        },{
+            "Name": "Shannon",
+            "Region": "Sinnoh",
+            "Location": "Route 221",
+            "Pokemon": ["Cherubi", "Azurill", "Buneary"]
+        },{
+            "Name": "Skylar",
+            "Region": "Sinnoh",
+            "Location": "Stark Mountain",
+            "Pokemon": ["Whismur", "Cranidos", "Wingull"]
+        },{
+            "Name": "Stefan",
+            "Region": "Sinnoh",
+            "Location": "Stark Mountain",
+            "Pokemon": ["Larvitar", "Slugma", "Turtwig"]
+        },{
+            "Name": "Sydney",
+            "Region": "Sinnoh",
+            "Location": "Victory Road",
+            "Pokemon": ["Cleffa", "Turtwig"]
+        },{
+            "Name": "Zachery",
+            "Region": "Sinnoh",
+            "Location": "Sunyshore Gym",
+            "Pokemon": ["Onix", "Meditite", "Elekid", "Magnemite"]
+        },{
+            "Name": "Allison",
+            "Region": "Unova",
+            "Location": "Chargestone Cave",
+            "Pokemon": ["Drilbur", "Blitzle"]
+        },{
+            "Name": "Angi",
+            "Region": "Unova",
+            "Location": "Route 13",
+            "Pokemon": ["Buneary", "Litwick"]
+        },{
+            "Name": "Austin",
+            "Region": "Unova",
+            "Location": "Nimbasa City",
+            "Pokemon": ["Woobat"]
+        },{
+            "Name": "Beckett",
+            "Region": "Unova",
+            "Location": "Celestial Tower",
+            "Pokemon": ["Lillipup", "Cottonee", "Pidove"]
+        },{
+            "Name": "Belle",
+            "Region": "Unova",
+            "Location": "Mistralton Cave",
+            "Pokemon": ["Archen", "Axew"]
+        },{
+            "Name": "Beverly",
+            "Region": "Unova",
+            "Location": "Challenger's Cave",
+            "Pokemon": ["Sentret", "Gible", "Spoink"]
+        },{
+            "Name": "Billy",
+            "Region": "Unova",
+            "Location": "Victory Road",
+            "Pokemon": ["Golett", "Sigilyph"]
+        },{
+            "Name": "Carol",
+            "Region": "Unova",
+            "Location": "Twist Mountain",
+            "Pokemon": ["Vanillite", "Gothita", "Solosis"]
+        },{
+            "Name": "Cathy",
+            "Region": "Unova",
+            "Location": "Victory Road",
+            "Pokemon": ["Pansage", "Pansear", "Panpour"]
+        },{
+            "Name": "Chandra",
+            "Region": "Unova",
+            "Location": "Victory Road",
+            "Pokemon": ["Darumaka", "Tangela"]
+        },{
+            "Name": "Charlie",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Joltik", "Tropius", "Swinub"]
+        },{
+            "Name": "Cheyenne",
+            "Region": "Unova",
+            "Location": "Route 10",
+            "Pokemon": ["Deerling", "Frillish", "Heatmor", "Eevee", "Misdreavus"]
+        },{
+            "Name": "Clara",
+            "Region": "Unova",
+            "Location": "Opelucid Gym",
+            "Pokemon": ["Axew"]
+        },{
+            "Name": "Cora",
+            "Region": "Unova",
+            "Location": "Reversal Mountain",
+            "Pokemon": ["Spoink", "Drifloon"]
+        },{
+            "Name": "Corky",
+            "Region": "Unova",
+            "Location": "Chargestone Cave",
+            "Pokemon": ["Cottonee", "Tirtouga", "Klink", "Pidove", "Sandshrew"]
+        },{
+            "Name": "Dara",
+            "Region": "Unova",
+            "Location": "Opelucid Gym",
+            "Pokemon": ["Deino", "Druddigon"]
+        },{
+            "Name": "David",
+            "Region": "Unova",
+            "Location": "Victory Road",
+            "Pokemon": ["Klink", "Tympole", "Darumaka"]
+        },{
+            "Name": "Doyle",
+            "Region": "Unova",
+            "Location": "Humilau Gym",
+            "Pokemon": ["Buizel", "Mantyke"]
+        },{
+            "Name": "Dwayne",
+            "Region": "Unova",
+            "Location": "Victory Road",
+            "Pokemon": ["Lillipup", "Venipede"]
+        },{
+            "Name": "Eileen",
+            "Region": "Unova",
+            "Location": "Opelucid City",
+            "Pokemon": ["Pansage", "Pansear", "Panpour", "Mienfoo", "Elgyem", "Pawniard"]
+        },{
+            "Name": "Elmer",
+            "Region": "Unova",
+            "Location": "Route 7",
+            "Pokemon": ["Purrloin", "Patrat", "Woobat"]
+        },{
+            "Name": "Enzio",
+            "Region": "Unova",
+            "Location": "Humilau Gym",
+            "Pokemon": ["Basculin", "Azurill"]
+        },{
+            "Name": "Eve",
+            "Region": "Unova",
+            "Location": "Funfest Mission",
+            "Pokemon": ["Deerling"]
+        },{
+            "Name": "Geoff",
+            "Region": "Unova",
+            "Location": "Mistralton Cave",
+            "Pokemon": ["Tirtouga", "Axew"]
+        },{
+            "Name": "Glinda",
+            "Region": "Unova",
+            "Location": "Marvelous Bridge",
+            "Pokemon": ["Alomomola", "Klink", "Elgyem"]
+        },{
+            "Name": "Grant",
+            "Region": "Unova",
+            "Location": "Route 23",
+            "Pokemon": ["Emolga", "Frillish"]
+        },{
+            "Name": "Henry",
+            "Region": "Unova",
+            "Location": "Royal Unova",
+            "Pokemon": ["Tauros", "Wailmer", "Lillipup", "Azurill"]
+        },{
+            "Name": "Jesse",
+            "Region": "Unova",
+            "Location": "Dragonspiral Tower",
+            "Pokemon": ["Vanillite", "Joltik"]
+        },{
+            "Name": "Jacqueline",
+            "Region": "Unova",
+            "Location": "Funfest Mission",
+            "Pokemon": ["Drilbur"]
+        },{
+            "Name": "Jamie",
+            "Region": "Unova",
+            "Location": "Dragonspiral Tower",
+            "Pokemon": ["Cubchoo", "Darumaka", "Sewaddle", "Drifloon", "Baltoy"]
+        },{
+            "Name": "Jared",
+            "Region": "Unova",
+            "Location": "Chargestone Cave",
+            "Pokemon": ["Archen"]
+        },{
+            "Name": "Jeanne",
+            "Region": "Unova",
+            "Location": "Humilau Gym",
+            "Pokemon": ["Wingull", "Wailmer"]
+        },{
+            "Name": "Johan",
+            "Region": "Unova",
+            "Location": "Route 10",
+            "Pokemon": ["Axew", "Tynamo", "Shelmet"]
+        },{
+            "Name": "Jordan",
+            "Region": "Unova",
+            "Location": "Twist Mountain",
+            "Pokemon": ["Sandile", "Tympole", "Klink"]
+        },{
+            "Name": "Jose",
+            "Region": "Unova",
+            "Location": "Opelucid Gym",
+            "Pokemon": ["Axew"]
+        },{
+            "Name": "Juliet",
+            "Region": "Unova",
+            "Location": "Route 23",
+            "Pokemon": ["Wingull", "Joltik"]
+        },{
+            "Name": "Junko",
+            "Region": "Unova",
+            "Location": "Route 14",
+            "Pokemon": ["Glameow", "Eevee", "Lapras", "Gligar", "Petilil", "Basculin"]
+        },{
+            "Name": "Kassandra",
+            "Region": "Unova",
+            "Location": "Celestial Tower",
+            "Pokemon": ["Woobat", "Gothita"]
+        },{
+            "Name": "Kathrine",
+            "Region": "Unova",
+            "Location": "Pinwheel Forest",
+            "Pokemon": ["Zigzagoon", "Vullaby", "Croagunk"]
+        },{
+            "Name": "Kelsey",
+            "Region": "Unova",
+            "Location": "Pinwheel Forest",
+            "Pokemon": ["Sentret", "Rufflet", "Tympole"]
+        },{
+            "Name": "Kipp",
+            "Region": "Unova",
+            "Location": "Route 14",
+            "Pokemon": ["Absol", "Doduo", "Spheal", "Tangela", "Blitzle", "Skarmory"]
+        },{
+            "Name": "Layla",
+            "Region": "Unova",
+            "Location": "Funfest Mission",
+            "Pokemon": ["Yamask"]
+        },{
+            "Name": "Lena",
+            "Region": "Unova",
+            "Location": "Black City",
+            "Pokemon": ["Ralts"]
+        },{
+            "Name": "Lou",
+            "Region": "Unova",
+            "Location": "Opelucid City",
+            "Pokemon": ["Pansage", "Pansear", "Panpour", "Mienfoo", "Elgyem", "Pawniard"]
+        },{
+            "Name": "Lucca",
+            "Region": "Unova",
+            "Location": "Route 22",
+            "Pokemon": ["Growlithe", "Drilbur"]
+        },{
+            "Name": "Lucille",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Smoochum", "Eevee", "Gligar", "Aerodactyl"]
+        },{
+            "Name": "Mariana",
+            "Region": "Unova",
+            "Location": "Royal Unova",
+            "Pokemon": ["Rotom", "Caterpie", "Alomomola", "Magnemite", "Basculin"]
+        },{
+            "Name": "Mary",
+            "Region": "Unova",
+            "Location": "Chargestone Cave",
+            "Pokemon": ["Tirtouga", "Magby"]
+        },{
+            "Name": "Melina",
+            "Region": "Unova",
+            "Location": "Humilau Gym",
+            "Pokemon": ["Alomomola"]
+        },{
+            "Name": "Miguel",
+            "Region": "Unova",
+            "Location": "Route 13",
+            "Pokemon": ["Skitty", "Tynamo"]
+        },{
+            "Name": "Miki",
+            "Region": "Unova",
+            "Location": "Route 23",
+            "Pokemon": ["Venipede", "Growlithe"]
+        },{
+            "Name": "Natasha",
+            "Region": "Unova",
+            "Location": "Funfest Mission",
+            "Pokemon": ["Cubchoo"]
+        },{
+            "Name": "Nina",
+            "Region": "Unova",
+            "Location": "Funfest Mission",
+            "Pokemon": ["Joltik"]
+        },{
+            "Name": "Olwen",
+            "Region": "Unova",
+            "Location": "Opelucid Gym",
+            "Pokemon": ["Deino"]
+        },{
+            "Name": "Pierce",
+            "Region": "Unova",
+            "Location": "Victory Road",
+            "Pokemon": ["Ducklett", "Mareep"]
+        },{
+            "Name": "Ray",
+            "Region": "Unova",
+            "Location": "Reversal Mountain",
+            "Pokemon": ["Trapinch", "Numel"]
+        },{
+            "Name": "Sable",
+            "Region": "Unova",
+            "Location": "Humilau Gym",
+            "Pokemon": ["Psyduck", "Staryu"]
+        },{
+            "Name": "Santino",
+            "Region": "Unova",
+            "Location": "Humilau Gym",
+            "Pokemon": ["Spheal"]
+        },{
+            "Name": "Sean",
+            "Region": "Unova",
+            "Location": "Route 1",
+            "Pokemon": ["Durant", "Eevee", "Murkrow"]
+        },{
+            "Name": "Shanta",
+            "Region": "Unova",
+            "Location": "Victory Road",
+            "Pokemon": ["Cottonee", "Blitzle", "Heatmor", "Joltik"]
+        },{
+            "Name": "Shaye",
+            "Region": "Unova",
+            "Location": "Chargestone Cave",
+            "Pokemon": ["Archen", "Elekid"]
+        },{
+            "Name": "Shel",
+            "Region": "Unova",
+            "Location": "Route 22",
+            "Pokemon": ["Staryu", "Skorupi"]
+        },{
+            "Name": "Shelly",
+            "Region": "Unova",
+            "Location": "Victory Road",
+            "Pokemon": ["Woobat", "Petilil"]
+        },{
+            "Name": "Stella",
+            "Region": "Unova",
+            "Location": "Chargestone Cave",
+            "Pokemon": ["Gothita", "Petilil", "Ducklett"]
+        },{
+            "Name": "Summer",
+            "Region": "Unova",
+            "Location": "Undella Bay",
+            "Pokemon": ["Wingull", "Staryu"]
+        },{
+            "Name": "Terry",
+            "Region": "Unova",
+            "Location": "Challenger's Cave",
+            "Pokemon": ["Dratini", "Bonsly", "Scyther", "Electrike"]
+        },{
+            "Name": "Tom",
+            "Region": "Unova",
+            "Location": "Opelucid Gym",
+            "Pokemon": ["Deino", "Axew", "Druddigon", "Magby", "Swinub"]
+        },{
+            "Name": "Trish",
+            "Region": "Unova",
+            "Location": "Funfest Mission",
+            "Pokemon": ["Ducklett"]
+        },{
+            "Name": "Vicki",
+            "Region": "Unova",
+            "Location": "Chargestone Cave",
+            "Pokemon": ["Lillipup", "Sandile", "Ferroseed"]
+        },{
+            "Name": "Vincent",
+            "Region": "Unova",
+            "Location": "Black City",
+            "Pokemon": ["Tepig"]
+        },{
+            "Name": "Webster",
+            "Region": "Unova",
+            "Location": "Opelucid Gym",
+            "Pokemon": ["Axew", "Durant", "Ferroseed"]
+        },{
+            "Name": "Adelbert",
+            "Region": "Kalos",
+            "Location": "Route 22",
+            "Pokemon": ["Riolu"]
+        },{
+            "Name": "Alanza",
+            "Region": "Kalos",
+            "Location": "Victory Road",
+            "Pokemon": ["Sneasel"]
+        },{
+            "Name": "Anton",
+            "Region": "Kalos",
+            "Location": "Kiloude City",
+            "Pokemon": ["Koffing", "Bronzor", "Tynamo"]
+        },{
+            "Name": "Bence",
+            "Region": "Kalos",
+            "Location": "Victory Road",
+            "Pokemon": ["Onix", "Voltorb", "Kangaskhan"]
+        },{
+            "Name": "Cordelia",
+            "Region": "Kalos",
+            "Location": "Frost Cavern",
+            "Pokemon": ["Honedge"]
+        },{
+            "Name": "Emil",
+            "Region": "Kalos",
+            "Location": "Reflection Cave",
+            "Pokemon": ["Absol", "Pinsir"]
+        },{
+            "Name": "Evan",
+            "Region": "Kalos",
+            "Location": "Route 21",
+            "Pokemon": ["Litwick"]
+        },{
+            "Name": "Hilde",
+            "Region": "Kalos",
+            "Location": "Route 22",
+            "Pokemon": ["Carvanha", "Ralts"]
+        },{
+            "Name": "Imelda",
+            "Region": "Kalos",
+            "Location": "Snowbelle Gym",
+            "Pokemon": ["Sneasel", "Shellder"]
+        },{
+            "Name": "Mathis",
+            "Region": "Kalos",
+            "Location": "Lumiose Gym",
+            "Pokemon": ["Chinchou"]
+        },{
+            "Name": "Maxim",
+            "Region": "Kalos",
+            "Location": "Lumiose Gym",
+            "Pokemon": ["Voltorb"]
+        },{
+            "Name": "Michele",
+            "Region": "Kalos",
+            "Location": "Victory Road",
+            "Pokemon": ["Slugma", "Scyther"]
+        },{
+            "Name": "Mireille",
+            "Region": "Kalos",
+            "Location": "Route 21",
+            "Pokemon": ["Sableye", "Dwebble"]
+        },{
+            "Name": "Monique",
+            "Region": "Kalos",
+            "Location": "Reflection Cave",
+            "Pokemon": ["Doduo", "Snubbull", "Helioptile"]
+        },{
+            "Name": "Neil",
+            "Region": "Kalos",
+            "Location": "Frost Cavern",
+            "Pokemon": ["Pichu", "Psyduck", "Cubone"]
+        },{
+            "Name": "Rico",
+            "Region": "Kalos",
+            "Location": "Lumiose Gym",
+            "Pokemon": ["Mareep"]
+        },{
+            "Name": "Robbie",
+            "Region": "Kalos",
+            "Location": "Victory Road",
+            "Pokemon": ["Carbink", "Pichu", "Horsea"]
+        },{
+            "Name": "Shannon",
+            "Region": "Kalos",
+            "Location": "Snowbelle Gym",
+            "Pokemon": ["Cryogonal", "Swinub", "Smoochum"]
+        },{
+            "Name": "Theo",
+            "Region": "Kalos",
+            "Location": "Snowbelle Gym",
+            "Pokemon": ["Cubchoo", "Vanillite"]
+        },{
+            "Name": "Viktor",
+            "Region": "Kalos",
+            "Location": "Snowbelle Gym",
+            "Pokemon": ["Delibird", "Swinub"]
+        },{
+            "Name": "Alexis",
+            "Region": "Alola",
+            "Location": "Route 5",
+            "Pokemon": ["Goomy", "Eevee"]
+        },{
+            "Name": "Angela",
+            "Region": "Alola",
+            "Location": "Poni Plains",
+            "Pokemon": ["Shellder", "Fomantis", "Clamperl"]
+        },{
+            "Name": "Chase",
+            "Region": "Alola",
+            "Location": "Malie City",
+            "Pokemon": ["Alolan Grimer"]
+        },{
+            "Name": "Cole",
+            "Region": "Alola",
+            "Location": "Poni Plains",
+            "Pokemon": ["Drampa", "Goomy", "Druddigon", "Skrelp", "Jangmo-o"]
+        },{
+            "Name": "Eileen",
+            "Region": "Alola",
+            "Location": "Route 8",
+            "Pokemon": ["Wingull", "Spearow", "Fletchling"]
+        },{
+            "Name": "Elwood",
+            "Region": "Alola",
+            "Location": "Poni Wilds",
+            "Pokemon": ["Tropius", "Petilil"]
+        },{
+            "Name": "Hiroshi",
+            "Region": "Alola",
+            "Location": "Vast Poni Canyon",
+            "Pokemon": ["Absol", "Lapras", "Alolan Geodude"]
+        },{
+            "Name": "Jackson",
+            "Region": "Alola",
+            "Location": "Poni Grove",
+            "Pokemon": ["Bruxish", "Cubone", "Rufflet", "Clamperl"]
+        },{
+            "Name": "Jada",
+            "Region": "Alola",
+            "Location": "Mount Lanakila",
+            "Pokemon": ["Vanillite", "Misdreavus"]
+        },{
+            "Name": "Jim",
+            "Region": "Alola",
+            "Location": "Wela Volcano Park",
+            "Pokemon": ["Abra", "Noibat"]
+        },{
+            "Name": "Junko",
+            "Region": "Alola",
+            "Location": "Vast Poni Canyon",
+            "Pokemon": ["Petilil", "Sneasel", "Mawile"]
+        },{
+            "Name": "Kailee",
+            "Region": "Alola",
+            "Location": "Mount Lanakila",
+            "Pokemon": ["Morelull", "Cleffa"]
+        },{
+            "Name": "Karla",
+            "Region": "Alola",
+            "Location": "Route 15",
+            "Pokemon": ["Alolan Vulpix", "Gastly", "Igglybuff", "Alolan Sandshrew"]
+        },{
+            "Name": "Kekoa",
+            "Region": "Alola",
+            "Location": "Poni Wilds",
+            "Pokemon": ["Skarmory", "Carvanha", "Snubbull", "Mareep"]
+        },{
+            "Name": "Lindsey",
+            "Region": "Alola",
+            "Location": "Poni Wilds",
+            "Pokemon": ["Trubbish", "Mareanie"]
+        },{
+            "Name": "Makana",
+            "Region": "Alola",
+            "Location": "Route 3",
+            "Pokemon": ["Rockruff", "Slowpoke", "Caterpie"]
+        },{
+            "Name": "Seth",
+            "Region": "Alola",
+            "Location": "Mount Lanakila",
+            "Pokemon": ["Scyther", "Inkay"]
+        },{
+            "Name": "Sheri",
+            "Region": "Alola",
+            "Location": "Ten Carat Hill",
+            "Pokemon": ["Jangmo-o", "Pichu"]
+        },{
+            "Name": "Tori",
+            "Region": "Alola",
+            "Location": "Hau'oli City",
+            "Pokemon": ["Growlithe"]
+        },{
+            "Name": "Yuki",
+            "Region": "Alola",
+            "Location": "Route 15",
+            "Pokemon": ["Alolan Sandshrew", "Cubone", "Gible"]
         }
     ],
     "BattleFacility": [
         {
+            "Name": "Kathleen",
+            "Region": "Kanto",
+            "Location": "Trainer Tower",
+            "Pokemon": ["Lapras"]
+        },{
+            "Name": "Albert",
+            "Region": "Kanto",
+            "Location": "Trainer Tower",
+            "Pokemon": ["Bulbasaur", "Larvitar"]
+        },{
+            "Name": "Allyson",
+            "Region": "Kanto",
+            "Location": "Trainer Tower",
+            "Pokemon": ["Staryu", "Horsea"]
+        },{
+            "Name": "Alfred",
+            "Region": "Hoenn",
+            "Location": "Trainer Hill",
+            "Pokemon": ["Munchlax", "Miltank", "Teddiursa"]
+        },{
+            "Name": "Roderick",
+            "Region": "Hoenn",
+            "Location": "Trainer Hill",
+            "Pokemon": ["Taillow", "Machop", "Teddiursa"]
+        },{
+            "Name": "Alicia",
+            "Region": "Hoenn",
+            "Location": "Trainer Hill",
+            "Pokemon": ["Duskull", "Vulpix", "Shuppet"]
+        },{
+            "Name": "Braden",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Spearow", "Pichu", "Cleffa", "Oddish", "Diglett", "Abra", "Bellsprout", "Geodude", "Doduo", "Seel", "Drowzee", "Voltorb", "Cubone", "Kangaskhan", "Mime Jr.", "Smoochum", 
+                        "Chinchou", "Natu", "Wooper", "Misdreavus", "Pineco", "Snubbull", "Skarmory", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Barboach", 
+                        "Duskull", "Snorunt"]
+        },{
+            "Name": "Julia",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Spearow", "Pichu", "Cleffa", "Oddish", "Diglett", "Abra", "Bellsprout", "Geodude", "Doduo", "Seel", "Drowzee", "Voltorb", "Cubone", "Kangaskhan", "Mime Jr.", "Smoochum", 
+                        "Chinchou", "Natu", "Wooper", "Misdreavus", "Pineco", "Snubbull", "Skarmory", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Barboach", 
+                        "Duskull", "Snorunt"]
+        },{
+            "Name": "Kayden",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Nidoran-F", "Nidoran-M", "Vulpix", "Psyduck", "Machop", "Tentacool", "Ponyta", "Slowpoke", "Grimer", "Gastly", "Koffing", "Kangaskhan", "Elekid", "Magby", "Tauros", 
+                        "Aerodactyl", "Mareep", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Phanpy", "Porygon", "Miltank", "Ralts", "Wailmer", "Swablu", "Baltoy", "Lileep", 
+                        "Anorith"]
+        },{
+            "Name": "Amara",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Nidoran-F", "Nidoran-M", "Vulpix", "Psyduck", "Machop", "Tentacool", "Ponyta", "Slowpoke", "Grimer", "Gastly", "Koffing", "Kangaskhan", "Elekid", "Magby", "Tauros", 
+                        "Aerodactyl", "Mareep", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Phanpy", "Porygon", "Miltank", "Ralts", "Wailmer", "Swablu", "Baltoy", "Lileep", 
+                        "Anorith"]
+        },{
+            "Name": "Cooper",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Growlithe", "Exeggcute", "Staryu", "Magikarp", "Lapras", "Eevee", "Munchlax", "Chikorita", "Cyndaquil", "Totodile", "Zubat", "Horsea", 
+                        "Happiny", "Treecko", "Torchic", "Mudkip", "Slakoth", "Aron", "Trapinch", "Feebas", "Spheal", "Bagon", "Beldum"]
+        },{
+            "Name": "Lynn",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Growlithe", "Exeggcute", "Staryu", "Magikarp", "Lapras", "Eevee", "Munchlax", "Chikorita", "Cyndaquil", "Totodile", "Zubat", "Horsea", 
+                        "Happiny", "Treecko", "Torchic", "Mudkip", "Slakoth", "Aron", "Trapinch", "Feebas", "Spheal", "Bagon", "Beldum"]
+        },{
+            "Name": "Leon",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Bulbasaur", "Vulpix", "Machop", "Tentacool", "Grimer", "Gastly", "Exeggcute", "Staryu", "Eevee", "Aerodactyl", "Mareep", "Onix", "Scyther", "Shuckle", "Heracross", 
+                        "Teddiursa", "Houndour", "Phanpy", "Porygon", "Ralts", "Wailmer", "Trapinch", "Baltoy"]
+        },{
+            "Name": "Alonzo",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Charmander", "Squirtle", "Growlithe", "Magikarp", "Lapras", "Eevee", "Munchlax", "Chikorita", "Cyndaquil", "Totodile", "Zubat", "Horsea", "Happiny", "Treecko", "Torchic", 
+                        "Mudkip", "Slakoth", "Aron", "Feebas", "Spheal", "Bagon", "Beldum"]
+        },{
+            "Name": "Vince",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Machop", "Gastly", "Staryu", "Lapras", "Munchlax", "Dratini", "Teddiursa", "Larvitar", "Ralts", "Bagon", "Beldum", "Latios"]
+        },{
+            "Name": "Byron",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Articuno", "Zapdos", "Moltres", "Dratini", "Raikou", "Entei", "Suicune", "Larvitar", "Regirock", "Regice", "Registeel", "Latios"]
+        },{
+            "Name": "Ava",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Spearow", "Pichu", "Cleffa", "Oddish", "Diglett", "Bellsprout", "Doduo", "Seel", "Cubone", "Mime Jr.", "Smoochum", "Chinchou", "Natu", "Wooper", "Misdreavus", "Pineco", 
+                        "Snubbull", "Skarmory", "Shroomish", "Makuhita", "Meditite", "Electrike", "Barboach", "Duskull"]
+        },{
+            "Name": "Miriam",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Nidoran-F", "Nidoran-M", "Psyduck", "Abra", "Geodude", "Ponyta", "Slowpoke", "Drowzee", "Voltorb", "Koffing", "Rhyhorn", "Kangaskhan", "Elekid", "Magby", "Tauros", 
+                        "Miltank", "Lotad", "Seedot", "Whismur", "Swablu", "Lileep", "Anorith", "Snorunt"]
+        },{
+            "Name": "Carrie",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Machop", "Gastly", "Staryu", "Lapras", "Munchlax", "Dratini", "Teddiursa", "Larvitar", "Ralts", "Bagon", "Beldum", "Latias"]
+        },{
+            "Name": "Gillian",
+            "Region": "Hoenn",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Articuno", "Zapdos", "Moltres", "Dratini", "Raikou", "Entei", "Suicune", "Larvitar", "Regirock", "Regice", "Registeel", "Latias"]
+        },{
+            "Name": "Myron",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", "Mareep", 
+                        "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", "Wailmer", 
+                        "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", 
+                        "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Lotad", "Venonat", "Shuppet", "Totodile", 
+                        "Nincada", "Stunky", "Barboach", "Sandshrew"]
+        },{
+            "Name": "Herman",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", "Mareep", 
+                        "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", "Wailmer", 
+                        "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", 
+                        "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Tropius", "Igglybuff", "Bulbasaur", 
+                        "Glameow", "Chingling", "Starly", "Koffing", "Buizel", "Rotom", "Zapdos", "Lotad", "Chikorita", "Seel", "Grimer", "Snover"]
+        },{
+            "Name": "Donnie",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", "Mareep", 
+                        "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", "Wailmer", 
+                        "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", 
+                        "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Smoochum", "Seel", "Makuhita", "Koffing", 
+                        "Piplup", "Psyduck", "Croagunk", "Suicune", "Latios", "Barboach", "Torchic", "Mime Jr.", "Snubbull", "Finneon", "Pineco"]
+        },{
+            "Name": "Jane",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", "Mareep", 
+                        "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", "Wailmer", 
+                        "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", 
+                        "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Bulbasaur", "Skarmory", "Snorunt", "Turtwig", 
+                        "Combee", "Totodile", "Charmander", "Seedot", "Latios", "Shuppet", "Slowpoke", "Glameow", "Oddish", "Makuhita", "Wooper", "Snover", "Electrike"]
+        },{
+            "Name": "Natalia",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Drowzee", "Turtwig", "Diglett", 
+                        "Bulbasaur", "Voltorb", "Pichu", "Wingull", "Relicanth", "Zapdos", "Mime Jr.", "Chimchar", "Tauros", "Koffing", "Tyrogue", "Clamperl", "Torchic", "Miltank", "Chikorita"]
+        },{
+            "Name": "Sasha",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", "Mareep", 
+                        "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", "Wailmer", 
+                        "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", 
+                        "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Starly", "Charmander", "Buneary", "Mime Jr.", 
+                        "Clamperl", "Kabuto", "Suicune", "Zapdos", "Squirtle", "Mantyke", "Shellos", "Shellder", "Koffing", "Electrike", "Diglett", "Smoochum"]
+        },{
+            "Name": "Harold",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Seel", "Kangaskhan", "Smoochum", "Tauros", "Lapras", "Munchlax", "Snubbull", "Teddiursa", "Porygon", "Miltank", "Happiny", "Slakoth", "Whismur", "Snorunt", "Spheal", 
+                        "Starly", "Aipom", "Buneary", "Snover", "Sneasel", "Lickitung", "Togepi", "Eevee", "Swinub", "Chinchou", "Seedot", "Piplup", "Pichu", "Squirtle", "Swablu", "Scyther", 
+                        "Buizel", "Doduo", "Wooper", "Clamperl", "Ralts", "Murkrow", "Drifloon", "Aerodactyl"]
+        },{
+            "Name": "Lincoln",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Seel", "Kangaskhan", "Smoochum", "Tauros", "Lapras", "Munchlax", "Snubbull", "Teddiursa", "Porygon", "Miltank", "Happiny", "Slakoth", "Whismur", "Snorunt", "Spheal", 
+                        "Starly", "Aipom", "Buneary", "Snover", "Sneasel", "Lickitung", "Togepi", "Eevee", "Swinub", "Squirtle", "Bellsprout", "Chimchar", "Turtwig", "Mime Jr.", "Phanpy", "Carvanha", 
+                        "Lotad", "Doduo", "Koffing", "Combee", "Voltorb", "Makuhita", "Aerodactyl", "Swablu", "Staryu"]
+        },{
+            "Name": "Regina",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Seel", "Kangaskhan", "Smoochum", "Tauros", "Lapras", "Munchlax", "Snubbull", "Teddiursa", "Porygon", "Miltank", "Happiny", "Slakoth", "Whismur", "Snorunt", "Spheal", 
+                        "Starly", "Aipom", "Buneary", "Snover", "Sneasel", "Lickitung", "Togepi", "Eevee", "Swinub", "Mime Jr.", "Skarmory", "Clamperl", "Geodude", "Gligar", "Psyduck", "Gastly", 
+                        "Meditite", "Shellos", "Diglett", "Pidgey", "Kabuto", "Pichu", "Drifloon"]
+        },{
+            "Name": "Alaina",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Seel", "Kangaskhan", "Smoochum", "Tauros", "Lapras", "Munchlax", "Snubbull", "Teddiursa", "Porygon", "Miltank", "Happiny", "Slakoth", "Whismur", "Snorunt", "Spheal", 
+                        "Starly", "Aipom", "Buneary", "Snover", "Sneasel", "Lickitung", "Togepi", "Eevee", "Swinub", "Doduo", "Shellder", "Electrike", "Torchic", "Shuckle", "Slowpoke", "Staryu", 
+                        "Remoraid", "Mudkip", "Cubone", "Clamperl", "Chinchou", "Squirtle", "Bronzor", "Chikorita", "Gligar", "Shroomish"]
+        },{
+            "Name": "Ellis",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Articuno", "Zapdos", "Moltres", "Raikou", "Entei", "Suicune", "Regirock", "Regice", "Registeel", "Latias", "Latios", "Heatran", "Regigigas", "Cresselia", "Scyther", 
+                        "Poliwag", "Aron", "Squirtle", "Dratini", "Hippopotas", "Skarmory", "Gastly", "Shellder", "Magnemite", "Magby", "Snover", "Spheal", "Trapinch", "Eevee", "Anorith", "Elekid"]
+        },{
+            "Name": "Irene",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Articuno", "Zapdos", "Moltres", "Raikou", "Entei", "Suicune", "Regirock", "Regice", "Registeel", "Latias", "Latios", "Heatran", "Regigigas", "Cresselia", "Cubone", "Eevee", 
+                        "Growlithe", "Porygon", "Torchic", "Zubat", "Shellder", "Cleffa", "Bagon", "Buizel", "Happiny", "Gligar", "Slakoth", "Dratini", "Bulbasaur"]
+        },{
+            "Name": "Lionel",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Bulbasaur", "Shellos", "Diglett", 
+                        "Lileep", "Buizel"]
+        },{
+            "Name": "Abbey",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Totodile", "Chimchar", "Anorith", 
+                        "Snover", "Snorunt", "Treecko", "Nidoran-M", "Mudkip"]
+        },{
+            "Name": "Dallin",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Seel", "Smoochum", "Lapras", "Articuno", "Snorunt", "Spheal", "Regice", "Snover", "Sneasel", "Eevee", "Swinub", "Cranidos", "Larvitar", "Magnemite", "Chikorita", "Shinx", 
+                        "Barboach", "Seedot", "Murkrow", "Bellsprout", "Munchlax", "Regigigas", "Scyther", "Magikarp", "Chimchar", "Slakoth"]
+        },{
+            "Name": "Jayden",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Seel", "Smoochum", "Lapras", "Articuno", "Snorunt", "Spheal", "Regice", "Snover", "Sneasel", "Eevee", "Swinub", "Torchic", "Squirtle", "Treecko", "Nosepass", "Croagunk", 
+                        "Bronzor", "Shroomish", "Raikou", "Oddish", "Shieldon", "Wooper", "Buizel", "Magnemite", "Tangela", "Feebas", "Vulpix", "Gible"]
+        },{
+            "Name": "Cortney",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Seel", "Smoochum", "Lapras", "Articuno", "Snorunt", "Spheal", "Regice", "Snover", "Sneasel", "Eevee", "Swinub", "Turtwig", "Bagon", "Horsea", "Totodile", "Zapdos", 
+                        "Hippopotas", "Nidoran-M", "Porygon", "Entei", "Dratini", "Heracross", "Vulpix", "Diglett", "Aerodactyl", "Nosepass", "Scyther"]
+        },{
+            "Name": "Celina",
+            "Region": "Sinnoh",
+            "Location": "Battle Tower",
+            "Pokemon": ["Seel", "Smoochum", "Lapras", "Articuno", "Snorunt", "Spheal", "Regice", "Snover", "Sneasel", "Eevee", "Swinub", "Totodile", "Duskull", "Munchlax", "Elekid", "Riolu", 
+                        "Voltorb", "Drifloon", "Slakoth", "Lileep", "Togepi", "Chikorita", "Diglett", "Cyndaquil", "Growlithe"]
+        },{
+            "Name": "Yardley",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull"]
+        },{
+            "Name": "Stavros",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull"]
+        },{
+            "Name": "Zane",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull"]
+        },{
+            "Name": "Kim",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull"]
+        },{
+            "Name": "Macy",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull"]
+        },{
+            "Name": "Faun",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull"]
+        },{
+            "Name": "Garvey",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Squirtle", "Psyduck", "Poliwag", "Tentacool", "Slowpoke", "Seel", "Kangaskhan", "Staryu", "Smoochum", "Tauros", "Magikarp", "Lapras", "Eevee", "Munchlax", "Totodile", 
+                        "Wooper", "Snubbull", "Teddiursa", "Horsea", "Porygon", "Miltank", "Happiny", "Mudkip", "Lotad", "Slakoth", "Whismur", "Feebas", "Snorunt", "Spheal", "Piplup", "Starly", 
+                        "Buizel", "Shellos", "Aipom", "Buneary", "Snover", "Sneasel", "Lickitung", "Togepi", "Swinub"]
+        },{
+            "Name": "Cruz",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Squirtle", "Psyduck", "Poliwag", "Tentacool", "Slowpoke", "Seel", "Kangaskhan", "Staryu", "Smoochum", "Tauros", "Magikarp", "Lapras", "Eevee", "Munchlax", "Totodile", 
+                        "Wooper", "Snubbull", "Teddiursa", "Horsea", "Porygon", "Miltank", "Happiny", "Mudkip", "Lotad", "Slakoth", "Whismur", "Feebas", "Snorunt", "Spheal", "Piplup", "Starly", 
+                        "Buizel", "Shellos", "Aipom", "Buneary", "Snover", "Sneasel", "Lickitung", "Togepi", "Swinub"]
+        },{
+            "Name": "Pamela",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Squirtle", "Psyduck", "Poliwag", "Tentacool", "Slowpoke", "Seel", "Kangaskhan", "Staryu", "Smoochum", "Tauros", "Magikarp", "Lapras", "Eevee", "Munchlax", "Totodile", 
+                        "Wooper", "Snubbull", "Teddiursa", "Horsea", "Porygon", "Miltank", "Happiny", "Mudkip", "Lotad", "Slakoth", "Whismur", "Feebas", "Snorunt", "Spheal", "Piplup", "Starly", 
+                        "Buizel", "Shellos", "Aipom", "Buneary", "Snover", "Sneasel", "Lickitung", "Togepi", "Swinub"]
+        },{
+            "Name": "Daniela",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Squirtle", "Psyduck", "Poliwag", "Tentacool", "Slowpoke", "Seel", "Kangaskhan", "Staryu", "Smoochum", "Tauros", "Magikarp", "Lapras", "Eevee", "Munchlax", "Totodile", 
+                        "Wooper", "Snubbull", "Teddiursa", "Horsea", "Porygon", "Miltank", "Happiny", "Mudkip", "Lotad", "Slakoth", "Whismur", "Feebas", "Snorunt", "Spheal", "Piplup", "Starly", 
+                        "Buizel", "Shellos", "Aipom", "Buneary", "Snover", "Sneasel", "Lickitung", "Togepi", "Swinub"]
+        },{
+            "Name": "Sawyer",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Articuno", "Zapdos", "Moltres", "Raikou", "Entei", "Suicune", "Regirock", "Regice", "Registeel", "Latias", "Latios", "Heatran", "Regigigas", "Cresselia"]
+        },{
+            "Name": "Chloe",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Articuno", "Zapdos", "Moltres", "Raikou", "Entei", "Suicune", "Regirock", "Regice", "Registeel", "Latias", "Latios", "Heatran", "Regigigas", "Cresselia"]
+        },{
+            "Name": "Charlie",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull"]
+        },{
+            "Name": "Daphne",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", "Zubat", 
+                        "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", "Aron", 
+                        "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull"]
+        },{
+            "Name": "Thad",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Seel", "Smoochum", "Lapras", "Articuno", "Snorunt", "Spheal", "Regice", "Snover", "Sneasel", "Eevee", "Swinub"]
+        },{
+            "Name": "Lew",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Seel", "Smoochum", "Lapras", "Articuno", "Snorunt", "Spheal", "Regice", "Snover", "Sneasel", "Eevee", "Swinub"]
+        },{
+            "Name": "Opal",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Seel", "Smoochum", "Lapras", "Articuno", "Snorunt", "Spheal", "Regice", "Snover", "Sneasel", "Eevee", "Swinub"]
+        },{
+            "Name": "Leda",
+            "Region": "Sinnoh",
+            "Location": "Battle Frontier",
+            "Pokemon": ["Seel", "Smoochum", "Lapras", "Articuno", "Snorunt", "Spheal", "Regice", "Snover", "Sneasel", "Eevee", "Swinub"]
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
             "Name": "",
             "Region": "",
             "Location": "",
@@ -1357,10 +2194,360 @@
     ],
     "StadiumGames": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Becky",
+            "Region": "Stadium",
+            "Location": "Earl's Pokémon Academy",
+            "Pokemon": ["Machop", "Elekid", "Scyther", "Oddish", "Mankey", "Pinsir"]
+        },{
+            "Name": "Conner",
+            "Region": "Stadium",
+            "Location": "Earl's Pokémon Academy",
+            "Pokemon": ["Magikarp", "Remoraid", "Grimer", "Horsea", "Krabby", "Slugma"]
+        },{
+            "Name": "Flora",
+            "Region": "Stadium",
+            "Location": "Prime Cup",
+            "Pokemon": ["Stantler", "Drowzee", "Exeggcute", "Cleffa", "Bellsprout", "Poliwag", "Ponyta", "Mime Jr.", "Eevee"]
+        },{
+            "Name": "Gloria",
+            "Region": "Stadium",
+            "Location": "Gym Leader Castle",
+            "Pokemon": ["Igglybuff", "Venonat", "Hoppip", "Cleffa", "Exeggcute", "Oddish", "Smeargle", "Tangela", "Smoochum", "Psyduck", "Gastly", "Vulpix"]
+        },{
+            "Name": "Marty",
+            "Region": "Stadium",
+            "Location": "Prime Cup",
+            "Pokemon": ["Mew", "Teddiursa", "Staryu", "Eevee", "Grimer", "Larvitar", "Celebi", "Meowth", "Gastly", "Machop", "Lapras", "Raikou"]
+        },{
+            "Name": "Vince",
+            "Region": "Stadium",
+            "Location": "Gym Leader Castle",
+            "Pokemon": ["Bulbasaur", "Squirtle", "Charmander", "Chikorita", "Totodile", "Cyndaquil"]
+        },{
+            "Name": "Bedro",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 3",
+            "Pokemon": ["Wingull", "Bagon"]
+        },{
+            "Name": "Boda",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 6",
+            "Pokemon": ["Delibird", "Rhyhorn", "Anorith"]
+        },{
+            "Name": "Botan",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Sunkern", "Hoppip"]
+        },{
+            "Name": "Buna",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Luvdisc", "Hoothoot", "Treecko"]
+        },{
+            "Name": "Daras",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 8",
+            "Pokemon": ["Snorunt", "Shroomish", "Taillow", "Rhyhorn"]
+        },{
+            "Name": "Dury",
+            "Region": "Orre",
+            "Location": "Agate Village",
+            "Pokemon": ["Taillow", "Rhyhorn", "Sunkern"]
+        },{
+            "Name": "Ferda",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 7",
+            "Pokemon": ["Taillow", "Sneasel", "Girafarig", "Slakoth"]
+        },{
+            "Name": "Herton",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 4",
+            "Pokemon": ["Doduo", "Taillow"]
+        },{
+            "Name": "Lehan",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 1",
+            "Pokemon": ["Togepi", "Vulpix"]
+        },{
+            "Name": "Liqui",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Azurill", "Surskit"]
+        },{
+            "Name": "Lomen",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Torchic", "Treecko", "Mudkip", "Swablu", "Snorunt"]
+        },{
+            "Name": "Neira",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 4",
+            "Pokemon": ["Bagon", "Numel"]
+        },{
+            "Name": "Rewn",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Mudkip", "Zubat", "Cacnea"]
+        },{
+            "Name": "Stum",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 1",
+            "Pokemon": ["Taillow", "Hoothoot"]
+        },{
+            "Name": "Tock",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Barboach", "Hoothoot"]
+        },{
+            "Name": "Trilo",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Cyndaquil", "Totodile", "Chikorita", "Shroomish", "Mareep"]
+        },{
+            "Name": "Atilo",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Jirachi", "Eevee", "Natu", "Meditite", "Ralts", "Girafarig"]
+        },{
+            "Name": "Berki",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 6",
+            "Pokemon": ["Latias", "Skitty", "Illumise", "Ralts", "Miltank", "Luvdisc"]
+        },{
+            "Name": "Cruik",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Entei", "Geodude", "Grimer", "Torkoal", "Electrike", "Tentacool"]
+        },{
+            "Name": "Dazon",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 7",
+            "Pokemon": ["Oddish", "Rhyhorn", "Clamperl", "Koffing", "Magnemite", "Abra"]
+        },{
+            "Name": "Desid",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Suicune", "Raikou", "Entei", "Aron", "Phanpy", "Bagon"]
+        },{
+            "Name": "Detta",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 7",
+            "Pokemon": ["Horsea", "Zubat", "Mudkip", "Skarmory", "Totodile", "Staryu"]
+        },{
+            "Name": "Dillot",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 3",
+            "Pokemon": ["Hoothoot", "Wurmple", "Igglybuff", "Pineco", "Shuppet", "Natu"]
+        },{
+            "Name": "Farfin",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Oddish", "Houndour", "Castform", "Tropius", "Seedot", "Mareep"]
+        },{
+            "Name": "Forgon",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Duskull", "Trapinch", "Rayquaza", "Bagon", "Magnemite", "Swablu"]
+        },{
+            "Name": "Gilly",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 8",
+            "Pokemon": ["Chikorita", "Vulpix", "Koffing", "Sandshrew", "Ralts", "Eevee"]
+        },{
+            "Name": "Gosney",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Clamperl", "Voltorb", "Electrike", "Wooper", "Mantyke"]
+        },{
+            "Name": "Hebel",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 2",
+            "Pokemon": ["Anorith", "Wurmple", "Ledyba", "Spinarak", "Yanma"]
+        },{
+            "Name": "Levens",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Magikarp", "Rhyhorn", "Swablu", "Electrike", "Clamperl", "Relicanth"]
+        },{
+            "Name": "Moden",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Doduo", "Feebas", "Beldum", "Jirachi", "Raikou", "Zubat"]
+        },{
+            "Name": "Morfon",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Oddish", "Remoraid", "Vulpix", "Phanpy", "Solrock", "Sableye"]
+        },{
+            "Name": "Moril",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 4",
+            "Pokemon": ["Voltorb", "Lotad", "Clamperl", "Seedot", "Trapinch", "Teddiursa"]
+        },{
+            "Name": "Rask",
+            "Region": "Orre",
+            "Location": "Tower Colosseum",
+            "Pokemon": ["Slakoth", "Abra", "Doduo", "Eevee", "Raikou", "Zubat"]
+        },{
+            "Name": "Rateis",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 3",
+            "Pokemon": ["Nincada", "Zubat", "Swinub", "Sentret", "Pineco", "Taillow"]
+        },{
+            "Name": "Rosno",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 5",
+            "Pokemon": ["Hoppip", "Oddish", "Chikorita", "Lotad", "Cacnea"]
+        },{
+            "Name": "Shadd",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 1",
+            "Pokemon": ["Skitty", "Igglybuff", "Ralts", "Surskit", "Trapinch", "Zigzagoon"]
+        },{
+            "Name": "Tynan",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Heracross", "Wynaut", "Feebas", "Doduo", "Cacnea", "Sableye"]
+        },{
+            "Name": "Vanhub",
+            "Region": "Orre",
+            "Location": "Tower Colosseum",
+            "Pokemon": ["Abra", "Rhyhorn", "Lotad", "Magikarp", "Regice", "Treecko"]
+        },{
+            "Name": "Veron",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 2",
+            "Pokemon": ["Geodude", "Swablu", "Plusle", "Minun", "Wailmer", "Larvitar"]
+        },{
+            "Name": "Zoel",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 5",
+            "Pokemon": ["Wingull", "Gligar", "Delibird", "Zubat", "Surskit", "Yanma"]
+        },{
+            "Name": "Bardo",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 1",
+            "Pokemon": ["Doduo", "Spoink"]
+        },{
+            "Name": "Carben",
+            "Region": "Orre",
+            "Location": "Realgam Colosseum",
+            "Pokemon": ["Shroomish", "Qwilfish", "Miltank", "Torchic", "Spoink"]
+        },{
+            "Name": "Cida",
+            "Region": "Orre",
+            "Location": "Agate Village",
+            "Pokemon": ["Azurill", "Igglybuff", "Togepi"]
+        },{
+            "Name": "Degin",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 6",
+            "Pokemon": ["Clamperl", "Corsola", "Togepi"]
+        },{
+            "Name": "Dibsin",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 1",
+            "Pokemon": ["Baltoy", "Skitty", "Chikorita"]
+        },{
+            "Name": "Dodin",
+            "Region": "Orre",
+            "Location": "Quick Battle",
+            "Pokemon": ["Deoxys", "Happiny"]
+        },{
+            "Name": "Ebson",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Zapdos", "Articuno", "Entei", "Moltres", "Raikou", "Suicune"]
+        },{
+            "Name": "Equin",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Sneasel", "Spoink", "Spinda"]
+        },{
+            "Name": "Flostin",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Zubat", "Taillow", "Heracross", "Makuhita", "Machop"]
+        },{
+            "Name": "Gabsen",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 6",
+            "Pokemon": ["Anorith", "Wurmple", "Pineco", "Lileep"]
+        },{
+            "Name": "Gorps",
+            "Region": "Orre",
+            "Location": "Relic Cave",
+            "Pokemon": ["Zigzagoon", "Numel"]
+        },{
+            "Name": "Halsion",
+            "Region": "Orre",
+            "Location": "Realgam Colosseum",
+            "Pokemon": ["Gligar", "Castform", "Cacnea", "Diglett"]
+        },{
+            "Name": "Hileon",
+            "Region": "Orre",
+            "Location": "Realgam Colosseum",
+            "Pokemon": ["Volbeat", "Tentacool", "Duskull", "Chingling"]
+        },{
+            "Name": "Klept",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Cubone", "Electrike", "Staryu", "Magikarp", "Doduo", "Lapras"]
+        },{
+            "Name": "Lask",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 8",
+            "Pokemon": ["Shroomish", "Larvitar", "Mudkip", "Anorith"]
+        },{
+            "Name": "Malex",
+            "Region": "Orre",
+            "Location": "Realgam Colosseum",
+            "Pokemon": ["Murkrow", "Taillow", "Hoothoot", "Skarmory"]
+        },{
+            "Name": "Mopar",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 3",
+            "Pokemon": ["Wooper", "Spheal"]
+        },{
+            "Name": "Niled",
+            "Region": "Orre",
+            "Location": "Quick Battle",
+            "Pokemon": ["Cubone", "Girafarig"]
+        },{
+            "Name": "Noxon",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 8",
+            "Pokemon": ["Eevee", "Feebas", "Regice", "Lotad", "Articuno"]
+        },{
+            "Name": "Quelor",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Ledyba", "Spoink", "Oddish"]
+        },{
+            "Name": "Rapeel",
+            "Region": "Orre",
+            "Location": "Quick Battle",
+            "Pokemon": ["Mew", "Raikou"]
+        },{
+            "Name": "Roze",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 4",
+            "Pokemon": ["Seedot", "Geodude"]
+        },{
+            "Name": "Tensin",
+            "Region": "Orre",
+            "Location": "Quick Battle",
+            "Pokemon": ["Mime Jr.", "Seel"]
+        },{
+            "Name": "Teslor",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Sunkern", "Sentret", "Zigzagoon"]
+        },{
+            "Name": "Tetil",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Seedot", "Hoppip", "Houndour", "Castform", "Trapinch"]
         }
     ]
 },{
@@ -2068,22 +3255,30 @@
             "Name": "Chip",
             "Region": "Alola",
             "Location": "Battle Tree",
-            "Pokemon": []
+            "Pokemon": ["Hawlucha", "Skiddo", "Wimpod", "Grubbin", "Mudbray", "Stufful", "Rotom", "Binacle", "Nosepass", "Dewpider", "Treecko", "Turtwig", "Meditite", "Shroomish", "Sawk", "Throh",
+                        "Lotad", "Seedot", "Tauros", "Abra", "Shieldon", "Pinsir", "Scyther", "Heracross", "Teddiursa", "Wailmer", "Machop", "Timburr", "Riolu", "Duskull", "Cubchoo", "Bouffalant", 
+                        "Archen", "Dratini", "Makuhita", "Wingull", "Buneary", "Munna", "Scraggy", "Ferroseed", "Slowpoke", "Swablu", "Croagunk", "Gothita", "Pawniard", "Snover", "Anorith",
+                        "Cranidos", "Mareep", "Poliwag", "Passimian", "Bronzor", "Skorupi", "Crabrawler", "Shuckle", "Mimikyu", "Murkrow", "Roggenrola", "Drilbur", "Zorua", "Ralts", "Swinub", "Lapras"]
         },{
             "Name": "Zero",
             "Region": "Alola",
             "Location": "Battle Tree",
-            "Pokemon": []
+            "Pokemon": ["Wimpod", "litten", "Togedemaru", "Froakie", "Clauncher", "Weedle", "Mawile", "Starly", "Tauros", "Scraggy", "Magikarp", "Growlithe", "Bagon", "Absol", "Combee", "Pidove",
+                        "Spiritomb", "Shelmet", "Scyther", "Sneasel", "Duskull"]
         },{
             "Name": "Donna",
             "Region": "Alola",
             "Location": "Battle Tree",
-            "Pokemon": []
+            "Pokemon": ["Binacle", "Hawlucha", "Skiddo", "Wimpod", "Mudbray", "Stufful", "Rotom", "Lickitung", "Meditite", "Shroomish", "Makuhita", "Sawk", "Throh", "Wingull", "Lotad", "Seedot", 
+                        "Buneary", "Aipom", "Tauros", "Scraggy", "Abra", "Croagunk", "Pawniard", "Shieldon", "Scyther", "Heracross", "Teddiursa", "Passimian", "Machop", "Timburr", "Drilbur", "Zorua",
+                        "Ralts", "Riolu", "Duskull", "Cubchoo", "Bouffalant", "Swinub", "Lapras"]
         },{
             "Name": "Gilroy",
             "Region": "Alola",
             "Location": "Battle Tree",
-            "Pokemon": []
+            "Pokemon": ["Binacle", "Hawlucha", "Skiddo", "Wimpod", "Mudbray", "Stufful", "Rotom", "Lickitung", "Meditite", "Shroomish", "Makuhita", "Sawk", "Throh", "Wingull", "Lotad", "Seedot", 
+                        "Buneary", "Aipom", "Tauros", "Scraggy", "Abra", "Croagunk", "Pawniard", "Shieldon", "Scyther", "Heracross", "Teddiursa", "Passimian", "Machop", "Timburr", "Drilbur", "Zorua",
+                        "Ralts", "Riolu", "Duskull", "Cubchoo", "Bouffalant", "Swinub", "Lapras"]
         }
     ],
     "StadiumGames": []

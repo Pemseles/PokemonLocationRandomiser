@@ -202,6 +202,10 @@ function App() {
         }
         
         setSelectedRegions(strArr);
+        if (strArr.some(e => e === "Stadium" || e === "Orre")) {
+            console.log("stadiumswitch should be true now");
+            // flip stadiumswitch
+        }
     }
     const handleGeneratedMons = (event: any) => {
         handleGenButtonBool(true);
