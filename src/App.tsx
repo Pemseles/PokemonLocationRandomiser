@@ -114,6 +114,11 @@ function App() {
                     "Lunala", "Necrozma", "Nihilego", "Buzzwole", "Pheromosa", "Xurkitree", "Kartana", "Celesteela", "Guzzlord", "Poipole", "Naganadel", "Stakataka", "Blacephalon", "Magearna", 
                     "Marshadow", "Zeraora", "Meltan", "Melmetal", "Zacian", "Zamazenta", "Eternatus", "Kubfu", "Urshifu", "Regieleki", "Regidrago", "Calyrex", "Glastrier", "Spectrier", 
                     "Galarian Articuno", "Galarian Zapdos", "Galarian Moltres", "Zarude"];
+
+    const battleFacilities = ["Trainer Tower", "Battle Tower", "Battle Factory", "Battle Arcade", "Battle Castle", "Battle Hall", "Battle Tent", "Trainer Hill", "Battle Arena", "Battle Dome", 
+                            "Battle Pike", "Battle Palace", "Battle Pyramid", "Battle Institute", "Battle Maison", "Battle Subway", "Pokémon World Tournament", "Battle Royal Dome",
+                            "Battle Tree", "Battle Agency", "Master Dojo", "Battle Frontier"];
+    
     const shinyRate = 50;
 
     // TODO add mega filter
@@ -249,6 +254,13 @@ function App() {
             setTrainerSelectedBool(false);
         }
         setSelectedTrainerLocations(value);
+
+        for (let i = 0; i < value.length; i++) {
+            if (battleFacilities.some(e => e === value[i].location)) {
+                console.log("stadiumswitch should be true now");
+                // set facilityswitch to true
+            }
+        }
     }
     const handleExtraAppbar = (event: any) => {
         console.log("handle showextraappbar", !event);
@@ -664,7 +676,7 @@ function App() {
                                                         {`${generatedMons[index].TrainerClass} ${generatedMons[index].TrainerName}`}
                                                     </Typography>
                                                 : ''}
-                                                {trainerPref === "Class" || regionPref === "Random" || regionPref === "Specific" && locationPref === "Random" || regionPref === "Specific" && locationPref === "Specific" && selectedLocations.length > 1 ?
+                                                {trainerPref === "Class" || regionPref === "Random" || regionPref === "Specific" && locationPref === "Random" || regionPref === "Specific" && locationPref === "Specific" && selectedLocations.length > 1 || selectedTrainerLocations.length > 1 ?
                                                     <Typography gutterBottom variant="body2" align='center'>
                                                         {generatedMons[index].Location}
                                                     </Typography>
