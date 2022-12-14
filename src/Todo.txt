@@ -4,13 +4,15 @@ TODO List
 -  Add legendary checkbox filter
 -  Add mega checkbox filter
 -  Add type filter
--  Put filters in new optional appbar, which only appears when selecting an optional options icon
+-  Add smooth transition to optional drop-down menu
 -  Fill out all trainer data (takes a shit ton of time lol)
--  Add 'evolves into' array (for branch evos) to pokedex entries (allows for evolved pokemon filter)
--  Force re-generation until results >= desired results
+-  If presented w a branch evo, make it so there isnt only 1 possible branch available w/out duplicates
+-  Force re-generation until results >= desired results (only if duplicates on for small sample sizes, else add new location/trainer to pool)
 -  Wait for PLA gifs to come out on showdown
--  Update pokedex with scarlet violet mons
+-  Wait for ScaVio gifs to come out on showdown
+-  Update pokedex with scarlet violet mons after national dex numbers are official (home compat)
 -  Update locations with scarlet violet locations
+-  Update trainers with scarlet violet mons
 -  Remove monotype from first dropdown
 -  Add rom hack locations for Renegade Platinum
 -  Add rom hack trainers for Renegade Platinum
