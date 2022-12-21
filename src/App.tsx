@@ -121,11 +121,6 @@ function App() {
     
     const shinyRate = 50;
 
-    // TODO add mega filter
-    // TODO add legendary filter
-    // TODO add type filter
-    // TODO add toggle for dark mode
-
     const handleGenButtonBool = (event: any) => {
         console.log("handle genbutton", event);
 

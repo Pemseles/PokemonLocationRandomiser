@@ -538,7 +538,7 @@
             "DexNo": 58,
             "Type": ["Fire", "Rock"],
             "Evolutions": ["Hisuian Arcanine"],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Arcanine",
@@ -552,7 +552,7 @@
             "DexNo": 59,
             "Type": ["Fire", "Rock"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Poliwag",
@@ -937,7 +937,7 @@
             "DexNo": 100,
             "Type": ["Electric", "Grass"],
             "Evolutions": ["Hisuian Electrode"],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Electrode",
@@ -951,7 +951,7 @@
             "DexNo": 101,
             "Type": ["Electric", "Grass"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Exeggcute",
@@ -1441,7 +1441,7 @@
             "DexNo": 157,
             "Type": ["Fire", "Ghost"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Totodile",
@@ -1847,7 +1847,7 @@
             "DexNo": 211,
             "Type": ["Dark", "Poison"],
             "Evolutions": ["Overqwil"],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Scizor",
@@ -1896,7 +1896,7 @@
             "DexNo": 215,
             "Type": ["Fighting", "Poison"],
             "Evolutions": ["Sneasler"],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Teddiursa",
@@ -4262,7 +4262,7 @@
             "DexNo": 503,
             "Type": ["Water", "Dark"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Patrat",
@@ -4598,7 +4598,7 @@
             "DexNo": 549,
             "Type": ["Grass", "Fighting"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Basculin",
@@ -4612,7 +4612,7 @@
             "DexNo": 550,
             "Type": ["Water"],
             "Evolutions": ["Basculegion"],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Sandile",
@@ -4794,7 +4794,7 @@
             "DexNo": 570,
             "Type": ["Normal", "Ghost"],
             "Evolutions": ["Hisuian Zoroark"],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Zoroark",
@@ -4808,7 +4808,7 @@
             "DexNo": 571,
             "Type": ["Normal", "Ghost"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Minccino",
@@ -5221,7 +5221,7 @@
             "DexNo": 628,
             "Type": ["Psychic", "Flying"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Vullaby",
@@ -5837,7 +5837,7 @@
             "DexNo": 705,
             "Type": ["Steel", "Dragon"],
             "Evolutions": ["Hisuian Goodra"],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Goodra",
@@ -5851,7 +5851,7 @@
             "DexNo": 706,
             "Type": ["Steel", "Dragon"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Klefki",
@@ -5907,7 +5907,7 @@
             "DexNo": 713,
             "Type": ["Ice", "Rock"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Noibat",
@@ -6019,7 +6019,7 @@
             "DexNo": 724,
             "Type": ["Grass", "Fighting"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Litten",
@@ -7391,49 +7391,49 @@
             "DexNo": 900,
             "Type": ["Bug", "Rock"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Ursaluna",
             "DexNo": 901,
             "Type": ["Ground", "Normal"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Basculegion",
             "DexNo": 902,
             "Type": ["Water", "Ghost"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Sneasler",
             "DexNo": 903,
             "Type": ["Fighting", "Poison"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Overqwil",
             "DexNo": 904,
             "Type": ["Dark", "Poison"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Enamorus",
             "DexNo": 905,
             "Type": ["Fairy", "Flying"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
             "Label": "Enamorus-Therian",
             "DexNo": 905,
             "Type": ["Fairy", "Flying"],
             "Evolutions": [],
-            "Gif": "https://discord.com/channels/633651426975023115/867727288673763340/1033064411503530054"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
 
 
@@ -7442,7 +7442,7 @@
             "DexNo": 0,
             "Type": [],
             "Evolutions": [],
-            "Gif": "https://play.pokemonshowdown.com/sprites/ani/REPLACEME.gif"
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         }
 
     ]

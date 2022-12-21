@@ -1,0 +1,64 @@
+[{
+    "Class": "",
+    "InGame": [
+        {
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        }
+    ]
+},{
+    "Class": "",
+    "InGame": [
+        {
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        }
+    ],
+    "BattleFacility": [
+        {
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        }
+    ],
+    "StadiumGames": [
+        {
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        }
+    ]
+}
+]

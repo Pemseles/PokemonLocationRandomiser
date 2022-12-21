@@ -3393,343 +3393,1285 @@
     "Class": "Artist Family",
     "InGame": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Mona & Paulo",
+            "Region": "Kalos",
+            "Location": "Route 7",
+            "Pokemon": ["Smeargle"]
         }
     ],
-    "BattleFacility": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ]
+    "BattleFacility": [],
+    "StadiumGames": []
 },{
     "Class": "Athlete",
-    "InGame": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
-    "BattleFacility": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
+    "InGame": [],
+    "BattleFacility": [],
     "StadiumGames": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Adel",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Psyduck", "Pineco"]
+        },{
+            "Name": "Aidel",
+            "Region": "Orre",
+            "Location": "Mt. Battle",
+            "Pokemon": ["Pichu", "Vulpix", "Abra"]
+        },{
+            "Name": "Albac",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 2",
+            "Pokemon": ["Geodude", "Sandshrew"]
+        },{
+            "Name": "Bilal",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Snorunt", "Taillow"]
+        },{
+            "Name": "Caden",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 2",
+            "Pokemon": ["Beldum", "Barboach"]
+        },{
+            "Name": "Crisom",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Mantyke", "Goldeen", "Clamperl"]
+        },{
+            "Name": "Dian",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 8",
+            "Pokemon": ["Beldum", "Snubbull", "Hoppip", "Natu"]
+        },{
+            "Name": "Dobel",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 9",
+            "Pokemon": ["Girafarig", "Nincada", "Zangoose", "Doduo"]
+        },{
+            "Name": "Emia",
+            "Region": "Orre",
+            "Location": "Phenac City",
+            "Pokemon": ["Wooper", "Sandshrew"]
+        },{
+            "Name": "Lorge",
+            "Region": "Orre",
+            "Location": "Deep Colosseum",
+            "Pokemon": ["Misdreavus", "Abra", "Horsea", "Kecleon"]
+        },{
+            "Name": "Magro",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 5",
+            "Pokemon": ["Mawile", "Corsola", "Geodude"]
+        },{
+            "Name": "Meton",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 7",
+            "Pokemon": ["Nincada", "Doduo", "Hoppip", "Zigzagoon"]
+        },{
+            "Name": "Raus",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Voltorb", "Misdreavus", "Vulpix", "Numel"]
+        },{
+            "Name": "Rinos",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 1",
+            "Pokemon": ["Wooper", "Trapinch"]
+        },{
+            "Name": "Wina",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 3",
+            "Pokemon": ["Geodude", "Mawile"]
+        },{
+            "Name": "Aleja",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Latios", "Treecko", "Anorith", "Numel", "Snorunt", "Electrike"]
+        },{
+            "Name": "Busik",
+            "Region": "Orre",
+            "Location": "Pyrite Colosseum",
+            "Pokemon": ["Wailmer", "Corphish", "Snorunt", "Swinub", "Sentret", "Ledyba"]
+        },{
+            "Name": "Deron",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 4",
+            "Pokemon": ["Corphish", "Cacnea", "Carvanha", "Phanpy", "Electrike", "Beldum"]
+        },{
+            "Name": "Dilasi",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 3",
+            "Pokemon": ["Wooper", "Gligar", "Cacnea", "Mareep", "Swinub", "Numel"]
+        },{
+            "Name": "Gatik",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 9",
+            "Pokemon": ["Heracross", "Tropius", "Chingling", "Carvanha", "Sunkern", "Duskull"]
+        },{
+            "Name": "Gulor",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 6",
+            "Pokemon": ["Castform", "Natu", "Wailmer", "Beldum", "Bagon", "Poochyena"]
+        },{
+            "Name": "Kimber",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 3",
+            "Pokemon": ["Volbeat", "Mudkip", "Illumise", "Igglybuff", "Abra", "Spheal"]
+        },{
+            "Name": "Latrin",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 5",
+            "Pokemon": ["Magikarp", "Cyndaquil", "Larvitar", "Bagon", "Barboach", "Totodile"]
+        },{
+            "Name": "Mazzel",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 7",
+            "Pokemon": ["Cyndaquil", "Spheal", "Girafarig", "Miltank", "Geodude", "Chikorita"]
+        },{
+            "Name": "Menzon",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 9",
+            "Pokemon": ["Shroomish", "Horsea", "Wooper", "Hoothoot", "Slakoth", "Misdreavus"]
+        },{
+            "Name": "Naga",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Larvitar", "Cacnea", "Gligar", "Magnemite", "Trapinch", "Registeel"]
+        },{
+            "Name": "Nomol",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 10",
+            "Pokemon": ["Raikou", "Vulpix", "Koffing", "Shuckle", "Anorith", "Natu"]
+        },{
+            "Name": "Pasha",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 1",
+            "Pokemon": ["Whismur", "Shuppet", "Slugma", "Nincada", "Barboach", "Meditite"]
+        },{
+            "Name": "Sano",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 1",
+            "Pokemon": ["Wooper", "Wurmple", "Feebas", "Nincada", "Lotad", "Igglybuff"]
+        },{
+            "Name": "Senton",
+            "Region": "Orre",
+            "Location": "Pyrite Colosseum",
+            "Pokemon": ["Sunkern", "Heracross", "Chingling", "Nincada", "Carvanha", "Shuppet"]
+        },{
+            "Name": "Taot",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Duskull", "Porygon", "Igglybuff", "Miltank", "Girafarig", "Snubbull"]
+        },{
+            "Name": "Tria",
+            "Region": "Orre",
+            "Location": "Pyrite Colosseum",
+            "Pokemon": ["Swablu", "Feebas", "Chinchou", "Aron", "Barboach", "Hoppip"]
+        },{
+            "Name": "Varian",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 2",
+            "Pokemon": ["Pichu", "Psyduck", "Treecko", "Larvitar", "Mudkip", "Torchic"]
+        },{
+            "Name": "Ziale",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 7",
+            "Pokemon": ["Lileep", "Pinsir", "Anorith", "Miltank", "Baltoy", "Wailmer"]
         }
     ]
 },{
     "Class": "Athletic Siblings",
     "InGame": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Alyssa & Sho",
+            "Region": "Alola",
+            "Location": "Route 11",
+            "Pokemon": ["Lillipup", "Fletchling", "Cottonee", "Petilil"]
         }
     ],
-    "BattleFacility": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ]
+    "BattleFacility": [],
+    "StadiumGames": []
 },{
     "Class": "Backers",
     "InGame": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Ai & Ciel",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Cottonee", "Petilil"]
         },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Alf & Fred",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Pansage", "Pawniard"]
+        },{
+            "Name": "Ami & Eira",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Pansear", "Panpour"]
+        },{
+            "Name": "Ava & Aya",
+            "Region": "Unova",
+            "Location": "Route 5",
+            "Pokemon": ["Minccino"]
+        },{
+            "Name": "Cam & Abby",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Sawk", "Throh"]
+        },{
+            "Name": "Cleo & Rio",
+            "Region": "Unova",
+            "Location": "Route 12",
+            "Pokemon": ["Budew"]
+        },{
+            "Name": "Fey & Sue",
+            "Region": "Unova",
+            "Location": "Route 12",
+            "Pokemon": ["Woobat"]
+        },{
+            "Name": "Hawk & Dar",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Darumaka"]
+        },{
+            "Name": "Joe & Ross",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Blitzle", "Frillish"]
+        },{
+            "Name": "Kat & Phae",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Lillipup", "Bouffalant"]
+        },{
+            "Name": "Kay & Ali",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Ducklett"]
+        },{
+            "Name": "Les & Web",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Purrloin"]
+        },{
+            "Name": "Masa & Yas",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Venipede", "Roggenrola"]
+        },{
+            "Name": "May & Mal",
+            "Region": "Unova",
+            "Location": "Route 3",
+            "Pokemon": ["Emolga", "Pachirisu"]
+        },{
+            "Name": "Stu & Art",
+            "Region": "Unova",
+            "Location": "Route 16",
+            "Pokemon": ["Scraggy"]
         }
     ],
-    "BattleFacility": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ]
+    "BattleFacility": [],
+    "StadiumGames": []
 },{
     "Class": "Backpacker",
     "InGame": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Alexander",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Zangoose"]
         },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Annie",
+            "Region": "Unova",
+            "Location": "Relic Passage",
+            "Pokemon": ["Patrat"]
+        },{
+            "Name": "Anna",
+            "Region": "Unova",
+            "Location": "Route 4",
+            "Pokemon": ["Cottonee"]
+        },{
+            "Name": "Blossom",
+            "Region": "Unova",
+            "Location": "Route 16",
+            "Pokemon": ["Purrloin"]
+        },{
+            "Name": "Boone",
+            "Region": "Unova",
+            "Location": "Strange House",
+            "Pokemon": ["Numel", "Sigilyph"]
+        },{
+            "Name": "Carlos",
+            "Region": "Unova",
+            "Location": "Black City",
+            "Pokemon": ["Starly"]
+        },{
+            "Name": "Clara",
+            "Region": "Unova",
+            "Location": "Desert Resort",
+            "Pokemon": ["Sandshrew"]
+        },{
+            "Name": "Clifford",
+            "Region": "Unova",
+            "Location": "Route 4",
+            "Pokemon": ["Sandile", "Lillipup"]
+        },{
+            "Name": "Corin",
+            "Region": "Unova",
+            "Location": "Route 11",
+            "Pokemon": ["Snover", "Poochyena", "Cubone", "Torkoal"]
+        },{
+            "Name": "Eileen",
+            "Region": "Unova",
+            "Location": "Relic Passage",
+            "Pokemon": ["Sandshrew"]
+        },{
+            "Name": "Elaine",
+            "Region": "Unova",
+            "Location": "Desert Resort",
+            "Pokemon": ["Maractus"]
+        },{
+            "Name": "Emi",
+            "Region": "Unova",
+            "Location": "Black City",
+            "Pokemon": ["Happiny"]
+        },{
+            "Name": "Herman",
+            "Region": "Unova",
+            "Location": "Black City",
+            "Pokemon": ["Porygon"]
+        },{
+            "Name": "Ivan",
+            "Region": "Unova",
+            "Location": "Route 16",
+            "Pokemon": ["Patrat"]
+        },{
+            "Name": "Jerome",
+            "Region": "Unova",
+            "Location": "Route 4",
+            "Pokemon": ["Pidove"]
+        },{
+            "Name": "Jill",
+            "Region": "Unova",
+            "Location": "Route 4",
+            "Pokemon": ["Petilil", "Omanyte", "Anorith", "Shieldon", "Archen"]
+        },{
+            "Name": "Keane",
+            "Region": "Unova",
+            "Location": "Route 4",
+            "Pokemon": ["Darumaka"]
+        },{
+            "Name": "Kendall",
+            "Region": "Unova",
+            "Location": "Relic Passage",
+            "Pokemon": ["Lillipup"]
+        },{
+            "Name": "Kelsey",
+            "Region": "Unova",
+            "Location": "Desert Resort",
+            "Pokemon": ["Pidove"]
+        },{
+            "Name": "Kiyo",
+            "Region": "Unova",
+            "Location": "Black City",
+            "Pokemon": ["Heatmor", "Cubchoo", "Drilbur", "Zubat", "Ducklett"]
+        },{
+            "Name": "Kumiko",
+            "Region": "Unova",
+            "Location": "Route 18",
+            "Pokemon": ["Emolga", "Zubat", "Darumaka"]
+        },{
+            "Name": "Liz",
+            "Region": "Unova",
+            "Location": "Desert Resort",
+            "Pokemon": ["Patrat"]
+        },{
+            "Name": "Lois",
+            "Region": "Unova",
+            "Location": "Route 5",
+            "Pokemon": ["Munna"]
+        },{
+            "Name": "Lora",
+            "Region": "Unova",
+            "Location": "Route 16",
+            "Pokemon": ["Sewaddle"]
+        },{
+            "Name": "Lowell",
+            "Region": "Unova",
+            "Location": "Route 22",
+            "Pokemon": ["Swinub", "Darumaka"]
+        },{
+            "Name": "Mae",
+            "Region": "Unova",
+            "Location": "Victory Road",
+            "Pokemon": ["Deerling"]
+        },{
+            "Name": "Michael",
+            "Region": "Unova",
+            "Location": "Route 5",
+            "Pokemon": ["Tympole"]
+        },{
+            "Name": "Molly",
+            "Region": "Unova",
+            "Location": "Black City",
+            "Pokemon": ["Azurill"]
+        },{
+            "Name": "Myra",
+            "Region": "Unova",
+            "Location": "Route 22",
+            "Pokemon": ["Vanillite", "Bouffalant"]
+        },{
+            "Name": "Nate",
+            "Region": "Unova",
+            "Location": "Desert Resort",
+            "Pokemon": ["Dwebble"]
+        },{
+            "Name": "Patty",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Eevee"]
+        },{
+            "Name": "Peter",
+            "Region": "Unova",
+            "Location": "Route 16",
+            "Pokemon": ["Scraggy"]
+        },{
+            "Name": "Rachel",
+            "Region": "Unova",
+            "Location": "Route 4",
+            "Pokemon": ["Woobat", "Pidove"]
+        },{
+            "Name": "Randall",
+            "Region": "Unova",
+            "Location": "Relic Passage",
+            "Pokemon": ["Rattata"]
+        },{
+            "Name": "Reece",
+            "Region": "Unova",
+            "Location": "Route 14",
+            "Pokemon": ["Skorupi", "Pinsir"]
+        },{
+            "Name": "Roland",
+            "Region": "Unova",
+            "Location": "Route 4",
+            "Pokemon": ["Riolu", "Timburr"]
+        },{
+            "Name": "Ruth",
+            "Region": "Unova",
+            "Location": "Route 7",
+            "Pokemon": ["Minccino"]
+        },{
+            "Name": "Sam",
+            "Region": "Unova",
+            "Location": "Route 18",
+            "Pokemon": ["Cottonee", "Dwebble"]
+        },{
+            "Name": "Shane",
+            "Region": "Unova",
+            "Location": "Route 1",
+            "Pokemon": ["Kabuto", "Lileep", "Cranidos", "Tirtouga"]
+        },{
+            "Name": "Stephen",
+            "Region": "Unova",
+            "Location": "Route 16",
+            "Pokemon": ["Drilbur"]
+        },{
+            "Name": "Talon",
+            "Region": "Unova",
+            "Location": "Route 11",
+            "Pokemon": ["Croagunk", "Seedot", "Cacnea"]
+        },{
+            "Name": "Tami",
+            "Region": "Unova",
+            "Location": "Desert Resort",
+            "Pokemon": ["Drilbur"]
+        },{
+            "Name": "Terrance",
+            "Region": "Unova",
+            "Location": "Route 7",
+            "Pokemon": ["Pansear"]
+        },{
+            "Name": "Toru",
+            "Region": "Unova",
+            "Location": "Challenger's Cave",
+            "Pokemon": ["Zubat"]
+        },{
+            "Name": "Vicky",
+            "Region": "Unova",
+            "Location": "Route 14",
+            "Pokemon": ["Numel"]
+        },{
+            "Name": "Walt",
+            "Region": "Unova",
+            "Location": "Desert Resort",
+            "Pokemon": ["Sandile"]
+        },{
+            "Name": "Waylon",
+            "Region": "Unova",
+            "Location": "Route 4",
+            "Pokemon": ["Blitzle"]
+        },{
+            "Name": "Farid",
+            "Region": "Kalos",
+            "Location": "Victory Road",
+            "Pokemon": ["Axew"]
+        },{
+            "Name": "Heike",
+            "Region": "Kalos",
+            "Location": "Route 5",
+            "Pokemon": ["Sentret"]
+        },{
+            "Name": "Jerome",
+            "Region": "Kalos",
+            "Location": "Route 6",
+            "Pokemon": ["Fletchling"]
+        },{
+            "Name": "Joren",
+            "Region": "Kalos",
+            "Location": "Route 12",
+            "Pokemon": ["Zigzagoon"]
+        },{
+            "Name": "Lane",
+            "Region": "Kalos",
+            "Location": "Reflection Cave",
+            "Pokemon": ["Zigzagoon"]
+        },{
+            "Name": "Roderick",
+            "Region": "Kalos",
+            "Location": "Route 6",
+            "Pokemon": ["Bunnelby"]
+        },{
+            "Name": "Darnell",
+            "Region": "Hoenn",
+            "Location": "Mt. Pyre",
+            "Pokemon": ["Kecleon"]
+        },{
+            "Name": "Deon",
+            "Region": "Hoenn",
+            "Location": "Route 111",
+            "Pokemon": ["Zigzagoon"]
+        },{
+            "Name": "Emory",
+            "Region": "Hoenn",
+            "Location": "Route 111",
+            "Pokemon": ["Taillow"]
+        },{
+            "Name": "Graeme",
+            "Region": "Hoenn",
+            "Location": "Route 106",
+            "Pokemon": ["Slakoth"]
+        },{
+            "Name": "Grayson",
+            "Region": "Hoenn",
+            "Location": "Route 133",
+            "Pokemon": ["Girafarig"]
+        },{
+            "Name": "Ashley",
+            "Region": "Alola",
+            "Location": "Route 2",
+            "Pokemon": ["Cottonee"]
+        },{
+            "Name": "Mikiko",
+            "Region": "Alola",
+            "Location": "Brooklet Hill",
+            "Pokemon": ["Fletchling"]
+        },{
+            "Name": "Kiana",
+            "Region": "Alola",
+            "Location": "Route 8",
+            "Pokemon": ["Eevee"]
+        },{
+            "Name": "Perdy",
+            "Region": "Alola",
+            "Location": "Vast Poni Canyon",
+            "Pokemon": ["Cottonee", "Spinda"]
+        },{
+            "Name": "Maria",
+            "Region": "Alola",
+            "Location": "Resolution Cave",
+            "Pokemon": ["Emolga", "Electrike"]
+        },{
+            "Name": "Yuho",
+            "Region": "Alola",
+            "Location": "Poni Gauntlet",
+            "Pokemon": ["Mimikyu", "Aipom"]
+        },{
+            "Name": "Peren",
+            "Region": "Alola",
+            "Location": "Mount Lanakila",
+            "Pokemon": ["Emolga"]
+        },{
+            "Name": "Barbara",
+            "Region": "Galar",
+            "Location": "Route 8",
+            "Pokemon": ["Dreepy", "Vullaby"]
+        },{
+            "Name": "Diane",
+            "Region": "Galar",
+            "Location": "Route 6",
+            "Pokemon": ["Sawk"]
+        },{
+            "Name": "Ruth",
+            "Region": "Galar",
+            "Location": "Route 6",
+            "Pokemon": ["Throh"]
         }
     ],
     "BattleFacility": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Irwin",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Snivy", "Tepig", "Oshawott", "Patrat", "Lillipup", "Purrloin", "Pansage", "Pansear", "Panpour", "Munna", "Pidove", "Blitzle", "Roggenrola", "Woobat", "Drilbur", "Timburr", 
+                        "Tympole", "Sewaddle", "Venipede", "Cottonee", "Petilil", "Sandile", "Darumaka", "Dwebble", "Scraggy", "Yamask", "Tirtouga", "Archen", "Trubbish", "Zorua", "Minccino", 
+                        "Gothita", "Solosis", "Ducklett", "Vanillite", "Deerling", "Karrablast", "Foongus", "Frillish", "Joltik", "Ferroseed", "Klink", "Tynamo", "Elgyem", "Litwick", "Axew", 
+                        "Cubchoo", "Shelmet", "Mienfoo", "Golett", "Pawniard", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Ananda",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Snivy", "Tepig", "Oshawott", "Patrat", "Lillipup", "Purrloin", "Pansage", "Pansear", "Panpour", "Munna", "Pidove", "Blitzle", "Roggenrola", "Woobat", "Drilbur", "Timburr", 
+                        "Tympole", "Sewaddle", "Venipede", "Cottonee", "Petilil", "Sandile", "Darumaka", "Dwebble", "Scraggy", "Yamask", "Tirtouga", "Archen", "Trubbish", "Zorua", "Minccino", 
+                        "Gothita", "Solosis", "Ducklett", "Vanillite", "Deerling", "Karrablast", "Foongus", "Frillish", "Joltik", "Ferroseed", "Klink", "Tynamo", "Elgyem", "Litwick", "Axew", 
+                        "Cubchoo", "Shelmet", "Mienfoo", "Golett", "Pawniard", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Serjbu",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Snivy", "Tepig", "Oshawott", "Patrat", "Lillipup", "Purrloin", "Pansage", "Pansear", "Panpour", "Munna", "Pidove", "Blitzle", "Roggenrola", "Woobat", "Drilbur", "Timburr", 
+                        "Tympole", "Sewaddle", "Venipede", "Cottonee", "Petilil", "Sandile", "Darumaka", "Dwebble", "Scraggy", "Yamask", "Tirtouga", "Archen", "Trubbish", "Zorua", "Minccino", 
+                        "Gothita", "Solosis", "Ducklett", "Vanillite", "Deerling", "Karrablast", "Foongus", "Frillish", "Joltik", "Ferroseed", "Klink", "Tynamo", "Elgyem", "Litwick", "Axew", 
+                        "Cubchoo", "Shelmet", "Mienfoo", "Golett", "Pawniard", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Myera",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Snivy", "Tepig", "Oshawott", "Patrat", "Lillipup", "Purrloin", "Pansage", "Pansear", "Panpour", "Munna", "Pidove", "Blitzle", "Roggenrola", "Woobat", "Drilbur", "Timburr", 
+                        "Tympole", "Sewaddle", "Venipede", "Cottonee", "Petilil", "Sandile", "Darumaka", "Dwebble", "Scraggy", "Yamask", "Tirtouga", "Archen", "Trubbish", "Zorua", "Minccino", 
+                        "Gothita", "Solosis", "Ducklett", "Vanillite", "Deerling", "Karrablast", "Foongus", "Frillish", "Joltik", "Ferroseed", "Klink", "Tynamo", "Elgyem", "Litwick", "Axew", 
+                        "Cubchoo", "Shelmet", "Mienfoo", "Golett", "Pawniard", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Tatyana",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Snivy", "Tepig", "Oshawott", "Patrat", "Lillipup", "Purrloin", "Pansage", "Pansear", "Panpour", "Munna", "Pidove", "Blitzle", "Roggenrola", "Woobat", "Drilbur", "Timburr", 
+                        "Tympole", "Sewaddle", "Venipede", "Cottonee", "Petilil", "Sandile", "Darumaka", "Dwebble", "Scraggy", "Yamask", "Tirtouga", "Archen", "Trubbish", "Zorua", "Minccino", 
+                        "Gothita", "Solosis", "Ducklett", "Vanillite", "Deerling", "Karrablast", "Foongus", "Frillish", "Joltik", "Ferroseed", "Klink", "Tynamo", "Elgyem", "Litwick", "Axew", 
+                        "Cubchoo", "Shelmet", "Mienfoo", "Golett", "Pawniard", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Theresa",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Snivy", "Tepig", "Oshawott", "Patrat", "Lillipup", "Purrloin", "Pansage", "Pansear", "Panpour", "Munna", "Pidove", "Blitzle", "Roggenrola", "Woobat", "Drilbur", "Timburr", 
+                        "Tympole", "Sewaddle", "Venipede", "Cottonee", "Petilil", "Sandile", "Darumaka", "Dwebble", "Scraggy", "Yamask", "Tirtouga", "Archen", "Trubbish", "Zorua", "Minccino", 
+                        "Gothita", "Solosis", "Ducklett", "Vanillite", "Deerling", "Karrablast", "Foongus", "Frillish", "Joltik", "Ferroseed", "Klink", "Tynamo", "Elgyem", "Litwick", "Axew", 
+                        "Cubchoo", "Shelmet", "Mienfoo", "Golett", "Pawniard", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Mabon",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Pichu", "Nidoran-F", "Nidoran-M", "Oddish", "Diglett", "Poliwag", "Abra", "Bellsprout", "Geodude", "Slowpoke", "Seel", "Voltorb", 
+                        "Cubone", "Koffing", "Kangaskhan", "Mime Jr.", "Smoochum", "Tauros", "Chikorita", "Cyndaquil", "Totodile", "Chinchou", "Wooper", "Pineco", "Snubbull", "Skarmory", "Miltank", 
+                        "Treecko", "Torchic", "Mudkip", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Swablu", "Barboach", "Lileep", "Anorith", "Absol", "Turtwig", 
+                        "Chimchar", "Piplup", "Starly", "Cranidos", "Shieldon", "Combee", "Buizel", "Shellos", "Aipom", "Drifloon", "Buneary", "Misdreavus", "Stunky", "Spiritomb", "Croagunk", 
+                        "Snover", "Snorunt", "Snivy", "Tepig", "Oshawott", "Munna", "Pidove", "Blitzle", "Tympole", "Throh", "Sawk", "Petilil", "Darumaka", "Scraggy", "Yamask", "Tirtouga", "Gothita", 
+                        "Solosis", "Karrablast", "Ferroseed", "Cryogonal", "Shelmet", "Druddigon", "Golett", "Pawniard", "Durant"]
+        },{
+            "Name": "Shamus",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Pichu", "Nidoran-F", "Nidoran-M", "Oddish", "Diglett", "Poliwag", "Abra", "Bellsprout", "Geodude", "Slowpoke", "Seel", "Voltorb", 
+                        "Cubone", "Koffing", "Kangaskhan", "Mime Jr.", "Smoochum", "Tauros", "Chikorita", "Cyndaquil", "Totodile", "Chinchou", "Wooper", "Pineco", "Snubbull", "Skarmory", "Miltank", 
+                        "Treecko", "Torchic", "Mudkip", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Swablu", "Barboach", "Lileep", "Anorith", "Absol", "Turtwig", 
+                        "Chimchar", "Piplup", "Starly", "Cranidos", "Shieldon", "Combee", "Buizel", "Shellos", "Aipom", "Drifloon", "Buneary", "Misdreavus", "Stunky", "Spiritomb", "Croagunk", 
+                        "Snover", "Snorunt", "Snivy", "Tepig", "Oshawott", "Munna", "Pidove", "Blitzle", "Tympole", "Throh", "Sawk", "Petilil", "Darumaka", "Scraggy", "Yamask", "Tirtouga", "Gothita", 
+                        "Solosis", "Karrablast", "Ferroseed", "Cryogonal", "Shelmet", "Druddigon", "Golett", "Pawniard", "Durant"]
+        },{
+            "Name": "Polina",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Pichu", "Nidoran-F", "Nidoran-M", "Oddish", "Diglett", "Poliwag", "Abra", "Bellsprout", "Geodude", "Slowpoke", "Seel", "Voltorb", 
+                        "Cubone", "Koffing", "Kangaskhan", "Mime Jr.", "Smoochum", "Tauros", "Chikorita", "Cyndaquil", "Totodile", "Chinchou", "Wooper", "Pineco", "Snubbull", "Skarmory", "Miltank", 
+                        "Treecko", "Torchic", "Mudkip", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Swablu", "Barboach", "Lileep", "Anorith", "Absol", "Turtwig", 
+                        "Chimchar", "Piplup", "Starly", "Cranidos", "Shieldon", "Combee", "Buizel", "Shellos", "Aipom", "Drifloon", "Buneary", "Misdreavus", "Stunky", "Spiritomb", "Croagunk", 
+                        "Snover", "Snorunt", "Snivy", "Tepig", "Oshawott", "Munna", "Pidove", "Blitzle", "Tympole", "Throh", "Sawk", "Petilil", "Darumaka", "Scraggy", "Yamask", "Tirtouga", "Gothita", 
+                        "Solosis", "Karrablast", "Ferroseed", "Cryogonal", "Shelmet", "Druddigon", "Golett", "Pawniard", "Durant"]
+        },{
+            "Name": "Zlata",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Pichu", "Nidoran-F", "Nidoran-M", "Oddish", "Diglett", "Poliwag", "Abra", "Bellsprout", "Geodude", "Slowpoke", "Seel", "Voltorb", 
+                        "Cubone", "Koffing", "Kangaskhan", "Mime Jr.", "Smoochum", "Tauros", "Chikorita", "Cyndaquil", "Totodile", "Chinchou", "Wooper", "Pineco", "Snubbull", "Skarmory", "Miltank", 
+                        "Treecko", "Torchic", "Mudkip", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Swablu", "Barboach", "Lileep", "Anorith", "Absol", "Turtwig", 
+                        "Chimchar", "Piplup", "Starly", "Cranidos", "Shieldon", "Combee", "Buizel", "Shellos", "Aipom", "Drifloon", "Buneary", "Misdreavus", "Stunky", "Spiritomb", "Croagunk", 
+                        "Snover", "Snorunt", "Snivy", "Tepig", "Oshawott", "Munna", "Pidove", "Blitzle", "Tympole", "Throh", "Sawk", "Petilil", "Darumaka", "Scraggy", "Yamask", "Tirtouga", "Gothita", 
+                        "Solosis", "Karrablast", "Ferroseed", "Cryogonal", "Shelmet", "Druddigon", "Golett", "Pawniard", "Durant"]
+        },{
+            "Name": "Cedric",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Pichu", "Nidoran-F", "Nidoran-M", "Oddish", "Diglett", "Poliwag", "Abra", "Bellsprout", "Geodude", "Slowpoke", "Seel", "Voltorb", 
+                        "Cubone", "Koffing", "Kangaskhan", "Mime Jr.", "Smoochum", "Tauros", "Chikorita", "Cyndaquil", "Totodile", "Chinchou", "Wooper", "Pineco", "Snubbull", "Skarmory", "Miltank", 
+                        "Treecko", "Torchic", "Mudkip", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Swablu", "Barboach", "Lileep", "Anorith", "Absol", "Turtwig", 
+                        "Chimchar", "Piplup", "Starly", "Cranidos", "Shieldon", "Combee", "Buizel", "Shellos", "Aipom", "Drifloon", "Buneary", "Misdreavus", "Stunky", "Spiritomb", "Croagunk", 
+                        "Snover", "Snorunt", "Snivy", "Tepig", "Oshawott", "Munna", "Pidove", "Blitzle", "Tympole", "Throh", "Sawk", "Petilil", "Darumaka", "Scraggy", "Yamask", "Tirtouga", "Gothita", 
+                        "Solosis", "Karrablast", "Ferroseed", "Cryogonal", "Shelmet", "Druddigon", "Golett", "Pawniard", "Durant"]
+        },{
+            "Name": "Simone",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Pichu", "Nidoran-F", "Nidoran-M", "Oddish", "Diglett", "Poliwag", "Abra", "Bellsprout", "Geodude", "Slowpoke", "Seel", "Voltorb", 
+                        "Cubone", "Koffing", "Kangaskhan", "Mime Jr.", "Smoochum", "Tauros", "Chikorita", "Cyndaquil", "Totodile", "Chinchou", "Wooper", "Pineco", "Snubbull", "Skarmory", "Miltank", 
+                        "Treecko", "Torchic", "Mudkip", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Swablu", "Barboach", "Lileep", "Anorith", "Absol", "Turtwig", 
+                        "Chimchar", "Piplup", "Starly", "Cranidos", "Shieldon", "Combee", "Buizel", "Shellos", "Aipom", "Drifloon", "Buneary", "Misdreavus", "Stunky", "Spiritomb", "Croagunk", 
+                        "Snover", "Snorunt", "Snivy", "Tepig", "Oshawott", "Munna", "Pidove", "Blitzle", "Tympole", "Throh", "Sawk", "Petilil", "Darumaka", "Scraggy", "Yamask", "Tirtouga", "Gothita", 
+                        "Solosis", "Karrablast", "Ferroseed", "Cryogonal", "Shelmet", "Druddigon", "Golett", "Pawniard", "Durant"]
+        },{
+            "Name": "Felton",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Ponyta", "Grimer", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", 
+                        "Dratini", "Zubat", "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", 
+                        "Slakoth", "Aron", "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Roggenrola", "Drilbur", "Timburr", 
+                        "Sandile", "Archen", "Zorua", "Vanillite", "Klink", "Tynamo", "Litwick", "Axew", "Cubchoo", "Mienfoo", "Bouffalant", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Wald",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Ponyta", "Grimer", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", 
+                        "Dratini", "Zubat", "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", 
+                        "Slakoth", "Aron", "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", 
+                        "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Roggenrola", "Drilbur", "Timburr", 
+                        "Sandile", "Archen", "Zorua", "Vanillite", "Klink", "Tynamo", "Litwick", "Axew", "Cubchoo", "Mienfoo", "Bouffalant", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Einar",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Pidgey", "Rattata", "Oddish", "Poliwag", "Machop", "Geodude", "Magnemite", "Grimer", "Gastly", "Drowzee", "Omanyte", "Hoothoot", "Ledyba", "Spinarak", "Natu", "Azurill", 
+                        "Hoppip", "Pineco", "Snubbull", "Swinub", "Houndour", "Larvitar", "Poochyena", "Wingull", "Ralts", "Shroomish", "Meditite", "Electrike", "Carvanha", "Baltoy", "Duskull", 
+                        "Snorunt", "Spheal", "Starly", "Kricketot", "Shinx", "Cranidos", "Cherubi", "Glameow", "Stunky", "Bronzor", "Gible", "Skorupi", "Snover", "Pansage", "Panpour", "Pansear", 
+                        "Roggenrola", "Venipede", "Gothita", "Solosis", "Frillish", "Joltik", "Litwick", "Pawniard", "Chespin", "Fennekin", "Froakie", "Bunnelby", "Fletchling", "Litleo", "Flabébé", 
+                        "Pancham", "Espurr", "Honedge", "Phantump"]
+        },{
+            "Name": "Sigifrith",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Pidgey", "Rattata", "Oddish", "Poliwag", "Machop", "Geodude", "Magnemite", "Grimer", "Gastly", "Drowzee", "Omanyte", "Hoothoot", "Ledyba", "Spinarak", "Natu", "Azurill", 
+                        "Hoppip", "Pineco", "Snubbull", "Swinub", "Houndour", "Larvitar", "Poochyena", "Wingull", "Ralts", "Shroomish", "Meditite", "Electrike", "Carvanha", "Baltoy", "Duskull", 
+                        "Snorunt", "Spheal", "Starly", "Kricketot", "Shinx", "Cranidos", "Cherubi", "Glameow", "Stunky", "Bronzor", "Gible", "Skorupi", "Snover", "Pansage", "Panpour", "Pansear", 
+                        "Roggenrola", "Venipede", "Gothita", "Solosis", "Frillish", "Joltik", "Litwick", "Pawniard", "Chespin", "Fennekin", "Froakie", "Bunnelby", "Fletchling", "Litleo", "Flabébé", 
+                        "Pancham", "Espurr", "Honedge", "Phantump"]
+        },{
+            "Name": "Anand",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Pidgey", "Rattata", "Oddish", "Poliwag", "Machop", "Geodude", "Magnemite", "Grimer", "Gastly", "Drowzee", "Omanyte", "Hoothoot", "Ledyba", "Spinarak", "Natu", "Azurill", 
+                        "Hoppip", "Pineco", "Snubbull", "Swinub", "Houndour", "Larvitar", "Poochyena", "Wingull", "Ralts", "Shroomish", "Meditite", "Electrike", "Carvanha", "Baltoy", "Duskull", 
+                        "Snorunt", "Spheal", "Starly", "Kricketot", "Shinx", "Cranidos", "Cherubi", "Glameow", "Stunky", "Bronzor", "Gible", "Skorupi", "Snover", "Pansage", "Panpour", "Pansear", 
+                        "Roggenrola", "Venipede", "Gothita", "Solosis", "Frillish", "Joltik", "Litwick", "Pawniard", "Chespin", "Fennekin", "Froakie", "Bunnelby", "Fletchling", "Litleo", "Flabébé", 
+                        "Pancham", "Espurr", "Honedge", "Phantump"]
+        },{
+            "Name": "Pradeep",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Pidgey", "Rattata", "Oddish", "Poliwag", "Machop", "Geodude", "Magnemite", "Grimer", "Gastly", "Drowzee", "Omanyte", "Hoothoot", "Ledyba", "Spinarak", "Natu", "Azurill", 
+                        "Hoppip", "Pineco", "Snubbull", "Swinub", "Houndour", "Larvitar", "Poochyena", "Wingull", "Ralts", "Shroomish", "Meditite", "Electrike", "Carvanha", "Baltoy", "Duskull", 
+                        "Snorunt", "Spheal", "Starly", "Kricketot", "Shinx", "Cranidos", "Cherubi", "Glameow", "Stunky", "Bronzor", "Gible", "Skorupi", "Snover", "Pansage", "Panpour", "Pansear", 
+                        "Roggenrola", "Venipede", "Gothita", "Solosis", "Frillish", "Joltik", "Litwick", "Pawniard", "Chespin", "Fennekin", "Froakie", "Bunnelby", "Fletchling", "Litleo", "Flabébé", 
+                        "Pancham", "Espurr", "Honedge", "Phantump"]
+        },{
+            "Name": "Claude",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Pidgey", "Rattata", "Oddish", "Poliwag", "Machop", "Geodude", "Magnemite", "Grimer", "Gastly", "Drowzee", "Omanyte", "Hoothoot", "Ledyba", "Spinarak", "Natu", "Azurill", 
+                        "Hoppip", "Pineco", "Snubbull", "Swinub", "Houndour", "Larvitar", "Poochyena", "Wingull", "Ralts", "Shroomish", "Meditite", "Electrike", "Carvanha", "Baltoy", "Duskull", 
+                        "Snorunt", "Spheal", "Starly", "Kricketot", "Shinx", "Cranidos", "Cherubi", "Glameow", "Stunky", "Bronzor", "Gible", "Skorupi", "Snover", "Pansage", "Panpour", "Pansear", 
+                        "Roggenrola", "Venipede", "Gothita", "Solosis", "Frillish", "Joltik", "Litwick", "Pawniard", "Chespin", "Fennekin", "Froakie", "Bunnelby", "Fletchling", "Litleo", "Flabébé", 
+                        "Pancham", "Espurr", "Honedge", "Phantump"]
+        },{
+            "Name": "Owain",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Pidgey", "Rattata", "Oddish", "Poliwag", "Machop", "Geodude", "Magnemite", "Grimer", "Gastly", "Drowzee", "Omanyte", "Hoothoot", "Ledyba", "Spinarak", "Natu", "Azurill", 
+                        "Hoppip", "Pineco", "Snubbull", "Swinub", "Houndour", "Larvitar", "Poochyena", "Wingull", "Ralts", "Shroomish", "Meditite", "Electrike", "Carvanha", "Baltoy", "Duskull", 
+                        "Snorunt", "Spheal", "Starly", "Kricketot", "Shinx", "Cranidos", "Cherubi", "Glameow", "Stunky", "Bronzor", "Gible", "Skorupi", "Snover", "Pansage", "Panpour", "Pansear", 
+                        "Roggenrola", "Venipede", "Gothita", "Solosis", "Frillish", "Joltik", "Litwick", "Pawniard", "Chespin", "Fennekin", "Froakie", "Bunnelby", "Fletchling", "Litleo", "Flabébé", 
+                        "Pancham", "Espurr", "Honedge", "Phantump"]
+        },{
+            "Name": "Erroll",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Vulpix", "Growlithe", "Poliwag", "Machop", "Tentacool", "Ponyta", "Grimer", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", 
+                        "Munchlax", "Dratini", "Zubat", "Mareep", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", 
+                        "Slakoth", "Aron", "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Shieldon", "Buizel", "Drifloon", "Misdreavus", 
+                        "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", 
+                        "Swinub", "Nosepass", "Duskull", "Blitzle", "Roggenrola", "Drilbur", "Timburr", "Tympole", "Sandile", "Tirtouga", "Archen", "Zorua", "Vanillite", "Karrablast", "Klink", 
+                        "Tynamo", "Litwick", "Axew", "Cubchoo", "Shelmet", "Mienfoo", "Bouffalant", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Maxen",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Vulpix", "Growlithe", "Poliwag", "Machop", "Tentacool", "Ponyta", "Grimer", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", 
+                        "Munchlax", "Dratini", "Zubat", "Mareep", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", 
+                        "Slakoth", "Aron", "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Shieldon", "Buizel", "Drifloon", "Misdreavus", 
+                        "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", 
+                        "Swinub", "Nosepass", "Duskull", "Blitzle", "Roggenrola", "Drilbur", "Timburr", "Tympole", "Sandile", "Tirtouga", "Archen", "Zorua", "Vanillite", "Karrablast", "Klink", 
+                        "Tynamo", "Litwick", "Axew", "Cubchoo", "Shelmet", "Mienfoo", "Bouffalant", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Seamus",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Pichu", "Nidoran-F", "Nidoran-M", "Oddish", "Diglett", "Abra", "Bellsprout", "Geodude", "Slowpoke", "Seel", "Voltorb", "Cubone", 
+                        "Koffing", "Kangaskhan", "Mime Jr.", "Smoochum", "Tauros", "Chikorita", "Cyndaquil", "Totodile", "Chinchou", "Wooper", "Pineco", "Snubbull", "Skarmory", "Miltank", "Treecko",
+                        "Torchic", "Mudkip", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Swablu", "Barboach", "Lileep", "Anorith", "Absol", "Turtwig", 
+                        "Chimchar", "Piplup", "Starly", "Combee", "Shellos", "Aipom", "Buneary", "Stunky", "Spiritomb", "Croagunk", "Snover", "Snorunt", "Snivy", "Tepig", "Oshawott", "Munna",
+                        "Pidove", "Throh", "Sawk", "Petilil", "Darumaka", "Scraggy", "Yamask", "Gothita", "Solosis", "Ferroseed", "Cryogonal", "Druddigon", "Golett", "Pawniard", "Durant", "Chespin",
+                        "Fennekin", "Froakie", "Fletchling", "Litleo", "Flabébé", "Skiddo", "Spritzee", "Swirlix", "Binacle", "Clauncher", "Tyrunt", "Amaura", "Eevee", "Hawlucha", "Carbink", 
+                        "Goomy", "Phantump", "Pumpkaboo", "Bergmite", "Noibat"]
+        },{
+            "Name": "Ranwyl",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Pichu", "Nidoran-F", "Nidoran-M", "Oddish", "Diglett", "Abra", "Bellsprout", "Geodude", "Slowpoke", "Seel", "Voltorb", "Cubone", 
+                        "Koffing", "Kangaskhan", "Mime Jr.", "Smoochum", "Tauros", "Chikorita", "Cyndaquil", "Totodile", "Chinchou", "Wooper", "Pineco", "Snubbull", "Skarmory", "Miltank", "Treecko",
+                        "Torchic", "Mudkip", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Swablu", "Barboach", "Lileep", "Anorith", "Absol", "Turtwig", 
+                        "Chimchar", "Piplup", "Starly", "Combee", "Shellos", "Aipom", "Buneary", "Stunky", "Spiritomb", "Croagunk", "Snover", "Snorunt", "Snivy", "Tepig", "Oshawott", "Munna",
+                        "Pidove", "Throh", "Sawk", "Petilil", "Darumaka", "Scraggy", "Yamask", "Gothita", "Solosis", "Ferroseed", "Cryogonal", "Druddigon", "Golett", "Pawniard", "Durant", "Chespin",
+                        "Fennekin", "Froakie", "Fletchling", "Litleo", "Flabébé", "Skiddo", "Spritzee", "Swirlix", "Binacle", "Clauncher", "Tyrunt", "Amaura", "Eevee", "Hawlucha", "Carbink", 
+                        "Goomy", "Phantump", "Pumpkaboo", "Bergmite", "Noibat"]
+        },{
+            "Name": "Rolf",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Vulpix", "Growlithe", "Poliwag", "Machop", "Tentacool", "Ponyta", "Grimer", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", 
+                        "Munchlax", "Dratini", "Zubat", "Mareep", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", 
+                        "Slakoth", "Aron", "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Cranidos", "Shieldon", "Buizel", "Drifloon", "Misdreavus", 
+                        "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", 
+                        "Swinub", "Nosepass", "Duskull", "Blitzle", "Roggenrola", "Drilbur", "Timburr", "Tympole", "Sandile", "Tirtouga", "Archen", "Zorua", "Vanillite", "Karrablast", "Klink", 
+                        "Tynamo", "Litwick", "Axew", "Cubchoo", "Shelmet", "Mienfoo", "Bouffalant", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Perdido",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Bulbasaur", "Charmander", "Squirtle", "Pichu", "Nidoran-F", "Nidoran-M", "Oddish", "Diglett", "Abra", "Bellsprout", "Geodude", "Slowpoke", "Seel", "Voltorb", "Cubone", 
+                        "Koffing", "Kangaskhan", "Mime Jr.", "Smoochum", "Tauros", "Chikorita", "Cyndaquil", "Totodile", "Chinchou", "Wooper", "Pineco", "Snubbull", "Skarmory", "Miltank", "Treecko",
+                        "Torchic", "Mudkip", "Lotad", "Seedot", "Shroomish", "Whismur", "Makuhita", "Meditite", "Electrike", "Swablu", "Barboach", "Lileep", "Anorith", "Absol", "Turtwig", 
+                        "Chimchar", "Piplup", "Starly", "Combee", "Shellos", "Aipom", "Buneary", "Stunky", "Spiritomb", "Croagunk", "Snover", "Snorunt", "Snivy", "Tepig", "Oshawott", "Munna",
+                        "Pidove", "Throh", "Sawk", "Petilil", "Darumaka", "Scraggy", "Yamask", "Gothita", "Solosis", "Ferroseed", "Cryogonal", "Druddigon", "Golett", "Pawniard", "Durant", "Chespin",
+                        "Fennekin", "Froakie", "Fletchling", "Litleo", "Flabébé", "Skiddo", "Spritzee", "Swirlix", "Binacle", "Clauncher", "Tyrunt", "Amaura", "Eevee", "Hawlucha", "Carbink", 
+                        "Goomy", "Phantump", "Pumpkaboo", "Bergmite", "Noibat"]
+        },{
+            "Name": "Sierra",
+            "Region": "Alola",
+            "Location": "Battle Royal Dome",
+            "Pokemon": ["Sandshrew", "Nidoran-F", "Nidoran-M", "Diglett", "Geodude", "Cubone", "Aerodactyl", "Onix", "Shuckle", "Mudkip", "Aron", "Numel", "Trapinch", "Lileep", "Anorith", "Turtwig", 
+                        "Cranidos", "Shieldon", "Shellos", "Hippopotas", "Rhyhorn", "Gligar", "Swinub", "Nosepass", "Roggenrola", "Drilbur", "Tirtouga", "Archen", "Golett", "Binacle", "Tyrunt", 
+                        "Amaura", "Carbink", "Rockruff", "Mudbray", "Sandygast", "Minior"]
+        },{
+            "Name": "Alison",
+            "Region": "Alola",
+            "Location": "Battle Royal Dome",
+            "Pokemon": ["Sandshrew", "Alolan Sandshrew", "Nidoran-F", "Nidoran-M", "Diglett", "Alolan Diglett", "Geodude", "Alolan Geodude", "Cubone", "Aerodactyl", "Onix", "Shuckle", "Larvitar", 
+                        "Mudkip", "Aron", "Numel", "Trapinch", "Lileep", "Anorith", "Turtwig", "Cranidos", "Shieldon", "Shellos", "Gible", "Hippopotas", "Rhyhorn", "Gligar", "Swinub", "Nosepass", 
+                        "Roggenrola", "Drilbur", "Tirtouga", "Archen", "Golett", "Binacle", "Tyrunt", "Amaura", "Carbink", "Rockruff", "Mudbray", "Sandygast", "Minior"]
+        },{
+            "Name": "Darla",
+            "Region": "Alola",
+            "Location": "Battle Tree",
+            "Pokemon": ["Pichu", "Sandshrew", "Vulpix", "Eevee", "Dratini", "Totodile", "Houndour", "Electrike", "Wailmer", "Absol", "Aipom", "Buneary", "Riolu", "Croagunk", "Porygon", "Rotom-Fan", 
+                        "Purrloin", "Drilbur", "Audino", "Throh", "Sawk", "Scraggy", "Mienfoo", "Golett", "Durant", "Litleo", "Clauncher", "Rockruff", "Wishiwashi", "Mudbray", "Fomantis", 
+                        "Bounsweet", "Comfey", "Minior", "Togedemaru", "Mimikyu", "Drampa"]
+        },{
+            "Name": "Tammy",
+            "Region": "Alola",
+            "Location": "Battle Tree",
+            "Pokemon": ["Lickitung", "Yamask", "Munna", "Ferroseed", "Slowpoke", "Frillish", "Solosis", "Karrablast", "Bronzor", "Hippopotas", "Spheal"]
+        },{
+            "Name": "Reese",
+            "Region": "Alola",
+            "Location": "Battle Tree",
+            "Pokemon": ["Lickitung", "Yamask", "Munna", "Ferroseed", "Slowpoke", "Frillish", "Solosis", "Karrablast", "Bronzor", "Hippopotas", "Spheal"]
+        },{
+            "Name": "Kayla",
+            "Region": "Alola",
+            "Location": "Battle Tree",
+            "Pokemon": ["Pichu", "Sandshrew", "Vulpix", "Eevee", "Dratini", "Totodile", "Houndour", "Electrike", "Wailmer", "Absol", "Aipom", "Buneary", "Riolu", "Croagunk", "Elekid", "Porygon", 
+                        "Rotom-Fan", "Purrloin", "Drilbur", "Audino", "Throh", "Sawk", "Scraggy", "Mienfoo", "Golett", "Durant", "Litleo", "Clauncher", "Rockruff", "Wishiwashi", "Mudbray", 
+                        "Fomantis", "Bounsweet", "Comfey", "Minior", "Togedemaru", "Mimikyu", "Drampa"]
+        },{
+            "Name": "Gwenny",
+            "Region": "Alola",
+            "Location": "Battle Tree",
+            "Pokemon": ["Articuno", "Uxie", "Mesprit", "Azelf", "Heatran", "Regigigas", "Cresselia", "Landorus"]
+        },{
+            "Name": "Fernanda",
+            "Region": "Alola",
+            "Location": "Battle Tree",
+            "Pokemon": ["Articuno", "Moltres", "Entei", "Regirock", "Registeel", "Latias", "Heatran", "Terrakion", "Tornadus", "Landorus"]
+        },{
+            "Name": "Celinda",
+            "Region": "Galar",
+            "Location": "Battle Tower",
+            "Pokemon": ["Charmander", "Caterpie", "Diglett", "Magikarp", "Hoothoot", "Natu", "Wooper", "Onix", "Delibird", "Mantyke", "Wingull", "Nincada", "Trapinch", "Barboach", "Baltoy", "Combee", 
+                        "Shellos", "Hippopotas", "Rhyhorn", "Togepi", "Swinub", "Rotom-Fan", "Pidove", "Woobat", "Drilbur", "Tympole", "Sigilyph", "Galarian Stunfisk", "Golett", "Rufflet", "Vullaby", 
+                        "Bunnelby", "Hawlucha", "Noibat", "Mudbray", "Rookidee", "Silicobra", "Cramorant", "Galarian Yamask"]
+        },{
+            "Name": "Ajani",
+            "Region": "Galar",
+            "Location": "Battle Tower",
+            "Pokemon": ["Charmander", "Caterpie", "Diglett", "Magikarp", "Hoothoot", "Natu", "Wooper", "Onix", "Delibird", "Mantyke", "Wingull", "Nincada", "Trapinch", "Barboach", "Baltoy", "Combee", 
+                        "Shellos", "Hippopotas", "Rhyhorn", "Togepi", "Swinub", "Rotom-Fan", "Pidove", "Woobat", "Drilbur", "Tympole", "Sigilyph", "Galarian Stunfisk", "Golett", "Rufflet", "Vullaby", 
+                        "Bunnelby", "Hawlucha", "Noibat", "Mudbray", "Rookidee", "Silicobra", "Cramorant", "Galarian Yamask"]
+        },{
+            "Name": "Crawly",
+            "Region": "Galar",
+            "Location": "Battle Tower",
+            "Pokemon": ["Charmander", "Caterpie", "Diglett", "Magikarp", "Hoothoot", "Natu", "Wooper", "Onix", "Delibird", "Mantyke", "Wingull", "Nincada", "Trapinch", "Barboach", "Baltoy", "Combee", 
+                        "Shellos", "Hippopotas", "Rhyhorn", "Togepi", "Swinub", "Rotom-Fan", "Pidove", "Woobat", "Drilbur", "Tympole", "Sigilyph", "Galarian Stunfisk", "Golett", "Rufflet", "Vullaby", 
+                        "Bunnelby", "Hawlucha", "Noibat", "Mudbray", "Rookidee", "Silicobra", "Cramorant", "Galarian Yamask"]
+        },{
+            "Name": "Ulva",
+            "Region": "Galar",
+            "Location": "Battle Tower",
+            "Pokemon": ["Charmander", "Caterpie", "Diglett", "Magikarp", "Hoothoot", "Natu", "Wooper", "Onix", "Delibird", "Mantyke", "Wingull", "Nincada", "Trapinch", "Barboach", "Baltoy", "Combee", 
+                        "Shellos", "Hippopotas", "Rhyhorn", "Togepi", "Swinub", "Rotom-Fan", "Pidove", "Woobat", "Drilbur", "Tympole", "Sigilyph", "Galarian Stunfisk", "Golett", "Rufflet", "Vullaby", 
+                        "Bunnelby", "Hawlucha", "Noibat", "Mudbray", "Rookidee", "Silicobra", "Cramorant", "Galarian Yamask"]
+        },{
+            "Name": "Polly",
+            "Region": "Galar",
+            "Location": "Battle Tower",
+            "Pokemon": ["Charmander", "Caterpie", "Diglett", "Magikarp", "Hoothoot", "Natu", "Wooper", "Onix", "Delibird", "Mantyke", "Wingull", "Nincada", "Trapinch", "Barboach", "Baltoy", "Combee", 
+                        "Shellos", "Hippopotas", "Rhyhorn", "Togepi", "Swinub", "Rotom-Fan", "Pidove", "Woobat", "Drilbur", "Tympole", "Sigilyph", "Galarian Stunfisk", "Golett", "Rufflet", "Vullaby", 
+                        "Bunnelby", "Hawlucha", "Noibat", "Mudbray", "Rookidee", "Silicobra", "Cramorant", "Galarian Yamask"]
         }
     ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ]
+    "StadiumGames": []
 },{
     "Class": "Baker",
     "InGame": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Chris",
+            "Region": "Unova",
+            "Location": "Village Bridge",
+            "Pokemon": ["Combee", "Teddiursa", "Heatmor"]
         },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Jenn",
+            "Region": "Unova",
+            "Location": "Route 5",
+            "Pokemon": ["Pansage", "Pansear", "Panpour", "Sunkern", "Combee"]
+        },{
+            "Name": "Lilly",
+            "Region": "Unova",
+            "Location": "Big Stadium",
+            "Pokemon": ["Torkoal", "Miltank"]
         }
     ],
     "BattleFacility": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Carabel",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Snivy", "Tepig", "Oshawott", "Patrat", "Lillipup", "Purrloin", "Pansage", "Pansear", "Panpour", "Munna", "Pidove", "Blitzle", "Roggenrola", "Woobat", "Drilbur", "Timburr", 
+                        "Tympole", "Sewaddle", "Venipede", "Cottonee", "Petilil", "Sandile", "Darumaka", "Dwebble", "Scraggy", "Yamask", "Tirtouga", "Archen", "Trubbish", "Zorua", "Minccino", 
+                        "Gothita", "Solosis", "Ducklett", "Vanillite", "Deerling", "Karrablast", "Foongus", "Frillish", "Joltik", "Ferroseed", "Klink", "Tynamo", "Elgyem", "Litwick", "Axew", 
+                        "Cubchoo", "Shelmet", "Mienfoo", "Golett", "Pawniard", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Klara",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Snivy", "Tepig", "Oshawott", "Patrat", "Lillipup", "Purrloin", "Pansage", "Pansear", "Panpour", "Munna", "Pidove", "Blitzle", "Roggenrola", "Woobat", "Drilbur", "Timburr", 
+                        "Tympole", "Sewaddle", "Venipede", "Cottonee", "Petilil", "Sandile", "Darumaka", "Dwebble", "Scraggy", "Yamask", "Tirtouga", "Archen", "Trubbish", "Zorua", "Minccino", 
+                        "Gothita", "Solosis", "Ducklett", "Vanillite", "Deerling", "Karrablast", "Foongus", "Frillish", "Joltik", "Ferroseed", "Klink", "Tynamo", "Elgyem", "Litwick", "Axew", 
+                        "Cubchoo", "Shelmet", "Mienfoo", "Golett", "Pawniard", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Olga",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Snivy", "Tepig", "Oshawott", "Patrat", "Lillipup", "Purrloin", "Pansage", "Pansear", "Panpour", "Munna", "Pidove", "Blitzle", "Roggenrola", "Woobat", "Drilbur", "Timburr", 
+                        "Tympole", "Sewaddle", "Venipede", "Cottonee", "Petilil", "Sandile", "Darumaka", "Dwebble", "Scraggy", "Yamask", "Tirtouga", "Archen", "Trubbish", "Zorua", "Minccino", 
+                        "Gothita", "Solosis", "Ducklett", "Vanillite", "Deerling", "Karrablast", "Foongus", "Frillish", "Joltik", "Ferroseed", "Klink", "Tynamo", "Elgyem", "Litwick", "Axew", 
+                        "Cubchoo", "Shelmet", "Mienfoo", "Golett", "Pawniard", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Chelsie",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Ponyta", "Grimer", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", 
+                        "Zubat", "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", 
+                        "Aron", "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", 
+                        "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Roggenrola", "Drilbur", "Timburr", "Sandile", 
+                        "Archen", "Zorua", "Vanillite", "Klink", "Tynamo", "Litwick", "Axew", "Cubchoo", "Mienfoo", "Bouffalant", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Col",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Ponyta", "Grimer", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", 
+                        "Zubat", "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", 
+                        "Aron", "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", 
+                        "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Roggenrola", "Drilbur", "Timburr", "Sandile", 
+                        "Archen", "Zorua", "Vanillite", "Klink", "Tynamo", "Litwick", "Axew", "Cubchoo", "Mienfoo", "Bouffalant", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Maris",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Vulpix", "Growlithe", "Machop", "Tentacool", "Ponyta", "Grimer", "Gastly", "Exeggcute", "Staryu", "Pinsir", "Magikarp", "Lapras", "Eevee", "Aerodactyl", "Munchlax", "Dratini", 
+                        "Zubat", "Mareep", "Poliwag", "Onix", "Scyther", "Shuckle", "Heracross", "Teddiursa", "Houndour", "Horsea", "Phanpy", "Porygon", "Happiny", "Larvitar", "Ralts", "Slakoth", 
+                        "Aron", "Wailmer", "Trapinch", "Baltoy", "Feebas", "Spheal", "Bagon", "Beldum", "Shinx", "Budew", "Murkrow", "Bronzor", "Gible", "Riolu", "Hippopotas", "Skorupi", "Sneasel", 
+                        "Magnemite", "Lickitung", "Rhyhorn", "Tangela", "Elekid", "Magby", "Togepi", "Yanma", "Gligar", "Swinub", "Nosepass", "Duskull", "Roggenrola", "Drilbur", "Timburr", "Sandile", 
+                        "Archen", "Zorua", "Vanillite", "Klink", "Tynamo", "Litwick", "Axew", "Cubchoo", "Mienfoo", "Bouffalant", "Rufflet", "Vullaby", "Deino", "Larvesta"]
+        },{
+            "Name": "Judy",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Oddish", "Growlithe", "Bellsprout", "Ponyta", "Exeggcute", "Chikorita", "Cyndaquil", "Houndour", "Seedot", "Tangela", "Eevee", "Petilil", "Larvesta"]
+        },{
+            "Name": "Vespera",
+            "Region": "Unova",
+            "Location": "Battle Subway",
+            "Pokemon": ["Oddish", "Growlithe", "Bellsprout", "Ponyta", "Exeggcute", "Chikorita", "Cyndaquil", "Houndour", "Seedot", "Tangela", "Eevee", "Petilil", "Larvesta"]
         }
     ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ]
+    "StadiumGames": []
 },{
     "Class": "Bandana Guy",
-    "InGame": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
-    "BattleFacility": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
+    "InGame": [],
+    "BattleFacility": [],
     "StadiumGames": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Burge",
+            "Region": "Orre",
+            "Location": "Under Colosseum",
+            "Pokemon": ["Sableye", "Corsola", "Abra", "Staryu"]
+        },{
+            "Name": "Crudo",
+            "Region": "Orre",
+            "Location": "Snagem Hideout",
+            "Pokemon": ["Zigzagoon", "Koffing", "Sandshrew", "Gulpin"]
+        },{
+            "Name": "Divel",
+            "Region": "Orre",
+            "Location": "Pyrite Town",
+            "Pokemon": ["Psyduck", "Wooper", "Horsea"]
+        },{
+            "Name": "Geats",
+            "Region": "Orre",
+            "Location": "Pyrite Bldg",
+            "Pokemon": ["Larvitar", "Carvanha", "Barboach"]
+        },{
+            "Name": "Hanel",
+            "Region": "Orre",
+            "Location": "Under Colosseum",
+            "Pokemon": ["Koffing", "Wurmple", "Tentacool"]
+        },{
+            "Name": "Klest",
+            "Region": "Orre",
+            "Location": "Realgam Tower",
+            "Pokemon": ["Seedot", "Geodude", "Makuhita", "Lotad"]
+        },{
+            "Name": "Loba",
+            "Region": "Orre",
+            "Location": "Pyrite Bldg",
+            "Pokemon": ["Wingull", "Wooper"]
+        },{
+            "Name": "Lobert",
+            "Region": "Orre",
+            "Location": "Deep Colosseum",
+            "Pokemon": ["Zigzagoon", "Meditite", "Azurill", "Natu"]
+        },{
+            "Name": "Noxy",
+            "Region": "Orre",
+            "Location": "Pyrite Cave",
+            "Pokemon": ["Lotad"]
+        },{
+            "Name": "Vilch",
+            "Region": "Orre",
+            "Location": "Pyrite Colosseum",
+            "Pokemon": ["Electrike", "Cacnea", "Vulpix"]
+        },{
+            "Name": "Crace",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 8",
+            "Pokemon": ["Grimer", "Spoink", "Snorunt", "Chinchou", "Hoothoot", "Wooper"]
+        },{
+            "Name": "Crag",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 6",
+            "Pokemon": ["Togepi", "Slugma", "Azurill", "Bonsly", "Surskit", "Larvitar"]
+        },{
+            "Name": "Delav",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 1",
+            "Pokemon": ["Clamperl", "Magnemite", "Seedot", "Igglybuff", "Koffing", "Geodude"]
+        },{
+            "Name": "Feek",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 9",
+            "Pokemon": ["Beldum", "Spheal", "Sentret", "Bonsly", "Swinub", "Meditite"]
+        },{
+            "Name": "Kaler",
+            "Region": "Orre",
+            "Location": "Tower Colosseum",
+            "Pokemon": ["Staryu", "Shroomish", "Heracross", "Voltorb", "Trapinch", "Machop"]
+        },{
+            "Name": "Kitel",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 6",
+            "Pokemon": ["Cacnea", "Spinda", "Spoink", "Smeargle", "Slugma", "Nincada"]
+        },{
+            "Name": "Norel",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 3",
+            "Pokemon": ["Zigzagoon", "Togepi", "Skitty", "Doduo", "Teddiursa", "Whismur"]
+        },{
+            "Name": "Omak",
+            "Region": "Orre",
+            "Location": "Mt. Battle Area 4",
+            "Pokemon": ["Dunsparce", "Snubbull", "Houndour", "Swablu", "Carvanha", "Taillow"]
+        },{
+            "Name": "Roblin",
+            "Region": "Orre",
+            "Location": "Under Colosseum",
+            "Pokemon": ["Anorith", "Whismur", "Aron", "Rhyhorn", "Tropius", "Seviper"]
+        },{
+            "Name": "Venez",
+            "Region": "Orre",
+            "Location": "Orre Colosseum",
+            "Pokemon": ["Zubat", "Taillow", "Vulpix", "Feebas", "Treecko", "Teddiursa"]
         }
     ]
 },{
     "Class": "Bandit",
     "InGame": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Coin",
+            "Region": "Hisui",
+            "Location": "Golden Lowlands",
+            "Pokemon": ["Croagunk"]
         },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Clover",
+            "Region": "Hisui",
+            "Location": "Firespit Island",
+            "Pokemon": ["Snover"]
+        },{
+            "Name": "Charm",
+            "Region": "Hisui",
+            "Location": "Primeval Grotto",
+            "Pokemon": ["Rhyhorn", "Gastly"]
         }
     ],
-    "BattleFacility": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ]
+    "BattleFacility": [],
+    "StadiumGames": []
 },{
     "Class": "Baron",
     "InGame": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Denis",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Riolu"]
         },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Evran",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Budew"]
+        },{
+            "Name": "Herisson",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Horsea"]
+        },{
+            "Name": "Lyon",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Ralts"]
+        },{
+            "Name": "Marseille",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Clauncher"]
+        },{
+            "Name": "Moray",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Fletchling"]
+        },{
+            "Name": "Orvault",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Psyduck"]
         }
     ],
-    "BattleFacility": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ]
+    "BattleFacility": [],
+    "StadiumGames": []
 },{
     "Class": "Baroness",
     "InGame": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Renée",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Scatterbug"]
         },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Cadette",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Burmy-Trash"]
+        },{
+            "Name": "Camille",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Bidoof"]
+        },{
+            "Name": "Estelle",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Hoppip"]
+        },{
+            "Name": "Francine",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Flabébé"]
+        },{
+            "Name": "Maelys",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Spoink"]
+        },{
+            "Name": "Maryline",
+            "Region": "Kalos",
+            "Location": "Battle Chateau",
+            "Pokemon": ["Ledyba"]
         }
     ],
-    "BattleFacility": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ]
+    "BattleFacility": [],
+    "StadiumGames": []
 },{
     "Class": "Battle Chatelaine",
-    "InGame": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        },{
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ],
+    "InGame": [],
     "BattleFacility": [
         {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
+            "Name": "Dana",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Swinub", "Skrelp", "Cottonee", "Magnemite", "Girafarig", "Slugma", "Articuno", "Zapdos", "Moltres", "Regirock", "Regice", "Registeel"]
+        },{
+            "Name": "Evelyn",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Mankey", "Meowth", "Pachirisu", "Finneon", "Raikou", "Entei", "Suicune", "Latios"]
+        },{
+            "Name": "Morgan",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Mantyke", "Deerling", "Gulpin", "Klefki", "Cobalion", "Terrakion", "Virizion", "Latias"]
+        },{
+            "Name": "Nita",
+            "Region": "Kalos",
+            "Location": "Battle Maison",
+            "Pokemon": ["Glameow", "Igglybuff", "Spoink", "Tornadus", "Thundurus", "Landorus"]
         }
     ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ]
+    "StadiumGames": []
 },{
     "Class": "Battle Girl",
     "InGame": [
@@ -3743,6 +4685,126 @@
             "Region": "",
             "Location": "",
             "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
+        },{
+            "Name": "",
+            "Region": "",
+            "Location": "",
+            "Pokemon": []
         }
     ],
     "BattleFacility": [
@@ -3753,14 +4815,7 @@
             "Pokemon": []
         }
     ],
-    "StadiumGames": [
-        {
-            "Name": "",
-            "Region": "",
-            "Location": "",
-            "Pokemon": []
-        }
-    ]
+    "StadiumGames": []
 },{
     "Class": "Battle Legend",
     "InGame": [

@@ -1752,7 +1752,7 @@
     ]},
 {
     "Label": "Alola",
-    "Content" : [
+    "Content": [
         {
             "Label": "Route 1", 
             "Content": ["Pikipek", "Yungoos", "Alolan Rattata", "Caterpie", "Ledyba", "Spinarak", "Grubbin", "Buneary", "Pichu", "Happiny", "Magnemite", "Wingull", "Alolan Meowth", "Inkay", "Slowpoke", "Alolan Grimer", "Tentacool", "Finneon", "Bonsly", "Rattata", "Rockruff", "Munchlax", "Zorua", "Gastly", "Drifloon", "Rowlet", "Litten", "Popplio"]
@@ -2076,7 +2076,7 @@
     ]},
 {
     "Label": "Galar",
-    "Content" : [
+    "Content": [
         {
             "Label": "Route 1", 
             "Content": ["Skwovet", "Blipbug", "Caterpie", "Grubbin", "Hoothoot", "Rookidee", "Wooloo", "Nickit"]
@@ -2340,7 +2340,7 @@
     ]},
 {
     "Label": "Hisui",
-    "Content" : [
+    "Content": [
         {
             "Label": "Aipom Hill", 
             "Content": ["Geodude", "Aipom", "Burmy", "Combee", "Buizel", "Murkrow"]
@@ -2672,6 +2672,18 @@
         {
             "Label": "Worn Bridge", 
             "Content": ["Geodude", "Zubat", "Magikarp", "Burmy"]
+        }
+    ]},
+{
+    "Label": "Paldea",
+    "Content": [
+        {
+            "Label": "", 
+            "Content": []
+        },
+        {
+            "Label": "", 
+            "Content": []
         }
     ]}
 ]
