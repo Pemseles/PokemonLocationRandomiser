@@ -523,7 +523,7 @@
             "Label": "Primeape",
             "DexNo": 57,
             "Type": ["Fighting"],
-            "Evolutions": [],
+            "Evolutions": ["Annihilape"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/primeape.gif"
         },
         {
@@ -1185,6 +1185,27 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/tauros.gif"
         },
         {
+            "Label": "Paldean Tauros",
+            "DexNo": 128,
+            "Type": ["Fighting"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Paldean Tauros Blaze Breed",
+            "DexNo": 128,
+            "Type": ["Fighting", "Fire"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Paldean Tauros Aqua Breed",
+            "DexNo": 128,
+            "Type": ["Fighting", "Water"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
             "Label": "Magikarp",
             "DexNo": 129,
             "Type": ["Water"],
@@ -1710,6 +1731,13 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/wooper.gif"
         },
         {
+            "Label": "Paldean Wooper",
+            "DexNo": 194,
+            "Type": ["Poison", "Ground"],
+            "Evolutions": ["Clodsire"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
             "Label": "Quagsire",
             "DexNo": 195,
             "Type": ["Water", "Ground"],
@@ -1776,7 +1804,7 @@
             "Label": "Girafarig",
             "DexNo": 203,
             "Type": ["Normal", "Psychic"],
-            "Evolutions": [],
+            "Evolutions": ["Farigiraf"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/girafarig.gif"
         },
         {
@@ -1797,7 +1825,7 @@
             "Label": "Dunsparce",
             "DexNo": 206,
             "Type": ["Normal"],
-            "Evolutions": [],
+            "Evolutions": ["Dudunsparce"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/dunsparce.gif"
         },
         {
@@ -5192,7 +5220,7 @@
             "Label": "Bisharp",
             "DexNo": 625,
             "Type": ["Dark", "Steel"],
-            "Evolutions": [],
+            "Evolutions": ["Kingambit"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/bisharp.gif"
         },
         {
@@ -6900,7 +6928,7 @@
             "Label": "Applin",
             "DexNo": 840,
             "Type": ["Grass", "Dragon"],
-            "Evolutions": ["Flapple", "Appletun"],
+            "Evolutions": ["Flapple", "Appletun", "Dipplin"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/applin.gif"
         },
         {
@@ -7236,7 +7264,7 @@
             "Label": "Duraludon",
             "DexNo": 884,
             "Type": ["Steel", "Dragon"],
-            "Evolutions": [],
+            "Evolutions": ["Archaludon"],
             "Gif": "https://play.pokemonshowdown.com/sprites/ani/duraludon.gif"
         },
         {
@@ -7401,6 +7429,13 @@
             "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
         {
+            "Label": "Ursaluna Bloodmoon",
+            "DexNo": 901,
+            "Type": ["Ground", "Normal"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
             "Label": "Basculegion",
             "DexNo": 902,
             "Type": ["Water", "Ghost"],
@@ -7435,8 +7470,917 @@
             "Evolutions": [],
             "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
         },
-
-
+        {
+            "Label": "Sprigatito",
+            "DexNo": 906,
+            "Type": ["Grass"],
+            "Evolutions": ["Floragato"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Floragato",
+            "DexNo": 907,
+            "Type": ["Grass"],
+            "Evolutions": ["Meowscarada"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Meowscarada",
+            "DexNo": 908,
+            "Type": ["Grass", "Dark"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Fuecoco",
+            "DexNo": 909,
+            "Type": ["Fire"],
+            "Evolutions": ["Crocalor"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Crocalor",
+            "DexNo": 910,
+            "Type": ["Fire"],
+            "Evolutions": ["Skeledirge"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Skeledirge",
+            "DexNo": 911,
+            "Type": ["Fire", "Ghost"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Quaxly",
+            "DexNo": 912,
+            "Type": ["Water"],
+            "Evolutions": ["Quaxwell"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Quaxwell",
+            "DexNo": 913,
+            "Type": ["Water"],
+            "Evolutions": ["Quaquaval"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Quaquaval",
+            "DexNo": 914,
+            "Type": ["Water", "Fighting"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Lechonk",
+            "DexNo": 915,
+            "Type": ["Normal"],
+            "Evolutions": ["Oinkologne-M", "Oinkologne-F"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Oinkologne-M",
+            "DexNo": 916,
+            "Type": ["Normal"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Oinkologne-F",
+            "DexNo": 916,
+            "Type": ["Normal"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Tarountula",
+            "DexNo": 917,
+            "Type": ["Bug"],
+            "Evolutions": ["Spidops"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Spidops",
+            "DexNo": 918,
+            "Type": ["Bug"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Nymble",
+            "DexNo": 919,
+            "Type": ["Bug"],
+            "Evolutions": ["Lokix"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Lokix",
+            "DexNo": 920,
+            "Type": ["Bug", "Dark"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Pawmi",
+            "DexNo": 921,
+            "Type": ["Electric"],
+            "Evolutions": ["Pawmo"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Pawmo",
+            "DexNo": 922,
+            "Type": ["Electric", "Fighting"],
+            "Evolutions": ["Pawmot"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Pawmot",
+            "DexNo": 923,
+            "Type": ["Electric", "Fighting"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Tandemaus",
+            "DexNo": 924,
+            "Type": ["Normal"],
+            "Evolutions": ["Maushold"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Maushold",
+            "DexNo": 925,
+            "Type": ["Normal"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Fidough",
+            "DexNo": 926,
+            "Type": ["Fairy"],
+            "Evolutions": ["Dachsbun"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Dachsbun",
+            "DexNo": 927,
+            "Type": ["Fairy"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Smoliv",
+            "DexNo": 928,
+            "Type": ["Grass", "Normal"],
+            "Evolutions": ["Dolliv"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Dolliv",
+            "DexNo": 929,
+            "Type": ["Grass", "Normal"],
+            "Evolutions": ["Arboliva"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Arboliva",
+            "DexNo": 930,
+            "Type": ["Grass", "Normal"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Squawkabilly",
+            "DexNo": 931,
+            "Type": ["Normal", "Flying"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Nacli",
+            "DexNo": 932,
+            "Type": ["Rock"],
+            "Evolutions": ["Naclstack"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Naclstack",
+            "DexNo": 933,
+            "Type": ["Rock"],
+            "Evolutions": ["Garganacl"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Garganacl",
+            "DexNo": 934,
+            "Type": ["Rock"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Charcadet",
+            "DexNo": 935,
+            "Type": ["Fire"],
+            "Evolutions": ["Armarouge", "Ceruledge"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Armarouge",
+            "DexNo": 936,
+            "Type": ["Fire", "Psychic"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Ceruledge",
+            "DexNo": 937,
+            "Type": ["Fire", "Ghost"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Tadbulb",
+            "DexNo": 938,
+            "Type": ["Electric"],
+            "Evolutions": ["Bellibolt"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Bellibolt",
+            "DexNo": 939,
+            "Type": ["Electric"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Wattrel",
+            "DexNo": 940,
+            "Type": ["Electric", "Flying"],
+            "Evolutions": ["Kilowattrel"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Kilowattrel",
+            "DexNo": 941,
+            "Type": ["Electric", "Flying"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Maschiff",
+            "DexNo": 942,
+            "Type": ["Dark"],
+            "Evolutions": ["Mabosstiff"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Mabosstiff",
+            "DexNo": 943,
+            "Type": ["Dark"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Shroodle",
+            "DexNo": 944,
+            "Type": ["Poison", "Normal"],
+            "Evolutions": ["Grafaiai"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Grafaiai",
+            "DexNo": 945,
+            "Type": ["Poison", "Normal"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Bramblin",
+            "DexNo": 946,
+            "Type": ["Grass", "Ghost"],
+            "Evolutions": ["Brambleghast"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Brambleghast",
+            "DexNo": 947,
+            "Type": ["Grass", "Ghost"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Toedscool",
+            "DexNo": 948,
+            "Type": ["Ground", "Grass"],
+            "Evolutions": ["Toedscruel"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Toedscruel",
+            "DexNo": 949,
+            "Type": ["Ground", "Grass"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Klawf",
+            "DexNo": 950,
+            "Type": ["Rock"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Capsakid",
+            "DexNo": 951,
+            "Type": ["Grass"],
+            "Evolutions": ["Scovillain"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Scovillain",
+            "DexNo": 952,
+            "Type": ["Grass", "Fire"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Rellor",
+            "DexNo": 953,
+            "Type": ["Bug"],
+            "Evolutions": ["Rabsca"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Rabsca",
+            "DexNo": 954,
+            "Type": ["Bug", "Psychic"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Flittle",
+            "DexNo": 955,
+            "Type": ["Psychic"],
+            "Evolutions": ["Espathra"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Espathra",
+            "DexNo": 956,
+            "Type": ["Psychic"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Tinkatink",
+            "DexNo": 957,
+            "Type": ["Fairy", "Steel"],
+            "Evolutions": ["Tinkatuff"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Tinkatuff",
+            "DexNo": 958,
+            "Type": ["Fairy", "Steel"],
+            "Evolutions": ["Tinkaton"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Tinkaton",
+            "DexNo": 959,
+            "Type": ["Fairy", "Steel"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Wiglett",
+            "DexNo": 960,
+            "Type": ["Water"],
+            "Evolutions": ["Wugtrio"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Wugtrio",
+            "DexNo": 961,
+            "Type": ["Water"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Bombirdier",
+            "DexNo": 962,
+            "Type": ["Flying", "Dark"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Finizen",
+            "DexNo": 963,
+            "Type": ["Water"],
+            "Evolutions": ["Palafin"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Palafin",
+            "DexNo": 964,
+            "Type": ["Water"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Palafin-Hero",
+            "DexNo": 964,
+            "Type": ["Water"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Varoom",
+            "DexNo": 965,
+            "Type": ["Steel", "Poison"],
+            "Evolutions": ["Revavroom"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Revavroom",
+            "DexNo": 966,
+            "Type": ["Steel", "Poison"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Cyclizar",
+            "DexNo": 967,
+            "Type": ["Dragon", "Normal"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Orthworm",
+            "DexNo": 968,
+            "Type": ["Steel"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Glimmet",
+            "DexNo": 969,
+            "Type": ["Rock", "Poison"],
+            "Evolutions": ["Glimmora"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Glimmora",
+            "DexNo": 970,
+            "Type": ["Rock", "Poison"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Greavard",
+            "DexNo": 971,
+            "Type": ["Ghost"],
+            "Evolutions": ["Houndstone"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Houndstone",
+            "DexNo": 972,
+            "Type": ["Ghost"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Flamigo",
+            "DexNo": 973,
+            "Type": ["Flying", "Fighting"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Cetoddle",
+            "DexNo": 974,
+            "Type": ["Ice"],
+            "Evolutions": ["Cetitan"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Cetitan",
+            "DexNo": 975,
+            "Type": ["Ice"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Veluza",
+            "DexNo": 976,
+            "Type": ["Water", "Psychic"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Dondozo",
+            "DexNo": 977,
+            "Type": ["Water"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Tatsugiri-Curly",
+            "DexNo": 978,
+            "Type": ["Dragon", "Water"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Tatsugiri-Droopy",
+            "DexNo": 978,
+            "Type": ["Dragon", "Water"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Tatsugiri-Stretchy",
+            "DexNo": 978,
+            "Type": ["Dragon", "Water"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Annihilape",
+            "DexNo": 979,
+            "Type": ["Fighting", "Ghost"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Clodsire",
+            "DexNo": 980,
+            "Type": ["Poison", "Ground"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Farigiraf",
+            "DexNo": 981,
+            "Type": ["Normal", "Psychic"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Dudunsparce",
+            "DexNo": 982,
+            "Type": ["Normal"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Kingambit",
+            "DexNo": 983,
+            "Type": ["Dark", "Steel"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Great Tusk",
+            "DexNo": 984,
+            "Type": ["Ground", "Fighting"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Scream Tail",
+            "DexNo": 985,
+            "Type": ["Fairy", "Psychic"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Brute Bonnet",
+            "DexNo": 986,
+            "Type": ["Grass", "Dark"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Flutter Mane",
+            "DexNo": 987,
+            "Type": ["Ghost", "Fairy"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Slither Wing",
+            "DexNo": 988,
+            "Type": ["Bug", "Fighting"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Sandy Shocks",
+            "DexNo": 989,
+            "Type": ["Electric", "Ground"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Iron Treads",
+            "DexNo": 990,
+            "Type": ["Ground", "Steel"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Iron Bundle",
+            "DexNo": 991,
+            "Type": ["Ice", "Water"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Iron Hands",
+            "DexNo": 992,
+            "Type": ["Fighting", "Electric"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Iron Jugulis",
+            "DexNo": 993,
+            "Type": ["Dark", "Flying"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Iron Moth",
+            "DexNo": 994,
+            "Type": ["Fire", "Poison"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Iron Thorns",
+            "DexNo": 995,
+            "Type": ["Rock", "Electric"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Frigibax",
+            "DexNo": 996,
+            "Type": ["Dragon", "Ice"],
+            "Evolutions": ["Arctibax"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Arctibax",
+            "DexNo": 997,
+            "Type": ["Dragon", "Ice"],
+            "Evolutions": ["Baxcalibur"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Baxcalibur",
+            "DexNo": 998,
+            "Type": ["Dragon", "Ice"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Gimmighoul",
+            "DexNo": 999,
+            "Type": ["Ghost"],
+            "Evolutions": ["Gholdengo"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Gimmighoul-Roaming",
+            "DexNo": 999,
+            "Type": ["Ghost"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Gholdengo",
+            "DexNo": 1000,
+            "Type": ["Steel", "Ghost"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Wo-Chien",
+            "DexNo": 1001,
+            "Type": ["Dark", "Grass"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Chien-Pao",
+            "DexNo": 1002,
+            "Type": ["Dark", "Ice"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Ting-Lu",
+            "DexNo": 1003,
+            "Type": ["Dark", "Ground"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Chi-Yu",
+            "DexNo": 1004,
+            "Type": ["Dark", "Fire"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Roaring Moon",
+            "DexNo": 1005,
+            "Type": ["Dragon", "Dark"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Iron Valiant",
+            "DexNo": 1006,
+            "Type": ["Fairy", "Fighting"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Koraidon",
+            "DexNo": 1007,
+            "Type": ["Fighting", "Dragon"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Miraidon",
+            "DexNo": 1008,
+            "Type": ["Electric", "Dragon"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Walking Wake",
+            "DexNo": 1009,
+            "Type": ["Water", "Dragon"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Iron Leaves",
+            "DexNo": 1010,
+            "Type": ["Grass", "Psychic"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Dipplin",
+            "DexNo": 1011,
+            "Type": ["Grass", "Dragon"],
+            "Evolutions": ["Hydrapple"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Poltchageist",
+            "DexNo": 1012,
+            "Type": ["Grass", "Ghost"],
+            "Evolutions": ["Sinistcha"],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Sinistcha",
+            "DexNo": 1013,
+            "Type": ["Grass", "Ghost"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Okidogi",
+            "DexNo": 1014,
+            "Type": ["Poison", "Fighting"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Munkidori",
+            "DexNo": 1015,
+            "Type": ["Poison", "Psychic"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Fezandipiti",
+            "DexNo": 1016,
+            "Type": ["Poison", "Fairy"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Ogerpon",
+            "DexNo": 1017,
+            "Type": ["Grass"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Ogerpon Wellspring",
+            "DexNo": 1017,
+            "Type": ["Grass", "Water"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Ogerpon Hearthflame",
+            "DexNo": 1017,
+            "Type": ["Grass", "Fire"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Ogerpon Cornerstone",
+            "DexNo": 1017,
+            "Type": ["Grass", "Rock"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Archaludon",
+            "DexNo": 1018,
+            "Type": ["Steel", "Dragon"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Hydrapple",
+            "DexNo": 1019,
+            "Type": ["Grass", "Dragon"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Gouging Fire",
+            "DexNo": 1020,
+            "Type": ["Fire", "Dragon"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Raging Bolt",
+            "DexNo": 1021,
+            "Type": ["Electric", "Dragon"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Iron Boulder",
+            "DexNo": 1022,
+            "Type": ["Rock", "Psychic"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Iron Crown",
+            "DexNo": 1023,
+            "Type": ["Steel", "Psychic"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Terapagos",
+            "DexNo": 1024,
+            "Type": ["Normal"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Terapagos Terastal",
+            "DexNo": 1024,
+            "Type": ["Normal"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Terapagos Stellar",
+            "DexNo": 1024,
+            "Type": ["Stellar"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        {
+            "Label": "Pecharunt",
+            "DexNo": 1025,
+            "Type": ["Poison", "Ghost"],
+            "Evolutions": [],
+            "Gif": "https://play.pokemonshowdown.com/sprites/substitutes/gen5/substitute.png"
+        },
+        
         {
             "Label": "",
             "DexNo": 0,

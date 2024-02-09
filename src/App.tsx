@@ -113,7 +113,10 @@ function App() {
                     "Xerneas", "Yveltal", "Zygarde", "Diancie", "Volcanion", "Hoopa", "Type: Null", "Silvally", "Tapu Koko", "Tapu Lele", "Tapu Bulu", "Tapu Fini", "Cosmog", "Cosmoem", "Solgaleo", 
                     "Lunala", "Necrozma", "Nihilego", "Buzzwole", "Pheromosa", "Xurkitree", "Kartana", "Celesteela", "Guzzlord", "Poipole", "Naganadel", "Stakataka", "Blacephalon", "Magearna", 
                     "Marshadow", "Zeraora", "Meltan", "Melmetal", "Zacian", "Zamazenta", "Eternatus", "Kubfu", "Urshifu", "Regieleki", "Regidrago", "Calyrex", "Glastrier", "Spectrier", 
-                    "Galarian Articuno", "Galarian Zapdos", "Galarian Moltres", "Zarude"];
+                    "Galarian Articuno", "Galarian Zapdos", "Galarian Moltres", "Zarude", "Enamorus", "Great Tusk", "Scream Tail", "Brute Bonnet", "Flutter Mane", "Slither Wing", 
+                    "Sandy Shocks", "Iron Treads", "Iron Bundle", "Iron Hands", "Iron Jugulis", "Iron Moth", "Iron Thorns", "Roaring Moon", "Iron Valiant", "Wo-Chien", "Chien-Pao", "Ting-Lu", 
+                    "Chi-Yu", "Koraidon", "Miraidon", "Walking Wake", "Gouging Fire", "Raging Bolt", "Iron Leaves", "Iron Boulder", "Iron Crown", "Okidogi", "Munkidori", "Fezandipiti", "Ogerpon", 
+                    "Terapagos", "Pecharunt"];
 
     const battleFacilities = ["Trainer Tower", "Battle Tower", "Battle Factory", "Battle Arcade", "Battle Castle", "Battle Hall", "Battle Tent", "Trainer Hill", "Battle Arena", "Battle Dome", 
                             "Battle Pike", "Battle Palace", "Battle Pyramid", "Battle Institute", "Battle Maison", "Battle Subway", "Pokémon World Tournament", "Battle Royal Dome",
